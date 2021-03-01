@@ -20,7 +20,7 @@ We will have 3 tracks:
 **When:** June 28- July 2, 2021 (all time zones) \\
 **Who:** Participants of the Galaxy Community Conference \\
 **Format:** Virtual and asynchronous. All training session are pre-recorded, you can work through these at your own pace, with instructors available online for support \\
-**Support:** Slack Channel (<a href="{{site.support_join}}">invite link</a>) \\
+**Support:** Slack and Remo \\
 **Contact:** [Saskia Hiltemann](mailto:saskiahiltemann@gmail.com), [Helena Rasche](mailto:helena.rasche@gmail.com) \\
 
 
