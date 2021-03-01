@@ -1,3 +1,16 @@
+intro:
+  sessions:
+  - name: Welcome and introduction
+    speaker: hexylena
+    support_channel: '#general'
+    support_link: TODO
+    type: Tutorial
+    video:
+      captions:
+      - hexylena
+      length: 23M
+      link: R-__JqlLCdM
+  title: intro
 day1:
   sessions:
   - material:
@@ -488,16 +501,3 @@ day5:
     support_link: TODO
     type: Tutorial
   title: Day 5 - Choose Your OWN Adventure
-intro:
-  sessions:
-  - name: Welcome and introduction
-    speaker: MISSING
-    support_channel: '#general'
-    support_link: TODO
-    type: Tutorial
-    video:
-      captions:
-      - hexylena
-      length: 23M
-      link: R-__JqlLCdM
-  title: intro
