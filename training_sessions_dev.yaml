@@ -1,0 +1,6 @@
+---
+tooldev:
+  title: Galaxy Tool Development
+  description: This module covers everything you need to start developing your own Galaxy Tools. This module will likely take you several days to complete.
+  sessions:
+    - name: Introduction to Galaxy Tool Development
