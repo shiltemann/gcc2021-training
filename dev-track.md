@@ -1,6 +1,6 @@
 ---
 layout: page
-title: GCC2021 Science Training Track
+title: GCC2021 Developer Training Track
 ---
 
 Welcome everybody, and thank you for joining this course!
