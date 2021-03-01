@@ -5,14 +5,10 @@ title: "GCC2021 Training Week"
 
 ![GTN logo](assets/images/logos/00_GTNLogo300.png){: style="float: right"}
 
-In June/July 2021, we will organize a global 5-day [Galaxy](https://galaxyproject.org) Training event as part of the Galaxy Community Conference (GCC2021)
+In June/July 2021, we will organize a global 5-day [Galaxy](https://galaxyproject.org) Training event as part of the [Galaxy Community Conference (GCC2021)](https://www.vibconferences.be/events/gcc2021-virtual-edition)
 
 This will be an **online** event, spanning **all time zones**. All training sessions are pre-recorded, so you can work through them **at your own pace**, and manage your own time. A large community of GTN trainers will be available via **online support** to answer all your questions.
 
-We will have 3 tracks:
-  - Science Track
-  - Admin Training
-  - Developer Training
 
 
 ## Practical Information
@@ -21,7 +17,7 @@ We will have 3 tracks:
 **Who:** Participants of the Galaxy Community Conference \\
 **Format:** Virtual and asynchronous. All training session are pre-recorded, you can work through these at your own pace, with instructors available online for support \\
 **Support:** Slack and Remo \\
-**Contact:** [Saskia Hiltemann](mailto:saskiahiltemann@gmail.com), [Helena Rasche](mailto:helena.rasche@gmail.com) \\
+**Contact:** [Saskia Hiltemann](mailto:saskiahiltemann@gmail.com), [Helena Rasche](mailto:helena.rasche@gmail.com)
 
 
 ## Registration
@@ -29,9 +25,11 @@ We will have 3 tracks:
 Please sign up the Galaxy Community Conference to join this event. Registration can be done via the  **[VIB Conference Website]({{site.registration_form}})**.
 
 
-## See the Program
+## Program
 
-Welcome! Click on one of the buttons below to view the program!
+Welcome! We will have 3 tracks during this GCC Training Week. Click on one of the buttons below to view the program for that track.
+
+**Note:** The schedule is subject to change
 
 <a href="{{site.baseurl}}/science-track"><button type="button" class="btn btn-success btn-lg">Science Track</button></a>
 
