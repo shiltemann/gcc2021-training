@@ -745,7 +745,7 @@ day5a:
       type: icebreaker
       prompt: "Share one of your favorite books, tv shows, movies or games that you would recommend to others."
 
-   - name: "Assembly: Unicycler assembly of SARS-CoV-2 genome"
+    - name: "Assembly: Unicycler assembly of SARS-CoV-2 genome"
       speaker: gallardoalba
       type: Tutorial
       description: "This tutorial guides you through the preprocessing of sequencing data of bronchoalveolar lavage fluid (BALF) samples obtained from early COVID-19 patients in China. Since such samples are expected to be contaminated signficantly with human sequenced reads, the goal is to enrich the data for SARS-CoV-2 reads by identifying and discarding reads of human origin before trying to assemble the viral genome sequence."
