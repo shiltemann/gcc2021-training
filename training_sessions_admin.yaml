@@ -432,7 +432,9 @@ day5:
       link: tz0ZbK_8Vcc
   - material:
     - link: topics/admin/tutorials/interactive-tools/slides.html
-      type: Slides, Exercise
+      type: Slides
+    - link: topics/admin/tutorials/interactive-tools/tutorial.html
+      type: Tutorial
     name: Interactive Tools
     speaker: abretaud
     support_channel: '#11-cyoa'
