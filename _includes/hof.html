@@ -1,16 +1,23 @@
+{% assign inst_keys = "" | split: ',' %}
+{% for x in site.data.instructors %}
+     {% assign inst_keys = inst_keys | push: x[0] %}
+{% endfor %}
+{% assign n = inst_keys | size %}
+{% assign inst_keys2 = inst_keys | sample: n %}
+
 <div class="hall-of-fame">
-	{% for person in site.data.instructors %}
-		{% if person[0] != "awspolly" %}
-		{% assign username = person[0] %}
+	{% for username in inst_keys2 %}
+		{% assign instructor = site.data.instructors[username] %}
+		{% if username != "awspolly" %}
 		<div class="hall-of-fame-hero" id="{{ username }}">
 
 			<img src="https://avatars.githubusercontent.com/{{ username }}" alt="{{ username }}">
 
 			<div class="name">
-				{{ person[1].name | default: username }}
+				{{ instructor.name | default: username }}
 			</div>
 			<div class="affil">
-			{% assign affil = person[1].affiliation %}
+			{% assign affil = instructor.affiliation %}
 				<a href="{{ site.data.affiliations[affil].link }}">
 					{{ site.data.affiliations[affil].name }}
 				</a>
