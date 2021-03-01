@@ -98,7 +98,7 @@ intro:
 
 
 day1:
-  title: "Day 1: Introduction to Galaxy and NGS analysis"
+  title: "Introduction to Galaxy and NGS analysis"
   description: "Today we start by introducing the Galaxy Platform, and show you how to analyze your NGS data using Galaxy. Today we have a mixture of lecutres, demos, and hands-on tutorials."
   sessions:
 
@@ -284,13 +284,13 @@ day1:
       type: wrapup
 
 day2:
-  title: "Day 2: Introduction to RNA-Seq analysis with Galaxy and R"
-  description: "Today we dive into (bulk) RNA-seq analysis. We will walk you through an end-to-end analysis and Galaxy, and show you how to perform downstream analysis on the results using Rstudio in Galaxy."
-  sessions:
-    - name: "Icebreaker: Say Hi in Slack!"
-      type: icebreaker
-      prompt: "Share with us how your 5-year-old self would have finished this sentence: 'When I grow up, I want to be ...' (and what you are actually doing now that you're grown up)"
+  title: "RNA-Seq"
+  description: "The following module cover RNA-Seq analysis in Galaxy, from bulk RNA-seq to Single-cell RNA-Seq, from Quality control to Visualisation"
 
+rnabasics:
+  title: "Introduction to RNA-Seq"
+  subday: true
+  sessions:
     - name: "Introduction to RNA-Seq"
       type: Lecture
       speaker: fpsom
@@ -323,6 +323,12 @@ day2:
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01F0L6UW03"
       faq: "https://docs.google.com/document/d/e/2PACX-1vTOAKhYdmiiTucIarwlehmnPaxi0MXDmuCPdyZwB27xvBJPksDOLCOYMGdtEZAoz4WGxHGdDcBDdlM9/pub"
 
+
+rnaseqandr:
+  title: RNA-Seq analysis using Rstudio in Galaxy
+  description:
+  subday: true
+  sessions:
     - name: "Starting Rstudio in Galaxy"
       type: Demo
       speaker: fpsom
@@ -390,8 +396,8 @@ day2:
       type: wrapup
 
 
-day3:
-  title: "Day 3: Single-cell RNA-Seq Analysis"
+rnaseqsinglecell:
+  title: "Single-cell RNA-Seq Analysis"
   description: "Today's videos provide a short demo of the analysis, please work through the tutorials on your own first to get all the details and background information, and refer to the videos if you get stuck."
   sessions:
     - name: "Icebreaker: Let us know you've joined in Slack!"
@@ -467,8 +473,8 @@ day3:
     - name: "Wrap up & Socialize"
       type: wrapup
 
-day4:
-  title: "Day 4: Proteomics"
+proteomics:
+  title: "Proteomics"
   description: Today we explore the world of proteomics! Today we have a mixture of lectures, hands-on tutorials, and workflow demonstrations. The FAQ document provides links to example histories if you would like to explore the outputs of the demos yourself.
   sessions:
     - name: "Icebreaker: Say Hi in Slack!"
@@ -610,22 +616,11 @@ day4:
     - name: "Wrap up & Socialize"
       type: wrapup
 
-day5:
-  title: "Choose Your Own Adventure!"
-  description: |
-     Today YOU create the program. Below are set of suggested tutorials.
-     Some have videos, some are self-study tutorials. All have experienced
-     instructors online for support. Want to try something else from the GTN
-     website? Also fine! We will do our best to help you with it.
 
-day5a:
-  title: "Video Tutorials"
-  subday: true
+microbial:
+  title: Clinical Microbial Analysis using Galaxy
+  description:
   sessions:
-    - name: "Icebreaker: Say Hi in Slack!"
-      type: icebreaker
-      prompt: "Share one of your favorite books, tv shows, movies or games that you would recommend to others."
-
     - name: "Variant Analysis: M. Tuberculosis Variant Analysis (Lecture)"
       speaker: pvanheus
       type: Lecture
@@ -731,7 +726,26 @@ day5a:
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01F1GJ7JJX"
       faq: "https://docs.google.com/document/d/e/2PACX-1vQlG_Onq011MQqyIu4D_erDqiLKAMLnduhHr5cDWwbXVqlU9VZhmm4OT_zphKqb8TEZprAFo8rdPXjO/pub"
 
-    - name: "Assembly: Unicycler assembly of SARS-CoV-2 genome"
+
+
+
+day5:
+  title: "Choose Your Own Adventure!"
+  description: |
+     Today YOU create the program. Below are set of suggested tutorials.
+     Some have videos, some are self-study tutorials. All have experienced
+     instructors online for support. Want to try something else from the GTN
+     website? Also fine! We will do our best to help you with it.
+
+day5a:
+  title: "Video Tutorials"
+  subday: true
+  sessions:
+    - name: "Icebreaker: Say Hi in Slack!"
+      type: icebreaker
+      prompt: "Share one of your favorite books, tv shows, movies or games that you would recommend to others."
+
+      - name: "Assembly: Unicycler assembly of SARS-CoV-2 genome"
       speaker: gallardoalba
       type: Tutorial
       description: "This tutorial guides you through the preprocessing of sequencing data of bronchoalveolar lavage fluid (BALF) samples obtained from early COVID-19 patients in China. Since such samples are expected to be contaminated signficantly with human sequenced reads, the goal is to enrich the data for SARS-CoV-2 reads by identifying and discarding reads of human origin before trying to assemble the viral genome sequence."
