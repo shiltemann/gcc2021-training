@@ -35,9 +35,9 @@ Welcome! Click on one of the buttons below to view the program!
 
 <a href="{{site.baseurl}}/science-track"><button type="button" class="btn btn-success btn-lg">Science Track</button></a>
 
-<a href="{{site.baseurl}}/admin-track"><button type="button" class="btn btn-success btn-lg">Developer Training</button></a>
+<a href="{{site.baseurl}}/dev-track"><button type="button" class="btn btn-success btn-lg">Developer Training</button></a>
 
-<a href="{{site.baseurl}}/dev-track"><button type="button" class="btn btn-success btn-lg">Admin Training</button></a>
+<a href="{{site.baseurl}}/admin-track"><button type="button" class="btn btn-success btn-lg">Admin Training</button></a>
 
 
 ## Acknowledgements
