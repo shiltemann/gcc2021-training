@@ -1,55 +1,503 @@
----
-intro:
-  title: Welcome & Practical Info
-  sessions:
-    - name: Welcome and introduction
-      speaker: hexylena
-      video:
-        link: R-__JqlLCdM
-        length: 25M
-        captions: hexylena
-      support_channel: "#general"
-      support_link: TODO
-
 day1:
-  title: "Day 1"
   sessions:
-    - name: Introduction to Ansible
-      type: Lecture
-      speaker: Sergey Golitsynskiy
-      video:
-        link: KFpbfmN0OTE
-        length: 5M
-        captions: martenson
-      material:
-        - type: Slides
-          link: "topics/admin/tutorials/ansible/slides.html"
-      support_channel: "#01-ansible"
-      support_link:
+  - material:
+    - link: topics/admin/tutorials/ansible/slides.html
+      type: Slides
+    name: Intro to Ansible
+    speaker: ic4f
+    support_channel: '#01-ansible'
+    support_link: TODO
+    type: Tutorial
+    video:
+      captions:
+      - martenson
+      length: 5M
+      link: KFpbfmN0OTE
+  - material:
+    - link: topics/admin/tutorials/ansible/tutorial.html
+      type: Tutorial
+    name: Ansible
+    speaker: martenson
+    support_channel: '#01-ansible'
+    support_link: TODO
+    type: Tutorial
+    video:
+      captions:
+      - martenson
+      length: 61M
+      link: 2KdT0sYKUeE
+  - material:
+    - link: topics/admin/tutorials/ansible-galaxy/slides.html
+      type: Slides
+    name: Galaxy Ansible Introduction
+    speaker: hexylena
+    support_channel: '#02-ansible-galaxy'
+    support_link: TODO
+    type: Tutorial
+    video:
+      captions:
+      - shiltemann
+      length: 4M
+      link: JN-C5UbHthY
+  - material:
+    - link: topics/admin/tutorials/ansible-galaxy/tutorial.html
+      type: Tutorial part 0
+    name: 'Part 0: Playbook Overview'
+    speaker: hexylena
+    support_channel: '#02-ansible-galaxy'
+    support_link: TODO
+    type: Tutorial
+    video:
+      captions:
+      - shiltemann
+      - hexylena
+      length: 111M
+      link: il83uApg7Hc
+  - material:
+    - link: topics/admin/tutorials/ansible-galaxy/tutorial.html
+      type: Tutorial part 1
+    name: 'Part 1: Basic Installation'
+    speaker: hexylena
+    support_channel: '#02-ansible-galaxy'
+    support_link: TODO
+    type: Tutorial
+    video:
+      captions:
+      - shiltemann
+      - hexylena
+      length: 111M
+      link: il83uApg7Hc&t=544s
+  - material:
+    - link: topics/admin/tutorials/database/slides.html
+      type: Slides
+    name: Database
+    speaker: hexylena
+    support_channel: '#02-ansible-galaxy'
+    support_link: TODO
+    type: Tutorial
+    video:
+      captions:
+      - shiltemann
+      - hexylena
+      length: 111M
+      link: il83uApg7Hc&t=954s
+  - material:
+    - link: topics/admin/tutorials/systemd-supervisor/slides.html
+      type: Slides
+    name: SystemD
+    speaker: hexylena
+    support_channel: '#02-ansible-galaxy'
+    support_link: TODO
+    type: Tutorial
+    video:
+      captions:
+      - shiltemann
+      - hexylena
+      length: 111M
+      link: il83uApg7Hc&t=3409s
+  - material:
+    - link: topics/admin/tutorials/ansible-galaxy/tutorial.html
+      type: Tutorial part 2
+    name: 'Part 2: Towards Production'
+    speaker: hexylena
+    support_channel: '#02-ansible-galaxy'
+    support_link: TODO
+    type: Tutorial
+    video:
+      captions:
+      - shiltemann
+      - hexylena
+      length: 111M
+      link: il83uApg7Hc&t=3750s
+  - material:
+    - link: topics/admin/tutorials/production/slides.html
+      type: Production
+    name: Production
+    speaker: hexylena
+    support_channel: '#02-ansible-galaxy'
+    support_link: TODO
+    type: Tutorial
+    video:
+      captions:
+      - shiltemann
+      - hexylena
+      length: 111M
+      link: il83uApg7Hc&t=4151s
+  - material:
+    - link: topics/admin/tutorials/ansible-galaxy/tutorial.html
+      type: Tutorial part 3
+    name: 'Part 3: Advanced Install'
+    speaker: hexylena
+    support_channel: '#02-ansible-galaxy'
+    support_link: TODO
+    type: Tutorial
+    video:
+      captions:
+      - shiltemann
+      - hexylena
+      length: 111M
+      link: il83uApg7Hc&t=4552s
+  title: Day 1
+day2:
+  sessions:
+  - material:
+    - link: topics/admin/tutorials/singularity/tutorial.html
+      type: Tutorial
+    name: Running jobs in Singularity
+    speaker: hexylena
+    support_channel: '#03-singularity'
+    support_link: TODO
+    type: Tutorial
+    video:
+      captions:
+      - cat-bro
+      length: 16M
+      link: airzg4-ETEs
+  - material:
+    - link: topics/admin/tutorials/tool-management/slides.html
+      type: Slides
+    name: Ephemeris (Intro)
+    speaker: cat-bro
+    support_channel: '#03-ephemeris'
+    support_link: TODO
+    type: Tutorial
+    video:
+      captions:
+      - eancelet
+      length: 46M
+      link: 7Qqwrzn--YI&t=0s
+  - material:
+    - link: topics/admin/tutorials/tool-management/tutorial.html
+      type: Tutorial
+    name: Ephemeris
+    speaker: cat-bro
+    support_channel: '#03-ephemeris'
+    support_link: TODO
+    type: Tutorial
+    video:
+      captions:
+      - eancelet
+      length: 46M
+      link: 7Qqwrzn--YI&t=1122s
+  - material:
+    - link: topics/admin/tutorials/users-groups-quotas/slides.html
+      type: Slides
+    name: Users, Groups, and Quotas
+    speaker: awspolly
+    support_channel: '#general'
+    support_link: TODO
+    type: Tutorial
+    video:
+      captions:
+      - galaxycommunity
+      length: 4M
+      link: crywu31L8qg
+  - material:
+    - link: topics/admin/tutorials/cvmfs/slides.html
+      type: Slides
+    name: Reference Data (Intro)
+    speaker: awspolly
+    support_channel: '#04-cvmfs'
+    support_link: TODO
+    type: Tutorial
+    video:
+      captions:
+      - galaxycommunity
+      length: 3M
+      link: g_cavAO-fBM
+  - material:
+    - link: topics/admin/tutorials/cvmfs/tutorial.html
+      type: Tutorial
+    name: Reference Data
+    speaker: slugger70
+    support_channel: '#04-cvmfs'
+    support_link: TODO
+    type: Tutorial
+    video:
+      captions:
+      - slugger70
+      length: 23M
+      link: X3iFMZP_fQ8
+  - material:
+    - link: topics/admin/tutorials/data-library/tutorial.html
+      type: Tutorial
+    name: Data Libraries
+    speaker: shiltemann
+    support_channel: '#05-data-libraries'
+    support_link: TODO
+    type: Tutorial
+    video:
+      captions:
+      - hexylena
+      - shiltemann
+      length: 22M
+      link: 6BWu29Oiihw
+  title: Day 2
+day3:
+  sessions:
+  - material:
+    - link: topics/admin/tutorials/connect-to-compute-cluster/slides.html
+      type: Slides
+    name: "Galaxy Cluster Computing (Intro)"
+    speaker: hexylena
+    support_channel: '#07-compute-cluster'
+    support_link: TODO
+    type: Tutorial
+    video:
+      captions:
+      - cat-bro
+      - shiltemann
+      length: 31M
+      link: R0NbHscL3jA&t=0s
+  - material:
+    - link: topics/admin/tutorials/connect-to-compute-cluster/tutorial.html
+      type: Tutorial
+    name: Connecting Galaxy to a compute cluster
+    speaker: hexylena
+    support_channel: '#07-compute-cluster'
+    support_link: TODO
+    type: Tutorial
+    video:
+      captions:
+      - cat-bro
+      - shiltemann
+      length: 31M
+      link: R0NbHscL3jA&t=940s
+  - material:
+    - link: topics/admin/tutorials/job-destinations/tutorial.html
+      type: Tutorial
+    name: Mapping Jobs to Destinations
+    speaker: hexylena
+    support_channel: '#07-compute-cluster'
+    support_link: TODO
+    type: Tutorial
+    video:
+      captions:
+      - shiltemann
+      length: 31M
+      link: qX8GjTJwnAk
+  - material:
+    - link: topics/admin/tutorials/job-metrics/tutorial.html
+      type: Tutorial
+    name: Recording Job Metrics
+    speaker: hexylena
+    support_channel: '#07-compute-cluster'
+    support_link: TODO
+    type: Tutorial
+    video:
+      captions:
+      - beatrizserrano
+      length: 5M
+      link: 7CYI5yw9MN8
+  title: Day 3
+day4:
+  sessions:
+  - material:
+    - link: topics/admin/tutorials/heterogeneous-compute/slides.html
+      type: Slides
+    name: Pulsar (Intro)
+    speaker: slugger70
+    support_channel: '#08-pulsar'
+    support_link: TODO
+    type: Tutorial
+    video:
+      captions:
+      - shiltemann
+      length: 14M
+      link: M1-Z_2tuQPI
+  - material:
+    - link: topics/admin/tutorials/heterogeneous-compute/tutorial.html
+      type: Exercise
+    name: Pulsar
+    speaker: slugger70
+    support_channel: '#08-pulsar'
+    support_link: TODO
+    type: Tutorial
+    video:
+      captions:
+      - slugger70
+      - simonbray
+      length: 57M
+      link: a7fKJT4Fs9k
+  - material:
+    - link: topics/admin/tutorials/object-store/tutorial.html
+      type: Exercise
+    name: Storage management
+    speaker: gmauro
+    support_channel: '#09-storage'
+    support_link: TODO
+    type: Tutorial
+    video:
+      captions:
+      - cat-bro
+      length: 18M
+      link: Hv2bvjk5sjE
 
-    - name: Galaxy Ansible Introduction
-      type: Practical
-      speaker: martenson
-      video:
-        link: 2KdT0sYKUeE
-        length: 1H
-        captions: martenson
-      material:
-        - type: Tutorial
-          link: topics/admin/tutorials/ansible/tutorial.html
-      support_channel:  "#02-ansible-galaxy"
-      support_link:
-
-
-    - name: Playbook Overview
-      speaker: hexylena
-      video:
-        link: il83uApg7Hc
-        length:
-        captions: [hexylena, shiltemann]
-      material:
-        - type: Slides
-          link: topics/admin/tutorials/ansible-galaxy/slides.html
-      support_channel: "#02-ansible-galaxy"
-      support_link:
-
+  - material:
+    - link: topics/admin/tutorials/gxadmin/slides.html
+      type: Slides
+    name: DB Query (Intro)
+    speaker: awspolly
+    support_channel: '#09-storage'
+    support_link: TODO
+    type: Tutorial
+    video:
+      captions:
+      - galaxycommunity
+      length: 2M
+      link: QFwOgDyFSSA
+  - material:
+    - link: topics/admin/tutorials/gxadmin/tutorial.html
+      type: Exercise
+    name: DB queries, command line & scripts
+    speaker: TODO
+    support_channel: '#09-storage'
+    support_link: TODO
+    type: Tutorial
+  - material:
+    - link: topics/admin/tutorials/monitoring/slides.html
+      type: Slides
+    name: Monitoring (Intro)
+    speaker: awspolly
+    support_channel: '#10-monitoring'
+    support_link: TODO
+    type: Tutorial
+    video:
+      captions:
+      - galaxycommunity
+      length: 2M
+      link: qcp9lEUxCGI
+  - material:
+    - link: topics/admin/tutorials/monitoring/tutorial.html
+      type: Telegraf Exercise
+    name: "Monitoring: Telegraf, InfluxDB, Grafana\xB6"
+    speaker: slugger70
+    support_channel: '#10-monitoring'
+    support_link: TODO
+    type: Tutorial
+    video:
+      captions:
+      - '...'
+      length: 73M
+      link: drUaYQtMBLY
+  - material:
+    - link: topics/admin/tutorials/maintenance/slides.html
+      type: Slides
+    name: Maintenance, Backup and Restore
+    speaker: awspolly
+    support_channel: '#10-monitoring'
+    support_link: TODO
+    type: Tutorial
+    video:
+      captions:
+      - galaxycommunity
+      length: 2M
+      link: 41_3WHXZA-o
+  title: Day 4
+day5:
+  sessions:
+  - material:
+    - link: topics/admin/tutorials/reports/tutorial.html
+      type: Reports Exercise
+    name: Monitoring With Reports
+    speaker: TODO
+    support_channel: '#10-monitoring'
+    support_link: TODO
+    type: Tutorial
+  - material:
+    - link: topics/admin/tutorials/tiaas/tutorial.html
+      type: TIaaS Exercise
+    name: "Training Infrastructure as a Service (TIaaS)\xB6"
+    speaker: hexylena
+    support_channel: '#12-tiaas'
+    support_link: TODO
+    type: Tutorial
+    video:
+      captions:
+      - '....'
+      length: 24M
+      link: tz0ZbK_8Vcc
+  - material:
+    - link: topics/admin/tutorials/interactive-tools/slides.html
+      type: Slides, Exercise
+    name: Interactive Tools
+    speaker: abretaud
+    support_channel: '#11-cyoa'
+    support_link: TODO
+    type: Tutorial
+    video:
+      captions:
+      - abretaud
+      - hexylena
+      length: 44M
+      link: lACsIhnbTbE
+  - material:
+    - link: topics/admin/tutorials/jenkins/tutorial.html
+      type: Exercise
+    name: Jenkins & Automation
+    speaker: TODO
+    support_channel: '#11-cyoa'
+    support_link: TODO
+    type: Tutorial
+  - material:
+    - link: topics/admin/tutorials/advanced-galaxy-customisation/slides.html
+      type: Slides
+    name: Advanced Customisation
+    speaker: TODO
+    support_channel: '#11-cyoa'
+    support_link: TODO
+    type: Tutorial
+  - material:
+    - link: topics/admin/tutorials/troubleshooting/slides.html
+      type: Slides
+    name: 'When things go wrong: Galaxy Server Troubleshooting'
+    speaker: TODO
+    support_channel: '#11-cyoa'
+    support_link: TODO
+    type: Tutorial
+  - material:
+    - link: https://docs.galaxyproject.org/en/master/admin/python.html
+      type: Docs
+    name: Python 2 to Python 3!
+    speaker: TODO
+    support_channel: '#11-cyoa'
+    support_link: TODO
+    type: Tutorial
+  - material:
+    - link: topics/dev/tutorials/tool-integration/slides.html
+      type: Slides, Exercise
+    name: Tool Development
+    speaker: TODO
+    support_channel: '#11-cyoa'
+    support_link: TODO
+    type: Tutorial
+  - material:
+    - link: topics/galaxy-data-manipulation/tutorials/processing-many-samples-at-once/tutorial.html
+      type: DCs, Rule based
+    name: Dataset Collections
+    speaker: TODO
+    support_channel: '#11-cyoa'
+    support_link: TODO
+    type: Tutorial
+  - material:
+    - link: topics/contributing/tutorials/running-jekyll/tutorial.html
+      type: Setting up, Exercise
+    name: Developing your own Training
+    speaker: TODO
+    support_channel: '#11-cyoa'
+    support_link: TODO
+    type: Tutorial
+  title: Day 5 - Choose Your OWN Adventure
+intro:
+  sessions:
+  - name: Welcome and introduction
+    speaker: MISSING
+    support_channel: '#general'
+    support_link: TODO
+    type: Tutorial
+    video:
+      captions:
+      - hexylena
+      length: 23M
+      link: R-__JqlLCdM
+  title: intro

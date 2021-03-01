@@ -48,6 +48,10 @@ blankenberg:
     name: Daniel Blankenberg
     affiliation: clevelandclinic
 
+cat-bro:
+    name: Catherine Bromhead
+    affiliation: melbourneuni
+
 colineroyaux:
     name: Coline Royaux
     affiliation: cnrs
@@ -72,6 +76,10 @@ dieterbulach:
 delphine-l:
     name: Delphine Lariviere
     affiliation: pennstate
+
+eancelet:
+    name: Estelle Ancelet
+    affiliation: inrae
 
 emmaleith:
     name: Emma Leith
