@@ -399,6 +399,7 @@ rnaseqandr:
 rnaseqsinglecell:
   title: "Single-cell RNA-Seq Analysis"
   description: "Today's videos provide a short demo of the analysis, please work through the tutorials on your own first to get all the details and background information, and refer to the videos if you get stuck."
+  subday: true
   sessions:
     - name: "Icebreaker: Let us know you've joined in Slack!"
       type: icebreaker
@@ -475,7 +476,7 @@ rnaseqsinglecell:
 
 proteomics:
   title: "Proteomics"
-  description: Today we explore the world of proteomics! Today we have a mixture of lectures, hands-on tutorials, and workflow demonstrations. The FAQ document provides links to example histories if you would like to explore the outputs of the demos yourself.
+  description: In this module we explore the world of proteomics! Today we have a mixture of lectures, hands-on tutorials, and workflow demonstrations. The FAQ document provides links to example histories if you would like to explore the outputs of the demos yourself.
   sessions:
     - name: "Icebreaker: Say Hi in Slack!"
       type: icebreaker
@@ -619,7 +620,6 @@ proteomics:
 
 microbial:
   title: Clinical Microbial Analysis using Galaxy
-  description:
   sessions:
     - name: "Variant Analysis: M. Tuberculosis Variant Analysis (Lecture)"
       speaker: pvanheus
@@ -745,7 +745,7 @@ day5a:
       type: icebreaker
       prompt: "Share one of your favorite books, tv shows, movies or games that you would recommend to others."
 
-      - name: "Assembly: Unicycler assembly of SARS-CoV-2 genome"
+   - name: "Assembly: Unicycler assembly of SARS-CoV-2 genome"
       speaker: gallardoalba
       type: Tutorial
       description: "This tutorial guides you through the preprocessing of sequencing data of bronchoalveolar lavage fluid (BALF) samples obtained from early COVID-19 patients in China. Since such samples are expected to be contaminated signficantly with human sequenced reads, the goal is to enrich the data for SARS-CoV-2 reads by identifying and discarding reads of human origin before trying to assemble the viral genome sequence."
