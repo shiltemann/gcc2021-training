@@ -1,0 +1,51 @@
+
+<div class="card" style="margin-top: 2em; border: none;">
+ <div class="row no-gutters">
+  <div class="col-sm-7"> <!-- materials list -->
+   <div class="card-body">
+    <!--<h4 class="card-title">Supporting Materials</h4>-->
+
+    <!-- materials for training-->
+    <ul>
+     {% if include.session.material %}
+     {% for m in include.session.material %}
+     <li><strong>{{m.type }}: </strong><a href="{% unless m.external %}{{site.gtn_url}}{% endunless %}{{m.link}}{{site.analytics_suffix}}">{{m.title | default: include.session.name }} </a></li>
+
+     {% endfor %}
+     {% endif %}
+
+     <!-- video -->
+     {% if session.video %}
+     <li><strong>Video: </strong><a href="{{site.video_prefix}}/{{include.session.video.link}}">Watch it on {{site.video_platform}}</a></li>
+     {% endif %}
+
+     <!-- FAQ -->
+     {% if include.session.faq %}
+     <li><a href="{{session.faq}}">FAQ Document</a> - Have a question about this training? Check here to see if it has already been answered</li>
+     {% endif %}
+
+     <!-- support -->
+     <li><a href="{{include.session.support_link }}">Ask an instructor</a> - Have question about the training? Did you run into a problem? Just wanna chat? Ask away on {{ site.support_platform }}! {% if session.support_channel %} (Channel: <a href="{{include.session.support_link}}">{{session.support_channel}}</a> ){%endif%} </li>
+
+
+     <!-- feedback -->
+     <li><strong>Finished the session?</strong> - Let us know that you've finished it, and what you thought of it! On Slack: {% if session.support_channel %} (Channel: <a href="{{include.session.support_link}}">{{session.support_channel}}</a> ){%endif%}. Thanks!</li>
+
+     <!-- don't forget to like and subscribe! -->
+     <li><strong>Enjoyed it?</strong> - Like the video on YouTube, Tweet, and follow the GTN on Twitter! <a href="https://twitter.com/gxytraining">@gxytraining</a> </li>
+
+    </ul>
+   </div><!-- end card body -->
+  </div><!-- end materials list -->
+
+  <!-- logo -->
+  <div class="col-sm-5">
+   <div style="position: relative;top: 50%;transform: translateY(-50%);">
+    <img class="card-img" src="{{site.baseurl}}/{{site.gtn_logo}}" alt="GTN logo">
+   </div>
+  </div>
+  <!-- end logo -->
+
+ </div>
+</div><!-- end card -->
+

@@ -1,0 +1,1347 @@
+topics/visualisation/tutorials/jbrowse/tutorial.html: {}
+topics/introduction/tutorials/r-basics/tutorial.html: {}
+topics/proteomics/tutorials/metaproteomics/tutorial.html:
+  toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/peptide_shaker/1.16.36.3:
+    eu: {seen: "1.16.36.3", exp: "1.16.36.3"}
+    org: {seen: "2.0.9+galaxy0", exp: "1.16.36.3"}
+    org.au: {seen: "1.16.36.3", exp: "1.16.36.3"}
+  toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/search_gui/3.3.10.1:
+    eu: {seen: "3.3.10.1", exp: "3.3.10.1"}
+    org: {seen: "4.0.12+galaxy0", exp: "3.3.10.1"}
+    org.au: {seen: "", exp: "3.3.10.1"}
+  toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/4.3.0:
+    eu: {seen: "4.3.0", exp: "4.3.0"}
+    org: {seen: "4.3.0", exp: "4.3.0"}
+    org.au: {seen: "4.3.0", exp: "4.3.0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.0.0:
+    eu: {seen: "3.0.0", exp: "3.0.0"}
+    org: {seen: "3.1.1", exp: "3.0.0"}
+    org.au: {seen: "3.1.1", exp: "3.0.0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/sqlite_to_tabular/sqlite_to_tabular/2.0.0:
+    eu: {seen: "2.0.0", exp: "2.0.0"}
+    org: {seen: "2.0.0", exp: "2.0.0"}
+    org.au: {seen: "2.0.0", exp: "2.0.0"}
+  overall:
+    emea: 1
+    apac: 1
+    amer: 1
+topics/assembly/tutorials/chloroplast-assembly/tutorial.html:
+  toolshed.g2.bx.psu.edu/repos/bgruening/flye/flye/2.3.7:
+    eu: {seen: "2.3.7", exp: "2.3.7"}
+    org: {seen: "2.6", exp: "2.3.7"}
+    org.au: {seen: "2.3.7", exp: "2.3.7"}
+  toolshed.g2.bx.psu.edu/repos/crs4/prokka/prokka/1.14.5:
+    eu: {seen: "1.14.5", exp: "1.14.5"}
+    org: {seen: "1.14.5", exp: "1.14.5"}
+    org.au: {seen: "1.14.5", exp: "1.14.5"}
+  toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.17.1:
+    eu: {seen: "0.7.17.1", exp: "0.7.17.1"}
+    org: {seen: "0.7.17.1", exp: "0.7.17.1"}
+    org.au: {seen: "0.7.17.1", exp: "0.7.17.1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/bandage/bandage_image/0.8.1+galaxy2:
+    eu: {seen: "0.8.1+galaxy2", exp: "0.8.1+galaxy2"}
+    org: {seen: "0.8.1+galaxy2", exp: "0.8.1+galaxy2"}
+    org.au: {seen: "0.8.1+galaxy2", exp: "0.8.1+galaxy2"}
+  toolshed.g2.bx.psu.edu/repos/iuc/bandage/bandage_info/0.8.1+galaxy1:
+    eu: {seen: "0.8.1+galaxy1", exp: "0.8.1+galaxy1"}
+    org: {seen: "0.8.1+galaxy1", exp: "0.8.1+galaxy1"}
+    org.au: {seen: "0.8.1+galaxy1", exp: "0.8.1+galaxy1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.9+galaxy0:
+    eu: {seen: "1.16.9+galaxy0", exp: "1.16.9+galaxy0"}
+    org: {seen: "1.16.9+galaxy0", exp: "1.16.9+galaxy0"}
+    org.au: {seen: "1.16.9+galaxy0", exp: "1.16.9+galaxy0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/nanoplot/nanoplot/1.28.2+galaxy1:
+    eu: {seen: "1.28.2+galaxy1", exp: "1.28.2+galaxy1"}
+    org: {seen: "1.28.2+galaxy1", exp: "1.28.2+galaxy1"}
+    org.au: {seen: "1.28.2+galaxy1", exp: "1.28.2+galaxy1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/pilon/pilon/1.20.1:
+    eu: {seen: "1.20.1", exp: "1.20.1"}
+    org: {seen: "1.20.1", exp: "1.20.1"}
+    org.au: {seen: "1.20.1", exp: "1.20.1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/fasta_stats/fasta-stats/1.0.0:
+    eu: {seen: "1.0.1", exp: "1.0.1"}
+    org: {seen: "1.0.1", exp: "1.0.1"}
+    org.au: {seen: "1.0.1", exp: "1.0.1"}
+  toolshed.g2.bx.psu.edu/repos/bgruening/flye/flye/2.6+galaxy0:
+    eu: {seen: "2.6+galaxy0", exp: "2.6+galaxy0"}
+    org: {seen: "2.6", exp: "2.6+galaxy0"}
+    org.au: {seen: "2.6+galaxy0", exp: "2.6+galaxy0"}
+  toolshed.g2.bx.psu.edu/repos/crs4/prokka/prokka/1.14.5+galaxy0:
+    eu: {seen: "1.14.5+galaxy0", exp: "1.14.5+galaxy0"}
+    org: {seen: "1.14.5+galaxy0", exp: "1.14.5+galaxy0"}
+    org.au: {seen: "1.14.5", exp: "1.14.5+galaxy0"}
+  toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.17.1:
+    eu: {seen: "0.7.17.1", exp: "0.7.17.1"}
+    org: {seen: "0.7.17.1", exp: "0.7.17.1"}
+    org.au: {seen: "0.7.17.1", exp: "0.7.17.1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/bandage/bandage_image/0.8.1+galaxy2:
+    eu: {seen: "0.8.1+galaxy2", exp: "0.8.1+galaxy2"}
+    org: {seen: "0.8.1+galaxy2", exp: "0.8.1+galaxy2"}
+    org.au: {seen: "0.8.1+galaxy2", exp: "0.8.1+galaxy2"}
+  toolshed.g2.bx.psu.edu/repos/iuc/bandage/bandage_info/0.8.1+galaxy1:
+    eu: {seen: "0.8.1+galaxy1", exp: "0.8.1+galaxy1"}
+    org: {seen: "0.8.1+galaxy1", exp: "0.8.1+galaxy1"}
+    org.au: {seen: "0.8.1+galaxy1", exp: "0.8.1+galaxy1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.4+galaxy3:
+    eu: {seen: "1.16.4+galaxy3", exp: "1.16.4+galaxy3"}
+    org: {seen: "1.16.10+galaxy0", exp: "1.16.4+galaxy3"}
+    org.au: {seen: "1.16.4+galaxy3", exp: "1.16.4+galaxy3"}
+  toolshed.g2.bx.psu.edu/repos/iuc/nanoplot/nanoplot/1.28.2+galaxy1:
+    eu: {seen: "1.28.2+galaxy1", exp: "1.28.2+galaxy1"}
+    org: {seen: "1.28.2+galaxy1", exp: "1.28.2+galaxy1"}
+    org.au: {seen: "1.28.2+galaxy1", exp: "1.28.2+galaxy1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/pilon/pilon/1.20.1:
+    eu: {seen: "1.20.1", exp: "1.20.1"}
+    org: {seen: "1.20.1", exp: "1.20.1"}
+    org.au: {seen: "1.20.1", exp: "1.20.1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/fasta_stats/fasta-stats/1.0.0:
+    eu: {seen: "1.0.1", exp: "1.0.1"}
+    org: {seen: "1.0.1", exp: "1.0.1"}
+    org.au: {seen: "1.0.1", exp: "1.0.1"}
+  overall:
+    emea: 1
+    apac: 1
+    amer: 1
+topics/transcriptomics/tutorials/rna-seq-counts-to-viz-in-r/tutorial.html: {}
+topics/sequence-analysis/tutorials/mapping/tutorial.html:
+  toolshed.g2.bx.psu.edu/repos/bgruening/trim_galore/trim_galore/0.4.3.1:
+    eu: {seen: "0.4.3.1", exp: "0.4.3.1"}
+    org: {seen: "0.4.3.1", exp: "0.4.3.1"}
+    org.au: {seen: "0.4.3.1", exp: "0.4.3.1"}
+  toolshed.g2.bx.psu.edu/repos/devteam/bamtools_filter/bamFilter/2.4.1:
+    eu: {seen: "2.4.1", exp: "2.4.1"}
+    org: {seen: "2.4.1", exp: "2.4.1"}
+    org.au: {seen: "2.4.1", exp: "2.4.1"}
+  toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.3.4.2:
+    eu: {seen: "2.3.4.2", exp: "2.3.4.2"}
+    org: {seen: "2.3.4.2", exp: "2.3.4.2"}
+    org.au: {seen: "2.3.4.2", exp: "2.3.4.2"}
+  toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.71:
+    eu: {seen: "0.71", exp: "0.71"}
+    org: {seen: "0.71", exp: "0.71"}
+    org.au: {seen: "0.71", exp: "0.71"}
+  toolshed.g2.bx.psu.edu/repos/devteam/samtools_stats/samtools_stats/2.0.1:
+    eu: {seen: "2.0.1", exp: "2.0.1"}
+    org: {seen: "2.0.1", exp: "2.0.1"}
+    org.au: {seen: "2.0.1", exp: "2.0.1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.6:
+    eu: {seen: "1.6", exp: "1.6"}
+    org: {seen: "1.6", exp: "1.6"}
+    org.au: {seen: "1.6", exp: "1.6"}
+  toolshed.g2.bx.psu.edu/repos/bgruening/trim_galore/trim_galore/0.4.3.1:
+    eu: {seen: "0.4.3.1", exp: "0.4.3.1"}
+    org: {seen: "0.4.3.1", exp: "0.4.3.1"}
+    org.au: {seen: "0.4.3.1", exp: "0.4.3.1"}
+  toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.3.4.2:
+    eu: {seen: "2.3.4.2", exp: "2.3.4.2"}
+    org: {seen: "2.3.4.2", exp: "2.3.4.2"}
+    org.au: {seen: "2.3.4.2", exp: "2.3.4.2"}
+  toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.71:
+    eu: {seen: "0.71", exp: "0.71"}
+    org: {seen: "0.71", exp: "0.71"}
+    org.au: {seen: "0.71", exp: "0.71"}
+  toolshed.g2.bx.psu.edu/repos/devteam/samtools_stats/samtools_stats/2.0.1:
+    eu: {seen: "2.0.1", exp: "2.0.1"}
+    org: {seen: "2.0.1", exp: "2.0.1"}
+    org.au: {seen: "2.0.1", exp: "2.0.1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.1+galaxy0:
+    eu: {seen: "1.16.1+galaxy0", exp: "1.16.1+galaxy0"}
+    org: {seen: "1.16.1+galaxy0", exp: "1.16.1+galaxy0"}
+    org.au: {seen: "1.16.1+galaxy0", exp: "1.16.1+galaxy0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.6:
+    eu: {seen: "1.6", exp: "1.6"}
+    org: {seen: "1.6", exp: "1.6"}
+    org.au: {seen: "1.6", exp: "1.6"}
+  overall:
+    emea: 1
+    apac: 1
+    amer: 1
+topics/variant-analysis/tutorials/tb-variant-analysis/tutorial.html:
+  toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.72+galaxy1:
+    eu: {seen: "0.72+galaxy1", exp: "0.72+galaxy1"}
+    org: {seen: "0.72+galaxy1", exp: "0.72+galaxy1"}
+    org.au: {seen: "0.72+galaxy1", exp: "0.72+galaxy1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.8+galaxy1:
+    eu: {seen: "1.16.8+galaxy1", exp: "1.16.8+galaxy1"}
+    org: {seen: "1.16.8+galaxy1", exp: "1.16.8+galaxy1"}
+    org.au: {seen: "1.16.8+galaxy1", exp: "1.16.8+galaxy1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.0.8_beta+galaxy0:
+    eu: {seen: "2.0.8_beta+galaxy0", exp: "2.0.8_beta+galaxy0"}
+    org: {seen: "2.0.8_beta+galaxy0", exp: "2.0.8_beta+galaxy0"}
+    org.au: {seen: "2.0.8_beta+galaxy0", exp: "2.0.8_beta+galaxy0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.8+galaxy0:
+    eu: {seen: "1.8+galaxy0", exp: "1.8+galaxy0"}
+    org: {seen: "1.8+galaxy0", exp: "1.8+galaxy0"}
+    org.au: {seen: "1.8+galaxy0", exp: "1.8+galaxy0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/snippy/snippy/4.5.0:
+    eu: {seen: "4.5.0", exp: "4.5.0"}
+    org: {seen: "4.5.0", exp: "4.5.0"}
+    org.au: {seen: "4.5.0", exp: "4.5.0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/tbprofiler/tb_profiler_profile/2.8.4+galaxy1:
+    eu: {seen: "2.8.4+galaxy1", exp: "2.8.4+galaxy1"}
+    org: {seen: "2.8.4+galaxy1", exp: "2.8.4+galaxy1"}
+    org.au: {seen: "2.8.4+galaxy1", exp: "2.8.4+galaxy1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/tb_variant_filter/tb_variant_filter/0.1.3+galaxy0:
+    eu: {seen: "0.1.3+galaxy0", exp: "0.1.3+galaxy0"}
+    org: {seen: "0.1.3+galaxy0", exp: "0.1.3+galaxy0"}
+    org.au: {seen: "0.1.3+galaxy0", exp: "0.1.3+galaxy0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/tbvcfreport/tbvcfreport/0.1.7+galaxy0:
+    eu: {seen: "0.1.7+galaxy0", exp: "0.1.7+galaxy0"}
+    org: {seen: "0.1.7+galaxy0", exp: "0.1.7+galaxy0"}
+    org.au: {seen: "0.1.7+galaxy0", exp: "0.1.7+galaxy0"}
+  toolshed.g2.bx.psu.edu/repos/pjbriggs/trimmomatic/trimmomatic/0.36.5:
+    eu: {seen: "0.36.5", exp: "0.36.5"}
+    org: {seen: "0.36.5", exp: "0.36.5"}
+    org.au: {seen: "0.36.5", exp: "0.36.5"}
+  toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.72+galaxy1:
+    eu: {seen: "0.72+galaxy1", exp: "0.72+galaxy1"}
+    org: {seen: "0.72+galaxy1", exp: "0.72+galaxy1"}
+    org.au: {seen: "0.72+galaxy1", exp: "0.72+galaxy1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.8+galaxy1:
+    eu: {seen: "1.16.8+galaxy1", exp: "1.16.8+galaxy1"}
+    org: {seen: "1.16.8+galaxy1", exp: "1.16.8+galaxy1"}
+    org.au: {seen: "1.16.8+galaxy1", exp: "1.16.8+galaxy1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.0.8_beta+galaxy0:
+    eu: {seen: "2.0.8_beta+galaxy0", exp: "2.0.8_beta+galaxy0"}
+    org: {seen: "2.0.8_beta+galaxy0", exp: "2.0.8_beta+galaxy0"}
+    org.au: {seen: "2.0.8_beta+galaxy0", exp: "2.0.8_beta+galaxy0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.8+galaxy0:
+    eu: {seen: "1.8+galaxy0", exp: "1.8+galaxy0"}
+    org: {seen: "1.8+galaxy0", exp: "1.8+galaxy0"}
+    org.au: {seen: "1.8+galaxy0", exp: "1.8+galaxy0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/snippy/snippy/4.5.0:
+    eu: {seen: "4.5.0", exp: "4.5.0"}
+    org: {seen: "4.5.0", exp: "4.5.0"}
+    org.au: {seen: "4.5.0", exp: "4.5.0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/tbprofiler/tb_profiler_profile/2.8.4+galaxy1:
+    eu: {seen: "2.8.4+galaxy1", exp: "2.8.4+galaxy1"}
+    org: {seen: "2.8.4+galaxy1", exp: "2.8.4+galaxy1"}
+    org.au: {seen: "2.8.4+galaxy1", exp: "2.8.4+galaxy1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/tb_variant_filter/tb_variant_filter/0.1.3+galaxy0:
+    eu: {seen: "0.1.3+galaxy0", exp: "0.1.3+galaxy0"}
+    org: {seen: "0.1.3+galaxy0", exp: "0.1.3+galaxy0"}
+    org.au: {seen: "0.1.3+galaxy0", exp: "0.1.3+galaxy0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/tbvcfreport/tbvcfreport/0.1.7+galaxy0:
+    eu: {seen: "0.1.7+galaxy0", exp: "0.1.7+galaxy0"}
+    org: {seen: "0.1.7+galaxy0", exp: "0.1.7+galaxy0"}
+    org.au: {seen: "0.1.7+galaxy0", exp: "0.1.7+galaxy0"}
+  toolshed.g2.bx.psu.edu/repos/pjbriggs/trimmomatic/trimmomatic/0.36.5:
+    eu: {seen: "0.36.5", exp: "0.36.5"}
+    org: {seen: "0.36.5", exp: "0.36.5"}
+    org.au: {seen: "0.36.5", exp: "0.36.5"}
+  overall:
+    emea: 1
+    apac: 1
+    amer: 1
+topics/proteomics/tutorials/proteome_annotation/tutorial.html:
+  toolshed.g2.bx.psu.edu/repos/proteore/proteore_clusterprofiler/cluter_profiler/2019.02.18:
+    eu: {seen: "null", exp: "2019.02.18"}
+    org: {seen: "null", exp: "2019.02.18"}
+    org.au: {seen: "null", exp: "2019.02.18"}
+  toolshed.g2.bx.psu.edu/repos/proteore/proteore_expression_rnaseq_abbased/rna_abbased_data/2019.03.07:
+    eu: {seen: "null", exp: "2019.03.07"}
+    org: {seen: "null", exp: "2019.03.07"}
+    org.au: {seen: "null", exp: "2019.03.07"}
+  toolshed.g2.bx.psu.edu/repos/proteore/proteore_filter_keywords_values/MQoutputfilter/2019.03.11:
+    eu: {seen: "null", exp: "2019.03.11"}
+    org: {seen: "null", exp: "2019.03.11"}
+    org.au: {seen: "null", exp: "2019.03.11"}
+  toolshed.g2.bx.psu.edu/repos/proteore/proteore_id_converter/IDconverter/2019.03.07:
+    eu: {seen: "null", exp: "2019.03.07"}
+    org: {seen: "null", exp: "2019.03.07"}
+    org.au: {seen: "null", exp: "2019.03.07"}
+  toolshed.g2.bx.psu.edu/repos/proteore/proteore_reactome/reactome_analysis/2019.03.05:
+    eu: {seen: "null", exp: "2019.03.05"}
+    org: {seen: "null", exp: "2019.03.05"}
+    org.au: {seen: "null", exp: "2019.03.05"}
+  toolshed.g2.bx.psu.edu/repos/proteore/proteore_tissue_specific_expression_data/retrieve_from_hpa/2019.02.27:
+    eu: {seen: "null", exp: "2019.02.27"}
+    org: {seen: "null", exp: "2019.02.27"}
+    org.au: {seen: "null", exp: "2019.02.27"}
+  toolshed.g2.bx.psu.edu/repos/proteore/proteore_venn_diagram/Jvenn/2019.02.21:
+    eu: {seen: "null", exp: "2019.02.21"}
+    org: {seen: "null", exp: "2019.02.21"}
+    org.au: {seen: "null", exp: "2019.02.21"}
+  toolshed.g2.bx.psu.edu/repos/proteore/proteore_clusterprofiler/cluter_profiler/2019.02.18:
+    eu: {seen: "null", exp: "2019.02.18"}
+    org: {seen: "null", exp: "2019.02.18"}
+    org.au: {seen: "null", exp: "2019.02.18"}
+  toolshed.g2.bx.psu.edu/repos/proteore/proteore_expression_rnaseq_abbased/rna_abbased_data/2019.03.07:
+    eu: {seen: "null", exp: "2019.03.07"}
+    org: {seen: "null", exp: "2019.03.07"}
+    org.au: {seen: "null", exp: "2019.03.07"}
+  toolshed.g2.bx.psu.edu/repos/proteore/proteore_filter_keywords_values/MQoutputfilter/2019.03.11:
+    eu: {seen: "null", exp: "2019.03.11"}
+    org: {seen: "null", exp: "2019.03.11"}
+    org.au: {seen: "null", exp: "2019.03.11"}
+  toolshed.g2.bx.psu.edu/repos/proteore/proteore_id_converter/IDconverter/2019.03.07:
+    eu: {seen: "null", exp: "2019.03.07"}
+    org: {seen: "null", exp: "2019.03.07"}
+    org.au: {seen: "null", exp: "2019.03.07"}
+  toolshed.g2.bx.psu.edu/repos/proteore/proteore_reactome/reactome_analysis/2018.12.12:
+    eu: {seen: "null", exp: "2018.12.12"}
+    org: {seen: "null", exp: "2018.12.12"}
+    org.au: {seen: "null", exp: "2018.12.12"}
+  toolshed.g2.bx.psu.edu/repos/proteore/proteore_tissue_specific_expression_data/retrieve_from_hpa/2019.02.27:
+    eu: {seen: "null", exp: "2019.02.27"}
+    org: {seen: "null", exp: "2019.02.27"}
+    org.au: {seen: "null", exp: "2019.02.27"}
+  toolshed.g2.bx.psu.edu/repos/proteore/proteore_venn_diagram/Jvenn/2019.02.21:
+    eu: {seen: "null", exp: "2019.02.21"}
+    org: {seen: "null", exp: "2019.02.21"}
+    org.au: {seen: "null", exp: "2019.02.21"}
+  overall:
+    emea: 0
+    apac: 0
+    amer: 0
+topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k/tutorial.html:
+  toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_awk_tool/1.1.1:
+    eu: {seen: "1.1.1", exp: "1.1.1"}
+    org: {seen: "1.1.1", exp: "1.1.1"}
+    org.au: {seen: "1.1.1", exp: "1.1.1"}
+  toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.0:
+    eu: {seen: "0.1.0", exp: "0.1.0"}
+    org: {seen: "0.1.0", exp: "0.1.0"}
+    org.au: {seen: "0.1.0", exp: "0.1.0"}
+  toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_column/1.1.3:
+    eu: {seen: "1.1.3", exp: "1.1.3"}
+    org: {seen: "1.1.3", exp: "1.1.3"}
+    org.au: {seen: "1.1.3", exp: "1.1.3"}
+  toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_tail_tool/1.1.0:
+    eu: {seen: "1.1.0", exp: "1.1.0"}
+    org: {seen: "1.1.0", exp: "1.1.0"}
+    org.au: {seen: "1.1.0", exp: "1.1.0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/anndata_import/anndata_import/0.6.22.post1+galaxy1:
+    eu: {seen: "0.6.22.post1+galaxy1", exp: "0.6.22.post1+galaxy1"}
+    org: {seen: "0.7.4+galaxy1", exp: "0.6.22.post1+galaxy1"}
+    org.au: {seen: "0.7.4+galaxy1", exp: "0.6.22.post1+galaxy1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.6.22.post1+galaxy1:
+    eu: {seen: "0.6.22.post1+galaxy1", exp: "0.6.22.post1+galaxy1"}
+    org: {seen: "0.7.4+galaxy1", exp: "0.6.22.post1+galaxy1"}
+    org.au: {seen: "0.7.4+galaxy1", exp: "0.6.22.post1+galaxy1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.6.22.post1+galaxy1:
+    eu: {seen: "0.6.22.post1+galaxy1", exp: "0.6.22.post1+galaxy1"}
+    org: {seen: "0.6.22.post1+galaxy4", exp: "0.6.22.post1+galaxy1"}
+    org.au: {seen: "0.7.4+galaxy1", exp: "0.6.22.post1+galaxy1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/scanpy_cluster_reduce_dimension/scanpy_cluster_reduce_dimension/1.4.4.post1+galaxy1:
+    eu: {seen: "1.4.4.post1+galaxy1", exp: "1.4.4.post1+galaxy1"}
+    org: {seen: "1.4.4.post1+galaxy3", exp: "1.4.4.post1+galaxy1"}
+    org.au: {seen: "1.4.4.post1+galaxy3", exp: "1.4.4.post1+galaxy1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/scanpy_filter/scanpy_filter/1.4.4.post1+galaxy1:
+    eu: {seen: "1.4.4.post1+galaxy1", exp: "1.4.4.post1+galaxy1"}
+    org: {seen: "1.4.4.post1+galaxy3", exp: "1.4.4.post1+galaxy1"}
+    org.au: {seen: "1.4.4.post1+galaxy3", exp: "1.4.4.post1+galaxy1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/scanpy_inspect/scanpy_inspect/1.4.4.post1+galaxy1:
+    eu: {seen: "1.4.4.post1+galaxy1", exp: "1.4.4.post1+galaxy1"}
+    org: {seen: "1.4.4.post1+galaxy3", exp: "1.4.4.post1+galaxy1"}
+    org.au: {seen: "1.4.4.post1+galaxy2", exp: "1.4.4.post1+galaxy1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/scanpy_normalize/scanpy_normalize/1.4.4.post1+galaxy1:
+    eu: {seen: "1.4.4.post1+galaxy1", exp: "1.4.4.post1+galaxy1"}
+    org: {seen: "1.4.4.post1+galaxy3", exp: "1.4.4.post1+galaxy1"}
+    org.au: {seen: "1.4.4.post1+galaxy3", exp: "1.4.4.post1+galaxy1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/scanpy_plot/scanpy_plot/1.4.4.post1+galaxy1:
+    eu: {seen: "1.4.4.post1+galaxy1", exp: "1.4.4.post1+galaxy1"}
+    org: {seen: "1.4.4.post1+galaxy3", exp: "1.4.4.post1+galaxy1"}
+    org.au: {seen: "1.4.4.post1+galaxy2", exp: "1.4.4.post1+galaxy1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/scanpy_remove_confounders/scanpy_remove_confounders/1.4.4.post1+galaxy1:
+    eu: {seen: "1.4.4.post1+galaxy1", exp: "1.4.4.post1+galaxy1"}
+    org: {seen: "1.4.4.post1+galaxy3", exp: "1.4.4.post1+galaxy1"}
+    org.au: {seen: "1.4.4.post1+galaxy3", exp: "1.4.4.post1+galaxy1"}
+  toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_awk_tool/1.1.2:
+    eu: {seen: "1.1.2", exp: "1.1.2"}
+    org: {seen: "1.1.2", exp: "1.1.2"}
+    org.au: {seen: "1.1.2", exp: "1.1.2"}
+  toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_column/1.1.3:
+    eu: {seen: "1.1.3", exp: "1.1.3"}
+    org: {seen: "1.1.3", exp: "1.1.3"}
+    org.au: {seen: "1.1.3", exp: "1.1.3"}
+  toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_tail_tool/1.1.0:
+    eu: {seen: "1.1.0", exp: "1.1.0"}
+    org: {seen: "1.1.0", exp: "1.1.0"}
+    org.au: {seen: "1.1.0", exp: "1.1.0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/anndata_import/anndata_import/0.6.22.post1+galaxy4:
+    eu: {seen: "0.6.22.post1+galaxy4", exp: "0.6.22.post1+galaxy4"}
+    org: {seen: "0.6.22.post1+galaxy4", exp: "0.6.22.post1+galaxy4"}
+    org.au: {seen: "0.6.22.post1+galaxy4", exp: "0.6.22.post1+galaxy4"}
+  toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.7.4+galaxy1:
+    eu: {seen: "0.7.4+galaxy1", exp: "0.7.4+galaxy1"}
+    org: {seen: "0.7.4+galaxy1", exp: "0.7.4+galaxy1"}
+    org.au: {seen: "0.7.4+galaxy1", exp: "0.7.4+galaxy1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.6.22.post1+galaxy4:
+    eu: {seen: "0.6.22.post1+galaxy4", exp: "0.6.22.post1+galaxy4"}
+    org: {seen: "0.6.22.post1+galaxy4", exp: "0.6.22.post1+galaxy4"}
+    org.au: {seen: "0.6.22.post1+galaxy4", exp: "0.6.22.post1+galaxy4"}
+  toolshed.g2.bx.psu.edu/repos/iuc/scanpy_cluster_reduce_dimension/scanpy_cluster_reduce_dimension/1.4.4.post1+galaxy2:
+    eu: {seen: "1.4.4.post1+galaxy2", exp: "1.4.4.post1+galaxy2"}
+    org: {seen: "1.4.4.post1+galaxy3", exp: "1.4.4.post1+galaxy2"}
+    org.au: {seen: "1.4.4.post1+galaxy2", exp: "1.4.4.post1+galaxy2"}
+  toolshed.g2.bx.psu.edu/repos/iuc/scanpy_filter/scanpy_filter/1.4.4.post1+galaxy3:
+    eu: {seen: "1.4.4.post1+galaxy3", exp: "1.4.4.post1+galaxy3"}
+    org: {seen: "1.4.4.post1+galaxy3", exp: "1.4.4.post1+galaxy3"}
+    org.au: {seen: "1.4.4.post1+galaxy3", exp: "1.4.4.post1+galaxy3"}
+  toolshed.g2.bx.psu.edu/repos/iuc/scanpy_inspect/scanpy_inspect/1.4.4.post1+galaxy3:
+    eu: {seen: "1.4.4.post1+galaxy3", exp: "1.4.4.post1+galaxy3"}
+    org: {seen: "1.4.4.post1+galaxy3", exp: "1.4.4.post1+galaxy3"}
+    org.au: {seen: "1.4.4.post1+galaxy2", exp: "1.4.4.post1+galaxy3"}
+  toolshed.g2.bx.psu.edu/repos/iuc/scanpy_normalize/scanpy_normalize/1.4.4.post1+galaxy3:
+    eu: {seen: "1.4.4.post1+galaxy3", exp: "1.4.4.post1+galaxy3"}
+    org: {seen: "1.4.4.post1+galaxy3", exp: "1.4.4.post1+galaxy3"}
+    org.au: {seen: "1.4.4.post1+galaxy3", exp: "1.4.4.post1+galaxy3"}
+  toolshed.g2.bx.psu.edu/repos/iuc/scanpy_plot/scanpy_plot/1.4.4.post1+galaxy3:
+    eu: {seen: "1.4.4.post1+galaxy3", exp: "1.4.4.post1+galaxy3"}
+    org: {seen: "1.4.4.post1+galaxy3", exp: "1.4.4.post1+galaxy3"}
+    org.au: {seen: "1.4.4.post1+galaxy2", exp: "1.4.4.post1+galaxy3"}
+  toolshed.g2.bx.psu.edu/repos/iuc/scanpy_remove_confounders/scanpy_remove_confounders/1.4.4.post1+galaxy3:
+    eu: {seen: "1.4.4.post1+galaxy3", exp: "1.4.4.post1+galaxy3"}
+    org: {seen: "1.4.4.post1+galaxy3", exp: "1.4.4.post1+galaxy3"}
+    org.au: {seen: "1.4.4.post1+galaxy3", exp: "1.4.4.post1+galaxy3"}
+  overall:
+    emea: 1
+    apac: 1
+    amer: 1
+topics/sequence-analysis/tutorials/quality-control/tutorial.html:
+  toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.71:
+    eu: {seen: "0.71", exp: "0.71"}
+    org: {seen: "0.71", exp: "0.71"}
+    org.au: {seen: "0.71", exp: "0.71"}
+  toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.6:
+    eu: {seen: "1.6", exp: "1.6"}
+    org: {seen: "1.6", exp: "1.6"}
+    org.au: {seen: "1.6", exp: "1.6"}
+  toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/1.16.3:
+    eu: {seen: "1.16.3", exp: "1.16.3"}
+    org: {seen: "1.16.3", exp: "1.16.3"}
+    org.au: {seen: "1.16.3", exp: "1.16.3"}
+  overall:
+    emea: 1
+    apac: 1
+    amer: 1
+topics/proteomics/tutorials/biomarker_selection/tutorial.html:
+  toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/1.0.0:
+    eu: {seen: "1.0.0", exp: "1.0.0"}
+    org: {seen: "1.0.0", exp: "1.0.0"}
+    org.au: {seen: "1.1.0", exp: "1.0.0"}
+  toolshed.g2.bx.psu.edu/repos/proteore/proteore_expression_rnaseq_abbased/rna_abbased_data/2019.03.07:
+    eu: {seen: "null", exp: "2019.03.07"}
+    org: {seen: "null", exp: "2019.03.07"}
+    org.au: {seen: "null", exp: "2019.03.07"}
+  toolshed.g2.bx.psu.edu/repos/proteore/proteore_filter_keywords_values/MQoutputfilter/2019.03.05:
+    eu: {seen: "null", exp: "2019.03.05"}
+    org: {seen: "null", exp: "2019.03.05"}
+    org.au: {seen: "null", exp: "2019.03.05"}
+  toolshed.g2.bx.psu.edu/repos/proteore/proteore_id_converter/IDconverter/2019.01.28:
+    eu: {seen: "null", exp: "2019.01.28"}
+    org: {seen: "null", exp: "2019.01.28"}
+    org.au: {seen: "null", exp: "2019.01.28"}
+  toolshed.g2.bx.psu.edu/repos/proteore/proteore_ms_observation_pepatlas/retr_pepatlas1/2019.02.01.1:
+    eu: {seen: "null", exp: "2019.02.01.1"}
+    org: {seen: "null", exp: "2019.02.01.1"}
+    org.au: {seen: "null", exp: "2019.02.01.1"}
+  toolshed.g2.bx.psu.edu/repos/proteore/proteore_prot_features/prot_features/2019.01.18:
+    eu: {seen: "null", exp: "2019.01.18"}
+    org: {seen: "null", exp: "2019.01.18"}
+    org.au: {seen: "null", exp: "2019.01.18"}
+  toolshed.g2.bx.psu.edu/repos/proteore/proteore_tissue_specific_expression_data/retrieve_from_hpa/2019.02.27:
+    eu: {seen: "null", exp: "2019.02.27"}
+    org: {seen: "null", exp: "2019.02.27"}
+    org.au: {seen: "null", exp: "2019.02.27"}
+  toolshed.g2.bx.psu.edu/repos/proteore/proteore_venn_diagram/Jvenn/2018.12.18:
+    eu: {seen: "null", exp: "2018.12.18"}
+    org: {seen: "null", exp: "2018.12.18"}
+    org.au: {seen: "null", exp: "2018.12.18"}
+  overall:
+    emea: 0
+    apac: 0
+    amer: 0
+topics/visualisation/tutorials/circos/tutorial.html:
+  toolshed.g2.bx.psu.edu/repos/iuc/circos/circos/0.69.8+galaxy7:
+    eu: {seen: "0.69.8+galaxy7", exp: "0.69.8+galaxy7"}
+    org: {seen: "0.69.8+galaxy7", exp: "0.69.8+galaxy7"}
+    org.au: {seen: "0.69.8+galaxy7", exp: "0.69.8+galaxy7"}
+  toolshed.g2.bx.psu.edu/repos/iuc/circos/circos/0.69.8+galaxy7:
+    eu: {seen: "0.69.8+galaxy7", exp: "0.69.8+galaxy7"}
+    org: {seen: "0.69.8+galaxy7", exp: "0.69.8+galaxy7"}
+    org.au: {seen: "0.69.8+galaxy7", exp: "0.69.8+galaxy7"}
+  overall:
+    emea: 1
+    apac: 1
+    amer: 1
+topics/introduction/tutorials/galaxy-intro-strands/tutorial.html:
+  toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.0:
+    eu: {seen: "0.1.0", exp: "0.1.0"}
+    org: {seen: "0.1.0", exp: "0.1.0"}
+    org.au: {seen: "0.1.0", exp: "0.1.0"}
+  toolshed.g2.bx.psu.edu/repos/devteam/intersect/gops_intersect_1/1.0.0:
+    eu: {seen: "1.0.0", exp: "1.0.0"}
+    org: {seen: "1.0.0", exp: "1.0.0"}
+    org.au: {seen: "1.0.0", exp: "1.0.0"}
+  toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.0:
+    eu: {seen: "0.1.0", exp: "0.1.0"}
+    org: {seen: "0.1.0", exp: "0.1.0"}
+    org.au: {seen: "0.1.0", exp: "0.1.0"}
+  toolshed.g2.bx.psu.edu/repos/devteam/intersect/gops_intersect_1/1.0.0:
+    eu: {seen: "1.0.0", exp: "1.0.0"}
+    org: {seen: "1.0.0", exp: "1.0.0"}
+    org.au: {seen: "1.0.0", exp: "1.0.0"}
+  overall:
+    emea: 1
+    apac: 1
+    amer: 1
+topics/metagenomics/tutorials/nanopore-16S-metagenomics/tutorial.html:
+  toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/1.1.2:
+    eu: {seen: "1.1.2", exp: "1.1.2"}
+    org: {seen: "1.1.2", exp: "1.1.2"}
+    org.au: {seen: "1.1.2", exp: "1.1.2"}
+  toolshed.g2.bx.psu.edu/repos/crs4/taxonomy_krona_chart/taxonomy_krona_chart/2.7.1:
+    eu: {seen: "2.7.1", exp: "2.7.1"}
+    org: {seen: "2.7.1", exp: "2.7.1"}
+    org.au: {seen: "2.7.1", exp: "2.7.1"}
+  toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.72+galaxy1:
+    eu: {seen: "0.72+galaxy1", exp: "0.72+galaxy1"}
+    org: {seen: "0.72+galaxy1", exp: "0.72+galaxy1"}
+    org.au: {seen: "0.72+galaxy1", exp: "0.72+galaxy1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/datamash_reverse/datamash_reverse/1.1.0:
+    eu: {seen: "1.1.0", exp: "1.1.0"}
+    org: {seen: "1.1.0", exp: "1.1.0"}
+    org.au: {seen: "1.1.0", exp: "1.1.0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.20.1+galaxy0:
+    eu: {seen: "0.20.1+galaxy0", exp: "0.20.1+galaxy0"}
+    org: {seen: "0.20.1+galaxy0", exp: "0.20.1+galaxy0"}
+    org.au: {seen: "0.20.1+galaxy0", exp: "0.20.1+galaxy0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.0.8_beta+galaxy0:
+    eu: {seen: "2.0.8_beta+galaxy0", exp: "2.0.8_beta+galaxy0"}
+    org: {seen: "2.0.8_beta+galaxy0", exp: "2.0.8_beta+galaxy0"}
+    org.au: {seen: "2.0.8_beta+galaxy0", exp: "2.0.8_beta+galaxy0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.8+galaxy1:
+    eu: {seen: "1.8+galaxy1", exp: "1.8+galaxy1"}
+    org: {seen: "1.8+galaxy1", exp: "1.8+galaxy1"}
+    org.au: {seen: "1.9", exp: "1.8+galaxy1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.3:
+    eu: {seen: "0.2.3", exp: "0.2.3"}
+    org: {seen: "0.2.3", exp: "0.2.3"}
+    org.au: {seen: "0.2.3", exp: "0.2.3"}
+  toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/1.1.2:
+    eu: {seen: "1.1.2", exp: "1.1.2"}
+    org: {seen: "1.1.2", exp: "1.1.2"}
+    org.au: {seen: "1.1.2", exp: "1.1.2"}
+  toolshed.g2.bx.psu.edu/repos/crs4/taxonomy_krona_chart/taxonomy_krona_chart/2.7.1:
+    eu: {seen: "2.7.1", exp: "2.7.1"}
+    org: {seen: "2.7.1", exp: "2.7.1"}
+    org.au: {seen: "2.7.1", exp: "2.7.1"}
+  toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.72+galaxy1:
+    eu: {seen: "0.72+galaxy1", exp: "0.72+galaxy1"}
+    org: {seen: "0.72+galaxy1", exp: "0.72+galaxy1"}
+    org.au: {seen: "0.72+galaxy1", exp: "0.72+galaxy1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/datamash_reverse/datamash_reverse/1.1.0:
+    eu: {seen: "1.1.0", exp: "1.1.0"}
+    org: {seen: "1.1.0", exp: "1.1.0"}
+    org.au: {seen: "1.1.0", exp: "1.1.0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.20.1+galaxy0:
+    eu: {seen: "0.20.1+galaxy0", exp: "0.20.1+galaxy0"}
+    org: {seen: "0.20.1+galaxy0", exp: "0.20.1+galaxy0"}
+    org.au: {seen: "0.20.1+galaxy0", exp: "0.20.1+galaxy0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.0.8_beta+galaxy0:
+    eu: {seen: "2.0.8_beta+galaxy0", exp: "2.0.8_beta+galaxy0"}
+    org: {seen: "2.0.8_beta+galaxy0", exp: "2.0.8_beta+galaxy0"}
+    org.au: {seen: "2.0.8_beta+galaxy0", exp: "2.0.8_beta+galaxy0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.8+galaxy1:
+    eu: {seen: "1.8+galaxy1", exp: "1.8+galaxy1"}
+    org: {seen: "1.8+galaxy1", exp: "1.8+galaxy1"}
+    org.au: {seen: "1.9", exp: "1.8+galaxy1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.3:
+    eu: {seen: "0.2.3", exp: "0.2.3"}
+    org: {seen: "0.2.3", exp: "0.2.3"}
+    org.au: {seen: "0.2.3", exp: "0.2.3"}
+  overall:
+    emea: 1
+    apac: 1
+    amer: 1
+topics/metagenomics/tutorials/mothur-miseq-sop-short/tutorial.html:
+  toolshed.g2.bx.psu.edu/repos/iuc/mothur_count_seqs/mothur_count_seqs/1.39.5.0:
+    eu: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org.au: {seen: "1.39.5.0", exp: "1.39.5.0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.0:
+    eu: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org.au: {seen: "1.39.5.0", exp: "1.39.5.0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/mothur_summary_seqs/mothur_summary_seqs/1.39.5.0:
+    eu: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org.au: {seen: "1.39.5.0", exp: "1.39.5.0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.39.5.0:
+    eu: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org.au: {seen: "1.39.5.0", exp: "1.39.5.0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/mothur_chimera_vsearch/mothur_chimera_vsearch/1.39.5.1:
+    eu: {seen: "1.39.5.1", exp: "1.39.5.1"}
+    org: {seen: "1.39.5.1", exp: "1.39.5.1"}
+    org.au: {seen: "1.39.5.1", exp: "1.39.5.1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/mothur_filter_seqs/mothur_filter_seqs/1.39.5.0:
+    eu: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org.au: {seen: "1.39.5.0", exp: "1.39.5.0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/mothur_pre_cluster/mothur_pre_cluster/1.39.5.0:
+    eu: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org.au: {seen: "1.39.5.0", exp: "1.39.5.0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/mothur_remove_seqs/mothur_remove_seqs/1.36.1.0:
+    eu: {seen: "1.36.1.0", exp: "1.36.1.0"}
+    org: {seen: "1.36.1.0", exp: "1.36.1.0"}
+    org.au: {seen: "1.39.5.0", exp: "1.36.1.0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.0:
+    eu: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org.au: {seen: "1.39.5.0", exp: "1.39.5.0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/mothur_summary_seqs/mothur_summary_seqs/1.39.5.0:
+    eu: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org.au: {seen: "1.39.5.0", exp: "1.39.5.0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.39.5.0:
+    eu: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org.au: {seen: "1.39.5.0", exp: "1.39.5.0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/mothur_classify_seqs/mothur_classify_seqs/1.39.5.0:
+    eu: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org.au: {seen: "1.39.5.0", exp: "1.39.5.0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/mothur_remove_lineage/mothur_remove_lineage/1.39.5.0:
+    eu: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org.au: {seen: "1.39.5.0", exp: "1.39.5.0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/mothur_summary_seqs/mothur_summary_seqs/1.39.5.0:
+    eu: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org.au: {seen: "1.39.5.0", exp: "1.39.5.0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/mothur_cluster/mothur_cluster/1.39.5.0:
+    eu: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org.au: {seen: "1.39.5.0", exp: "1.39.5.0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/mothur_dist_seqs/mothur_dist_seqs/1.39.5.0:
+    eu: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org.au: {seen: "1.39.5.0", exp: "1.39.5.0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/mothur_make_shared/mothur_make_shared/1.39.5.0:
+    eu: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org.au: {seen: "1.39.5.0", exp: "1.39.5.0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/mothur_rarefaction_single/mothur_rarefaction_single/1.39.5.0:
+    eu: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org.au: {seen: "1.39.5.0", exp: "1.39.5.0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/mothur_classify_otu/mothur_classify_otu/1.39.5.0:
+    eu: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org.au: {seen: "1.39.5.0", exp: "1.39.5.0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/mothur_cluster_split/mothur_cluster_split/1.39.5.0:
+    eu: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org.au: {seen: "1.39.5.0", exp: "1.39.5.0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/mothur_count_groups/mothur_count_groups/1.39.5.0:
+    eu: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org.au: {seen: "1.39.5.0", exp: "1.39.5.0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/mothur_make_shared/mothur_make_shared/1.39.5.0:
+    eu: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org.au: {seen: "1.39.5.0", exp: "1.39.5.0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/mothur_remove_groups/mothur_remove_groups/1.39.5.0:
+    eu: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org.au: {seen: "1.39.5.0", exp: "1.39.5.0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/mothur_sub_sample/mothur_sub_sample/1.39.5.0:
+    eu: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org.au: {seen: "1.39.5.0", exp: "1.39.5.0"}
+  toolshed.g2.bx.psu.edu/repos/devteam/xy_plot/XY_Plot_1/1.0.2:
+    eu: {seen: "1.0.2", exp: "1.0.2"}
+    org: {seen: "1.0.2", exp: "1.0.2"}
+    org.au: {seen: "1.0.2", exp: "1.0.2"}
+  toolshed.g2.bx.psu.edu/repos/iuc/mothur_rarefaction_single/mothur_rarefaction_single/1.39.5.0:
+    eu: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org.au: {seen: "1.39.5.0", exp: "1.39.5.0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/mothur_summary_single/mothur_summary_single/1.39.5.0:
+    eu: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org.au: {seen: "1.39.5.0", exp: "1.39.5.0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/mothur_dist_shared/mothur_dist_shared/1.39.5.0:
+    eu: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org.au: {seen: "1.39.5.0", exp: "1.39.5.0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/mothur_heatmap_sim/mothur_heatmap_sim/1.39.5.0:
+    eu: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org.au: {seen: "1.39.5.0", exp: "1.39.5.0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/mothur_tree_shared/mothur_tree_shared/1.39.5.0:
+    eu: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org.au: {seen: "1.39.5.0", exp: "1.39.5.0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/mothur_venn/mothur_venn/1.39.5.0:
+    eu: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org: {seen: "1.39.5.0", exp: "1.39.5.0"}
+    org.au: {seen: "1.39.5.0", exp: "1.39.5.0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/newick_utils/newick_display/1.6:
+    eu: {seen: "1.6", exp: "1.6"}
+    org: {seen: "1.6", exp: "1.6"}
+    org.au: {seen: "1.6+galaxy1", exp: "1.6"}
+  toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.0:
+    eu: {seen: "4.0", exp: "4.0"}
+    org: {seen: "4.0", exp: "4.0"}
+    org.au: {seen: "4.0", exp: "4.0"}
+  overall:
+    emea: 1
+    apac: 1
+    amer: 1
+topics/assembly/tutorials/assembly-with-preprocessing/tutorial.html:
+  toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.3.4.3+galaxy0:
+    eu: {seen: "2.3.4.3+galaxy0", exp: "2.3.4.3+galaxy0"}
+    org: {seen: "2.3.4.3+galaxy0", exp: "2.3.4.3+galaxy0"}
+    org.au: {seen: "2.3.4.3+galaxy0", exp: "2.3.4.3+galaxy0"}
+  toolshed.g2.bx.psu.edu/repos/devteam/fasta_filter_by_length/fasta_filter_by_length/1.2:
+    eu: {seen: "1.2", exp: "1.2"}
+    org: {seen: "1.2", exp: "1.2"}
+    org.au: {seen: "1.2", exp: "1.2"}
+  toolshed.g2.bx.psu.edu/repos/devteam/samtools_stats/samtools_stats/2.0.2+galaxy2:
+    eu: {seen: "2.0.2+galaxy2", exp: "2.0.2+galaxy2"}
+    org: {seen: "2.0.2+galaxy2", exp: "2.0.2+galaxy2"}
+    org.au: {seen: "2.0.2+galaxy2", exp: "2.0.2+galaxy2"}
+  toolshed.g2.bx.psu.edu/repos/iuc/bandage/bandage_image/0.8.1+galaxy2:
+    eu: {seen: "0.8.1+galaxy2", exp: "0.8.1+galaxy2"}
+    org: {seen: "0.8.1+galaxy2", exp: "0.8.1+galaxy2"}
+    org.au: {seen: "0.8.1+galaxy2", exp: "0.8.1+galaxy2"}
+  toolshed.g2.bx.psu.edu/repos/iuc/bandage/bandage_info/0.8.1+galaxy1:
+    eu: {seen: "0.8.1+galaxy1", exp: "0.8.1+galaxy1"}
+    org: {seen: "0.8.1+galaxy1", exp: "0.8.1+galaxy1"}
+    org.au: {seen: "0.8.1+galaxy1", exp: "0.8.1+galaxy1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.19.5+galaxy1:
+    eu: {seen: "0.19.5+galaxy1", exp: "0.19.5+galaxy1"}
+    org: {seen: "0.19.5+galaxy1", exp: "0.19.5+galaxy1"}
+    org.au: {seen: "0.19.5+galaxy1", exp: "0.19.5+galaxy1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.17+galaxy1:
+    eu: {seen: "2.17+galaxy1", exp: "2.17+galaxy1"}
+    org: {seen: "2.17+galaxy3", exp: "2.17+galaxy1"}
+    org.au: {seen: "2.17+galaxy1", exp: "2.17+galaxy1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.7:
+    eu: {seen: "1.7", exp: "1.7"}
+    org: {seen: "1.7", exp: "1.7"}
+    org.au: {seen: "1.7", exp: "1.7"}
+  toolshed.g2.bx.psu.edu/repos/iuc/nanoplot/nanoplot/1.25.0+galaxy1:
+    eu: {seen: "1.25.0+galaxy1", exp: "1.25.0+galaxy1"}
+    org: {seen: "1.25.0+galaxy1", exp: "1.25.0+galaxy1"}
+    org.au: {seen: "1.25.0+galaxy1", exp: "1.25.0+galaxy1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/samtools_fastx/samtools_fastx/1.9+galaxy1:
+    eu: {seen: "1.9+galaxy1", exp: "1.9+galaxy1"}
+    org: {seen: "1.9+galaxy1", exp: "1.9+galaxy1"}
+    org.au: {seen: "1.9+galaxy1", exp: "1.9+galaxy1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/samtools_view/samtools_view/1.9+galaxy1:
+    eu: {seen: "1.9+galaxy1", exp: "1.9+galaxy1"}
+    org: {seen: "1.9+galaxy1", exp: "1.9+galaxy1"}
+    org.au: {seen: "1.9+galaxy1", exp: "1.9+galaxy1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/seqtk/seqtk_sample/1.3.2:
+    eu: {seen: "1.3.2", exp: "1.3.2"}
+    org: {seen: "1.3.2", exp: "1.3.2"}
+    org.au: {seen: "1.3.2", exp: "1.3.2"}
+  toolshed.g2.bx.psu.edu/repos/iuc/sra_tools/fasterq_dump/2.10.4+galaxy1:
+    eu: {seen: "2.10.4+galaxy1", exp: "2.10.4+galaxy1"}
+    org: {seen: "2.10.4+galaxy1", exp: "2.10.4+galaxy1"}
+    org.au: {seen: "2.10.4+galaxy1", exp: "2.10.4+galaxy1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/unicycler/unicycler/0.4.8.0:
+    eu: {seen: "0.4.8.0", exp: "0.4.8.0"}
+    org: {seen: "0.4.8.0", exp: "0.4.8.0"}
+    org.au: {seen: "0.4.8.0", exp: "0.4.8.0"}
+  toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.2:
+    eu: {seen: "4.2", exp: "4.2"}
+    org: {seen: "4.2", exp: "4.2"}
+    org.au: {seen: "4.2", exp: "4.2"}
+  toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.3.4.3+galaxy0:
+    eu: {seen: "2.3.4.3+galaxy0", exp: "2.3.4.3+galaxy0"}
+    org: {seen: "2.3.4.3+galaxy0", exp: "2.3.4.3+galaxy0"}
+    org.au: {seen: "2.3.4.3+galaxy0", exp: "2.3.4.3+galaxy0"}
+  toolshed.g2.bx.psu.edu/repos/devteam/fasta_filter_by_length/fasta_filter_by_length/1.2:
+    eu: {seen: "1.2", exp: "1.2"}
+    org: {seen: "1.2", exp: "1.2"}
+    org.au: {seen: "1.2", exp: "1.2"}
+  toolshed.g2.bx.psu.edu/repos/devteam/samtools_stats/samtools_stats/2.0.2+galaxy2:
+    eu: {seen: "2.0.2+galaxy2", exp: "2.0.2+galaxy2"}
+    org: {seen: "2.0.2+galaxy2", exp: "2.0.2+galaxy2"}
+    org.au: {seen: "2.0.2+galaxy2", exp: "2.0.2+galaxy2"}
+  toolshed.g2.bx.psu.edu/repos/iuc/bandage/bandage_image/0.8.1+galaxy2:
+    eu: {seen: "0.8.1+galaxy2", exp: "0.8.1+galaxy2"}
+    org: {seen: "0.8.1+galaxy2", exp: "0.8.1+galaxy2"}
+    org.au: {seen: "0.8.1+galaxy2", exp: "0.8.1+galaxy2"}
+  toolshed.g2.bx.psu.edu/repos/iuc/bandage/bandage_info/0.8.1+galaxy1:
+    eu: {seen: "0.8.1+galaxy1", exp: "0.8.1+galaxy1"}
+    org: {seen: "0.8.1+galaxy1", exp: "0.8.1+galaxy1"}
+    org.au: {seen: "0.8.1+galaxy1", exp: "0.8.1+galaxy1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.19.5+galaxy1:
+    eu: {seen: "0.19.5+galaxy1", exp: "0.19.5+galaxy1"}
+    org: {seen: "0.19.5+galaxy1", exp: "0.19.5+galaxy1"}
+    org.au: {seen: "0.19.5+galaxy1", exp: "0.19.5+galaxy1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.17+galaxy1:
+    eu: {seen: "2.17+galaxy1", exp: "2.17+galaxy1"}
+    org: {seen: "2.17+galaxy3", exp: "2.17+galaxy1"}
+    org.au: {seen: "2.17+galaxy1", exp: "2.17+galaxy1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.7:
+    eu: {seen: "1.7", exp: "1.7"}
+    org: {seen: "1.7", exp: "1.7"}
+    org.au: {seen: "1.7", exp: "1.7"}
+  toolshed.g2.bx.psu.edu/repos/iuc/nanoplot/nanoplot/1.25.0+galaxy1:
+    eu: {seen: "1.25.0+galaxy1", exp: "1.25.0+galaxy1"}
+    org: {seen: "1.25.0+galaxy1", exp: "1.25.0+galaxy1"}
+    org.au: {seen: "1.25.0+galaxy1", exp: "1.25.0+galaxy1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/samtools_fastx/samtools_fastx/1.9+galaxy1:
+    eu: {seen: "1.9+galaxy1", exp: "1.9+galaxy1"}
+    org: {seen: "1.9+galaxy1", exp: "1.9+galaxy1"}
+    org.au: {seen: "1.9+galaxy1", exp: "1.9+galaxy1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/samtools_view/samtools_view/1.9+galaxy1:
+    eu: {seen: "1.9+galaxy1", exp: "1.9+galaxy1"}
+    org: {seen: "1.9+galaxy1", exp: "1.9+galaxy1"}
+    org.au: {seen: "1.9+galaxy1", exp: "1.9+galaxy1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/seqtk/seqtk_sample/1.3.2:
+    eu: {seen: "1.3.2", exp: "1.3.2"}
+    org: {seen: "1.3.2", exp: "1.3.2"}
+    org.au: {seen: "1.3.2", exp: "1.3.2"}
+  toolshed.g2.bx.psu.edu/repos/iuc/unicycler/unicycler/0.4.8.0:
+    eu: {seen: "0.4.8.0", exp: "0.4.8.0"}
+    org: {seen: "0.4.8.0", exp: "0.4.8.0"}
+    org.au: {seen: "0.4.8.0", exp: "0.4.8.0"}
+  toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.2:
+    eu: {seen: "4.2", exp: "4.2"}
+    org: {seen: "4.2", exp: "4.2"}
+    org.au: {seen: "4.2", exp: "4.2"}
+  overall:
+    emea: 1
+    apac: 1
+    amer: 1
+topics/proteomics/tutorials/proteogenomics-dbcreation/tutorial.html:
+  toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.0:
+    eu: {seen: "0.1.0", exp: "0.1.0"}
+    org: {seen: "0.1.0", exp: "0.1.0"}
+    org.au: {seen: "0.1.0", exp: "0.1.0"}
+  toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_column/1.1.3:
+    eu: {seen: "1.1.3", exp: "1.1.3"}
+    org: {seen: "1.1.3", exp: "1.1.3"}
+    org.au: {seen: "1.1.3", exp: "1.1.3"}
+  toolshed.g2.bx.psu.edu/repos/devteam/fasta_to_tabular/fasta2tab/1.1.1:
+    eu: {seen: "1.1.1", exp: "1.1.1"}
+    org: {seen: "1.1.1", exp: "1.1.1"}
+    org.au: {seen: "1.1.1", exp: "1.1.1"}
+  toolshed.g2.bx.psu.edu/repos/devteam/freebayes/freebayes/1.3.1:
+    eu: {seen: "1.3.1", exp: "1.3.1"}
+    org: {seen: "1.3.1", exp: "1.3.1"}
+    org.au: {seen: "1.3.1", exp: "1.3.1"}
+  toolshed.g2.bx.psu.edu/repos/devteam/tabular_to_fasta/tab2fasta/1.1.1:
+    eu: {seen: "1.1.1", exp: "1.1.1"}
+    org: {seen: "1.1.1", exp: "1.1.1"}
+    org.au: {seen: "1.1.1", exp: "1.1.1"}
+  toolshed.g2.bx.psu.edu/repos/galaxyp/bed_to_protein_map/bed_to_protein_map/0.2.0:
+    eu: {seen: "0.2.0", exp: "0.2.0"}
+    org: {seen: "0.2.0", exp: "0.2.0"}
+    org.au: {seen: "0.2.0", exp: "0.2.0"}
+  toolshed.g2.bx.psu.edu/repos/galaxyp/custom_pro_db/custom_pro_db/1.22.0:
+    eu: {seen: "1.22.0", exp: "1.22.0"}
+    org: {seen: "1.22.0", exp: "1.22.0"}
+    org.au: {seen: "1.22.0", exp: "1.22.0"}
+  toolshed.g2.bx.psu.edu/repos/galaxyp/fasta_merge_files_and_filter_unique_sequences/fasta_merge_files_and_filter_unique_sequences/1.2.0:
+    eu: {seen: "1.2.0", exp: "1.2.0"}
+    org: {seen: "1.2.0", exp: "1.2.0"}
+    org.au: {seen: "1.2.0", exp: "1.2.0"}
+  toolshed.g2.bx.psu.edu/repos/galaxyp/gffcompare_to_bed/gffcompare_to_bed/0.2.1:
+    eu: {seen: "0.2.1", exp: "0.2.1"}
+    org: {seen: "0.2.1", exp: "0.2.1"}
+    org.au: {seen: "0.2.1", exp: "0.2.1"}
+  toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.0:
+    eu: {seen: "1.0.0", exp: "1.0.0"}
+    org: {seen: "1.0.0", exp: "1.0.0"}
+    org.au: {seen: "1.0.1", exp: "1.0.0"}
+  toolshed.g2.bx.psu.edu/repos/galaxyp/translate_bed/translate_bed/0.1.0:
+    eu: {seen: "0.1.0", exp: "0.1.0"}
+    org: {seen: "0.1.0", exp: "0.1.0"}
+    org.au: {seen: "0.1.0", exp: "0.1.0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/filter_tabular/filter_tabular/2.0.0:
+    eu: {seen: "2.0.0", exp: "2.0.0"}
+    org: {seen: "3.1.0", exp: "2.0.0"}
+    org.au: {seen: "2.0.0", exp: "2.0.0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/gffcompare/gffcompare/0.11.2:
+    eu: {seen: "0.11.2", exp: "0.11.2"}
+    org: {seen: "0.11.2", exp: "0.11.2"}
+    org.au: {seen: "0.11.2", exp: "0.11.2"}
+  toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.1.0+galaxy5:
+    eu: {seen: "2.1.0+galaxy5", exp: "2.1.0+galaxy5"}
+    org: {seen: "2.1.0+galaxy5", exp: "2.1.0+galaxy5"}
+    org.au: {seen: "2.1.0+galaxy5", exp: "2.1.0+galaxy5"}
+  toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.0.0:
+    eu: {seen: "3.0.0", exp: "3.0.0"}
+    org: {seen: "3.1.1", exp: "3.0.0"}
+    org.au: {seen: "3.1.1", exp: "3.0.0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/sqlite_to_tabular/sqlite_to_tabular/2.0.0:
+    eu: {seen: "2.0.0", exp: "2.0.0"}
+    org: {seen: "2.0.0", exp: "2.0.0"}
+    org.au: {seen: "2.0.0", exp: "2.0.0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/stringtie/stringtie/2.1.1:
+    eu: {seen: "2.1.1", exp: "2.1.1"}
+    org: {seen: "2.1.1", exp: "2.1.1"}
+    org.au: {seen: "2.1.1", exp: "2.1.1"}
+  overall:
+    emea: 1
+    apac: 1
+    amer: 1
+topics/introduction/tutorials/galaxy-intro-ngs-data-managment/tutorial.html:
+  toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.17.1:
+    eu: {seen: "0.7.17.1", exp: "0.7.17.1"}
+    org: {seen: "0.7.17.1", exp: "0.7.17.1"}
+    org.au: {seen: "0.7.17.1", exp: "0.7.17.1"}
+  toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MarkDuplicates/2.18.2.2:
+    eu: {seen: "2.18.2.2", exp: "2.18.2.2"}
+    org: {seen: "2.18.2.2", exp: "2.18.2.2"}
+    org.au: {seen: "2.18.2.2", exp: "2.18.2.2"}
+  toolshed.g2.bx.psu.edu/repos/devteam/samtools_stats/samtools_stats/2.0.2+galaxy2:
+    eu: {seen: "2.0.2+galaxy2", exp: "2.0.2+galaxy2"}
+    org: {seen: "2.0.2+galaxy2", exp: "2.0.2+galaxy2"}
+    org.au: {seen: "2.0.2+galaxy2", exp: "2.0.2+galaxy2"}
+  toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.20.1+galaxy0:
+    eu: {seen: "0.20.1+galaxy0", exp: "0.20.1+galaxy0"}
+    org: {seen: "0.20.1+galaxy0", exp: "0.20.1+galaxy0"}
+    org.au: {seen: "0.20.1+galaxy0", exp: "0.20.1+galaxy0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/lofreq_call/lofreq_call/2.1.5+galaxy1:
+    eu: {seen: "2.1.5+galaxy1", exp: "2.1.5+galaxy1"}
+    org: {seen: "2.1.5+galaxy1", exp: "2.1.5+galaxy1"}
+    org.au: {seen: "2.1.5+galaxy1", exp: "2.1.5+galaxy1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/lofreq_indelqual/lofreq_indelqual/2.1.5+galaxy0:
+    eu: {seen: "2.1.5+galaxy0", exp: "2.1.5+galaxy0"}
+    org: {seen: "2.1.5+galaxy0", exp: "2.1.5+galaxy0"}
+    org.au: {seen: "2.1.5+galaxy0", exp: "2.1.5+galaxy0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/lofreq_viterbi/lofreq_viterbi/2.1.5+galaxy0:
+    eu: {seen: "2.1.5+galaxy0", exp: "2.1.5+galaxy0"}
+    org: {seen: "2.1.5+galaxy0", exp: "2.1.5+galaxy0"}
+    org.au: {seen: "2.1.5+galaxy0", exp: "2.1.5+galaxy0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.8+galaxy1:
+    eu: {seen: "1.8+galaxy1", exp: "1.8+galaxy1"}
+    org: {seen: "1.8+galaxy1", exp: "1.8+galaxy1"}
+    org.au: {seen: "1.9", exp: "1.8+galaxy1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/samtools_view/samtools_view/1.9+galaxy2:
+    eu: {seen: "1.9+galaxy2", exp: "1.9+galaxy2"}
+    org: {seen: "1.9+galaxy2", exp: "1.9+galaxy2"}
+    org.au: {seen: "1.9+galaxy2", exp: "1.9+galaxy2"}
+  toolshed.g2.bx.psu.edu/repos/iuc/snpeff_sars_cov_2/snpeff_sars_cov_2/4.5covid19:
+    eu: {seen: "4.5covid19", exp: "4.5covid19"}
+    org: {seen: "4.5covid19", exp: "4.5covid19"}
+    org.au: {seen: "4.5covid19", exp: "4.5covid19"}
+  toolshed.g2.bx.psu.edu/repos/iuc/snpsift/snpSift_extractFields/4.3+t.galaxy0:
+    eu: {seen: "4.3+t.galaxy0", exp: "4.3+t.galaxy0"}
+    org: {seen: "4.3+t.galaxy0", exp: "4.3+t.galaxy0"}
+    org.au: {seen: "4.3+t.galaxy0", exp: "4.3+t.galaxy0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/sra_tools/fasterq_dump/2.10.8+galaxy0:
+    eu: {seen: "2.10.8+galaxy0", exp: "2.10.8+galaxy0"}
+    org: {seen: "2.10.8+galaxy0", exp: "2.10.8+galaxy0"}
+    org.au: {seen: "2.10.8+galaxy0", exp: "2.10.8+galaxy0"}
+  toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0:
+    eu: {seen: "4.2", exp: "5.1.0"}
+    org: {seen: "5.1.0", exp: "5.1.0"}
+    org.au: {seen: "5.1.0", exp: "5.1.0"}
+  overall:
+    emea: 1
+    apac: 1
+    amer: 1
+topics/climate/tutorials/fates/tutorial.html:
+  toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/1.1.3:
+    eu: {seen: "1.1.3", exp: "1.1.3"}
+    org: {seen: "1.1.3", exp: "1.1.3"}
+    org.au: {seen: "1.1.3", exp: "1.1.3"}
+  toolshed.g2.bx.psu.edu/repos/climate/ctsm_fates/ctsm_fates/2.0.1:
+    eu: {seen: "2.0.1", exp: "2.0.1"}
+    org: {seen: "2.0.1", exp: "2.0.1"}
+    org.au: {seen: "null", exp: "2.0.1"}
+  toolshed.g2.bx.psu.edu/repos/ecology/xarray_metadata_info/xarray_metadata_info/0.15.1:
+    eu: {seen: "0.15.1", exp: "0.15.1"}
+    org: {seen: "0.15.1", exp: "0.15.1"}
+    org.au: {seen: "null", exp: "0.15.1"}
+  toolshed.g2.bx.psu.edu/repos/ecology/xarray_select/xarray_select/0.15.1:
+    eu: {seen: "0.15.1", exp: "0.15.1"}
+    org: {seen: "0.15.1", exp: "0.15.1"}
+    org.au: {seen: "null", exp: "0.15.1"}
+  overall:
+    emea: 1
+    apac: 0
+    amer: 1
+topics/proteomics/tutorials/proteogenomics-dbsearch/tutorial.html:
+  toolshed.g2.bx.psu.edu/repos/devteam/tabular_to_fasta/tab2fasta/1.1.1:
+    eu: {seen: "1.1.1", exp: "1.1.1"}
+    org: {seen: "1.1.1", exp: "1.1.1"}
+    org.au: {seen: "1.1.1", exp: "1.1.1"}
+  toolshed.g2.bx.psu.edu/repos/galaxyp/mz_to_sqlite/mz_to_sqlite/2.0.4+galaxy1:
+    eu: {seen: "2.0.4+galaxy1", exp: "2.0.4+galaxy1"}
+    org: {seen: "2.0.4+galaxy1", exp: "2.0.4+galaxy1"}
+    org.au: {seen: "2.0.4+galaxy1", exp: "2.0.4+galaxy1"}
+  toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/peptide_shaker/1.16.36.3:
+    eu: {seen: "1.16.36.3", exp: "1.16.36.3"}
+    org: {seen: "2.0.9+galaxy0", exp: "1.16.36.3"}
+    org.au: {seen: "1.16.36.3", exp: "1.16.36.3"}
+  toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/search_gui/3.3.10.1:
+    eu: {seen: "3.3.10.1", exp: "3.3.10.1"}
+    org: {seen: "4.0.12+galaxy0", exp: "3.3.10.1"}
+    org.au: {seen: "", exp: "3.3.10.1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.0.0:
+    eu: {seen: "3.0.0", exp: "3.0.0"}
+    org: {seen: "3.1.1", exp: "3.0.0"}
+    org.au: {seen: "3.1.1", exp: "3.0.0"}
+  overall:
+    emea: 1
+    apac: 1
+    amer: 1
+topics/epigenetics/tutorials/atac-seq/tutorial.html:
+  toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_compute_matrix/deeptools_compute_matrix/3.0.2.0:
+    eu: {seen: "3.0.2.0", exp: "3.0.2.0"}
+    org: {seen: "3.0.2.0", exp: "3.0.2.0"}
+    org.au: {seen: "3.0.2.0", exp: "3.0.2.0"}
+  toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_heatmap/deeptools_plot_heatmap/3.0.2.0:
+    eu: {seen: "3.0.2.0", exp: "3.0.2.0"}
+    org: {seen: "3.0.2.0", exp: "3.0.2.0"}
+    org.au: {seen: "3.0.2.0", exp: "3.0.2.0"}
+  toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_awk_tool/1.1.1:
+    eu: {seen: "1.1.1", exp: "1.1.1"}
+    org: {seen: "1.1.1", exp: "1.1.1"}
+    org.au: {seen: "1.1.1", exp: "1.1.1"}
+  toolshed.g2.bx.psu.edu/repos/devteam/bamtools_filter/bamFilter/2.4.1:
+    eu: {seen: "2.4.1", exp: "2.4.1"}
+    org: {seen: "2.4.1", exp: "2.4.1"}
+    org.au: {seen: "2.4.1", exp: "2.4.1"}
+  toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.3.4.3:
+    eu: {seen: "2.3.4.3", exp: "2.3.4.3"}
+    org: {seen: "2.3.4.3", exp: "2.3.4.3"}
+    org.au: {seen: "2.3.4.3", exp: "2.3.4.3"}
+  toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.72+galaxy1:
+    eu: {seen: "0.72+galaxy1", exp: "0.72+galaxy1"}
+    org: {seen: "0.72+galaxy1", exp: "0.72+galaxy1"}
+    org.au: {seen: "0.72+galaxy1", exp: "0.72+galaxy1"}
+  toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_CollectInsertSizeMetrics/2.18.2.1:
+    eu: {seen: "2.18.2.1", exp: "2.18.2.1"}
+    org: {seen: "2.18.2.1", exp: "2.18.2.1"}
+    org.au: {seen: "2.18.2.1", exp: "2.18.2.1"}
+  toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MarkDuplicates/2.18.2.2:
+    eu: {seen: "2.18.2.2", exp: "2.18.2.2"}
+    org: {seen: "2.18.2.2", exp: "2.18.2.2"}
+    org.au: {seen: "2.18.2.2", exp: "2.18.2.2"}
+  toolshed.g2.bx.psu.edu/repos/devteam/samtools_sort/samtools_sort/2.0.3:
+    eu: {seen: "2.0.3", exp: "2.0.3"}
+    org: {seen: "2.0.3", exp: "2.0.3"}
+    org.au: {seen: "2.0.3", exp: "2.0.3"}
+  toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_bamtobed/2.29.0:
+    eu: {seen: "2.29.0", exp: "2.29.0"}
+    org: {seen: "2.29.0", exp: "2.29.0"}
+    org.au: {seen: "2.29.0", exp: "2.29.0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_sortbed/2.29.2:
+    eu: {seen: "2.29.2", exp: "2.29.2"}
+    org: {seen: "2.29.2", exp: "2.29.2"}
+    org.au: {seen: "2.29.2", exp: "2.29.2"}
+  toolshed.g2.bx.psu.edu/repos/iuc/genrich/genrich/0.5+galaxy2:
+    eu: {seen: "0.5+galaxy2", exp: "0.5+galaxy2"}
+    org: {seen: "0.5+galaxy2", exp: "0.5+galaxy2"}
+    org.au: {seen: "0.5+galaxy2", exp: "0.5+galaxy2"}
+  toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_callpeak/2.1.1.20160309.6:
+    eu: {seen: "2.1.1.20160309.6", exp: "2.1.1.20160309.6"}
+    org: {seen: "2.1.1.20160309.6", exp: "2.1.1.20160309.6"}
+    org.au: {seen: "2.1.1.20160309.6", exp: "2.1.1.20160309.6"}
+  toolshed.g2.bx.psu.edu/repos/iuc/pygenometracks/pygenomeTracks/3.3:
+    eu: {seen: "3.3", exp: "3.3"}
+    org: {seen: "3.6", exp: "3.3"}
+    org.au: {seen: "3.3", exp: "3.3"}
+  toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/1.16.5:
+    eu: {seen: "1.16.5", exp: "1.16.5"}
+    org: {seen: "1.16.5", exp: "1.16.5"}
+    org.au: {seen: "1.16.6", exp: "1.16.5"}
+  overall:
+    emea: 1
+    apac: 1
+    amer: 1
+topics/transcriptomics/tutorials/scrna-preprocessing-tenx/tutorial.html:
+  toolshed.g2.bx.psu.edu/repos/iuc/dropletutils/dropletutils/1.10.0+galaxy1:
+    eu: {seen: "1.10.0+galaxy1", exp: "1.10.0+galaxy1"}
+    org: {seen: "1.10.0+galaxy1", exp: "1.10.0+galaxy1"}
+    org.au: {seen: "1.10.0+galaxy1", exp: "1.10.0+galaxy1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.9:
+    eu: {seen: "1.9", exp: "1.9"}
+    org: {seen: "1.9", exp: "1.9"}
+    org.au: {seen: "1.9", exp: "1.9"}
+  toolshed.g2.bx.psu.edu/repos/iuc/rna_starsolo/rna_starsolo/2.7.7a:
+    eu: {seen: "2.7.7a", exp: "2.7.7a"}
+    org: {seen: "2.7.7a", exp: "2.7.7a"}
+    org.au: {seen: "2.7.7a", exp: "2.7.7a"}
+  toolshed.g2.bx.psu.edu/repos/iuc/dropletutils/dropletutils/1.10.0+galaxy1:
+    eu: {seen: "1.10.0+galaxy1", exp: "1.10.0+galaxy1"}
+    org: {seen: "1.10.0+galaxy1", exp: "1.10.0+galaxy1"}
+    org.au: {seen: "1.10.0+galaxy1", exp: "1.10.0+galaxy1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.8+galaxy0:
+    eu: {seen: "1.8+galaxy0", exp: "1.8+galaxy0"}
+    org: {seen: "1.8+galaxy0", exp: "1.8+galaxy0"}
+    org.au: {seen: "1.8+galaxy0", exp: "1.8+galaxy0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/rna_starsolo/rna_starsolo/2.7.7a:
+    eu: {seen: "2.7.7a", exp: "2.7.7a"}
+    org: {seen: "2.7.7a", exp: "2.7.7a"}
+    org.au: {seen: "2.7.7a", exp: "2.7.7a"}
+  overall:
+    emea: 1
+    apac: 1
+    amer: 1
+topics/genome-annotation/tutorials/annotation-with-prokka/tutorial.html:
+  toolshed.g2.bx.psu.edu/repos/crs4/prokka/prokka/1.14.5:
+    eu: {seen: "1.14.5", exp: "1.14.5"}
+    org: {seen: "1.14.5", exp: "1.14.5"}
+    org.au: {seen: "1.14.5", exp: "1.14.5"}
+  toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.5+galaxy7:
+    eu: {seen: "1.16.5+galaxy7", exp: "1.16.5+galaxy7"}
+    org: {seen: "1.16.5+galaxy7", exp: "1.16.5+galaxy7"}
+    org.au: {seen: "1.16.10+galaxy0", exp: "1.16.5+galaxy7"}
+  toolshed.g2.bx.psu.edu/repos/crs4/prokka/prokka/1.14.5+galaxy0:
+    eu: {seen: "1.14.5+galaxy0", exp: "1.14.5+galaxy0"}
+    org: {seen: "1.14.5+galaxy0", exp: "1.14.5+galaxy0"}
+    org.au: {seen: "1.14.5", exp: "1.14.5+galaxy0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.9+galaxy0:
+    eu: {seen: "1.16.9+galaxy0", exp: "1.16.9+galaxy0"}
+    org: {seen: "1.16.9+galaxy0", exp: "1.16.9+galaxy0"}
+    org.au: {seen: "1.16.9+galaxy0", exp: "1.16.9+galaxy0"}
+  overall:
+    emea: 1
+    apac: 1
+    amer: 1
+topics/transcriptomics/tutorials/ref-based/tutorial.html:
+  toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/1.2.0:
+    eu: {seen: "1.2.0", exp: "1.2.0"}
+    org: {seen: "1.2.0", exp: "1.2.0"}
+    org.au: {seen: "1.2.0", exp: "1.2.0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/deg_annotate/deg_annotate/1.1.0:
+    eu: {seen: "1.1.0", exp: "1.1.0"}
+    org: {seen: "1.1.0", exp: "1.1.0"}
+    org.au: {seen: "1.1.0", exp: "1.1.0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/deseq2/deseq2/2.11.40.6:
+    eu: {seen: "2.11.40.6", exp: "2.11.40.6"}
+    org: {seen: "2.11.40.6", exp: "2.11.40.6"}
+    org.au: {seen: "2.11.40.6", exp: "2.11.40.6"}
+  toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_heatmap2/ggplot2_heatmap2/3.0.1:
+    eu: {seen: "3.0.1", exp: "3.0.1"}
+    org: {seen: "3.0.1", exp: "3.0.1"}
+    org.au: {seen: "3.0.1", exp: "3.0.1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/goseq/goseq/1.36.0+galaxy0:
+    eu: {seen: "1.36.0+galaxy0", exp: "1.36.0+galaxy0"}
+    org: {seen: "1.36.0+galaxy0", exp: "1.36.0+galaxy0"}
+    org.au: {seen: "1.36.0+galaxy0", exp: "1.36.0+galaxy0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/pathview/pathview/1.24.0+galaxy0:
+    eu: {seen: "1.24.0+galaxy0", exp: "1.24.0+galaxy0"}
+    org: {seen: "1.24.0+galaxy0", exp: "1.24.0+galaxy0"}
+    org.au: {seen: "1.24.0+galaxy0", exp: "1.24.0+galaxy0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/table_compute/table_compute/0.9.1:
+    eu: {seen: "0.9.2", exp: "0.9.1"}
+    org: {seen: "0.9.1", exp: "0.9.1"}
+    org.au: {seen: "0.9.2", exp: "0.9.1"}
+  toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/1.1.1:
+    eu: {seen: "1.1.1", exp: "1.1.1"}
+    org: {seen: "1.1.1", exp: "1.1.1"}
+    org.au: {seen: "1.1.1", exp: "1.1.1"}
+  toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.71:
+    eu: {seen: "0.71", exp: "0.71"}
+    org: {seen: "0.71", exp: "0.71"}
+    org.au: {seen: "0.71", exp: "0.71"}
+  toolshed.g2.bx.psu.edu/repos/iuc/featurecounts/featurecounts/1.6.2:
+    eu: {seen: "1.6.2", exp: "1.6.2"}
+    org: {seen: "1.6.2", exp: "1.6.2"}
+    org.au: {seen: "1.6.2", exp: "1.6.2"}
+  toolshed.g2.bx.psu.edu/repos/iuc/gtftobed12/gtftobed12/357:
+    eu: {seen: "357", exp: "357"}
+    org: {seen: "357", exp: "357"}
+    org.au: {seen: "357", exp: "357"}
+  toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.6:
+    eu: {seen: "1.6", exp: "1.6"}
+    org: {seen: "1.6", exp: "1.6"}
+    org.au: {seen: "1.6", exp: "1.6"}
+  toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star/2.6.0b-1:
+    eu: {seen: "2.6.0b-1", exp: "2.6.0b-1"}
+    org: {seen: "2.6.0b-1", exp: "2.6.0b-1"}
+    org.au: {seen: "2.7.7a", exp: "2.6.0b-1"}
+  toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/1.16.1:
+    eu: {seen: "1.16.1", exp: "1.16.1"}
+    org: {seen: "1.16.1", exp: "1.16.1"}
+    org.au: {seen: "1.16.6", exp: "1.16.1"}
+  toolshed.g2.bx.psu.edu/repos/nilesh/rseqc/rseqc_infer_experiment/2.6.4.1:
+    eu: {seen: "2.6.4.1", exp: "2.6.4.1"}
+    org: {seen: "2.6.4.1", exp: "2.6.4.1"}
+    org.au: {seen: "2.6.4.1", exp: "2.6.4.1"}
+  overall:
+    emea: 1
+    apac: 1
+    amer: 1
+topics/introduction/tutorials/r-advanced/tutorial.html: {}
+topics/ecology/tutorials/PAMPA-toolsuite-tutorial/tutorial.html:
+  toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.0:
+    eu: {seen: "0.1.0", exp: "0.1.0"}
+    org: {seen: "0.1.0", exp: "0.1.0"}
+    org.au: {seen: "0.1.0", exp: "0.1.0"}
+  toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/1.1.0:
+    eu: {seen: "1.1.0", exp: "1.1.0"}
+    org: {seen: "1.1.0", exp: "1.1.0"}
+    org.au: {seen: "1.1.0", exp: "1.1.0"}
+  toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_easyjoin_tool/1.1.2:
+    eu: {seen: "1.1.2", exp: "1.1.2"}
+    org: {seen: "1.1.2", exp: "1.1.2"}
+    org.au: {seen: "1.1.2", exp: "1.1.2"}
+  toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/1.1.1:
+    eu: {seen: "1.1.1", exp: "1.1.1"}
+    org: {seen: "1.1.1", exp: "1.1.1"}
+    org.au: {seen: "1.1.1", exp: "1.1.1"}
+  toolshed.g2.bx.psu.edu/repos/devteam/merge_cols/mergeCols1/1.0.2:
+    eu: {seen: "1.0.2", exp: "1.0.2"}
+    org: {seen: "null", exp: "1.0.2"}
+    org.au: {seen: "1.0.2", exp: "1.0.2"}
+  toolshed.g2.bx.psu.edu/repos/ecology/pampa_communitymetrics/pampa_communitymetrics/0.0.2:
+    eu: {seen: "0.0.2", exp: "0.0.2"}
+    org: {seen: "null", exp: "0.0.2"}
+    org.au: {seen: "null", exp: "0.0.2"}
+  toolshed.g2.bx.psu.edu/repos/ecology/pampa_glmcomm/pampa_glmcomm/0.0.2:
+    eu: {seen: "0.0.2", exp: "0.0.2"}
+    org: {seen: "null", exp: "0.0.2"}
+    org.au: {seen: "null", exp: "0.0.2"}
+  toolshed.g2.bx.psu.edu/repos/ecology/pampa_glmsp/pampa_glmsp/0.0.2:
+    eu: {seen: "0.0.2", exp: "0.0.2"}
+    org: {seen: "null", exp: "0.0.2"}
+    org.au: {seen: "null", exp: "0.0.2"}
+  toolshed.g2.bx.psu.edu/repos/ecology/pampa_plotglm/pampa_plotglm/0.0.2:
+    eu: {seen: "0.0.2", exp: "0.0.2"}
+    org: {seen: "null", exp: "0.0.2"}
+    org.au: {seen: "null", exp: "0.0.2"}
+  toolshed.g2.bx.psu.edu/repos/ecology/pampa_presabs/pampa_presabs/0.0.2:
+    eu: {seen: "0.0.2", exp: "0.0.2"}
+    org: {seen: "null", exp: "0.0.2"}
+    org.au: {seen: "null", exp: "0.0.2"}
+  toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regex1/1.0.0:
+    eu: {seen: "1.0.0", exp: "1.0.0"}
+    org: {seen: "1.0.0", exp: "1.0.0"}
+    org.au: {seen: "1.0.1", exp: "1.0.0"}
+  toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.0:
+    eu: {seen: "1.0.0", exp: "1.0.0"}
+    org: {seen: "1.0.0", exp: "1.0.0"}
+    org.au: {seen: "1.0.1", exp: "1.0.0"}
+  toolshed.g2.bx.psu.edu/repos/iuc/datamash_transpose/datamash_transpose/1.1.0:
+    eu: {seen: "1.1.0", exp: "1.1.0"}
+    org: {seen: "1.1.0", exp: "1.1.0"}
+    org.au: {seen: "1.1.0", exp: "1.1.0"}
+  overall:
+    emea: 1
+    apac: 0
+    amer: 0
+topics/galaxy-interface/tutorials/history-to-workflow/tutorial.html: {}
+topics/computational-chemistry/tutorials/cheminformatics/tutorial.html:
+  toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_mol2fps/0.2.0:
+    eu: {seen: "0.2.0", exp: "0.2.0"}
+    org: {seen: "0.2.0", exp: "0.2.0"}
+    org.au: {seen: "null", exp: "0.2.0"}
+  toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_nxn_clustering/0.4:
+    eu: {seen: "0.4", exp: "0.4"}
+    org: {seen: "0.2", exp: "0.4"}
+    org.au: {seen: "null", exp: "0.4"}
+  toolshed.g2.bx.psu.edu/repos/bgruening/chemical_data_sources/ctb_online_data_fetch/0.2:
+    eu: {seen: "0.2", exp: "0.2"}
+    org: {seen: "0.2", exp: "0.2"}
+    org.au: {seen: "0.2", exp: "0.2"}
+  toolshed.g2.bx.psu.edu/repos/bgruening/natural_product_likeness/ctb_np-likeness-calculator/2.1:
+    eu: {seen: "2.1", exp: "2.1"}
+    org: {seen: "null", exp: "2.1"}
+    org.au: {seen: "2.1", exp: "2.1"}
+  toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_change_title/0.0.1:
+    eu: {seen: "0.0.1", exp: "0.0.1"}
+    org: {seen: "null", exp: "0.0.1"}
+    org.au: {seen: "null", exp: "0.0.1"}
+  toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_compound_convert/0.1:
+    eu: {seen: "0.1", exp: "0.1"}
+    org: {seen: "null", exp: "0.1"}
+    org.au: {seen: "null", exp: "0.1"}
+  toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_filter/1.0:
+    eu: {seen: "1.0", exp: "1.0"}
+    org: {seen: "null", exp: "1.0"}
+    org.au: {seen: "null", exp: "1.0"}
+  toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_obgrep/0.1:
+    eu: {seen: "0.1", exp: "0.1"}
+    org: {seen: "null", exp: "0.1"}
+    org.au: {seen: "null", exp: "0.1"}
+  toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_remDuplicates/1.0:
+    eu: {seen: "1.0", exp: "1.0"}
+    org: {seen: "null", exp: "1.0"}
+    org.au: {seen: "null", exp: "1.0"}
+  toolshed.g2.bx.psu.edu/repos/bgruening/openbabel/ctb_remIons/1.0:
+    eu: {seen: "1.0", exp: "1.0"}
+    org: {seen: "null", exp: "1.0"}
+    org.au: {seen: "null", exp: "1.0"}
+  overall:
+    emea: 1
+    apac: 0
+    amer: 0
+topics/proteomics/tutorials/proteogenomics-novel-peptide-analysis/tutorial.html:
+  toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/0.3.3:
+    eu: {seen: "0.3.3", exp: "0.3.3"}
+    org: {seen: "0.3.3", exp: "0.3.3"}
+    org.au: {seen: "0.3.3", exp: "0.3.3"}
+  toolshed.g2.bx.psu.edu/repos/galaxyp/pep_pointer/pep_pointer/0.1.3:
+    eu: {seen: "0.1.3", exp: "0.1.3"}
+    org: {seen: "0.1.3", exp: "0.1.3"}
+    org.au: {seen: "0.1.3", exp: "0.1.3"}
+  toolshed.g2.bx.psu.edu/repos/galaxyp/peptide_genomic_coordinate/peptide_genomic_coordinate/0.1.1:
+    eu: {seen: "0.1.1", exp: "0.1.1"}
+    org: {seen: "0.1.1", exp: "0.1.1"}
+    org.au: {seen: "0.1.1", exp: "0.1.1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.0.0:
+    eu: {seen: "3.0.0", exp: "3.0.0"}
+    org: {seen: "3.1.1", exp: "3.0.0"}
+    org.au: {seen: "3.1.1", exp: "3.0.0"}
+  overall:
+    emea: 1
+    apac: 1
+    amer: 1
+topics/computational-chemistry/tutorials/md-simulation-gromacs/tutorial.html:
+  toolshed.g2.bx.psu.edu/repos/bgruening/get_pdb/get_pdb/0.1.0:
+    eu: {seen: "0.1.0", exp: "0.1.0"}
+    org: {seen: "0.1.0", exp: "0.1.0"}
+    org.au: {seen: "0.1.0", exp: "0.1.0"}
+  toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_grep_tool/1.1.1:
+    eu: {seen: "1.1.1", exp: "1.1.1"}
+    org: {seen: "1.1.1", exp: "1.1.1"}
+    org.au: {seen: "1.1.1", exp: "1.1.1"}
+  toolshed.g2.bx.psu.edu/repos/chemteam/gmx_editconf/gmx_editconf/2020.2+galaxy0:
+    eu: {seen: "2020.2+galaxy0", exp: "2020.2+galaxy0"}
+    org: {seen: "2020.2+galaxy0", exp: "2020.2+galaxy0"}
+    org.au: {seen: "2020.2+galaxy0", exp: "2020.2+galaxy0"}
+  toolshed.g2.bx.psu.edu/repos/chemteam/gmx_em/gmx_em/2020.2+galaxy0:
+    eu: {seen: "2020.2+galaxy0", exp: "2020.2+galaxy0"}
+    org: {seen: "2020.2+galaxy0", exp: "2020.2+galaxy0"}
+    org.au: {seen: "2020.2+galaxy0", exp: "2020.2+galaxy0"}
+  toolshed.g2.bx.psu.edu/repos/chemteam/gmx_setup/gmx_setup/2020.2+galaxy0:
+    eu: {seen: "2020.2+galaxy0", exp: "2020.2+galaxy0"}
+    org: {seen: "2020.2+galaxy0", exp: "2020.2+galaxy0"}
+    org.au: {seen: "2020.2+galaxy0", exp: "2020.2+galaxy0"}
+  toolshed.g2.bx.psu.edu/repos/chemteam/gmx_sim/gmx_sim/2020.2+galaxy0:
+    eu: {seen: "2020.2+galaxy0", exp: "2020.2+galaxy0"}
+    org: {seen: "2020.2+galaxy0", exp: "2020.2+galaxy0"}
+    org.au: {seen: "2020.2+galaxy0", exp: "2020.2+galaxy0"}
+  toolshed.g2.bx.psu.edu/repos/chemteam/gmx_solvate/gmx_solvate/2020.2+galaxy0:
+    eu: {seen: "2020.2+galaxy0", exp: "2020.2+galaxy0"}
+    org: {seen: "2020.2+galaxy0", exp: "2020.2+galaxy0"}
+    org.au: {seen: "2020.2+galaxy0", exp: "2020.2+galaxy0"}
+  overall:
+    emea: 1
+    apac: 1
+    amer: 1
+topics/transcriptomics/tutorials/scrna-umis/tutorial.html:
+  toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.72+galaxy1:
+    eu: {seen: "0.72+galaxy1", exp: "0.72+galaxy1"}
+    org: {seen: "0.72+galaxy1", exp: "0.72+galaxy1"}
+    org.au: {seen: "0.72+galaxy1", exp: "0.72+galaxy1"}
+  toolshed.g2.bx.psu.edu/repos/iuc/umi_tools_extract/umi_tools_extract/0.5.5.1:
+    eu: {seen: "0.5.5.1", exp: "0.5.5.1"}
+    org: {seen: "0.5.5.1", exp: "0.5.5.1"}
+    org.au: {seen: "0.5.5.1", exp: "0.5.5.1"}
+  toolshed.g2.bx.psu.edu/repos/peterjc/seq_filter_by_id/seq_filter_by_id/0.2.7:
+    eu: {seen: "0.2.7", exp: "0.2.7"}
+    org: {seen: "0.2.7", exp: "0.2.7"}
+    org.au: {seen: "null", exp: "0.2.7"}
+  overall:
+    emea: 1
+    apac: 0
+    amer: 1

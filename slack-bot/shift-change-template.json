@@ -1,0 +1,170 @@
+{
+	"blocks": [
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "<WELCOME_REGION>",
+				"emoji": true
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "<BYE_REGION>"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "We hope it's going well for you so far! Please let us know if you have any questions _or_ difficulties today, in the #general chat if they're general issues, and in the tutorial specific chat if they're related to the tutorials"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Reminders*"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "See Today's Schedule."
+			},
+			"accessory": {
+				"type": "button",
+				"text": {
+					"type": "plain_text",
+					"text": "Schedule",
+					"emoji": true
+				},
+				"value": "schedule",
+				"url": "https://shiltemann.github.io/global-galaxy-course/workshop#day1",
+				"action_id": "button-action"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Don't forget to check the *FAQ document* in each channel's description (at the top of the screen on desktop)"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "When asking a question:\n1. Use threads\n2. Say which server (<https://usegalaxy.org.au|.org.au>, <https://usegalaxy.eu|.eu>, or <https://usegalaxy.org|.org>) you're using.\n3. Share all of the details (what did the tool say? what was the error? did you see more information in the bug-report icon?)"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Servers*\nGet Registered on your closest Galaxy server."
+			}
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "UseGalaxy.eu :earth_africa:",
+						"emoji": true
+					},
+					"url": "https://usegalaxy.eu"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "UseGalaxy.org.au :earth_asia:",
+						"emoji": true
+					},
+					"url": "https://usegalaxy.org.au"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "UseGalaxy.org :earth_americas:",
+						"emoji": true
+					},
+					"url": "https://usegalaxy.org"
+				}
+			]
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Signup for TIaaS if you haven't yet! It helps us in reporting to have anonymous data provided by the TIaaS service on which tutorials you all completed. If you're using usegalaxy.org, be sure to tag your history `#training` for faster job execution."
+			}
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "UseGalaxy.eu :earth_africa:",
+						"emoji": true
+					},
+					"url": "https://usegalaxy.eu/join-training/smorgasbord"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "UseGalaxy.org.au :earth_asia:",
+						"emoji": true
+					},
+					"url": "https://usegalaxy.org.au/join-training/smorgasbord"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Social*\nDone for the day? Or just need a break? Join #social to chat with other attendees, or one of the game-specific social channels: #social-among-us, #social-codenames, #social-jackbox, #social-pictionary"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Commnuity*\nEnjoying Galaxy? Want to become part of the community? Check out <https://youtu.be/kKN2C9dnlsQ|the community video> and join us!"
+			}
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "plain_text",
+					"text": "Author: GTN Smörgåsbord Organisers",
+					"emoji": true
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{% assign captions = include.session.video.captions | size %}
+<div class="flex-row" style="margin-top:1em;">
+
+ <div class="col-md-8">
+  <div style="position:relative;padding-top:56.25%;">
+   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+    {% if include.session.video.external %}
+    src="{{include.session.video.link}}"
+    {% else %}
+    src="https://www.youtube.com/embed/{{include.session.video.link}}"
+    {% endif %}
+    frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+   </iframe>
+  </div>
+  <div style="margin-top:1em;">
+   <strong>Video Length:</strong> {{include.session.video.length | downcase }} <br/>
+   <strong>Subtitles By:</strong> {% for name in include.session.video.captions %}{% unless forloop.first %}, {% endunless %} {{ site.data.instructors[name].name}}{% endfor %}
+{% if captions == 0 %} We apologize for lack of captions on this video. If you are reliant on captions, please check back here soon.{% endif %}<br/>
+   <strong>Description:</strong> {{include.session.description}}
+  </div>
+ </div>
+
+ {% if include.session.speaker %}
+ <div class="col-md-3">
+  {% include instructor_card.html who=include.session.speaker %}
+ </div>
+ {% endif %}
+</div><!-- end video session -->
+

@@ -1,0 +1,60 @@
+
+{% assign emea = 1 %}
+{% assign amer = 1 %}
+{% assign apac = 1 %}
+{% assign mats = 0 %}
+{% assign other_servers = [] %}
+
+{% for mat in include.material %}
+    {% if mat.type == "Tutorial" %}
+        {% if mat.link contains "tutorial.html" %}
+            {% if site.data.servers[mat.link]['overall'] %}
+                {% assign mats = 1 %}
+            {% endif %}
+
+            {% if site.data.servers[mat.link]['overall']['emea'] == 0 %}
+                {% assign emea = 0 %}
+            {% endif %}
+            {% if site.data.servers[mat.link]['overall']['apac'] == 0 %}
+                {% assign apac = 0 %}
+            {% endif %}
+            {% if site.data.servers[mat.link]['overall']['amer'] == 0 %}
+                {% assign amer = 0 %}
+            {% endif %}
+        {% endif %}
+    {% endif %}
+
+    {% if site.data.overrides[mat.link]['overall'] %}
+        {% assign mats = 1 %}
+        {% assign emea = site.data.overrides[mat.link]['overall']['emea'] %}
+        {% assign amer = site.data.overrides[mat.link]['overall']['amer'] %}
+        {% assign apac = site.data.overrides[mat.link]['overall']['apac'] %}
+    {% endif %}
+
+    {% if site.data.overrides[mat.link]['override'] %}
+        {% assign other_servers = site.data.overrides[mat.link]['override'] %}
+    {% endif %}
+{% endfor %}
+
+
+{% if mats == 1 %}
+<br/>
+<h3>Supported Servers</h3>
+<ul>
+    {% if apac == 1 %}
+        <li><a href="https://usegalaxy.org.au">🌏 UseGalaxy.org.au</a></li>
+    {% endif %}
+    {% if emea == 1 %}
+        <li><a href="https://usegalaxy.eu">🌍 UseGalaxy.eu</a></li>
+    {% endif %}
+    {% if amer == 1 %}
+        <li><a href="https://usegalaxy.org">🌎 UseGalaxy.org</a></li>
+    {% endif %}
+
+    {% if other_servers %}
+        {% for server in other_servers %}
+            <li><a href="{{ server }}">{{ server }}</a></li>
+        {% endfor %}
+    {% endif %}
+</ul>
+{% endif %}

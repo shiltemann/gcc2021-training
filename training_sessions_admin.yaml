@@ -1,0 +1,55 @@
+---
+intro:
+  title: Welcome & Practical Info
+  sessions:
+    - name: Welcome and introduction
+      speaker: hexylena
+      video:
+        link: R-__JqlLCdM
+        length: 25M
+        captions: hexylena
+      support_channel: "#general"
+      support_link: TODO
+
+day1:
+  title: "Day 1"
+  sessions:
+    - name: Introduction to Ansible
+      type: Lecture
+      speaker: Sergey Golitsynskiy
+      video:
+        link: KFpbfmN0OTE
+        length: 5M
+        captions: martenson
+      material:
+        - type: Slides
+          link: "topics/admin/tutorials/ansible/slides.html"
+      support_channel: "#01-ansible"
+      support_link:
+
+    - name: Galaxy Ansible Introduction
+      type: Practical
+      speaker: martenson
+      video:
+        link: 2KdT0sYKUeE
+        length: 1H
+        captions: martenson
+      material:
+        - type: Tutorial
+          link: topics/admin/tutorials/ansible/tutorial.html
+      support_channel:  "#02-ansible-galaxy"
+      support_link:
+
+
+    - name: Playbook Overview
+      speaker: hexylena
+      video:
+        link: il83uApg7Hc
+        length:
+        captions: [hexylena, shiltemann]
+      material:
+        - type: Slides
+          link: topics/admin/tutorials/ansible-galaxy/slides.html
+      support_channel: "#02-ansible-galaxy"
+      support_link:
+

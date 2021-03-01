@@ -1,0 +1,26 @@
+{% assign speaker = site.data.instructors[include.who].name %}
+{% assign photo = site.data.instructors[include.who].photo %}
+{% assign aff = site.data.instructors[include.who].affiliation %}
+{% assign affiliation = site.data.affiliations[aff].name %}
+{% assign affiliation-url = site.data.affiliations[aff].link %}
+{% assign affiliation-logo = site.data.affiliations[aff].logo %}
+{% assign affiliation-mouseover = site.data.affiliations[aff].mouseover %}
+
+<div class="card speaker" style="width:200px">
+  <img class="card-img-top"
+   {% if photo %}  src="{{site.baseurl}}/{{site.image_dir}}/instructors/{{photo}}"
+   {% else %}
+   src="https://avatars.githubusercontent.com/{{include.who}}"
+   {% endif %}
+   alt="{{site.data.instructors[include.who].name}}">
+  <div class="card-body">
+    <h4 class="card-title">{{site.data.instructors[include.who].name}}</h4>
+    <p class="card-text"><a href="{{affiliation-url}}"><span title="{{affiliation-mouseover}}">{{affiliation}}</span></a>
+    {% if include.who == 'awspolly' %} This helps us keep the video slides up-to-date more easily. {% endif %}
+    </p>
+    {% if affiliation-logo  %}
+    <div class="logo"><img src="{{site.baseurl}}/{{site.logo_dir}}/{{affiliation-logo}}" alt="{{affiliation}}"/></div>
+    {% endif %}
+    <!--<a href="#" class="btn btn-primary">See Profile</a>-->
+  </div>
+</div>
