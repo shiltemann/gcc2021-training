@@ -12,11 +12,7 @@ links to all training materials can be found by clicking on each session
 **Note:** Problems viewing this page? Try the [simple view]({{site.baseurl}}/workshop-simpleview) instead.
 
 
-<a href="{{site.baseurl}}/workshop"><button type="button" class="btn btn-warning btn-lg">Welcome! The course has ended, but you can still work through the materials on your own.</button></a>
-
-**Note:** Slack will not be as active anymore, but you can also ask your quesions on Gitter.
-
-<a href="https://gitter.im/Galaxy-Training-Network/Lobby"><button type="button" class="btn btn-info btn-lg">GTN Gitter channel</button></a>
+<a href="{{site.baseurl}}/workshop"><button type="button" class="btn btn-warning btn-lg">Welcome! This Training will start June 28, 2021.</button></a>
 
 
 
