@@ -10,7 +10,7 @@ In June/July 2021, we will organize a global 5-day [Galaxy](https://galaxyprojec
 This will be an **online** event, spanning **all time zones**. All training sessions are pre-recorded, so you can work through them **at your own pace**, and manage your own time. A large community of GTN trainers will be available **24/7 online support** to answer all your questions on Slack (a chat platform).
 
 
-We will have **3 Training Tracks** aimed at scientists, developers and system administrators.
+We will have **3 Training Tracks**, aimed at scientists, developers and system administrators.
 
 [**The Galaxy for Scientists Track**](#science-track) will cover a wide range of topics including NGS Analysis (DNA & RNA), Proteomics, Microbial Analysis, Machine Learning, using R in Galaxy, Visualisation, Clinical workflows (including COVID-19), Nanopore Analysis, Single-cell RNASeq, Epigenetics, Climate Science, Cheminformatics, Advanced Galaxy features (scaling your analysis) and more! **YOU** can choose which of these training modules you want to follow during the week of training.
 
