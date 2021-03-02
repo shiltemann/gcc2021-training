@@ -716,7 +716,7 @@ proteomics:
 
 
 microbial:
-  title: Clinical Microbial Analysis using Galaxy
+  title: Microbial Analysis using Galaxy
   sessions:
     - name: "Variant Analysis: M. Tuberculosis Variant Analysis (Lecture)"
       speaker: pvanheus
