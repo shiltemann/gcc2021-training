@@ -14,12 +14,12 @@ We will have **3 Training Tracks**, aimed at scientists, developers and system a
 
 [**The Galaxy for Scientists Track**](#science-track) will cover a wide range of topics including NGS Analysis (DNA & RNA), Proteomics, Microbial Analysis, Machine Learning, using R in Galaxy, Visualisation, Clinical workflows (including COVID-19), Nanopore Analysis, Single-cell RNASeq, Epigenetics, Climate Science, Cheminformatics, Advanced Galaxy features (scaling your analysis) and more! **YOU** can choose which of these training modules you want to follow during the week of training.
 
-[**The Galaxy for Developers Track**](#dev-track) will teach you how Galaxy works internally (frontend and backend), how to add new features for Galaxy, how to build the best tools and visualisations, how to interact with the Galaxy API using BioBlend, and more!
+[**The Galaxy for Developers Track**](#developer-track) will teach you how Galaxy works internally (frontend and backend), how to add new features for Galaxy, how to build the best tools and visualisations, how to interact with the Galaxy API using BioBlend, and more!
 
 [**The Galaxy for Administrators Track**](#admin-track) teaches you how to be a stellar admin, easily deploying a production-ready Galaxy with Ansible!
 
 
-The Science and Dev tracks do not have a predetermined path, there will be a number of training “modules” from which you can choose covering a variety of topics. You can complete these at your own pace and on your own schedule. For the Admin track, there is a set 5-day curriculum you will follow to build your own Galaxy.
+The Science and Developer tracks do not have a predetermined path, there will be a number of training “modules” covering a variety of topics from which you can choose to build your own training program for the week. For the Admin track, there is a set 5-day curriculum that will guide you through the end-to-end process of building your own Galaxy. For all 3 tracks you can work through the materials at your own pace and according to your own time schedule. Instructors will be online 24/7 to help you with these trainin sessions.
 
 Please see the full program below for more details on the training
 
