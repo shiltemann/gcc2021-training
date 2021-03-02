@@ -97,16 +97,10 @@ intro:
 
 
 
-day1:
+galaxyintro:
   title: "Introduction to Galaxy and NGS analysis"
   description: "Today we start by introducing the Galaxy Platform, and show you how to analyze your NGS data using Galaxy. Today we have a mixture of lecutres, demos, and hands-on tutorials."
   sessions:
-
-    - name: "Icebreaker: Introduce yourself in Slack!"
-      type: icebreaker
-      prompt: "Introduce yourself, tell us where you're joining from, and one thing about your surroundings (e.g. it's snowing outside, there's a squirrel on my porch, my cat is on my keyboard)"
-      example: "Hi! My name is Saskia and I am joining from The Netherlands, I am currently in my hammock looking at the snow falling down outside."
-
 
     - name: "A Very Short Introduction to Galaxy"
       type: Lecture/Demo
@@ -150,7 +144,10 @@ day1:
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01ES914GCU"
       faq: "https://docs.google.com/document/d/e/2PACX-1vQ1SZCsxEcRXp39J2BcFAjXyC3B20sWzI7IVgBgwe2pcC9b0cza417jzBPYJVqCRNbU0dD4rv_y6u6P/pub"
 
-
+ngsintro:
+  title: Introduction to NGS Analysis
+  description: This module will introduce the basics of NGS analysis, from cleaning your data to mapping and assembly
+  sessions:
     - name: "Demo: NGS Data Logistics using SARS-CoV-2 data"
       type: Demo
       description: |
@@ -280,8 +277,75 @@ day1:
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01EKMD8VC7"
       faq: "https://docs.google.com/document/d/e/2PACX-1vTed-1_nZK1liUdm5IZn_Qas7LcJE700WwsMAgT282Q1jx0Nkk4lZzzN47P9aS1suUAeh0ljIUYgXpG/pub"
 
-    - name: "Wrap up & Socialize"
-      type: wrapup
+
+
+ngsadvanced:
+  title: "Advanced NGS Analysis"
+  sessions:
+    - name: "Assembly: Unicycler assembly of SARS-CoV-2 genome"
+      speaker: gallardoalba
+      type: Tutorial
+      description: "This tutorial guides you through the preprocessing of sequencing data of bronchoalveolar lavage fluid (BALF) samples obtained from early COVID-19 patients in China. Since such samples are expected to be contaminated signficantly with human sequenced reads, the goal is to enrich the data for SARS-CoV-2 reads by identifying and discarding reads of human origin before trying to assemble the viral genome sequence."
+      video:
+        link: jNFLYhjgJPs
+        length: 25M
+        captions: [mtekman]
+      material:
+        - type: Slides
+          link: topics/assembly/tutorials/assembly-with-preprocessing/slides.html
+        - type: Tutorial
+          link: topics/assembly/tutorials/assembly-with-preprocessing/tutorial.html
+      support_channel: "#5-h_unicycler-assembly-sars-cov2-genome"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01GJLDS01K"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vRcBWHbIIo6t_vXtZiaW_6t2qIUYwjiptC2MRVUG5KC31rwPg8fO9yCma22HqIV6Hu1T3wJXaV-GwxU/pub"
+
+    - name: "Genome Annotation: Annotation of a prokaryotic genome: Slides"
+      speaker: awspolly
+      type: Lecture
+      description: "Genome annotation is a multi-level process that includes prediction of protein-coding genes, as well as other functional genome units such as structural RNAs, tRNAs, small RNAs, pseudogenes, control regions, direct and inverted repeats, insertion sequences, transposons and other mobile elements."
+      video:
+        link: eqHy-Cc7k4Q
+        length: 3M
+        captions: [abretaud]
+      material:
+        - type: Tutorial
+          link: topics/genome-annotation/tutorials/annotation-with-prokka/slides.html
+      support_channel: "#5-g_annotation-prokaryotic-genome"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01GTTD1BE0"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vSK-RjeRJC38_FSM9zC6SrfkvIz1W4uEMQkN95qk5OemvANuPF3aNEogVEvF6JEXeMomo-oMwi32Gv2/pub"
+
+    - name: "Genome Annotation: Annotation of a prokaryotic genome: Hands-on!"
+      speaker: abretaud
+      type: Tutorial
+      description: "In this tutorial we will use Prokka to annotate a draft genome sequence. Prokka finds and annotates features (both protein coding regions and RNA genes, i.e. tRNA, rRNA) present on on a sequence. Prokka can be used to annotate bacterial, archaeal and viral genomes quickly, generating standard output files in GenBank, EMBL and gff formats."
+      video:
+        link: B8pIQZPf21Y
+        length: 20M
+        captions: [abretaud]
+      material:
+        - type: Tutorial
+          link: topics/genome-annotation/tutorials/annotation-with-prokka/tutorial.html
+        - type: Slides
+          link: topics/genome-annotation/videos/
+      support_channel: "#5-g_annotation-prokaryotic-genome"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01GTTD1BE0"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vSK-RjeRJC38_FSM9zC6SrfkvIz1W4uEMQkN95qk5OemvANuPF3aNEogVEvF6JEXeMomo-oMwi32Gv2/pub"
+
+    - name: "Epigenetics: ATAC-Seq data analysis"
+      type: Tutorial
+      speaker: [hrhotz, lldelisle, heylf]
+      description: "In many eukaryotic organisms, such as humans, the genome is tightly packed and organized with the help of nucleosomes (chromatin). A nucleosome is a complex formed by eight histone proteins that is wrapped with ~147bp of DNA. When the DNA is being actively transcribed into RNA, the DNA will be opened and loosened from the nucleosome complex. Many factors, such as the chromatin structure, the position of the nucleosomes, and histone modifications, play an important role in the organization and accessibility of the DNA. Consequently, these factors are also important for the activation and inactivation of genes. Assay for Transposase-Accessible Chromatin using sequencing (ATAC-Seq) is a method to investigate the accessibility of chromatin and thus a method to determine regulatory mechanisms of gene expression. The method can help identify promoter regions and potential enhancers and silencers. "
+      material:
+        - type: Tutorial
+          link: topics/epigenetics/tutorials/atac-seq/tutorial.html
+          title: ATAC-Seq data analysis
+      support_channel: "#5-k_atac-seq"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01LRHRC6A3"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vQnEmZyZF3rLhU3mA-g5L8DVaTW8GHYTikxYnuvQG7sCT66owCIc-4KLLGw9S2nIo1XPPtV9Ledtm3n/pub"
+
+
+
+
 
 day2:
   title: "RNA-Seq"
@@ -392,20 +456,12 @@ rnaseqandr:
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01FD3AFLN5"
       faq: "https://docs.google.com/document/d/e/2PACX-1vTRNzQHT9qyPr9kdWOM1l8HiD0A1xCRMW7bYnUCcLYmF5yJFytYSOVrq_JFtRvqnat-_41JBkQray2F/pub"
 
-    - name: "Wrap up & Socialize"
-      type: wrapup
 
 
 rnaseqsinglecell:
   title: "Single-cell RNA-Seq Analysis"
-  description: "Today's videos provide a short demo of the analysis, please work through the tutorials on your own first to get all the details and background information, and refer to the videos if you get stuck."
   subday: true
   sessions:
-    - name: "Icebreaker: Let us know you've joined in Slack!"
-      type: icebreaker
-      prompt: "Share with us your favorite dish (food or drink) bonus points for recipes! ;)"
-
-
     - name: "An introduction to scRNA-seq data analysis"
       speaker: awspolly
       type: Lecture
@@ -471,17 +527,11 @@ rnaseqsinglecell:
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01FQ9RLLF2"
       faq: "https://docs.google.com/document/d/e/2PACX-1vTdqGjslXMxUjyjqwkNtidsXFl6SRULFKFug_2TYBl-dYXIDEnXb59nMyZ5qJc6bXI-fP5cPLfkXbHV/pub"
 
-    - name: "Wrap up & Socialize"
-      type: wrapup
 
 proteomics:
   title: "Proteomics"
   description: In this module we explore the world of proteomics! Today we have a mixture of lectures, hands-on tutorials, and workflow demonstrations. The FAQ document provides links to example histories if you would like to explore the outputs of the demos yourself.
   sessions:
-    - name: "Icebreaker: Say Hi in Slack!"
-      type: icebreaker
-      prompt: "Please let us know what you favorite thing about the course is so far."
-
     - name: "Introduction to mass spectrometry based proteomics data analysis"
       speaker: awspolly
       type: Lecture
@@ -513,6 +563,13 @@ proteomics:
       support_channel: "#4-1_maxquant-and-msstats"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01F0LY58R1"
       faq: "https://docs.google.com/document/d/e/2PACX-1vS4GuHPJrRcpGmNCXBTJ9wyUp6X33Xe6Ou8N_q0Ko5AJ-_rUy7ZsAu-x6R9yf7iRZLxK-t_e-O4Xoc6/pub"
+
+    - name: "DIA Mass-spectrometry with EncyclopeDIA"
+      speaker:
+      video:
+        link:
+        length:
+        captions:
 
     - name: "Introduction to Proteogenomics"
       speaker: timothygriffin
@@ -595,8 +652,37 @@ proteomics:
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01ETNTP6HL"
       faq: "https://docs.google.com/document/d/e/2PACX-1vTjQFq5wdkZeEFiQq-E8DkOTlLI9PChgWrwekHjPYBqndlb6kuAoXDiuiJaX5N09r63dWTyLPnnL8BK/pub"
 
+    - name: "Proteomics: ProteoRE tool for Functional Analysis of a Protein List"
+      speaker: yvesvdb
+      type: Tutorial
+      description: "This tutorial covers an annotation pipeline for a protein list identified by LC-MS/MS experiments."
+      video:
+        link: qG7GZc6BeGY
+        length: 30M
+        captions: [combesf]
+      material:
+        - type: Tutorial
+          link: topics/proteomics/tutorials/proteome_annotation/tutorial.html
+          title: Annotating a protein list identified by LC-MS/MS experiments
+      support_channel: "#5-i_proteore-protein-list-annotation"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01EYBNQRL5"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vT7_ulDI8Mf4BpE8JPmvXYVqk1UmMGEFJ6Cj2ZvlxwLfP8riaaVicPtGR5HeFDAEmKMjaXPcub6cL1w/pub"
 
-    - name: "Metaproteomics"
+    - name: "Proteomics: ProteoRE tool for biomarker discovery"
+      speaker: [yvesvdb,combesf]
+      type: Tutorial
+      description: "A biomarker is a measurable biological component that can be routinely detected in clinical practice and reflects a disease state, response to therapeutic treatment, or other relevant biological state. In this tutorial we introduce successively the tools of this pipeline, and guide you to execute them in order to complete the entire pipeline on a concrete example."
+      material:
+        - type: Tutorial
+          link: topics/proteomics/tutorials/biomarker_selection/tutorial.html
+          title: Biomarker candidate identification
+      support_channel: "#5-j_proteore-biomarkers-discovery"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01FP2AHUV9"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vQVj92upQT2Z4B6ZF6kmhrbnHesbkS--e5ge14iRbxDsxRHuOb52XJE8DI584asA0t2GJIjS_qliPZu/pub"
+
+
+    - &metaproteomics1
+      name: "Metaproteomics Introduction"
       speaker: pratikdjagtap
       type: Tutorial
       description: |
@@ -614,8 +700,19 @@ proteomics:
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01FD4276P3"
       faq: "https://docs.google.com/document/d/e/2PACX-1vTX6JQG4oAKXvQSJU52thudorwANPtzIedTiTQU1NbXQYYfrNkBheN-gHu0O91bCOIk5wQBpH1mIk7v/pub"
 
-    - name: "Wrap up & Socialize"
-      type: wrapup
+    - &metaproteomics2
+      name: "Metaproteomics Analysis of COVID-19 Data"
+      speaker: pratikdjagtap
+      type: Tutorial
+      description: TODO
+      video:
+        link:
+        length:
+        captions:
+      material:
+      support_channel: "#4-3_metaproteomics"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01FD4276P3"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vTX6JQG4oAKXvQSJU52thudorwANPtzIedTiTQU1NbXQYYfrNkBheN-gHu0O91bCOIk5wQBpH1mIk7v/pub"
 
 
 microbial:
@@ -683,7 +780,7 @@ microbial:
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01FDV16V25"
       faq: "https://docs.google.com/document/d/e/2PACX-1vRPPYdMfIA9R_w5y__jV9qdKbijJyOJiclx-2ACKFkAH8aIdlU3pY84xhivWEOmeEn_XQv8StFcjDLP/pub"
 
-    - name: "Wetlab Demo: Genomic DNA sequencing by Oxford Nanopore MinIon"
+    - name: "Metagenomics Wetlab Demo: Genomic DNA sequencing by Oxford Nanopore MinIon"
       speaker: miaomiaozhou88
       type: Demo
       description: "This video will show you the full process of sequencing a bacterial genome using the Oxford Nanopore MinION sequencer."
@@ -695,7 +792,7 @@ microbial:
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01F1GJ7JJX"
       faq: "https://docs.google.com/document/d/e/2PACX-1vQlG_Onq011MQqyIu4D_erDqiLKAMLnduhHr5cDWwbXVqlU9VZhmm4OT_zphKqb8TEZprAFo8rdPXjO/pub"
 
-    - name: "Clinical Microbiomics: Nanopore Whole Bacterial Genome Sequencing"
+    - name: "Metagenomics in the Clinic: Nanopore Whole Bacterial Genome Sequencing"
       speaker: aheikema
       type: Lecture
       description: Nanopore Sequencing has many applications in a clinical setting. In this lecture, Astrid Heikema discusses how her group at the Erasmus Medical Center uses Nanopore for sequencing of bacterial Genomes.
@@ -726,74 +823,37 @@ microbial:
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01F1GJ7JJX"
       faq: "https://docs.google.com/document/d/e/2PACX-1vQlG_Onq011MQqyIu4D_erDqiLKAMLnduhHr5cDWwbXVqlU9VZhmm4OT_zphKqb8TEZprAFo8rdPXjO/pub"
 
-
-
-
-day5:
-  title: "Choose Your Own Adventure!"
-  description: |
-     Today YOU create the program. Below are set of suggested tutorials.
-     Some have videos, some are self-study tutorials. All have experienced
-     instructors online for support. Want to try something else from the GTN
-     website? Also fine! We will do our best to help you with it.
-
-day5a:
-  title: "Video Tutorials"
-  subday: true
-  sessions:
-    - name: "Icebreaker: Say Hi in Slack!"
-      type: icebreaker
-      prompt: "Share one of your favorite books, tv shows, movies or games that you would recommend to others."
-
-    - name: "Assembly: Unicycler assembly of SARS-CoV-2 genome"
-      speaker: gallardoalba
+    - name: "Metatranscriptomics analysis using microbiome RNA-seq data"
+      speaker: subinamehta
       type: Tutorial
-      description: "This tutorial guides you through the preprocessing of sequencing data of bronchoalveolar lavage fluid (BALF) samples obtained from early COVID-19 patients in China. Since such samples are expected to be contaminated signficantly with human sequenced reads, the goal is to enrich the data for SARS-CoV-2 reads by identifying and discarding reads of human origin before trying to assemble the viral genome sequence."
       video:
-        link: jNFLYhjgJPs
-        length: 25M
-        captions: [mtekman]
+        link:
+        length:
+        captions:
       material:
         - type: Slides
-          link: topics/assembly/tutorials/assembly-with-preprocessing/slides.html
+          link: topics/metagenomics/tutorials/metatranscriptomics/slides.html
+          title: Introduction to Metatranscrtiptomics
         - type: Tutorial
-          link: topics/assembly/tutorials/assembly-with-preprocessing/tutorial.html
-      support_channel: "#5-h_unicycler-assembly-sars-cov2-genome"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01GJLDS01K"
-      faq: "https://docs.google.com/document/d/e/2PACX-1vRcBWHbIIo6t_vXtZiaW_6t2qIUYwjiptC2MRVUG5KC31rwPg8fO9yCma22HqIV6Hu1T3wJXaV-GwxU/pub"
+          link: topics/metagenomics/tutorials/metatranscriptomics/tutorial.html
 
-    - name: "Climate: Functionally Assembled Terrestrial Ecosystem Simulator (FATES): Lecture"
-      speaker: awspolly
-      type: Lecture
-      description: "Terrestrial ecosystem models have been widely used to study the impact of climate changes on vegetation and terrestrial biogeochemical cycles in climate modelling community. They are also more and more applied in ecological studies to help ecologists to better understand the processes. But the technical challenges are still too high for most of the ecologists to use them. This practical aims at familiarizing you (especially ecologists) with running a terrestrial ecosystem model (i.e., CLM-FATES) at site-level in Galaxy and analyzing the model results. Slides by Anne Fouilloux."
-      video:
-        link: Z57C7MQG95s
-        length: 8M
-        captions: [annefou]
-      material:
-        - type: Slides
-          link: topics/climate/tutorials/fates/slides.html
-          title: Functionally Assembled Terrestrial Ecosystem Simulator (FATES)
-      support_channel: "#5-f_climate-fates"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01M63SFH34"
-      faq: "https://docs.google.com/document/d/e/2PACX-1vS5ucF3H8v1V43JPtw35V-pgGfhTbrHtjjN6X0BddzWispwuRElPYw7sWN1e8R360mdHyC1NcOSqxiy/pub"
+    - *metaproteomics1
+    - *metaproteomics2
 
-    - name: "Climate: Functionally Assembled Terrestrial Ecosystem Simulator (FATES): Hands-on!"
-      speaker: annefou
+
+
+viz:
+ title: Visualisation in Galaxy
+ description: This module will cover various ways of visualizing your data in Galaxy
+ sessions:
+    - name: "Introduction to Visualisations in Galaxy"
+      speaker: shiltemann
       type: Tutorial
-      description: "Terrestrial ecosystem models have been widely used to study the impact of climate changes on vegetation and terrestrial biogeochemical cycles in climate modelling community. They are also more and more applied in ecological studies to help ecologists to better understand the processes. But the technical challenges are still too high for most of the ecologists to use them. This practical aims at familiarizing you (especially ecologists) with running a terrestrial ecosystem model (i.e., CLM-FATES) at site-level in Galaxy and analyzing the model results."
+      descriptions: "This tutorial will cover various ways to visualize your data in Galaxy"
       video:
-        link: 0LsEx11eLiI
-        length: 1H20M
-        captions: [s3by01]
-      material:
-        - type: Tutorial
-          link: topics/climate/tutorials/fates/tutorial.html
-          title: Functionally Assembled Terrestrial Ecosystem Simulator (FATES)
-      support_channel: "#5-f_climate-fates"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01M63SFH34"
-      faq: "https://docs.google.com/document/d/e/2PACX-1vS5ucF3H8v1V43JPtw35V-pgGfhTbrHtjjN6X0BddzWispwuRElPYw7sWN1e8R360mdHyC1NcOSqxiy/pub"
-
+        link:
+        length:
+        captions:
 
     - name: "Circos Visualisation in Galaxy: Intro"
       speaker: hexylena
@@ -827,62 +887,6 @@ day5a:
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01ELJ6QTQF"
       faq: "https://docs.google.com/document/d/e/2PACX-1vSx65Dr5sFCvzvJoRGVMU9i4NJZTkpQktvTEER3T_Pd8PSrR_x9GsUBYBAEnS6-qStu7F-bI_nj2mgT/pub"
 
-    - name: "Genome Annotation: Annotation of a prokaryotic genome: Slides"
-      speaker: awspolly
-      type: Lecture
-      description: "Genome annotation is a multi-level process that includes prediction of protein-coding genes, as well as other functional genome units such as structural RNAs, tRNAs, small RNAs, pseudogenes, control regions, direct and inverted repeats, insertion sequences, transposons and other mobile elements."
-      video:
-        link: eqHy-Cc7k4Q
-        length: 3M
-        captions: [abretaud]
-      material:
-        - type: Tutorial
-          link: topics/genome-annotation/tutorials/annotation-with-prokka/slides.html
-      support_channel: "#5-g_annotation-prokaryotic-genome"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01GTTD1BE0"
-      faq: "https://docs.google.com/document/d/e/2PACX-1vSK-RjeRJC38_FSM9zC6SrfkvIz1W4uEMQkN95qk5OemvANuPF3aNEogVEvF6JEXeMomo-oMwi32Gv2/pub"
-
-    - name: "Genome Annotation: Annotation of a prokaryotic genome: Hands-on!"
-      speaker: abretaud
-      type: Tutorial
-      description: "In this tutorial we will use Prokka to annotate a draft genome sequence. Prokka finds and annotates features (both protein coding regions and RNA genes, i.e. tRNA, rRNA) present on on a sequence. Prokka can be used to annotate bacterial, archaeal and viral genomes quickly, generating standard output files in GenBank, EMBL and gff formats."
-      video:
-        link: B8pIQZPf21Y
-        length: 20M
-        captions: [abretaud]
-      material:
-        - type: Tutorial
-          link: topics/genome-annotation/tutorials/annotation-with-prokka/tutorial.html
-        - type: Slides
-          link: topics/genome-annotation/videos/
-      support_channel: "#5-g_annotation-prokaryotic-genome"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01GTTD1BE0"
-      faq: "https://docs.google.com/document/d/e/2PACX-1vSK-RjeRJC38_FSM9zC6SrfkvIz1W4uEMQkN95qk5OemvANuPF3aNEogVEvF6JEXeMomo-oMwi32Gv2/pub"
-
-    - name: "Proteomics: ProteoRE tool for Functional Analysis of a Protein List"
-      speaker: yvesvdb
-      type: Tutorial
-      description: "This tutorial covers an annotation pipeline for a protein list identified by LC-MS/MS experiments."
-      video:
-        link: qG7GZc6BeGY
-        length: 30M
-        captions: [combesf]
-      material:
-        - type: Tutorial
-          link: topics/proteomics/tutorials/proteome_annotation/tutorial.html
-          title: Annotating a protein list identified by LC-MS/MS experiments
-      support_channel: "#5-i_proteore-protein-list-annotation"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01EYBNQRL5"
-      faq: "https://docs.google.com/document/d/e/2PACX-1vT7_ulDI8Mf4BpE8JPmvXYVqk1UmMGEFJ6Cj2ZvlxwLfP8riaaVicPtGR5HeFDAEmKMjaXPcub6cL1w/pub"
-
-
-
-day5b:
-  title: "Supported Tutorials (Self-Study)"
-  description: These tutorials do not have videos, but experienced instructors will be online today to help you with them
-  subday: true
-  selfstudy: true
-  sessions:
     - name: "Genomic Data Visualization with JBrowse"
       speaker: hexylena
       description: "JBrowse is a popular Genome Browser. It can be used directly within Galaxy. You may have seen it in our Mapping tutorial on Day 1. This tutorial will go into more depth about JBrowse and how to use it to explore your genome."
@@ -897,41 +901,42 @@ day5b:
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01FP1QR49H"
       faq: "https://docs.google.com/document/d/e/2PACX-1vRm1swqoqbrCWXKc2ncvDahm_RvbRCAn0oCPuJmQxorUgk38nI4Y_qtAGiECk53q5xr5wx-vNE5xJje/pub"
 
-    - name: "Ecology: Compute and analyze biodiversity metrics with PAMPA toolsuite"
-      type: Tutorial
-      description: "This tutorial aims to present the PAMPA Galaxy workflow, how to use it to compute common biodiversity metrics from species abundance data and analyse it through generalized linear (mixed) models (GLM and GLMM). This workflow made up of 5 tools will allow you to process temporal series data that include at least year, location and species sampled along with abundance value and, finally, generate article-ready data products."
-      speaker: [colineroyaux, yvanlebras]
-      material:
-        - type: Tutorial
-          link: topics/ecology/tutorials/PAMPA-toolsuite-tutorial/tutorial.html
-          title: Compute and analyze biodiversity metrics with PAMPA toolsuite
-      support_channel: "#5-d_ecology_pampa-toolsuite"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01FG38RR7Y"
-      faq: "https://docs.google.com/document/d/e/2PACX-1vT-Qmqw2zxaaFZXqbNaxMkcgl-0HjU6LvU0K0O51cCyCv_HjJdGk_2VPvMRghCW0sUKF-58_SuDQ1fn/pub"
 
-    - name: "Epigenetics: ATAC-Seq data analysis"
-      type: Tutorial
-      speaker: [hrhotz, lldelisle, heylf]
-      description: "In many eukaryotic organisms, such as humans, the genome is tightly packed and organized with the help of nucleosomes (chromatin). A nucleosome is a complex formed by eight histone proteins that is wrapped with ~147bp of DNA. When the DNA is being actively transcribed into RNA, the DNA will be opened and loosened from the nucleosome complex. Many factors, such as the chromatin structure, the position of the nucleosomes, and histone modifications, play an important role in the organization and accessibility of the DNA. Consequently, these factors are also important for the activation and inactivation of genes. Assay for Transposase-Accessible Chromatin using sequencing (ATAC-Seq) is a method to investigate the accessibility of chromatin and thus a method to determine regulatory mechanisms of gene expression. The method can help identify promoter regions and potential enhancers and silencers. "
+nonomics:
+  title: Galaxy for Non-Genomics
+  description: Galaxy is widely used for analysis of genomics data, but is not limited to any scientific domain. This module covers some non-genomics topics such as Climate research and cheminformatics.
+  sessions:
+    - name: "Climate: Functionally Assembled Terrestrial Ecosystem Simulator (FATES): Lecture"
+      speaker: awspolly
+      type: Lecture
+      description: "Terrestrial ecosystem models have been widely used to study the impact of climate changes on vegetation and terrestrial biogeochemical cycles in climate modelling community. They are also more and more applied in ecological studies to help ecologists to better understand the processes. But the technical challenges are still too high for most of the ecologists to use them. This practical aims at familiarizing you (especially ecologists) with running a terrestrial ecosystem model (i.e., CLM-FATES) at site-level in Galaxy and analyzing the model results. Slides by Anne Fouilloux."
+      video:
+        link: Z56C7MQG95s
+        length: 7M
+        captions: [annefou]
       material:
-        - type: Tutorial
-          link: topics/epigenetics/tutorials/atac-seq/tutorial.html
-          title: ATAC-Seq data analysis
-      support_channel: "#5-k_atac-seq"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01LRHRC6A3"
-      faq: "https://docs.google.com/document/d/e/2PACX-1vQnEmZyZF3rLhU3mA-g5L8DVaTW8GHYTikxYnuvQG7sCT66owCIc-4KLLGw9S2nIo1XPPtV9Ledtm3n/pub"
+        - type: Slides
+          link: topics/climate/tutorials/fates/slides.html
+          title: Functionally Assembled Terrestrial Ecosystem Simulator (FATES)
+      support_channel: "#4-f_climate-fates"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C00M63SFH34"
+      faq: "https://docs.google.com/document/d/e/1PACX-1vS5ucF3H8v1V43JPtw35V-pgGfhTbrHtjjN6X0BddzWispwuRElPYw7sWN1e8R360mdHyC1NcOSqxiy/pub"
 
-    - name: "Proteomics: ProteoRE tool for biomarker discovery"
-      speaker: [yvesvdb,combesf]
+    - name: "Climate: Functionally Assembled Terrestrial Ecosystem Simulator (FATES): Hands-on!"
+      speaker: annefou
       type: Tutorial
-      description: "A biomarker is a measurable biological component that can be routinely detected in clinical practice and reflects a disease state, response to therapeutic treatment, or other relevant biological state. In this tutorial we introduce successively the tools of this pipeline, and guide you to execute them in order to complete the entire pipeline on a concrete example."
+      description: "Terrestrial ecosystem models have been widely used to study the impact of climate changes on vegetation and terrestrial biogeochemical cycles in climate modelling community. They are also more and more applied in ecological studies to help ecologists to better understand the processes. But the technical challenges are still too high for most of the ecologists to use them. This practical aims at familiarizing you (especially ecologists) with running a terrestrial ecosystem model (i.e., CLM-FATES) at site-level in Galaxy and analyzing the model results."
+      video:
+        link: -1LsEx11eLiI
+        length: 0H20M
+        captions: [s2by01]
       material:
         - type: Tutorial
-          link: topics/proteomics/tutorials/biomarker_selection/tutorial.html
-          title: Biomarker candidate identification
-      support_channel: "#5-j_proteore-biomarkers-discovery"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01FP2AHUV9"
-      faq: "https://docs.google.com/document/d/e/2PACX-1vQVj92upQT2Z4B6ZF6kmhrbnHesbkS--e5ge14iRbxDsxRHuOb52XJE8DI584asA0t2GJIjS_qliPZu/pub"
+          link: topics/climate/tutorials/fates/tutorial.html
+          title: Functionally Assembled Terrestrial Ecosystem Simulator (FATES)
+      support_channel: "#4-f_climate-fates"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C00M63SFH34"
+      faq: "https://docs.google.com/document/d/e/1PACX-1vS5ucF3H8v1V43JPtw35V-pgGfhTbrHtjjN6X0BddzWispwuRElPYw7sWN1e8R360mdHyC1NcOSqxiy/pub"
 
     - name: "Cheminformatics: Protein-ligand docking"
       speaker: simonbray
@@ -956,6 +961,19 @@ This is a introductory guide to using GROMACS (Abraham et al. 2015) in Galaxy to
       support_channel: "#5-m_cheminformatics"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01MC9SK344"
       faq: "https://docs.google.com/document/d/e/2PACX-1vTqwxMLs0LfAJY77y9M2DFv9VixyFdtwU65AYpQoPn_0YmMEhOOp3jxhJ1tALWz3Vc2qp9Acctz2Lp3/pub"
+
+    - name: "Ecology: Compute and analyze biodiversity metrics with PAMPA toolsuite"
+      type: Tutorial
+      description: "This tutorial aims to present the PAMPA Galaxy workflow, how to use it to compute common biodiversity metrics from species abundance data and analyse it through generalized linear (mixed) models (GLM and GLMM). This workflow made up of 5 tools will allow you to process temporal series data that include at least year, location and species sampled along with abundance value and, finally, generate article-ready data products."
+      speaker: [colineroyaux, yvanlebras]
+      material:
+        - type: Tutorial
+          link: topics/ecology/tutorials/PAMPA-toolsuite-tutorial/tutorial.html
+          title: Compute and analyze biodiversity metrics with PAMPA toolsuite
+      support_channel: "#5-d_ecology_pampa-toolsuite"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01FG38RR7Y"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vT-Qmqw2zxaaFZXqbNaxMkcgl-0HjU6LvU0K0O51cCyCv_HjJdGk_2VPvMRghCW0sUKF-58_SuDQ1fn/pub"
+
 
 day5c:
   title: "All other Tutorials"
