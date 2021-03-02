@@ -1,4 +1,4 @@
-{% for day in site.data.training_sessions %}
+{% for day in include.training_sessions %}
  {% assign daynum = day[0] %}
 
  {% if day[1].subday %}

@@ -9,7 +9,7 @@ Everything you need for this course can be found on this webpage. More informati
 links to all training materials can be found by clicking on each session
 
 <br/>
-**Note:** Problems viewing this page? Try the [simple view]({{site.baseurl}}/workshop-simpleview) instead.
+**Note:** Problems viewing this page? Try the [simple view]({{site.baseurl}}/admin-simpleview) instead.
 
 
 <a href="{{site.baseurl}}/workshop"><button type="button" class="btn btn-warning btn-lg">Welcome! This page is not ready yet, training will start on June 28, 2021.</button></a>
