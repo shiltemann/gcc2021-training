@@ -7,13 +7,13 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="science-track">Science</a>
+           <a class="nav-link {% if page.track == "science" %}active" aria-current="page"{% else %}"{% endif %} href="science-track">Science</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="dev-track">Dev</a>
+          <a class="nav-link {% if page.track == "dev" %}active" aria-current="page"{% else %}"{% endif %} href="dev-track">Dev</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="admin-track">Admin</a>
+          <a class="nav-link {% if page.track == "admin" %}active" aria-current="page"{% else %}"{% endif %} href="admin-track">Admin</a>
         </li>
       </ul>
     </div>

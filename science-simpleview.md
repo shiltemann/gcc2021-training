@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Let's get Started!
+track: science
 ---
 
 Welcome everybody, and thank you for joining this course!

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: GCC2021 Developer Training Track
+track: dev
 ---
 
 Welcome everybody, and thank you for joining this course!

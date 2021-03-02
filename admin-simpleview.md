@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Let's get Started!
+track: admin
 ---
 
 Welcome everybody, and thank you for joining this course!
