@@ -27,15 +27,39 @@ Please sign up the Galaxy Community Conference to join this event. Registration 
 
 ## Program
 
-Welcome! We will have 3 tracks during this GCC Training Week. Click on one of the buttons below to view the program for that track.
+Welcome! We will have 3 tracks during this GCC Training Week. Click on one of the buttons below to view the full program for that track.
 
 **Note:** The schedule is subject to change
 
 <a href="{{site.baseurl}}/science-track"><button type="button" class="btn btn-success btn-lg">Science Track</button></a>
-
 <a href="{{site.baseurl}}/dev-track"><button type="button" class="btn btn-success btn-lg">Developer Training</button></a>
-
 <a href="{{site.baseurl}}/admin-track"><button type="button" class="btn btn-success btn-lg">Admin Training</button></a>
+
+
+A short overview of the program for each of these sessions can also be found below
+
+## Science Track
+
+<a href="{{site.baseurl}}/science-track"><button type="button" class="btn btn-success btn-info">Full program here</button></a>
+
+
+{% include table_curriculum.html training_sessions=site.data.training_sessions_science %}
+
+
+## Admin Track
+
+<a href="{{site.baseurl}}/admin-track"><button type="button" class="btn btn-success btn-info">Full program here</button></a>
+
+{% include table_curriculum.html training_sessions=site.data.training_sessions_admin %}
+
+
+## Developer Track
+
+<a href="{{site.baseurl}}/dev-track"><button type="button" class="btn btn-success btn-info">Full program here</button></a>
+
+
+{% include table_curriculum.html training_sessions=site.data.training_sessions_dev %}
+
 
 
 ## Acknowledgements
