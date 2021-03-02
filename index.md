@@ -19,7 +19,7 @@ We will have **3 Training Tracks**, aimed at scientists, developers and system a
 [**The Galaxy for Administrators Track**](#admin-track) teaches you how to be a stellar admin, easily deploying a production-ready Galaxy with Ansible!
 
 
-The Science and Developer tracks do not have a predetermined path, there will be a number of training “modules” covering a variety of topics from which you can choose to build your own training program for the week. For the Admin track, there is a set 5-day curriculum that will guide you through the end-to-end process of building your own Galaxy. For all 3 tracks you can work through the materials at your own pace and according to your own time schedule. Instructors will be online 24/7 to help you with these trainin sessions.
+The Science and Developer tracks do not have a predetermined path, there will be a number of training “modules” covering a variety of topics from which you can choose to **build your own training program** for the week. For the Admin track, there is a set 5-day curriculum that will guide you through the end-to-end process of building your own Galaxy. For all 3 tracks you can work through the materials **at your own pace and according to your own time schedule**. A global community of instructors will be online to provide **24/7 support** to help you with these trainin sessions.
 
 Please see the full program below for more details on the training
 
