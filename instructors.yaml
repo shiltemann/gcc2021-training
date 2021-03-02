@@ -68,6 +68,9 @@ davebx:
     name: Dave Bouvier
     affiliation: pennstate
 
+davelopez:
+    name: David Lopez
+
 dieterbulach:
     name: Dieter Bulach
     photo: dieter.png
@@ -123,6 +126,10 @@ hrhotz:
 
 jennaj:
     name: Jennifer Hillman-Jackson
+    affiliation: pennstate
+
+jmchilton:
+    name: John Chilton
     affiliation: pennstate
 
 jj-umn:

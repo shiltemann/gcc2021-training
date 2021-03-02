@@ -383,7 +383,7 @@ day4:
   - material:
     - link: topics/admin/tutorials/monitoring/tutorial.html
       type: Telegraf Exercise
-    name: "Monitoring: Telegraf, InfluxDB, Grafana\xB6"
+    name: "Monitoring: Telegraf, InfluxDB, Grafana"
     speaker: slugger70
     support_channel: '#10-monitoring'
     support_link: TODO
@@ -420,7 +420,7 @@ day5:
   - material:
     - link: topics/admin/tutorials/tiaas/tutorial.html
       type: TIaaS Exercise
-    name: "Training Infrastructure as a Service (TIaaS)\xB6"
+    name: "Training Infrastructure as a Service (TIaaS)"
     speaker: hexylena
     support_channel: '#12-tiaas'
     support_link: TODO

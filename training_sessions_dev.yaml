@@ -1,6 +1,152 @@
 ---
+intro:
+  title: Welcome & Practical Information
+  sessions:
+    - name: Welcome & Course Information
+      description: "Start here; we will go over all the important things to know to get the most out of this workshop"
+      speaker:
+      type: Lecture
+      support_channel: "#general"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01ES8R0RNG"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vTfNT2qS2Yb7qTAcnOFrMWwE_aPPUuYJJ0hdjw5gqV_JtMUWQ3NSkr6qAdrmF2EUGBBzTL8wFiILz8B/pub"
+
+    - name: "Get set up for the course"
+      description: "Here are the tasks you need to do ...."
+
+    - name: "Meet & Join the Galaxy Community!"
+      description: "This short video gives an overview of the worldwide Galaxy community, and different ways you can get involved! <strong>Video created by Beatriz Serrano-Solano</strong>."
+      speaker: galaxycommunity
+      video:
+        link: -1MPdxmRs8U
+        length: 5M
+        captions: [shiltemann]
+      material: &communitymaterial
+        - type: GalaxyProject Home
+          external: true
+          title: galaxyproject.org
+          link: "https://galaxyproject.org"
+        - type: Galaxy servers
+          external: true
+          title: Find a Galaxy server near you!
+          link: "https://galaxyproject.org/use/"
+        - type: Galaxy Training Network
+          external: true
+          title: Start learning Galaxy
+          link: "https://training.galaxyproject.org"
+        - type: Support
+          external: true
+          link: "https://help.galaxyproject.org/"
+          title: Galaxy Help Forum
+        - type: Galaxy Publications
+          external: true
+          title: Zotero
+          link: "https://www.zotero.org/groups/1732893/galaxy"
+        - type: Galaxy Communities
+          external: true
+          title: Find and Join a community
+          link: "https://galaxyproject.org/community/"
+        - type: Events
+          external: true
+          link: "https://galaxyproject.org/events/"
+          title: Galaxy Event Horizon
+        - type: Mailing Lists
+          external: true
+          title: Stay informed of Galaxy activity!
+          link: "https://galaxyproject.org/mailing-lists/"
+        - type: Galaxy Working Groups
+          external: true
+          link: "https://galaxyproject.org/community/wg/"
+          title: Find and join a WG
+        - type: GitHub
+          external: true
+          link: "https://github.com/galaxyproject"
+          title: galaxyproject
+        - type: Gitter Chat
+          external: true
+          link: "https://gitter.im/galaxyproject/Lobby"
+          title: Start talking with the Galaxy Community!
+        - type: GTN Gitter
+          external: true
+          title: Join the training discussion here!
+          link: "https://gitter.im/Galaxy-Training-Network/Lobby"
+        - type: PaperCuts
+          external: true
+          title: Monthly Collaboration Fest
+          link: "https://galaxyproject.org/events/2021-02-papercuts/"
+        - type: GTN CoFest
+          external: true
+          title: Everybody Welcome!
+          link: "https://github.com/galaxyproject/training-material/issues/1712"
+        - type: Twitter
+          external: true
+          title: follow @galaxyproject
+          link: "https://twitter.com/galaxyproject"
+        - type: Twitter
+          external: true
+          title: follow the GTN @gxytraining
+          link: "https://twitter.com/gxytraining"
 tooldev:
   title: Galaxy Tool Development
   description: This module covers everything you need to start developing your own Galaxy Tools. This module will likely take you several days to complete.
   sessions:
     - name: Introduction to Galaxy Tool Development
+      type: Tutorial
+      description:
+      speaker: [bgruening, jmchilton, nsoranzo]
+    - name: Conda Packages
+      type: Tutorial
+      description:
+      speaker: [bgruening, jmchilton, nsoranzo]
+    - name: Galaxy Interactive Tool Development
+      type: Tutorial
+      description:
+      speaker: [blankenberg, bgruening, abretaud]
+    - name: BioBlend
+      type: Tutorial
+      description:
+      speaker: [nsoranzo]
+    - name: Galaxy Visualization Integration
+      type: Tutorial
+      description:
+      speaker: [dannon]
+    - name: Data Sources
+      type: Tutorial
+      description:
+      speaker: [blankenberg, hexylena]
+    - name: The GTN & Training Material Development
+      type: Tutorial
+      description:
+      speaker: [shiltemann, bebatut, hexylena]
+    - name: Bring Your Own Tool
+      type: Tutorial
+      description:
+      speaker: [bgruening]
+    - name: Tool Factory
+      type: Tutorial
+      description:
+      speaker: [fubar2]
+    - name: Introduction to running workflows with planemo
+      type: Tutorial
+      description:
+      speaker: [simonbray]
+
+coredev:
+  title: Galaxy Core Development
+  description: This covers everything you need to start developing for Galaxy, understanding the codebase, adding APIs, implementing features. This module will likely take you several days to complete.
+  sessions:
+    - name: Galaxy architecture
+      type: Tutorial
+      description:
+      speaker: [jmchilton]
+    - name: Galaxy Backend & APIs
+      type: Tutorial
+      description:
+      speaker: [jmchilton, mvdbeek, davelopez, ic4f]
+    - name: "Galaxy Frontend: Client, Vue, Webhooks"
+      type: Tutorial
+      description:
+      speaker: [dannon, guerler, bgruening, jmchilton, assuntad23, olegzharkov]
+    - name: CYOA
+      type: Tutorial
+      description: Here you can pick a Galaxy bug that you find interesting, especially a 'paper-cut', and the instructors will help guide you to resolving this bug.
+

@@ -24,7 +24,7 @@
  <td> {{session.name}} </td>
  <td>
   {% for speaker in session.speaker %}
-   {{ site.data.instructors[speaker].name }}
+   {{ site.data.instructors[speaker].name }}{% if forloop.last %}{% else %},{% endif %}
   {% endfor %}
  </td>
  </tr>
