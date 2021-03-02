@@ -12,7 +12,7 @@ links to all training materials can be found by clicking on each session
 **Note:** Problems viewing this page? Try the [simple view]({{site.baseurl}}/workshop-simpleview) instead.
 
 
-<a href="{{site.baseurl}}/workshop"><button type="button" class="btn btn-warning btn-lg">Welcome! This Training will start June 28, 2021.</button></a>
+<a href="{{site.baseurl}}/workshop"><button type="button" class="btn btn-warning btn-lg">Welcome! This page is not ready yet, training will start June 28, 2021.</button></a>
 
 
 
