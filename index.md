@@ -12,11 +12,11 @@ This will be an **online** event, spanning **all time zones**. All training sess
 
 We will have **3 Training Tracks** aimed at scientists, developers and system administrators.
 
-**The Galaxy for Scientists Track** will cover a wide range of topics including NGS Analysis (DNA & RNA), proteomics, microbial analysis, machine learning, using R in Galaxy, Visualisation, Clinical workflows (including COVID-19), Nanopore Analysis, Single-cell RNASeq, Epigenetics, Climate Science, Cheminformatics, Advanced Galaxy features (scaling your analysis) and more! **YOU** can choose which of these training modules you want to follow during the week of training.
+**The Galaxy for Scientists Track** will cover a wide range of topics including NGS Analysis (DNA & RNA), Proteomics, Microbial Analysis, Machine Learning, using R in Galaxy, Visualisation, Clinical workflows (including COVID-19), Nanopore Analysis, Single-cell RNASeq, Epigenetics, Climate Science, Cheminformatics, Advanced Galaxy features (scaling your analysis) and more! **YOU** can choose which of these training modules you want to follow during the week of training.
 
-**The Galaxy for Developers Track** will teach you how Galaxy works internally (frontend and backend), how to add new features for Galaxy, and how to build the best tools and visualisations, and how to interact with the Galaxy API using BioBlend, and more!
+**The Galaxy for Developers Track** will teach you how Galaxy works internally (frontend and backend), how to add new features for Galaxy, how to build the best tools and visualisations, how to interact with the Galaxy API using BioBlend, and more!
 
-**The Galaxy for Administrators Track** teaches you how to be a stellar admin, easily deploying a production-ready Galaxy with Ansible.
+**The Galaxy for Administrators Track** teaches you how to be a stellar admin, easily deploying a production-ready Galaxy with Ansible!
 
 
 The Science and Dev tracks do not have a predetermined path, there will be a number of training “modules” from which you can choose covering a variety of topics. You can complete these at your own pace and on your own schedule. For the Admin track, there is a set 5-day curriculum you will follow to build your own Galaxy.
