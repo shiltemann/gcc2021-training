@@ -652,7 +652,7 @@ proteomics:
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01ETNTP6HL"
       faq: "https://docs.google.com/document/d/e/2PACX-1vTjQFq5wdkZeEFiQq-E8DkOTlLI9PChgWrwekHjPYBqndlb6kuAoXDiuiJaX5N09r63dWTyLPnnL8BK/pub"
 
-    - name: "Proteomics: ProteoRE tool for Functional Analysis of a Protein List"
+    - name: "ProteoRE tool for Functional Analysis of a Protein List"
       speaker: yvesvdb
       type: Tutorial
       description: "This tutorial covers an annotation pipeline for a protein list identified by LC-MS/MS experiments."
@@ -668,7 +668,7 @@ proteomics:
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01EYBNQRL5"
       faq: "https://docs.google.com/document/d/e/2PACX-1vT7_ulDI8Mf4BpE8JPmvXYVqk1UmMGEFJ6Cj2ZvlxwLfP8riaaVicPtGR5HeFDAEmKMjaXPcub6cL1w/pub"
 
-    - name: "Proteomics: ProteoRE tool for biomarker discovery"
+    - name: "ProteoRE tool for biomarker discovery"
       speaker: [yvesvdb,combesf]
       type: Tutorial
       description: "A biomarker is a measurable biological component that can be routinely detected in clinical practice and reflects a disease state, response to therapeutic treatment, or other relevant biological state. In this tutorial we introduce successively the tools of this pipeline, and guide you to execute them in order to complete the entire pipeline on a concrete example."
@@ -680,6 +680,13 @@ proteomics:
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01FP2AHUV9"
       faq: "https://docs.google.com/document/d/e/2PACX-1vQVj92upQT2Z4B6ZF6kmhrbnHesbkS--e5ge14iRbxDsxRHuOb52XJE8DI584asA0t2GJIjS_qliPZu/pub"
 
+    - name: "Annotation and GO enrichment analysis of differentially expressed proteins"
+      speaker: yvesvdb
+      type: Tutorial
+      video:
+        link:
+        length:
+        captions:
 
     - &metaproteomics1
       name: "Metaproteomics Introduction"
