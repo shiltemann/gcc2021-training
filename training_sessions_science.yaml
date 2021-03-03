@@ -841,6 +841,73 @@ microbial:
     - *metaproteomics2
 
 
+machinelearning:
+  title: Machine Learning
+  description:
+  sessions:
+    - name: "Introduction to Machine Learning"
+      speaker: khanteymoori
+      video:
+        link:
+        length:
+        captions:
+
+    - name: "Introduction to Deep Learning"
+      speaker: khanteymoori
+      video:
+        link:
+        length:
+        captions:
+      material:
+        - type: tutorial
+          link: topics/statistics/tutorials/intro_deep_learning/tutorial.html
+
+    - name: "Deep Neural Networks Demystified"
+      speaker: kxk302
+      video:
+        link:
+        length:
+        captions:
+
+    - name: "Clustering in Machine Learning"
+      speaker: anuprulez
+      video:
+        link:
+        length:
+        captions:
+      material:
+        - type: tutorial
+          link: topics/statistics/tutorials/clustering_machinelearning/tutorial.html
+
+    - name: "Classification in Machine Learning"
+      speaker: anuprulez
+      type: Tutorial
+      video:
+        link:
+        length:
+        captions:
+      material:
+        - type: tutorial
+          link: topics/statistics/tutorials/classification_machinelearning/tutorial.html
+
+    - name: "Regression in Machine Learning"
+      speaker: khanteymoori
+      video:
+        link:
+        length:
+        captions:
+      material:
+        - type: tutorial
+          link: topics/statistics/tutorials/regression_machinelearning/tutorial.html
+
+    - name: "Machine Learning using R in Galaxy"
+      speaker: fpsom
+      video:
+        link:
+        length:
+        captions:
+
+
 
 viz:
  title: Visualisation in Galaxy
