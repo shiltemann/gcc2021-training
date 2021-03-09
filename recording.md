@@ -5,7 +5,7 @@ track: recording
 ---
 
 Below are some suggestions/tips for recording the video tutorials. Note
-that these are** just suggestions**, if you prefer something different
+that these are **just suggestions**, if you prefer something different
 that is fine too!
 
 ## General
@@ -19,10 +19,9 @@ that is fine too!
 - Start a Zoom call with yourself, record that.
   - For Mac users, QuickTime Player is also a nice option.
   - Have another preference? Totally ok too!
-- Do a short** test recording** first
+- Do a short **test recording** first
   - Is the audio quality good enough?
-  - **Screen sharing:** is your screen readable? Make sure you **zoom in
-      **enough for it to be clearly visible what you are doing in Galaxy
+  - **Screen sharing:** is your screen readable? Make sure you **zoom in** enough for it to be clearly visible what you are doing in Galaxy
   - Image this is being viewed in a non-maximised YouTube window. Would it be
     legible? If the participant is using 50% of their screen for the video,
     50% for Galaxy, will it be legible?
@@ -41,7 +40,7 @@ that is fine too!
 ## Content
 
 - **Introduce yourself**
-- Give some **background **about the topic
+- Give some **background** about the topic
   - Not everybody will be familiar with the topic, so a brief explanation of the important concepts will be useful
 - If the tutorial *cannot* be run on all of the usegalaxy.\* servers, make sure
   to mention the **recommended Galaxy server** to use.
@@ -61,6 +60,6 @@ that is fine too!
   a break** (e.g. when a tool takes a while to run)
 - **End:**
   - Remind viewers about the **feedback form** embedded at end of the tutorial
-  - If you have any** tips for where to learn more about the topic, or how to
+  - If you have any **tips for where to learn more about the topic, or how to
     connect with the community** please share them (e.g. recommended follow-up
     tutorials in GTN, or any external resources, user forums/chat rooms etc)

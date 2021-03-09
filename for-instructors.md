@@ -5,8 +5,7 @@ track: instructors
 ---
 
 Dates: Feb 15-19, 2021
-
-More info: [*Course website*](https://shiltemann.github.io/global-galaxy-course/)
+More info: [*Course website*]
 
 First of all, thank you for volunteering to help out with this workshop!
 This event is only possible because of our amazing community of
