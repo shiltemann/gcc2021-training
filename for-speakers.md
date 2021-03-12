@@ -23,6 +23,8 @@ There will be a large group of instructors providing 24/7 support, and
 you are welcome to invite anybody else to this group of instructors as well.
 
 
+For the Science and Dev tracks, we do not work with days, but rather with modules. Participants can do any tutorial on any day of that week.
+
 ## Speaker TODOs
 
 As a speaker for the GCC training week, we ask you to:
