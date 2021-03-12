@@ -120,6 +120,19 @@ galaxyintro:
       faq: "https://docs.google.com/document/d/e/2PACX-1vQ1SZCsxEcRXp39J2BcFAjXyC3B20sWzI7IVgBgwe2pcC9b0cza417jzBPYJVqCRNbU0dD4rv_y6u6P/pub"
 
 
+    - name: "Galaxy 101 for Everyone"
+      type: Tutorial
+      description: This video tutorial will provide a very first look at the Galaxy platform, how to use it, and discusses how you can get support for your data analysis.
+      speaker: jennaj
+      video:
+        link:
+        length:
+        captions:
+      material:
+        - type: Tutorial
+          link: topics/introduction/tutorials/galaxy-intro-101-everyone/tutorial.html
+
+
     - name: "Your First Galaxy Analysis"
       type: Tutorial
       description: |
@@ -331,6 +344,15 @@ ngsadvanced:
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01GTTD1BE0"
       faq: "https://docs.google.com/document/d/e/2PACX-1vSK-RjeRJC38_FSM9zC6SrfkvIz1W4uEMQkN95qk5OemvANuPF3aNEogVEvF6JEXeMomo-oMwi32Gv2/pub"
 
+    - name: "Genome Annotation with Apollo"
+      speaker: abretaud
+      type: Tutorial
+      video:
+        link: B8pIQZPf21Y
+        length: 20M
+        captions: [abretaud]
+
+
     - name: "Epigenetics: ATAC-Seq data analysis"
       type: Tutorial
       speaker: [hrhotz, lldelisle, heylf]
@@ -346,6 +368,9 @@ ngsadvanced:
       support_channel: "#5-k_atac-seq"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01LRHRC6A3"
       faq: "https://docs.google.com/document/d/e/2PACX-1vQnEmZyZF3rLhU3mA-g5L8DVaTW8GHYTikxYnuvQG7sCT66owCIc-4KLLGw9S2nIo1XPPtV9Ledtm3n/pub"
+
+
+
 
     - name: "SRA Aligned Read Formats to Speed Up Analysis"
       type: tutorial
@@ -399,6 +424,15 @@ rnabasics:
       support_channel: "#2-1_ref-based-rna-seq"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01F0L6UW03"
       faq: "https://docs.google.com/document/d/e/2PACX-1vTOAKhYdmiiTucIarwlehmnPaxi0MXDmuCPdyZwB27xvBJPksDOLCOYMGdtEZAoz4WGxHGdDcBDdlM9/pub"
+
+    - name: "Differential gene expression in plants"
+      type: tutorial
+      speaker: gallardoalba
+      description:
+      video:
+        link:
+        length:
+        captions:
 
 
 rnaseqandr:
