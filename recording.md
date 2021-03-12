@@ -75,6 +75,8 @@ that is fine too!
   - If you have any **tips for where to learn more about the topic, or how to connect with the community** please share them at the end.
 
 
+7. If you are doing both a lecture and a hands-on training, please created 2 separate videos (unless you prefer to jump back and forth between the two during your session)
+
 **Note:** We will likely run this type of training on a regular basis, so keep this in mind when you are recording, the less you reference this specific event, the easier it is to reuse for other events.
 
 ## Video Editing
