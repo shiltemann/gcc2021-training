@@ -32,6 +32,10 @@ assuntad23:
     name: Assunta DeSanto
     affiliation: pennstate
 
+astrovsky01:
+    name: Alex Ostrovsky
+    affiliation: johnshopkins
+
 awspolly:
     name: These slides are narrated by AWS Polly.
     photo: polly.png
