@@ -425,6 +425,20 @@ rnabasics:
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01F0L6UW03"
       faq: "https://docs.google.com/document/d/e/2PACX-1vTOAKhYdmiiTucIarwlehmnPaxi0MXDmuCPdyZwB27xvBJPksDOLCOYMGdtEZAoz4WGxHGdDcBDdlM9/pub"
 
+    - name: De novo transcriptome reconstruction with RNA-Seq
+      type: Tutorial
+      speaker: malloryfreeberg
+      description:
+      video:
+        link:
+        length:
+        captions:
+      material:
+        - type: Tutorial
+          link: topics/transcriptomics/tutorials/de-novo/tutorial.html
+
+
+
     - name: "Differential gene expression in plants"
       type: tutorial
       speaker: gallardoalba
