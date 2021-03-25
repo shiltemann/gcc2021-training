@@ -98,7 +98,7 @@ intro:
 
 
 galaxyintro:
-  title: "Introduction to Galaxy and NGS analysis"
+  title: "Introduction to Galaxy"
   description: "Today we start by introducing the Galaxy Platform, and show you how to analyze your NGS data using Galaxy. Today we have a mixture of lecutres, demos, and hands-on tutorials."
   sessions:
 
