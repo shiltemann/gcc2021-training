@@ -375,7 +375,7 @@ ngsadvanced:
     - name: "SRA Aligned Read Formats to Speed Up Analysis"
       type: tutorial
       speaker: NCBI
-      instructors: [prodromus, shiltemann]
+      instructors: [prodromus]
       description:
       video:
         link:
