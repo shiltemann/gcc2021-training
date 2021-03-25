@@ -72,7 +72,7 @@ inrae:
   name: INRAE
   link: "https://www.inrae.fr/"
   logo: inrae.svg
-  
+
 iocb:
   name: Institute of Organic Chemistry and Biochemistry, Prague
   link: "https://www.uochb.cz/en"
@@ -95,6 +95,11 @@ mnhn:
   name: "Muséum National d’Histoire Naturelle "
   link: "https://www.mnhn.fr/en"
   logo: mnhn.jpg
+
+ncbi:
+  name: National Center for Biotechnology Information
+  link: "https://www.ncbi.nlm.nih.gov/"
+  logo: ncbi.png
 
 pennstate:
   name: Penn State University
