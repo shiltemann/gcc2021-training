@@ -1,4 +1,5 @@
 {% assign captions = include.session.video.captions | size %}
+
 <div class="flex-row" style="margin-top:1em;">
 
  <div class="col-md-8">
@@ -20,6 +21,7 @@
    <strong>Video Length:</strong> {{include.session.video.length | downcase }} <br/>
    <strong>Subtitles By:</strong> {% for name in include.session.video.captions %}{% unless forloop.first %}, {% endunless %} {{ site.data.instructors[name].name}}{% endfor %}
 {% if captions == 0 %} We apologize for lack of captions on this video. If you are reliant on captions, please check back here soon.{% endif %}<br/>
+   <strong>Instructors</strong> {% unless include.session.speaker == 'awspolly' %}{{site.data.instructors[include.session.speaker].name}}{% endunless %}{% for i in include.session.instructors %}{% if forloop.first %}{% unless include.session.speaker == 'awspolly' %}, {% endunless %}{% else %}, {% endif %} {{site.data.instructors[i].name}}{% endfor %}<br/>
    <strong>Description:</strong> {{include.session.description}}
   </div>
  </div>

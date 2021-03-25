@@ -375,6 +375,7 @@ ngsadvanced:
     - name: "SRA Aligned Read Formats to Speed Up Analysis"
       type: tutorial
       speaker: NCBI
+      instructors: [prodromus, shiltemann]
       description:
       video:
         link:
@@ -595,6 +596,7 @@ proteomics:
   sessions:
     - name: "Introduction to mass spectrometry based proteomics data analysis"
       speaker: awspolly
+      instructors: foellmelanie
       type: Lecture
       description: This lecture will provide an introduction to mass spectrometry (MS) based proteomics analysis. <strong>Slides created by Melanie Föll</strong>.
       video:
@@ -627,6 +629,7 @@ proteomics:
 
     - name: "DIA Mass-spectrometry with EncyclopeDIA"
       speaker:
+      instructors: [subinamehta, pratikdjagtap, timothygriffin, jj-umn, emmaleith, andrewr]
       video:
         link:
         length:
@@ -634,6 +637,7 @@ proteomics:
 
     - name: "Introduction to Proteogenomics"
       speaker: timothygriffin
+      instructors: [subinamehta, pratikdjagtap, jj-umn, emmaleith, andrewr]
       type: Lecture
       description: |
         In this opening presentation, the basic components of proteogenomics are described,
@@ -654,6 +658,7 @@ proteomics:
 
     - name: "Proteogenomics 1: Database Creation"
       speaker: jj-umn
+      instructors: [subinamehta, pratikdjagtap, timothygriffin, emmaleith, andrewr]
       type: Tutorial
       description: |
         In this tutorial, we will provide a walkthrough on how to generate a customized protein
@@ -674,6 +679,7 @@ proteomics:
 
     - name: "Proteogenomics 2: Database search"
       speaker: andrewr
+      instructors: [subinamehta, pratikdjagtap, timothygriffin, jj-umn, emmaleith]
       type: Demo
       description: |
         In this demonstration, we're continuing the process of proteogenomic analysis. Here, we search
@@ -697,6 +703,7 @@ proteomics:
 
     - name: "Proteogenomics 3: Novel peptide analysis"
       speaker: subinamehta
+      instructors: [pratikdjagtap, timothygriffin, jj-umn, emmaleith, andrewr]
       type: Demo
       description: |
         In this demonstration, we will investigate the peptides that were identified during proteogenomics
@@ -730,7 +737,8 @@ proteomics:
       faq: "https://docs.google.com/document/d/e/2PACX-1vT7_ulDI8Mf4BpE8JPmvXYVqk1UmMGEFJ6Cj2ZvlxwLfP8riaaVicPtGR5HeFDAEmKMjaXPcub6cL1w/pub"
 
     - name: "ProteoRE tool for biomarker discovery"
-      speaker: [yvesvdb,combesf]
+      speaker: [yvesvdb]
+      instructors: [yvesvdb,comesf]
       type: Tutorial
       description: "A biomarker is a measurable biological component that can be routinely detected in clinical practice and reflects a disease state, response to therapeutic treatment, or other relevant biological state. In this tutorial we introduce successively the tools of this pipeline, and guide you to execute them in order to complete the entire pipeline on a concrete example."
       material:
@@ -743,6 +751,7 @@ proteomics:
 
     - name: "Annotation and GO enrichment analysis of differentially expressed proteins"
       speaker: yvesvdb
+      instructors: [yvesvdb,comesf]
       type: Tutorial
       video:
         link:
@@ -752,6 +761,7 @@ proteomics:
     - &metaproteomics1
       name: "Metaproteomics Introduction"
       speaker: pratikdjagtap
+      instructors: [subinamehta, timothygriffin, jj-umn, emmaleith, andrewr]
       type: Tutorial
       description: |
         In this tutorial, the basic workflow for metaproteomics is described, which includes database search,
@@ -771,6 +781,7 @@ proteomics:
     - &metaproteomics2
       name: "Metaproteomics Analysis of COVID-19 Data"
       speaker: pratikdjagtap
+      instructors: [subinamehta, timothygriffin, jj-umn, emmaleith, andrewr]
       type: Tutorial
       description: TODO
       video:
@@ -992,6 +1003,7 @@ viz:
 
     - name: "Circos Visualisation in Galaxy: Intro"
       speaker: hexylena
+      instructors: [shiltemann]
       type: Lecture
       description: "Circos is a popular tool for creating circular graphs to display genomic data. This video will introduce this tool and how to use it within Galaxy"
       video:
@@ -1008,6 +1020,7 @@ viz:
 
     - name: "Circos Visualisation in Galaxy: Hands-on!"
       speaker: hexylena
+      instructors: shiltemann
       type: Tutorial
       description: "Circos is a popular tool for creating circular graphs to display genomic data. In this tutorial you will create a Circos plot for a cancer dataset"
       video:
