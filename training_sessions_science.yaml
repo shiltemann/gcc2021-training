@@ -951,13 +951,6 @@ machinelearning:
         - type: tutorial
           link: topics/statistics/tutorials/intro_deep_learning/tutorial.html
 
-    - name: "Deep Neural Networks Demystified"
-      speaker: kxk302
-      video:
-        link:
-        length:
-        captions:
-
     - name: "Clustering in Machine Learning"
       speaker: anuprulez
       video:
@@ -995,6 +988,30 @@ machinelearning:
         link:
         length:
         captions:
+
+neuralnetworks:
+ title: "Deep Neural Networks Demystified"
+ subday: true
+ sessions:
+    - name: "Feedforward Neural Networks"
+      speaker: kxk302
+      video:
+        link:
+        length:
+        captions:
+    - name: "Recurrent Neural Networks"
+      speaker: kxk302
+      video:
+        link:
+        length:
+        captions:
+    - name: "Convolutional Neural Networks"
+      speaker: kxk302
+      video:
+        link:
+        length:
+        captions:
+
 
 
 
