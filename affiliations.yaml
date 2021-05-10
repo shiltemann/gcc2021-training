@@ -121,3 +121,13 @@ earlhaminst:
   name: Earlham Institute
   link: " https://www.earlham.ac.uk/"
   logo: earlham-institure-logo.png
+
+uct:
+  name: University of Cape Town
+  link: "https://www.uct.ac.za/"
+  logo: UCTlogo.png
+
+usj:
+  name: University of Sri Jayewardenepura
+  link: "https://www.sjp.ac.lk/"
+  logo: SJPlogo.png
