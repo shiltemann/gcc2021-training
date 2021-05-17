@@ -6,7 +6,7 @@
  {% else %}
  <h3 id="{{ day[0] }}" class="daystart" style="margin-top:1em;"> {{day[1].title}} </h3>
  {% endif %}
- <p> {{day[1].description}} </p>
+ <p> {{day[1].description| markdownify}} </p>
 
   {% assign daysessions = day[1].sessions %}
   {% assign selfstudy = day[1].selfstudy %}

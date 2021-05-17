@@ -1,26 +1,29 @@
 ---
 layout: page
-title: GCC2021 Science Training Track
 ---
 
-Welcome everybody, and thank you for joining this course!
+<a href="{{site.baseurl}}/workshop"><button type="button" class="btn btn-warning btn-lg">Welcome! This page is not ready yet, training will start June 28, 2021.</button></a> <br/>
+
+Welcome everybody, and thank you for joining this course! <br/><br/>
 
 Everything you need for this course can be found on this webpage. More information including
 links to all training materials can be found by clicking on each session
 
+{{ content }}
+
 <br/>
-**Note:** Problems viewing this page? Try the [simple view]({{site.baseurl}}/workshop-simpleview) instead.
 
+<b>Note:</b> Problems viewing this page? Try the <a href="{{site.baseurl}}/{{ page.track }}-simpleview">simple view</a> instead.
 
-<a href="{{site.baseurl}}/workshop"><button type="button" class="btn btn-warning btn-lg">Welcome! The course has ended, but you can still work through the materials on your own.</button></a>
+{% if page.track == "admin" %}
+  {% assign sessions = site.data.training_sessions_admin %}
+{% elsif page.track == "dev" %}
+  {% assign sessions = site.data.training_sessions_dev %}
+{% elsif page.track == "science" %}
+  {% assign sessions = site.data.training_sessions_science %}
+{% endif %}
 
-**Note:** Slack will not be as active anymore, but you can also ask your quesions on Gitter.
-
-<a href="https://gitter.im/Galaxy-Training-Network/Lobby"><button type="button" class="btn btn-info btn-lg">GTN Gitter channel</button></a>
-
-
-
-{% for day in site.data.training_sessions_science %}
+{% for day in sessions %}
  {% assign daynum = day[0] %}
 
 {% if day[1].subday %}
@@ -28,7 +31,7 @@ links to all training materials can be found by clicking on each session
 {% else %}
 <h2 id="{{ day[0] }}" class="daystart" style="margin-top:2em;"> {{day[1].title}} </h2>
 {% endif %}
-<p> {{day[1].description| markdownify}} </p>
+<p> {{day[1].description | markdownify }} </p>
 <div class="accordion" id="accordion{{daynum}}">
 
 {% for session in day[1].sessions %}
