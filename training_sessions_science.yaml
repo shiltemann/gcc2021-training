@@ -1045,7 +1045,7 @@ viz:
     - name: "Introduction to Visualisations in Galaxy"
       speaker: shiltemann
       type: Tutorial
-      descriptions: "This tutorial will cover various ways to visualize your data in Galaxy"
+      description: "This tutorial will cover various ways to visualize your data in Galaxy"
       video:
         link:
         length:
