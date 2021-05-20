@@ -92,7 +92,7 @@ tooldev:
     - name: Introduction to Galaxy Tool Development
       type: Tutorial
       description:
-      speaker: [bgruening, jmchilton, nsoranzo]
+      speaker: [davebx, bernt-matthias, astrovsky01]
     - name: Conda Packages
       type: Tutorial
       description:
