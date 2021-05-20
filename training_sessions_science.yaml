@@ -473,7 +473,7 @@ rnabasics:
 
 
 
-    - name: Differential gene expression in plants
+    - name: Plant transcriptome analysis
       type: tutorial
       speaker: gallardoalba
       description: In this tutorial, we will analyze RNA sequencing data to extract information about potential genes regulated in response to abiotic stress in plants. For this purpose, the chosen approach is the identification of genes with complementary regions to miRNAs upregulated in response to brassinosteroids.
