@@ -473,14 +473,21 @@ rnabasics:
 
 
 
-    - name: "Differential gene expression in plants"
+    - name: Plant transcriptome analysis
       type: tutorial
       speaker: gallardoalba
-      description:
+      description: In this tutorial, we will analyze RNA sequencing data to extract information about potential genes regulated in response to abiotic stress in plants. For this purpose, the chosen approach is the identification of genes with complementary regions to miRNAs upregulated in response to brassinosteroids.
       video:
         link:
         length:
         captions:
+      material:
+        - type: Tutorial
+          link: topics/transcriptomics/tutorials/mirna-target-finder/tutorial.html
+          title: Whole transcriptome analysis of Arabidopsis thaliana
+      support_channel: "#plants-2-2_mirna-data-analysis"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01TCB1J7SA"
+      faq: ""
 
 
 rnaseqandr:
