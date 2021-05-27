@@ -112,6 +112,12 @@ sanbi:
   logo: sanbi.png
   mouseover: "South African National Bioinformatics Institute, South African MRC Bioinformatics Unit, University of the Western Cape, Bellville, 7535, South Africa"
 
+sciensano:
+  name: Sciensano
+  link: "https://www.sciensano.be"
+  logo: sciensano.jpg
+  mouseover: "Belgian National Public Health Institute."
+
 slu:
   name: Swedish University of Agricultural Sciences
   link: "https://www.slu.se"
