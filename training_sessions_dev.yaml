@@ -117,17 +117,17 @@ tooldev:
       description:
       speaker: [shiltemann, bebatut, hexylena]
 
-    - name: TBC: Galaxy Interactive Tool Development
+    - name: "TBC: Galaxy Interactive Tool Development"
       type: Tutorial
       description:
       speaker: [blankenberg, bgruening, abretaud, yvanlebras]
 
-    - name: TBC: Galaxy Visualization Integration
+    - name: "TBC: Galaxy Visualization Integration"
       type: Tutorial
       description:
       speaker: [dannon]
 
-    - name: TBC: Data Sources
+    - name: "TBC: Data Sources"
       type: Tutorial
       description:
       speaker: [blankenberg, hexylena]
