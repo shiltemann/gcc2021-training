@@ -972,22 +972,33 @@ machinelearning:
         link: NEAfs-WI3U0
         length: 15M
         captions:
+      material:
+        - type: Slides
+          link: "https://docs.google.com/presentation/d/1RZtXFk8qz6wmPsIKnMte3Y4SvmI_nD2vIyeSEvYR6RA/edit?usp=sharing"
+          external: true
+          title: Introduction to Machine Learning
+      faq: "https://docs.google.com/document/d/1RO-wMMfK2o9deE8WsOcC1Bl_StFKp8VXCOV9W5Xm3uY/edit?usp=sharing"
 
     - name: "Classification in Machine Learning"
       speaker: anuprulez
       type: Tutorial
-      description: The talk includes a lecture followed by a hands-on session to apply multiple classification algorithms on QSAR dataset to predict biodegradable activity of chemical compounds.
+      description: The talk includes a lecture followed by a hands-on session to apply multiple classification algorithms on Quantitative structure-activity relationship (QSAR) dataset to predict biodegradable activity of chemical compounds. QSAR models attempt to predict the activity or property of chemicals based on their chemical structure. To achieve this, a database of compounds is collected for which the property of interest is known. For each compound, molecular descriptors are collected which describe the structure (for example - molecular weight, number of nitrogen atoms, number of carbon-carbon double bonds). Using these descriptors, a model is constructed which is capable of predicting the property of interest for a new, unknown molecule. In this tutorial, we will use a database assembled from experimental data of the Japanese Ministry of International Trade and Industry to create a classification model by applying simple and complex classifers to learn the nature of biodegradation. We will use this model to classify new molecules into one of two classes - biodegradable or non-biodegradable. Different visualisations are used to analyze the results after applying each classification algorithm. Hyperparameters of one of the classifiers are also optimised.
       video:
         link: cwjLEKh-RgM
         length: 1H50M
         captions:
       material:
-        - type: tutorial
+        - type: Tutorial
           link: topics/statistics/tutorials/classification_machinelearning/tutorial.html
+        - type: Slides
+          link: "https://docs.google.com/presentation/d/1lAYCZ-g6y8cC1aH68FWL6gkRRI2srXSHuJwaaYAQZaU/edit?usp=sharing"
+          external: true
+          title: Classification in Machine Learning
+      faq: "https://docs.google.com/document/d/1u3lm533STzYstnUn5807QXZxSPNkU0tj3QvtfvibEfs/edit?usp=sharing"
 
     - name: "Regression in Machine Learning"
       speaker: anuprulez
-      description: The talk includes a lecture followed by a hands-on session to apply multiple regression algorithms on DNA-methylation dataset to predict biological age.
+      description: The talk includes a lecture followed by a hands-on session to apply multiple regression algorithms on DNA-methylation dataset to predict biological age. In this tutorial we will build a regression model for chronological age prediction, based on DNA methylation. This is based on the work of Jana Naue et al. 2017, in which biomarkers are examined to predict the chronological age of humans by analyzing the DNA methylation patterns. Different machine learning algorithms are used in this study to make an age prediction. It has been recognized that within each individual, the level of DNA methylation changes with age. This knowledge is used to select useful biomarkers from DNA methylation datasets. The CpG sites with the highest correlation to age are selected as the biomarkers (and therefore features for building a regression model). In this tutorial, specific biomarkers are analyzed by machine learning algorithms to create an age prediction model. Multiple visualisations are also used to analyse the predictions made by simple and complex regressors and hyperparameters of one of the regressors also optimised. 
       video:
         link: DgxwT9Hr7fs
         length: 1H29M
@@ -995,6 +1006,11 @@ machinelearning:
       material:
         - type: tutorial
           link: topics/statistics/tutorials/regression_machinelearning/tutorial.html
+        - type: Slides
+          link: "https://docs.google.com/presentation/d/16Ct2wJmLz4YI2rF9Y1SxcFWfSdVyJVoBy3YynBRDB0Q/edit?usp=sharing"
+          external: true
+          title: Regression in Machine Learning
+      faq: "https://docs.google.com/document/d/185PbhtdKaG6Gme4QXA-mkwfGgF4QorVkiSnHC0XQFSs/edit?usp=sharing"
 
     - name: "Machine Learning using R in Galaxy"
       speaker: fpsom
