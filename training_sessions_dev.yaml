@@ -89,53 +89,55 @@ tooldev:
   title: Galaxy Tool Development
   description: This module covers everything you need to start developing your own Galaxy Tools. This module will likely take you several days to complete.
   sessions:
-    - name: Introduction to Galaxy Tool Development
+    - name: Contributing to BioBlend Development
       type: Tutorial
-      description:
+      description: |
+          This tutorial will teach you how to contribute to BioBlend and add support for a Galaxy API in BioBlend.
+      speaker: [nsoranzo, rikeshi]
+      material:
+          - type: Tutorial
+            link: /topics/dev/tutorials/bioblend-dev/tutorial.html
+
+    - name: Introduction to Galaxy Tools & Conda
+      type: Tutorial
+      description: |
+          Here you will creating Galaxy tools from scratch and use Conda for deployment.
       speaker: [davebx, bernt-matthias, astrovsky01]
-    - name: Conda Packages
-      type: Tutorial
-      description:
-      speaker: [bgruening, jmchilton, nsoranzo]
-    - name: Galaxy Interactive Tool Development
-      type: Tutorial
-      description:
-      speaker: [blankenberg, bgruening, abretaud]
+      material:
+          - type: Tutorial
+            link: /topics/dev/tutorials/tool-dev-from-scratch/tutorial.html
+
     - name: BioBlend
       type: Tutorial
-      description:
+      description: Ever wondered how to interact with the Galaxy API to scale your work and automated processes? Learn how to here with BioBlend.
       speaker: [nsoranzo]
-    - name: Galaxy Visualization Integration
-      type: Tutorial
-      description:
-      speaker: [dannon]
-    - name: Data Sources
-      type: Tutorial
-      description:
-      speaker: [blankenberg, hexylena]
+
     - name: The GTN & Training Material Development
       type: Tutorial
       description:
       speaker: [shiltemann, bebatut, hexylena]
-    - name: Bring Your Own Tool
+
+    - name: "TBC: Galaxy Interactive Tool Development"
       type: Tutorial
       description:
-      speaker: [bgruening]
-    - name: Tool Factory
+      speaker: [blankenberg, bgruening, abretaud, yvanlebras]
+
+    - name: "TBC: Galaxy Visualization Integration"
       type: Tutorial
       description:
-      speaker: [fubar2]
-    - name: Introduction to running workflows with planemo
+      speaker: [dannon]
+
+    - name: "TBC: Data Sources"
       type: Tutorial
       description:
-      speaker: [simonbray]
+      speaker: [blankenberg, hexylena]
 
 coredev:
   title: Galaxy Core Development
   description: This covers everything you need to start developing for Galaxy, understanding the codebase, adding APIs, implementing features. This module will likely take you several days to complete.
   sessions:
     - name: Galaxy architecture
-      type: Tutorial
+      type: Lecture
       description:
       speaker: [jmchilton, natefoo, dannon]
     - name: Debugging and testing Galaxy core
