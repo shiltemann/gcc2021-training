@@ -966,17 +966,20 @@ machinelearning:
   sessions:
     - name: "Introduction to Machine Learning"
       speaker: anuprulez
+      type: Lecture
+      description: The lecture explains introductory concepts in machine learning such as supervised and unsupervised learning, classification and regression, hyperparameter optimisation, cross-validation, train, test and validation sets.
       video:
-        link:
-        length:
+        link: NEAfs-WI3U0
+        length: 15M
         captions:
 
     - name: "Classification in Machine Learning"
       speaker: anuprulez
       type: Tutorial
+      description: The talk includes a lecture followed by a hands-on session to apply multiple classification algorithms on QSAR dataset to predict biodegradable activity of chemical compounds.
       video:
-        link:
-        length:
+        link: cwjLEKh-RgM
+        length: 1H50M
         captions:
       material:
         - type: tutorial
@@ -984,9 +987,10 @@ machinelearning:
 
     - name: "Regression in Machine Learning"
       speaker: anuprulez
+      description: The talk includes a lecture followed by a hands-on session to apply multiple regression algorithms on DNA-methylation dataset to predict biological age.
       video:
-        link:
-        length:
+        link: DgxwT9Hr7fs
+        length: 1H29M
         captions:
       material:
         - type: tutorial
