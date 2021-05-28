@@ -137,15 +137,15 @@ coredev:
     - name: Galaxy architecture
       type: Tutorial
       description:
-      speaker: [jmchilton]
-    - name: Galaxy Backend & APIs
+      speaker: [jmchilton, natefoo, dannon]
+    - name: Debugging and testing Galaxy core
       type: Tutorial
       description:
-      speaker: [jmchilton, mvdbeek, davelopez, ic4f]
-    - name: "Galaxy Frontend: Client, Vue, Webhooks"
+      speaker: [ic4f, assuntad23, jmchilton, mvdbeek]
+    - name: Contributing extensions to Galaxy core (backend and frontend)
       type: Tutorial
       description:
-      speaker: [dannon, guerler, bgruening, jmchilton, assuntad23, olegzharkov]
+      speaker: [jmchilton, dannon, ic4f, assuntad23, mvdbeek]
     - name: CYOA
       type: Tutorial
       description: Here you can pick a Galaxy bug that you find interesting, especially a 'paper-cut', and the instructors will help guide you to resolving this bug.
