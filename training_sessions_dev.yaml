@@ -113,7 +113,7 @@ tooldev:
           Here you'll get a quick overview about what the ToolFactory is and how it works.
       speaker: [awspolly]
       material:
-          - type: Tutorial
+          - type: Slides
             link: /topics/dev/tutorials/tool-generators/slides.html
 
     - name: "ToolFactory: Generating Tools From Simple Scripts: Hands-on!"
