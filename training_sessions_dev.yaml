@@ -108,16 +108,23 @@ tooldev:
             link: /topics/dev/tutorials/tool-dev-from-scratch/tutorial.html
 
     - name: "ToolFactory: Generating Tools From Simple Scripts: Slides"
-      type: Tutorial
       description: |
           Here you'll get a quick overview about what the ToolFactory is and how it works.
-      speaker: [awspolly]
+      speaker: awspolly
+      instructors: [fubar2]
+      video:
+        link:
+        length:
+        captions:
       material:
           - type: Slides
             link: /topics/dev/tutorials/tool-generators/slides.html
 
     - name: "ToolFactory: Generating Tools From Simple Scripts: Hands-on!"
-      type: Tutorial
+      video:
+        link:
+        length:
+        captions:
       description: |
           **Why this training might be useful:** If you write useful scientific
           analysis scripts, but have not yet learned to create new tools for
@@ -152,7 +159,8 @@ tooldev:
           The ToolFactory is recommended for private desktop use only because
           executing unrestricted user installed tools is an unacceptable
           potential security risk for any production server.
-      speaker: [fubar2]
+      speaker: fubar2
+      instructors: [fubar2]
       material:
           - type: Tutorial
             link: /topics/dev/tutorials/tool-generators/tutorial.html
