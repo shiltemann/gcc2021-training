@@ -112,6 +112,9 @@ fpsom:
     name: Fotis E. Psomopoulos
     affiliation: inab-certh
 
+fubar2:
+    name: Ross Lazarus
+
 gallardoalba:
     name: Cristóbal Gallardo
     affiliation: freiburguni
@@ -150,8 +153,8 @@ jj-umn:
 
 jvanbraekel:
     name: Julien Van Braekel
-    affiliation: sciensano  
-    
+    affiliation: sciensano
+
 khanteymoori:
     name: Alireza Khanteymoori
     affiliation: freiburguni
