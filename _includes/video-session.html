@@ -10,7 +10,7 @@
  <div class="col-md-8">
   <h3 class="session-section"> {{include.session.type | default: "Tutorial" }} </h3>
   {% if include.session.video.link %}
-  <div style="position:relative;padding-top:56.25%;">
+  <div style="position:relative;padding-top:56.25%;margin-top:1rem">
    <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
     {% if include.session.video.external %}
     src="{{include.session.video.link}}"
