@@ -630,54 +630,108 @@ rnaseqsinglecell:
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01M17R4YA1"
       faq: "https://docs.google.com/document/d/e/2PACX-1vSVFOV1C6hqMPGIpZ1qeOo6t-ubjaWbtsGSTMH9TwNlvfqZrP48i0_7_Xk5rxmY7g2CroOF1dNIyfMY/pub"
 
-    - name: "Understanding Barcodes"
+    - name: Generating a single cell matrix using Alevin
       speaker: nomadscientist
-      type: Demo
-      description: This tutorial demonstrates the what barcodes in your sequencing data are, and how to handle them during analysis. Please work through the full tutorial yourself to get all the details.
+      instructors: [nomadscientist, mtekman]
+      type: Self-study with Video Walkthrough
+      description:
       video:
-        link: AJ17BicjmYU
+        link: 3ytm2AU6QUc
+        length: 30M
+        captions:
+      material:
+        - type: Tutorial
+          link: topics/transcriptomics/tutorials/droplet-quantification-preprocessing/tutorial.html
+
+    - name: Filter, Plot and Explore Single-cell RNA-seq Data
+      speaker: nomadscientist
+      instructors: [nomadscientist, mtekman]
+      type: Self-study with Video Walkthrough
+      description:
+      video:
+        link: M6iepSJh0EQ
+        length: 30M
+        captions:
+      material:
+        - type: Tutorial
+          link: topics/transcriptomics/tutorials/scrna-seq-basic-pipeline/tutorial.html
+
+    - name: Trajectory Analysis using Python (Jupyter Notebook) in Galaxy
+      speaker: nomadscientist
+      instructors: [nomadscientist, mtekman]
+      type: Self-study with Video Walkthrough
+      description:
+      video:
+        link: VEyTmwDIgPI
         length: 10M
-        captions: [khanteymoori]
+        captions:
       material:
         - type: Tutorial
-          link: topics/transcriptomics/tutorials/scrna-umis/tutorial.html
-          title: Understanding Barcodes
-      support_channel: "#3-1_understanding-barcodes"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01EXBNDKT7"
-      faq: "https://docs.google.com/document/d/e/2PACX-1vRWe-8VHsJ4vbO8rwXemPDKUabWrKy1NRnxOKfIzEgj8RQ0tfG0W1kyUx30gVyWND_h4s12MtsV58Sh/pub"
+          link: topics/transcriptomics/tutorials/scrna-JUPYTER-trajectories/tutorial.html
 
-
-    - name: "Pre-processing of 10X Single-Cell RNA Datasets"
-      speaker: nomadscientist
-      type: Demo
-      description: 10x genomics has provided not only a cost-effective high-throughput solution to understanding sample heterogeneity at the individual cell level, but has defined the standards of the field that many downstream analysis packages are now scrambling to accommodate. Please work through the full tutorial yourself to get all the details.
+    - name: Analysis of plant scRNA-Seq Data with Scanpy
+      speaker: mtekman
+      instructors: [mtekman, nomadscientist]
+      type: Tutorial
+      description:
       video:
-        link: vNBNFkF0L4U
-        length: 5M
-        captions: [khanteymoori]
+        link: yKlJ5ESri7o
+        length: 55M
+        captions: mtekman
       material:
         - type: Tutorial
-          link: topics/transcriptomics/tutorials/scrna-preprocessing-tenx/tutorial.html
-          title: Pre-processing of 10X Single-Cell RNA Datasets
-      support_channel: "#3-2_preprocessing-10x-single-cell-rna-datasets"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01EXBPPBK7"
-      faq: "https://docs.google.com/document/d/e/2PACX-1vTuCzmNJlZSbS9-lIdfLgt8T7IJb7jWZ3gedtjNB4aKJ7pAi3apYS4NgfaCRh0_r5QbF4Pwl15Z0-mk/pub"
+          link: topics/transcriptomics/tutorials/scrna-plant/tutorial.html
 
-    - name: "Clustering 3K PBMCs with Scanpy"
-      speaker: nomadscientist
-      type: Demo
-      description: "In this tutorial, we will investigate clustering of single-cell data from 10x Genomics, including preprocessing, clustering and the identification of cell types via known marker genes, using Scanpy. It will be illustrated using a dataset of Peripheral Blood Mononuclear Cells (PBMC), containing 2,700 single cells. Please work through the full tutorial yourself to get all the details."
-      video:
-        link: nefB35Bi1l4
-        length: 45M
-        captions: [hrhotz]
-      material:
-        - type: Tutorial
-          link: topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k/tutorial.html
-          title: Clustering 3K PBMCs with Scanpy
-      support_channel: "#3-3_clustering-3k-pbmcs-with-scanpy"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01FQ9RLLF2"
-      faq: "https://docs.google.com/document/d/e/2PACX-1vTdqGjslXMxUjyjqwkNtidsXFl6SRULFKFug_2TYBl-dYXIDEnXb59nMyZ5qJc6bXI-fP5cPLfkXbHV/pub"
+
+
+#    - name: "Understanding Barcodes"
+#      speaker: nomadscientist
+#      type: Demo
+#      description: This tutorial demonstrates the what barcodes in your sequencing data are, and how to handle them during analysis. Please work through the full tutorial yourself to get all the details.
+#      video:
+#        link: AJ17BicjmYU
+#        length: 10M
+#        captions: [khanteymoori]
+#      material:
+#        - type: Tutorial
+#          link: topics/transcriptomics/tutorials/scrna-umis/tutorial.html
+#          title: Understanding Barcodes
+#      support_channel: "#3-1_understanding-barcodes"
+#      support_link: "https://gtnsmrgsbord.slack.com/archives/C01EXBNDKT7"
+#      faq: "https://docs.google.com/document/d/e/2PACX-1vRWe-8VHsJ4vbO8rwXemPDKUabWrKy1NRnxOKfIzEgj8RQ0tfG0W1kyUx30gVyWND_h4s12MtsV58Sh/pub"
+#
+#
+#    - name: "Pre-processing of 10X Single-Cell RNA Datasets"
+#      speaker: nomadscientist
+#      type: Demo
+#      description: 10x genomics has provided not only a cost-effective high-throughput solution to understanding sample heterogeneity at the individual cell level, but has defined the standards of the field that many downstream analysis packages are now scrambling to accommodate. Please work through the full tutorial yourself to get all the details.
+#      video:
+#        link: vNBNFkF0L4U
+#        length: 5M
+#        captions: [khanteymoori]
+#      material:
+#        - type: Tutorial
+#          link: topics/transcriptomics/tutorials/scrna-preprocessing-tenx/tutorial.html
+#          title: Pre-processing of 10X Single-Cell RNA Datasets
+#      support_channel: "#3-2_preprocessing-10x-single-cell-rna-datasets"
+#      support_link: "https://gtnsmrgsbord.slack.com/archives/C01EXBPPBK7"
+#      faq: "https://docs.google.com/document/d/e/2PACX-1vTuCzmNJlZSbS9-lIdfLgt8T7IJb7jWZ3gedtjNB4aKJ7pAi3apYS4NgfaCRh0_r5QbF4Pwl15Z0-mk/pub"
+#
+#    - name: "Clustering 3K PBMCs with Scanpy"
+#      speaker: nomadscientist
+#      type: Demo
+#      description: "In this tutorial, we will investigate clustering of single-cell data from 10x Genomics, including preprocessing, clustering and the identification of cell types via known marker genes, using Scanpy. It will be illustrated using a dataset of Peripheral Blood Mononuclear Cells (PBMC), containing 2,700 single cells. Please work through the full tutorial yourself to get all the details."
+#      video:
+#        link: nefB35Bi1l4
+#        length: 45M
+#        captions: [hrhotz]
+#      material:
+#        - type: Tutorial
+#          link: topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k/tutorial.html
+#          title: Clustering 3K PBMCs with Scanpy
+#      support_channel: "#3-3_clustering-3k-pbmcs-with-scanpy"
+#      support_link: "https://gtnsmrgsbord.slack.com/archives/C01FQ9RLLF2"
+#      faq: "https://docs.google.com/document/d/e/2PACX-1vTdqGjslXMxUjyjqwkNtidsXFl6SRULFKFug_2TYBl-dYXIDEnXb59nMyZ5qJc6bXI-fP5cPLfkXbHV/pub"
 
 
 proteomics:
