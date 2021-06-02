@@ -15,7 +15,7 @@ intro:
           external: true
           link: "https://shiltemann.github.io/presentations//2020-12-18-smorgasbord"
       support_channel: "#general"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01ES8R0RNG"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01MNM98X9V"
       faq: "https://docs.google.com/document/d/e/2PACX-1vTfNT2qS2Yb7qTAcnOFrMWwE_aPPUuYJJ0hdjw5gqV_JtMUWQ3NSkr6qAdrmF2EUGBBzTL8wFiILz8B/pub"
 
     - name: "Get set up for the course"
@@ -99,7 +99,7 @@ intro:
 
 galaxyintro:
   title: "Introduction to Galaxy"
-  description: "Today we start by introducing the Galaxy Platform, and show you how to analyze your NGS data using Galaxy. Today we have a mixture of lecutres, demos, and hands-on tutorials."
+  description: "Start here if you are new to Galaxy. These videos will introduce you to the Galaxy platform, and walk you through your first analyses"
   sessions:
 
     - name: "A Very Short Introduction to Galaxy"
@@ -115,7 +115,7 @@ galaxyintro:
         - type: Slides
           link: topics/introduction/videos/
           title: A Slightly Longer Introduction to Galaxy
-      support_channel: "#1-1_galaxy-intro"
+      support_channel: "#galaxy_intro-short"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01ES914GCU"
       faq: "https://docs.google.com/document/d/e/2PACX-1vQ1SZCsxEcRXp39J2BcFAjXyC3B20sWzI7IVgBgwe2pcC9b0cza417jzBPYJVqCRNbU0dD4rv_y6u6P/pub"
 
@@ -130,6 +130,9 @@ galaxyintro:
       material:
         - type: Tutorial
           link: topics/introduction/tutorials/galaxy-intro-101-everyone/tutorial.html
+      support_channel: "#galaxy_intro_short"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01ES914GCU"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vQ1SZCsxEcRXp39J2BcFAjXyC3B20sWzI7IVgBgwe2pcC9b0cza417jzBPYJVqCRNbU0dD4rv_y6u6P/pub"
 
     - name: "Galaxy 101 for Everyone"
       type: Tutorial
@@ -142,6 +145,8 @@ galaxyintro:
       material:
         - type: Tutorial
           link: topics/introduction/tutorials/galaxy-intro-101-everyone/tutorial.html
+      support_channel: "#galaxy_intro_101-for-everyone"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C023KFGASK0"
 
     - name: "Your First Galaxy Analysis"
       type: Tutorial
@@ -163,10 +168,16 @@ galaxyintro:
         - type: Tutorial
           link: topics/galaxy-interface/tutorials/history-to-workflow/tutorial.html
           title: Extracting Workflows from Histories
-      support_channel: "#1-1_galaxy-intro"
+      support_channel: "#galaxy_intro_short"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01ES914GCU"
       faq: "https://docs.google.com/document/d/e/2PACX-1vQ1SZCsxEcRXp39J2BcFAjXyC3B20sWzI7IVgBgwe2pcC9b0cza417jzBPYJVqCRNbU0dD4rv_y6u6P/pub"
 
+
+galaxyadvanced:
+  title: Advanced Galaxy Features
+  subday: true
+  description: These tutorials cover some more advanced Galaxy features
+  sessions:
     - name: "Uploading data with the Rule Based Uploader"
       type: Tutorial
       description: TBD
