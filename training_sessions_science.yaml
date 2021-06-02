@@ -439,8 +439,8 @@ ngsadvanced:
 
 
 day2:
-  title: "RNA-Seq"
-  description: "The following module cover RNA-Seq analysis in Galaxy, from bulk RNA-seq to Single-cell RNA-Seq, from Quality control to Visualisation"
+  title: "Transcriptomics"
+  description: "The following module cover transcriptomic analysis in Galaxy, from bulk RNA-seq to Single-cell RNA-Seq, from Quality control to Visualisation"
 
 rnabasics:
   title: "Introduction to RNA-Seq"
