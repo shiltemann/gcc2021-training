@@ -332,19 +332,6 @@ day4:
       - simonbray
       length: 57M
       link: a7fKJT4Fs9k
-  - material:
-    - link: topics/admin/tutorials/object-store/tutorial.html
-      type: Exercise
-    name: Storage management
-    speaker: gmauro
-    support_channel: '#09-storage'
-    support_link: TODO
-    type: Tutorial
-    video:
-      captions:
-      - cat-bro
-      length: 18M
-      link: Hv2bvjk5sjE
 
   - material:
     - link: topics/admin/tutorials/gxadmin/slides.html
@@ -502,4 +489,17 @@ day5:
     support_channel: '#11-cyoa'
     support_link: TODO
     type: Tutorial
+  - material:
+    - link: topics/admin/tutorials/object-store/tutorial.html
+      type: Exercise
+    name: Storage management
+    speaker: gmauro
+    support_channel: '#09-storage'
+    support_link: TODO
+    type: Tutorial
+    video:
+      captions:
+      - cat-bro
+      length: 18M
+      link: Hv2bvjk5sjE
   title: Day 5 - Choose Your OWN Adventure
