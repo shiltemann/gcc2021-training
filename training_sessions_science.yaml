@@ -1047,24 +1047,39 @@ neuralnetworks:
  title: "Deep Neural Networks Demystified"
  subday: true
  sessions:
-    - name: "Feedforward Neural Networks"
+    - name: "1: Feedforward Neural Networks"
       speaker: kxk302
       video:
-        link:
-        length:
+        link: VbzJDkyPL4A
+        length: 1H10M
         captions:
-    - name: "Recurrent Neural Networks"
+      material:
+        - type: Tutorial
+          link: topics/statistics/tutorials/FNN/tutorial.html
+        - type: Slides
+          link: topics/statistics/tutorials/FNN/slides.html
+    - name: "2: Recurrent Neural Networks"
       speaker: kxk302
       video:
-        link:
-        length:
+        link: 1dwzEhjOAmw
+        length: 50M
         captions:
-    - name: "Convolutional Neural Networks"
+      material:
+        - type: Tutorial
+          link: topics/statistics/tutorials/RNN/tutorial.html
+        - type: Slides
+          link: topics/statistics/tutorials/RNN/slides.html
+    - name: "3: Convolutional Neural Networks"
       speaker: kxk302
       video:
-        link:
-        length:
+        link: P1NVYOJrv_4
+        length: 1H
         captions:
+      material:
+        - type: Tutorial
+          link: topics/statistics/tutorials/CNN/tutorial.html
+        - type: Slides
+          link: topics/statistics/tutorials/CNN/slides.html
 
 
 
