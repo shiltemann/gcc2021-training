@@ -481,7 +481,12 @@ rnabasics:
     - name: De novo transcriptome reconstruction with RNA-Seq
       type: Tutorial
       speaker: malloryfreeberg
-      description:
+      description: |
+          In this tutorial, we will use de novo transcript reconstruction to
+          infer transcript structures from aligned reads. We will identify and
+          quantify transcripts present in two different cell state and
+          determine which transcripts are differentially expressed between the
+          two states.
       video:
         link:
         length:
