@@ -159,7 +159,7 @@ galaxyintro:
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01ES914GCU"
       faq: "https://docs.google.com/document/d/e/2PACX-1vQ1SZCsxEcRXp39J2BcFAjXyC3B20sWzI7IVgBgwe2pcC9b0cza417jzBPYJVqCRNbU0dD4rv_y6u6P/pub"
 
-    - name: "Galaxy 101 for Everyone (non-genomics)"
+    - name: "Galaxy Intro for Everyone (non-genomics)"
       type: Tutorial
       description: This video tutorial will provide a non-genomics based first look at the Galaxy platform, how to use it, and discusses how you can get support for your data analysis.
       speaker: annefou
@@ -214,7 +214,7 @@ ngsintro:
       material:
         - type: Tutorial
           link: topics/introduction/tutorials/galaxy-intro-ngs-data-managment/tutorial.html
-      support_channel: "#1-2_ngs-intro"
+      support_channel: "#ngs_introduction"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01EXB3BKN1"
       faq: "https://docs.google.com/document/u/2/d/12w_KCVN7z9DKLSxX6aCRfr8__nfANoIxfLJeYM4UGQA/pub"
 
@@ -424,7 +424,7 @@ ngsadvanced:
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01LRHRC6A3"
       faq: "https://docs.google.com/document/d/e/2PACX-1vQnEmZyZF3rLhU3mA-g5L8DVaTW8GHYTikxYnuvQG7sCT66owCIc-4KLLGw9S2nIo1XPPtV9Ledtm3n/pub"
 
-    - name: "Epigenetics - ATAC-Seq data analysis: Hands-on!"
+    - name: "Epigenetics - ATACSeq data analysis: Hands-on!"
       type: Tutorial
       speaker: [hrhotz, lldelisle, heylf]
       instructors: [hrhotz, lldelisle, heylf]
@@ -1298,12 +1298,12 @@ nonomics:
       faq: "https://docs.google.com/document/d/e/1PACX-1vS5ucF3H8v1V43JPtw35V-pgGfhTbrHtjjN6X0BddzWispwuRElPYw7sWN1e8R360mdHyC1NcOSqxiy/pub"
 
     - name: "Cheminformatics: High Throughput Molecular Dynamics and Analysis"
-      speaker: simonbray
-      instructors: [chrisbarnettster, tsenapathi]
+      speaker: [simonbray, chrisbarnettster,]
+      instructors: [simonbray, chrisbarnettster, tsenapathi]
       description: "Molecular dynamics (MD) is a method to simulate molecular motion by iterative application of Newton’s laws of motion. This tutorial provides an introduction to using high-throughput molecular dynamics to study protein-ligand interaction, as applied to the N-terminal domain of Hsp90 (heat shock protein 90)."
       video:
-        link:
-        length:
+        link: 1PG4x4ZE9OI
+        length: 1H40M
         captions:
       material:
         - type: Tutorial
