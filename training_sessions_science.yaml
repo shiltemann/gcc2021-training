@@ -393,8 +393,38 @@ ngsadvanced:
         length: 20M
         captions: [abretaud]
 
+    - name: "Epigenetics - ATAC-Seq data analysis: Intro"
+      type: Lecture
+      speaker: [lldelisle]
+      instructors: [hrhotz, lldelisle, heylf]
+      description: |
+         In many eukaryotic organisms, such as humans, the genome is tightly
+         packed and organized with the help of nucleosomes (chromatin). A
+         nucleosome is a complex formed by eight histone proteins that is
+         wrapped with ~147bp of DNA. When the DNA is being actively transcribed
+         into RNA, the DNA will be opened and loosened from the nucleosome
+         complex. Many factors, such as the chromatin structure, the position
+         of the nucleosomes, and histone modifications, play an important role
+         in the organization and accessibility of the DNA. Consequently, these
+         factors are also important for the activation and inactivation of
+         genes. Assay for Transposase-Accessible Chromatin using sequencing
+         (ATAC-Seq) is a method to investigate the accessibility of chromatin
+         and thus a method to determine regulatory mechanisms of gene
+         expression. The method can help identify promoter regions and
+         potential enhancers and silencers.
+      video:
+        link: 2jPNNd5YJNM
+        length: 15M
+        captions:
+      material:
+        - type: Tutorial
+          link: topics/epigenetics/tutorials/atac-seq/tutorial.html
+          title: ATAC-Seq data analysis
+      support_channel: "#5-k_atac-seq"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01LRHRC6A3"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vQnEmZyZF3rLhU3mA-g5L8DVaTW8GHYTikxYnuvQG7sCT66owCIc-4KLLGw9S2nIo1XPPtV9Ledtm3n/pub"
 
-    - name: "Epigenetics: ATAC-Seq data analysis"
+    - name: "Epigenetics - ATAC-Seq data analysis: Hands-on!"
       type: Tutorial
       speaker: [hrhotz, lldelisle, heylf]
       instructors: [hrhotz, lldelisle, heylf]
