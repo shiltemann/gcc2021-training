@@ -803,97 +803,13 @@ proteomics:
       faq: "https://docs.google.com/document/d/e/2PACX-1vS4GuHPJrRcpGmNCXBTJ9wyUp6X33Xe6Ou8N_q0Ko5AJ-_rUy7ZsAu-x6R9yf7iRZLxK-t_e-O4Xoc6/pub"
 
     - name: "DIA Mass-spectrometry with EncyclopeDIA"
-      speaker:
+      speaker: [emmaleith, jj-umn, pratikdjagtap]
       instructors: [subinamehta, pratikdjagtap, timothygriffin, jj-umn, emmaleith, andrewr]
       video:
         link:
         length:
         captions:
 
-    - name: "Introduction to Proteogenomics"
-      speaker: timothygriffin
-      instructors: [subinamehta, pratikdjagtap, jj-umn, emmaleith, andrewr]
-      type: Lecture
-      description: |
-        In this opening presentation, the basic components of proteogenomics are described,
-        including the main steps in the bioinformatics analysis workflow that make up this
-        approach and will be detailed in the following tutorials. Some examples of research
-        questions that benefit from a proteogenomics approach are also highlighted.
-      video:
-        link: WpH101OPrG0
-        length: 20M
-        captions: [emmaleith]
-      material:
-        - type: Slides
-          link: "https://drive.google.com/file/d/1rqzf6Mrk9cMuQ2531tM6RpltPLrDCrgh/view?usp=sharing"
-          external: true
-      support_channel: "#4-2_protegenomics"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01ETNTP6HL"
-      faq: "https://docs.google.com/document/d/e/2PACX-1vTjQFq5wdkZeEFiQq-E8DkOTlLI9PChgWrwekHjPYBqndlb6kuAoXDiuiJaX5N09r63dWTyLPnnL8BK/pub"
-
-    - name: "Proteogenomics 1: Database Creation"
-      speaker: jj-umn
-      instructors: [subinamehta, pratikdjagtap, timothygriffin, emmaleith, andrewr]
-      type: Tutorial
-      description: |
-        In this tutorial, we will provide a walkthrough on how to generate a customized protein
-        sequence database using RNA-Seq data.  The resultant FASTA database contains sequences
-        with single amino acid variants (SAVs), insertions and deletions (indels)and transcript
-        assemblies (splicing variants). This database can then be used to identify protein sequence
-        variants from the mass spectrometry data.
-      video:
-        link: b_kZf8mXHdo
-        length: 40M
-        captions: [emmaleith]
-      material:
-        - type: Tutorial
-          link: topics/proteomics/tutorials/proteogenomics-dbcreation/tutorial.html
-      support_channel: "#4-2_protegenomics"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01ETNTP6HL"
-      faq: "https://docs.google.com/document/d/e/2PACX-1vTjQFq5wdkZeEFiQq-E8DkOTlLI9PChgWrwekHjPYBqndlb6kuAoXDiuiJaX5N09r63dWTyLPnnL8BK/pub"
-
-    - name: "Proteogenomics 2: Database search"
-      speaker: andrewr
-      instructors: [subinamehta, pratikdjagtap, timothygriffin, jj-umn, emmaleith]
-      type: Demo
-      description: |
-        In this demonstration, we're continuing the process of proteogenomic analysis. Here, we search
-        mass spectrometry data against a custom proteogenomics FASTA database to create peptide
-        spectral matches (PSMs) for each dataset; we also isolate non-canonical peptides from the
-        resulting data for further analysis. <strong> If you would like to view the results yourself, we provide example histories in the FAQ document</strong>
-      video:
-        link: q1OjmTcbvBA
-        length: 30M
-        captions: [emmaleith]
-      material:
-        - type: Tutorial
-          link: topics/proteomics/tutorials/proteogenomics-dbsearch/tutorial.html
-        - type: Slides
-          link: "https://docs.google.com/presentation/d/1gAOJ7WQI1CEc3VeSm_fcvjg_GTxTCZ1N/edit#slide=id.p2"
-          external: true
-      support_channel: "#4-2_protegenomics"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01ETNTP6HL"
-      faq: "https://docs.google.com/document/d/e/2PACX-1vTjQFq5wdkZeEFiQq-E8DkOTlLI9PChgWrwekHjPYBqndlb6kuAoXDiuiJaX5N09r63dWTyLPnnL8BK/pub"
-
-
-    - name: "Proteogenomics 3: Novel peptide analysis"
-      speaker: subinamehta
-      instructors: [pratikdjagtap, timothygriffin, jj-umn, emmaleith, andrewr]
-      type: Demo
-      description: |
-        In this demonstration, we will investigate the peptides that were identified during proteogenomics
-        tutorial 2. We will identify the presence of novel proteoforms that are absent in the reference
-        database, annotate the novel peptides and visualize them using the Multi-omics Visualization Platform (MVP). <strong> If you would like to view the results yourself, we provide example histories in the FAQ document</strong>
-      video:
-        link: Ku274KwFh1Y
-        length: 40M
-        captions: [subinamehta]
-      material:
-        - type: Tutorial
-          link: topics/proteomics/tutorials/proteogenomics-novel-peptide-analysis/tutorial.html
-      support_channel: "#4-2_protegenomics"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01ETNTP6HL"
-      faq: "https://docs.google.com/document/d/e/2PACX-1vTjQFq5wdkZeEFiQq-E8DkOTlLI9PChgWrwekHjPYBqndlb6kuAoXDiuiJaX5N09r63dWTyLPnnL8BK/pub"
 
     - name: "ProteoRE tool for Functional Analysis of a Protein List"
       speaker: yvesvdb
@@ -954,8 +870,8 @@ proteomics:
       faq: "https://docs.google.com/document/d/e/2PACX-1vTX6JQG4oAKXvQSJU52thudorwANPtzIedTiTQU1NbXQYYfrNkBheN-gHu0O91bCOIk5wQBpH1mIk7v/pub"
 
     - &metaproteomics2
-      name: "Metaproteomics Analysis of COVID-19 Data"
-      speaker: pratikdjagtap
+      name: "Pandemics Research using Mass Spectrometry"
+      speaker: [timothygriffin, subinamehta, andrewr, pratikdjagtap]
       instructors: [subinamehta, timothygriffin, jj-umn, emmaleith, andrewr]
       type: Tutorial
       description: TODO
@@ -967,6 +883,96 @@ proteomics:
       support_channel: "#4-3_metaproteomics"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01FD4276P3"
       faq: "https://docs.google.com/document/d/e/2PACX-1vTX6JQG4oAKXvQSJU52thudorwANPtzIedTiTQU1NbXQYYfrNkBheN-gHu0O91bCOIk5wQBpH1mIk7v/pub"
+
+proteogenomics:
+  title: Proteogenomics
+  subday: true
+  description: Proteogenomics utilizes a combination of proteomics, genomics, and transcriptomics to aid in the discovery and identification of peptides
+  sessions:
+    - name: "Introduction to Proteogenomics"
+      speaker: timothygriffin
+      instructors: [subinamehta, pratikdjagtap, jj-umn, emmaleith, andrewr, timothygriffin]
+      type: Lecture
+      description: |
+        In this opening presentation, the basic components of proteogenomics are described,
+        including the main steps in the bioinformatics analysis workflow that make up this
+        approach and will be detailed in the following tutorials. Some examples of research
+        questions that benefit from a proteogenomics approach are also highlighted.
+      video:
+        link: WpH101OPrG0
+        length: 20M
+        captions: [emmaleith]
+      material:
+        - type: Slides
+          link: "https://drive.google.com/file/d/1rqzf6Mrk9cMuQ2531tM6RpltPLrDCrgh/view?usp=sharing"
+          external: true
+      support_channel: "#4-2_protegenomics"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01ETNTP6HL"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vTjQFq5wdkZeEFiQq-E8DkOTlLI9PChgWrwekHjPYBqndlb6kuAoXDiuiJaX5N09r63dWTyLPnnL8BK/pub"
+
+    - name: "Proteogenomics 1: Database Creation"
+      speaker: jj-umn
+      instructors: [subinamehta, pratikdjagtap, timothygriffin, emmaleith, andrewr, jj-umn]
+      type: Tutorial
+      description: |
+        In this tutorial, we will provide a walkthrough on how to generate a customized protein
+        sequence database using RNA-Seq data.  The resultant FASTA database contains sequences
+        with single amino acid variants (SAVs), insertions and deletions (indels)and transcript
+        assemblies (splicing variants). This database can then be used to identify protein sequence
+        variants from the mass spectrometry data.
+      video:
+        link: b_kZf8mXHdo
+        length: 40M
+        captions: [emmaleith]
+      material:
+        - type: Tutorial
+          link: topics/proteomics/tutorials/proteogenomics-dbcreation/tutorial.html
+      support_channel: "#4-2_protegenomics"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01ETNTP6HL"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vTjQFq5wdkZeEFiQq-E8DkOTlLI9PChgWrwekHjPYBqndlb6kuAoXDiuiJaX5N09r63dWTyLPnnL8BK/pub"
+
+    - name: "Proteogenomics 2: Database search"
+      speaker: andrewr
+      instructors: [subinamehta, pratikdjagtap, timothygriffin, jj-umn, emmaleith, andrewr]
+      type: Demo
+      description: |
+        In this demonstration, we're continuing the process of proteogenomic analysis. Here, we search
+        mass spectrometry data against a custom proteogenomics FASTA database to create peptide
+        spectral matches (PSMs) for each dataset; we also isolate non-canonical peptides from the
+        resulting data for further analysis. <strong> If you would like to view the results yourself, we provide example histories in the FAQ document</strong>
+      video:
+        link: q1OjmTcbvBA
+        length: 30M
+        captions: [emmaleith]
+      material:
+        - type: Tutorial
+          link: topics/proteomics/tutorials/proteogenomics-dbsearch/tutorial.html
+        - type: Slides
+          link: "https://docs.google.com/presentation/d/1gAOJ7WQI1CEc3VeSm_fcvjg_GTxTCZ1N/edit#slide=id.p2"
+          external: true
+      support_channel: "#4-2_protegenomics"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01ETNTP6HL"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vTjQFq5wdkZeEFiQq-E8DkOTlLI9PChgWrwekHjPYBqndlb6kuAoXDiuiJaX5N09r63dWTyLPnnL8BK/pub"
+
+
+    - name: "Proteogenomics 3: Novel peptide analysis"
+      speaker: subinamehta
+      instructors: [pratikdjagtap, timothygriffin, jj-umn, emmaleith, andrewr, subinamehta]
+      type: Demo
+      description: |
+        In this demonstration, we will investigate the peptides that were identified during proteogenomics
+        tutorial 2. We will identify the presence of novel proteoforms that are absent in the reference
+        database, annotate the novel peptides and visualize them using the Multi-omics Visualization Platform (MVP). <strong> If you would like to view the results yourself, we provide example histories in the FAQ document</strong>
+      video:
+        link: Ku274KwFh1Y
+        length: 40M
+        captions: [subinamehta]
+      material:
+        - type: Tutorial
+          link: topics/proteomics/tutorials/proteogenomics-novel-peptide-analysis/tutorial.html
+      support_channel: "#4-2_protegenomics"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01ETNTP6HL"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vTjQFq5wdkZeEFiQq-E8DkOTlLI9PChgWrwekHjPYBqndlb6kuAoXDiuiJaX5N09r63dWTyLPnnL8BK/pub"
 
 
 microbial:
@@ -1078,7 +1084,8 @@ microbial:
       faq: "https://docs.google.com/document/d/e/2PACX-1vQlG_Onq011MQqyIu4D_erDqiLKAMLnduhHr5cDWwbXVqlU9VZhmm4OT_zphKqb8TEZprAFo8rdPXjO/pub"
 
     - name: "Metatranscriptomics analysis using microbiome RNA-seq data"
-      speaker: subinamehta
+      speaker: [pratikdjagtap, timothygriffin, subinamehta, shiltemann]
+      instructors: [pratikdjagtap, timothygriffin, subinamehta, shiltemann]
       type: Tutorial
       video:
         link:
@@ -1092,7 +1099,6 @@ microbial:
           link: topics/metagenomics/tutorials/metatranscriptomics/tutorial.html
 
     - *metaproteomics1
-    - *metaproteomics2
 
 
 machinelearning:
