@@ -1089,7 +1089,7 @@ microbial:
 
     - name: "Metatranscriptomics analysis using microbiome RNA-seq data"
       speaker: [pratikdjagtap, timothygriffin, subinamehta, shiltemann]
-      instructors: [pratikdjagtap, timothygriffin, subinamehta, shiltemann]
+      instructors: [pratikdjagtap, timothygriffin, subinamehta, shiltemann, jj-umn, andrewr, ddan, emmaleith]
       type: Tutorial
       video:
         link:
