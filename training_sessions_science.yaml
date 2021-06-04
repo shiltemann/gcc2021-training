@@ -455,44 +455,33 @@ ngsadvanced:
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01LRHRC6A3"
       faq: "https://docs.google.com/document/d/e/2PACX-1vQnEmZyZF3rLhU3mA-g5L8DVaTW8GHYTikxYnuvQG7sCT66owCIc-4KLLGw9S2nIo1XPPtV9Ledtm3n/pub"
 
-    - name: "SRA Aligned Read Formats to Speed Up Analysis"
+    - name: "SRA Aligned Read Formats to Speed Up SARS-CoV-2 Analysis"
       type: Tutorial
       speaker: prodromus
       instructors: [prodromus, skripche]
       description: |
-          Traditionally, after a list of run accessions has been filtered on the NCBI website, the accessions are used to download and extract fastq using the SRA toolkit to enter into the next steps of the workflow.  A newer compressed data type generated from raw submission data for sequences containing hits to SARS-CoV-2 is also accessible to Galaxy users from SRA in the Cloud.
-
-          SRA Aligned Read Format (SARFs) provides further output options other than basic fastq format, for example:
-
-          1. contigs created from the raw reads in the run (fasta format)
-          2. reads aligned back to the contigs (sam format)
-          3. VCF files generated for each record relative to the SARS-CoV-2 RefSeq record
-
-          We will demonstrate how to access just the reads (fasta or fastq format), just the contigs, the reads aligned to the contigs and vcf files for selected SARFs.
-
-          - These formats can speed up workflows such as assembly and variant calling.
-          - This data format is still referenced by the run accession and accessed using the SRA toolkit.
-          - This workshop describes the SARF data objects and demonstrates a few ways to filter them using the metadata before accessing them and entering them into Galaxy workflows.
-
-          Questions that will be answered in this workshop
-
-          - How can I search SRA SARS-CoV-2 metadata from within Galaxy?
-          - How can I import SRA aligned read files and extract the data in my format of choice?
-          - How can I import vcf files into Galaxy that have been generated for these runs?
-
-          Learning Objectives
-
-          - Learn about SRA aligned read format and VCF files for runs containing SARS-CoV-2 content.
-          - Understand how to search the SRA metadata for these runs to find your dataset of interest and then import that data in your preferred format.
-
-          Helpful References for SRA on Galaxy: [Tutorial on SRA Toolkit in Galaxy](https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/sars-cov-2/tutorial.html)
+        Traditionally, after a list of run accessions has been filtered on the NCBI website, the accessions are used to download and extract fastq using the SRA toolkit to enter into the next steps of the workflow.  A newer compressed data type generated from raw submission data for sequences containing hits to SARS-CoV-2 is also accessible to Galaxy users from SRA in the Cloud.
+        <br/><br/>
+        SRA Aligned Read Format (SARFs) provides further output options other than basic fastq format, for example 1) contigs created from the raw reads in the run (FASTA format), 2) reads aligned back to the contigs (SAM format), 3) VCF files generated for each record relative to the SARS-CoV-2 RefSeq record.
+        <br/><br/>
+        We will demonstrate how to access just the reads (FASTA or FASTQ format), just the contigs, the reads aligned to the contigs and VCF files for selected SARFs. These formats can speed up workflows such as assembly and variant calling, and this data format is still referenced by the run accession and accessed using the SRA toolkit.
+        <br/><br/>
+        This workshop describes the SARF data objects and demonstrates a few ways to filter them using the metadata before accessing them and entering them into Galaxy workflows.
       video:
         link:
         length:
         captions:
 
-
-
+      material:
+        - type: Slides
+          link: topics/galaxy-interface/tutorials/ncbi-sarf/slides.html
+          title: Introduction to SRA Aligned Read Format and Cloud Metadata for SARS-CoV-2
+        - type: Tutorial
+          title: SRA Aligned Read Formats to Speed Up SARS-CoV-2 data Analysis
+          link: topics/galaxy-interface/tutorials/ncbi-sarf/tutorial.html
+        - type: Related Tutorial
+          title: "From NCBI's Sequence Read Archive (SRA) to Galaxy: SARS-CoV-2 variant analysis"
+          link: topics/variant-analysis/tutorials/sars-cov-2/tutorial.html
 
 
 day2:
