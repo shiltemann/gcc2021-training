@@ -771,7 +771,7 @@ proteomics:
   sessions:
     - name: "Introduction to mass spectrometry based proteomics data analysis"
       speaker: awspolly
-      instructors: foellmelanie
+      instructors: &galaxypteam [foellmelanie, subinamehta, pratikdjagtap, timothygriffin, jj-umn, emmaleith, andrewr, ddan]
       type: Lecture
       description: This lecture will provide an introduction to mass spectrometry (MS) based proteomics analysis. <strong>Slides created by Melanie Föll</strong>.
       video:
@@ -788,6 +788,7 @@ proteomics:
 
     - name: "Maxquant + MSstats on a clinical cohort"
       speaker: foellmelanie
+      instructors: *galaxypteam
       description: "Modern mass spectrometry-based proteomics enables the identification and quantification of thousands of proteins. Therefore, quantitative mass spectrometry represents an indispensable technology for biological and clinical research. Statistical analyses are required for the unbiased answering of scientific questions and to uncover all important information in the proteomic data. In this training we will cover the full analysis workflow from label-free, data dependent acquisition (DDA) raw data to statistical results. We’ll use two popular quantitative proteomics software: MaxQuant and MSstats."
       type: Tutorial
       video:
@@ -803,8 +804,9 @@ proteomics:
       faq: "https://docs.google.com/document/d/e/2PACX-1vS4GuHPJrRcpGmNCXBTJ9wyUp6X33Xe6Ou8N_q0Ko5AJ-_rUy7ZsAu-x6R9yf7iRZLxK-t_e-O4Xoc6/pub"
 
     - name: "DIA Mass-spectrometry with EncyclopeDIA"
+      description: "Data Independent Acquisition Mass Spectrometry (DIA-MS) provides reproducible quantitative information as an improvement over the Data Dependent Acquisition (DDA). The EncyclopeDIA workflow tutorial will guide the user through the steps of a) conversion of the input  DIA-MS RAW data files to mzML; b) the generation of a Chromatogram Library using the gas-phase fractionation (GPF) method and spectral library and c) generation of peptide and protein quantitation outputs."
       speaker: [emmaleith, jj-umn, pratikdjagtap]
-      instructors: [subinamehta, pratikdjagtap, timothygriffin, jj-umn, emmaleith, andrewr]
+      instructors: *galaxypteam
       video:
         link:
         length:
@@ -852,7 +854,7 @@ proteomics:
     - &metaproteomics1
       name: "Metaproteomics Introduction"
       speaker: pratikdjagtap
-      instructors: [subinamehta, timothygriffin, jj-umn, emmaleith, andrewr]
+      instructors: [subinamehta, pratikdjagtap, timothygriffin, jj-umn, emmaleith, andrewr]
       type: Tutorial
       description: |
         In this tutorial, the basic workflow for metaproteomics is described, which includes database search,
@@ -872,9 +874,11 @@ proteomics:
     - &metaproteomics2
       name: "Pandemics Research using Mass Spectrometry"
       speaker: [timothygriffin, subinamehta, andrewr, pratikdjagtap]
-      instructors: [subinamehta, timothygriffin, jj-umn, emmaleith, andrewr]
+      instructors: *galaxypteam
       type: Tutorial
-      description: TODO
+      description: "The Coronavirus Disease 2019 (COVID-19) global pandemic has had a profound, lasting impact on the world's population. Accurate and timely diagnosis of COVID-19 infection is an important step for providing care and containing its further spread. In this tutorial, attendees will be introduced to two workflows – a) database search workflow and b) peptide validation workflow. Attendees of the workshop will get an in-depth knowledge of the Galaxy workflows that detect SARS-CoV-2 peptides ([10.1186/s12014-021-09321-1)](https://doi.org/10.1186/s12014-021-09321-1)) and co-infecting pathogen peptides ([10.1021/acs.jproteome.0c00822](https://doi.org/10.1021/acs.jproteome.0c00822))."
+
+
       video:
         link:
         length:
@@ -891,7 +895,7 @@ proteogenomics:
   sessions:
     - name: "Introduction to Proteogenomics"
       speaker: timothygriffin
-      instructors: [subinamehta, pratikdjagtap, jj-umn, emmaleith, andrewr, timothygriffin]
+      instructors: *galaxypteam
       type: Lecture
       description: |
         In this opening presentation, the basic components of proteogenomics are described,
@@ -912,7 +916,7 @@ proteogenomics:
 
     - name: "Proteogenomics 1: Database Creation"
       speaker: jj-umn
-      instructors: [subinamehta, pratikdjagtap, timothygriffin, emmaleith, andrewr, jj-umn]
+      instructors: *galaxypteam
       type: Tutorial
       description: |
         In this tutorial, we will provide a walkthrough on how to generate a customized protein
@@ -933,7 +937,7 @@ proteogenomics:
 
     - name: "Proteogenomics 2: Database search"
       speaker: andrewr
-      instructors: [subinamehta, pratikdjagtap, timothygriffin, jj-umn, emmaleith, andrewr]
+      instructors: *galaxypteam
       type: Demo
       description: |
         In this demonstration, we're continuing the process of proteogenomic analysis. Here, we search
@@ -957,7 +961,7 @@ proteogenomics:
 
     - name: "Proteogenomics 3: Novel peptide analysis"
       speaker: subinamehta
-      instructors: [pratikdjagtap, timothygriffin, jj-umn, emmaleith, andrewr, subinamehta]
+      instructors: *galaxypteam
       type: Demo
       description: |
         In this demonstration, we will investigate the peptides that were identified during proteogenomics
