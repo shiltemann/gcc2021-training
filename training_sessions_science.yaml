@@ -457,7 +457,7 @@ ngsadvanced:
 
     - name: "SRA Aligned Read Formats to Speed Up SARS-CoV-2 Analysis"
       type: Tutorial
-      speaker: prodromus
+      speaker: TBD
       instructors: [prodromus, skripche]
       description: |
         Traditionally, after a list of run accessions has been filtered on the NCBI website, the accessions are used to download and extract fastq using the SRA toolkit to enter into the next steps of the workflow.  A newer compressed data type generated from raw submission data for sequences containing hits to SARS-CoV-2 is also accessible to Galaxy users from SRA in the Cloud.
