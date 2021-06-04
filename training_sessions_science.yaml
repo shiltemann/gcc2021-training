@@ -415,7 +415,7 @@ ngsadvanced:
       video:
         link: 2jPNNd5YJNM
         length: 15M
-        captions:
+        captions: lldelisle
       material:
         - type: Tutorial
           link: topics/epigenetics/tutorials/atac-seq/tutorial.html
@@ -456,8 +456,9 @@ ngsadvanced:
       faq: "https://docs.google.com/document/d/e/2PACX-1vQnEmZyZF3rLhU3mA-g5L8DVaTW8GHYTikxYnuvQG7sCT66owCIc-4KLLGw9S2nIo1XPPtV9Ledtm3n/pub"
 
     - name: "SRA Aligned Read Formats to Speed Up Analysis"
-      type: tutorial
+      type: Tutorial
       speaker: prodromus
+      instructors: [prodromus, skripche]
       description: |
           Traditionally, after a list of run accessions has been filtered on the NCBI website, the accessions are used to download and extract fastq using the SRA toolkit to enter into the next steps of the workflow.  A newer compressed data type generated from raw submission data for sequences containing hits to SARS-CoV-2 is also accessible to Galaxy users from SRA in the Cloud.
 
