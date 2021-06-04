@@ -30,7 +30,7 @@ Please see the full program below for more details on the training
 **Who:** Participants of the Galaxy Community Conference \\
 **Format:** Virtual and asynchronous. All training session are pre-recorded, you can work through these at your own pace, with instructors available online for support \\
 **Support:** Slack and Remo \\
-**Contact:** [Saskia Hiltemann](mailto:saskiahiltemann@gmail.com), [Helena Rasche](mailto:helena.rasche@gmail.com)
+**Contact:** For questions regarding registration, please contact the [VIB Conference Team](mailto:conferences@vib.be), for any other questions, contact [Saskia Hiltemann](mailto:saskiahiltemann@gmail.com), [Helena Rasche](mailto:helena.rasche@gmail.com)
 
 
 ## Registration
