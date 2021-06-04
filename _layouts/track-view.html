@@ -88,8 +88,18 @@ links to all training materials can be found by clicking on each session
 
    <!-- session links  -->
    {% unless session.type == 'icebreaker' %}{% unless session.type == 'setup' %}{% unless session.type == 'wrapup' %}{% unless session.type == 'post-event' %}
+
+   <!-- list supporting materials -->
    <h3 class="session-section">Supporting Materials </h3>
    {% include session_materials.html session=session %}
+
+   <!-- instructors online for support -->
+   {% if session.instructors %}
+    <h3 class="session-section">Instructors</h3>
+    The following instructors are available online this week for support for this session:
+    {% include speakers.html speakers=session.instructors %}
+   {% endif %}
+
    {% endunless %}{% endunless %}{% endunless %}{% endunless %}
 
    <!-- end session links -->

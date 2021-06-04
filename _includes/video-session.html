@@ -25,13 +25,10 @@
    {% endif %}
   <div style="margin-top:1em;">
     <strong>Video Length:</strong> {{include.session.video.length | downcase }} <br/>
-    <strong>Description:</strong> {{include.session.description| markdownify| remove: '<p>' | remove: '</p>' | strip}}<br/>
     <strong>Subtitles By:</strong> {% for name in include.session.video.captions %}{% unless forloop.first %}, {% endunless %} {{ site.data.instructors[name].name}}{% endfor %}
 {% if captions == 0 %} We apologize for lack of captions on this video. If you are reliant on captions, please check back here soon.{% endif %}<br/>
-    {% if include.session.instructors %}
-    <br/><strong>Instructors:</strong><br/> The following instructors are available online for support for this session:
-   {% include speakers.html speakers=include.session.instructors %}
-    {% endif %}
+    <strong>Description:</strong> {{include.session.description| markdownify| remove: '<p>' | remove: '</p>' | strip}}<br/>
+
    </div>
  </div>
 
