@@ -544,7 +544,7 @@ rnabasics:
 
 
     - name: Plant transcriptome analysis
-      type: tutorial
+      type: Tutorial
       speaker: gallardoalba
       description: In this tutorial, we will analyze RNA sequencing data to extract information about potential genes regulated in response to abiotic stress in plants. For this purpose, the chosen approach is the identification of genes with complementary regions to miRNAs upregulated in response to brassinosteroids.
       video:
@@ -654,7 +654,7 @@ rnaseqsinglecell:
     - name: Generating a single cell matrix using Alevin
       speaker: nomadscientist
       instructors: [nomadscientist, mtekman]
-      type: Self-study with Video Walkthrough
+      type: Walkthrough for Self-Study Session
       description:
       video:
         link: 3ytm2AU6QUc
@@ -1139,7 +1139,7 @@ machinelearning:
         length: 1H29M
         captions:
       material:
-        - type: tutorial
+        - type: Tutorial
           link: topics/statistics/tutorials/regression_machinelearning/tutorial.html
         - type: Slides
           link: "https://docs.google.com/presentation/d/16Ct2wJmLz4YI2rF9Y1SxcFWfSdVyJVoBy3YynBRDB0Q/edit?usp=sharing"
