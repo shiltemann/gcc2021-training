@@ -21,6 +21,23 @@ intro:
     - name: "Get set up for the course"
       type: setup
 
+    - name: "About Certificates"
+      type: custom
+      description: |
+        ![](assets/images/wrapup/cert.gif){: width="10%"}
+        **Certificates of attendance can be requested after the training week.**
+
+        You can follow as few or as many tutorials as you want, we will give you a **personalized certificate** listing the sessions you attended.
+
+        **In order to obtain a certificate please make sure to:**
+        1. Keep all your **Galaxy histories**
+           - We will ask you to provide links to the histories for all sessions you followed
+        2. Answer the **icebreakers question** on Slack every day
+        3. Be active on **Slack**!
+          - Let us know when you are **starting with a session** in the session's dedicated Slack channel
+          - Ask **questions about the session**! Get stuck? Have a question about the science? ask away in Slack!
+          - Whenever you **finish a session**, let us know on Slack that you have completed the tutorial, and let us know what you thought of it!
+
     - name: "Meet & Join the Galaxy Community!"
       description: "This short video gives an overview of the worldwide Galaxy community, and different ways you can get involved! <strong>Video created by Beatriz Serrano-Solano</strong>."
       speaker: galaxycommunity
@@ -805,6 +822,7 @@ proteomics:
 
     - name: "ProteoRE tool for Functional Analysis of a Protein List"
       speaker: yvesvdb
+      instructors: [yvesvdb, combesf]
       type: Tutorial
       description: "This tutorial covers an annotation pipeline for a protein list identified by LC-MS/MS experiments."
       video:
@@ -820,8 +838,7 @@ proteomics:
       faq: "https://docs.google.com/document/d/e/2PACX-1vT7_ulDI8Mf4BpE8JPmvXYVqk1UmMGEFJ6Cj2ZvlxwLfP8riaaVicPtGR5HeFDAEmKMjaXPcub6cL1w/pub"
 
     - name: "ProteoRE tool for biomarker discovery"
-      speaker: [yvesvdb]
-      instructors: [yvesvdb,comesf]
+      instructors: [yvesvdb,combesf]
       type: Tutorial
       description: "A biomarker is a measurable biological component that can be routinely detected in clinical practice and reflects a disease state, response to therapeutic treatment, or other relevant biological state. In this tutorial we introduce successively the tools of this pipeline, and guide you to execute them in order to complete the entire pipeline on a concrete example."
       material:
@@ -831,15 +848,6 @@ proteomics:
       support_channel: "#5-j_proteore-biomarkers-discovery"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01FP2AHUV9"
       faq: "https://docs.google.com/document/d/e/2PACX-1vQVj92upQT2Z4B6ZF6kmhrbnHesbkS--e5ge14iRbxDsxRHuOb52XJE8DI584asA0t2GJIjS_qliPZu/pub"
-
-    - name: "Annotation and GO enrichment analysis of differentially expressed proteins"
-      speaker: yvesvdb
-      instructors: [yvesvdb,comesf]
-      type: Tutorial
-      video:
-        link:
-        length:
-        captions:
 
     - &metaproteomics1
       name: "Metaproteomics Introduction"

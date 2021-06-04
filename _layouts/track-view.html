@@ -64,6 +64,10 @@ links to all training materials can be found by clicking on each session
    {% endif %}
 
 
+   {% if session.type == 'custom' %}
+     {{session.description| markdownify}}
+   {% endif %}
+
    <!-- session description
    {% if session.description %}
    <h3>Description</h3>
@@ -75,7 +79,7 @@ links to all training materials can be found by clicking on each session
    {% if session.video %}
    {% include video-session.html session=session %}
    {% else %}
-   {% unless session.type == 'icebreaker' %}{% unless session.type == 'setup' %}{% unless session.type == 'wrapup' %}{% unless session.type == 'post-event' %}
+   {% unless session.type == 'icebreaker' or session.type == 'custom' %}{% unless session.type == 'setup' %}{% unless session.type == 'wrapup' %}{% unless session.type == 'post-event' %}
    <h3 class="session-section"> Self-Study Tutorial </h3>
    {{session.description| markdownify}}
 
@@ -87,7 +91,7 @@ links to all training materials can be found by clicking on each session
    {% include server_support.html material=session.material %}
 
    <!-- session links  -->
-   {% unless session.type == 'icebreaker' %}{% unless session.type == 'setup' %}{% unless session.type == 'wrapup' %}{% unless session.type == 'post-event' %}
+   {% unless session.type == 'icebreaker' or session.type == 'custom' %}{% unless session.type == 'setup' %}{% unless session.type == 'wrapup' %}{% unless session.type == 'post-event' %}
 
    <!-- list supporting materials -->
    <h3 class="session-section">Supporting Materials </h3>
