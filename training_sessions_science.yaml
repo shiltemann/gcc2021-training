@@ -27,7 +27,7 @@ intro:
         ![](assets/images/wrapup/cert.gif){: width="10%"}
         **Certificates of attendance can be requested after the training week.**
 
-        You can follow as few or as many tutorials as you want, we will give you a **personalized certificate** listing the sessions you attended.
+        **NOTE:** You can follow as few or as many training sessions as you want, we will give you a **personalized certificate** listing all the sessions you attended.
 
         **In order to obtain a certificate please make sure to:**
         1. Keep all your **Galaxy histories**
@@ -206,14 +206,23 @@ galaxyadvanced:
           - type: Tutorial
             link: /topics/galaxy-interface/tutorials/upload-rules-advanced/tutorial.html
 
-    - name: Running workflows on the CLI
+    - name: Running Workflows from the Command Line using Planemo
       type: Tutorial
       description: |
-          This is a more technical tutorial which will teach you how to run workflows from the command line and scale your analyses. If you are on windows, you will need WSL/WSL2 setup before this session.
-      speaker: [simonbray, wm75]
+          This is a more technical tutorial which will teach you how to run workflows from the command line and scale your analyses. If you are on Windows, you will need WSL/WSL2 setup before this session.
+      speaker: [simonbray]
+      instructors: [simonbray, wm75]
+      video:
+        link: o39QjVnLG68
+        length: 30M
+        captions:
       material:
+          - type: Get Set Up
+            link: "https://docs.microsoft.com/en-us/windows/wsl/install-win10"
+            title: "Installing WSL on Windows"
           - type: Tutorial
             link: /topics/galaxy-interface/tutorials/workflow-automation/tutorial.html
+
 
 ngsintro:
   title: Introduction to NGS Analysis
