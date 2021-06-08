@@ -37,6 +37,23 @@ Please see the full program below for more details on the training
 
 Please sign up the Galaxy Community Conference to join this event. Registration can be done via the  **[VIB Conference Website]({{site.registration_form}})**.
 
+Many people have had questions about tickets, so, here is a short guide of which tickets you need for which training tracks:
+
+- If you want to do admin training you need an admin ticket
+- If you want to do either science or developer training, you need a non-admin ticket.
+
+Or as a table to list all of the combinations
+
+Admin | Science | Dev | Which Tickets you need
+---   | ---     | --  | ---
+No    | No      | No  | None!
+No    | No      | Yes | Non-admin
+No    | Yes     | No  | Non-admin
+No    | Yes     | Yes | Non-admin
+Yes   | No      | No  | Admin
+Yes   | No      | Yes | Admin + Non-admin
+Yes   | Yes     | No  | Admin + Non-admin
+Yes   | Yes     | Yes | Admin + Non-admin
 
 ## Program
 
