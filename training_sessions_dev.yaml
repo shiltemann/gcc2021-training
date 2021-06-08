@@ -98,10 +98,10 @@ tooldev:
           - type: Tutorial
             link: /topics/dev/tutorials/bioblend-dev/tutorial.html
 
-    - name: Introduction to Galaxy Tools & Conda
+    - name: Galaxy Tools: From Conda Through Deployment
       type: Tutorial
       description: |
-          Here you will creating Galaxy tools from scratch and use Conda for deployment.
+          Here you will creating Galaxy tools from scratch using Conda for requirements, Planemo for testing, and Git for deployment.
       speaker: [davebx, bernt-matthias, astrovsky01]
       material:
           - type: Tutorial
