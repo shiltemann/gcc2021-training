@@ -17,7 +17,7 @@ title: "GCC2021 Training"
 email: saskiahiltemann@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Website for the GCC2021 Training Week, June 28-July 2, 2021.
-baseurl: "/events/gcc2021/training" # the subpath of your site, e.g. /blog
+baseurl: "/events/gcc2021/training/" # the subpath of your site, e.g. /blog
 url: "https://galaxyproject.org" # the base hostname & protocol for your site, e.g. http://example.com
 
 
@@ -56,6 +56,7 @@ video_prefix: "https://youtu.be/"
 
 # Build settings
 markdown: kramdown
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
