@@ -98,33 +98,114 @@ tooldev:
           - type: Tutorial
             link: /topics/dev/tutorials/bioblend-dev/tutorial.html
 
-    - name: "Galaxy Tools: From Conda Through Deployment"
-      type: Tutorial
+    - name: "Galaxy Tools: From Conda Through Deployment - Planemo Tool Init & Structure"
       description: |
           Here you will creating Galaxy tools from scratch using Conda for requirements, Planemo for testing, and Git for deployment.
-      speaker: [davebx, bernt-matthias, astrovsky01]
+      speaker: astrovsky01
+      instructors: [davebx, bernt-matthias, astrovsky01]
+      video:
+        link: a6XZgEy6hlg
+        length: 2M
+        captions:
       material:
           - type: Tutorial
             link: /topics/dev/tutorials/tool-dev-from-scratch/tutorial.html
+      support_channel: "#dev-tools-conda"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/dev-tools-conda"
+      faq: "https://docs.google.com/document/d/1moSs0APNyhm4yZ9vPfpH0ErPONncNU-UCRzGvypc84I/pub"
+
+
+    - name: "Galaxy Tools: From Conda Through Deployment - Writing the Wrapper"
+      description: |
+          Here you will creating Galaxy tools from scratch using Conda for requirements, Planemo for testing, and Git for deployment.
+      speaker: astrovsky01
+      instructors: [davebx, bernt-matthias, astrovsky01]
+      video:
+        link: FdtD8vBLK5k
+        length: 17M
+        captions:
+      material:
+          - type: Tutorial
+            link: /topics/dev/tutorials/tool-dev-from-scratch/tutorial.html
+      support_channel: "#dev-tools-conda"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/dev-tools-conda"
+      faq: "https://docs.google.com/document/d/1moSs0APNyhm4yZ9vPfpH0ErPONncNU-UCRzGvypc84I/pub"
+
+
+    - name: "Galaxy Tools: From Conda Through Deployment - Planemo Testing"
+      description: |
+          Here you will creating Galaxy tools from scratch using Conda for requirements, Planemo for testing, and Git for deployment.
+      speaker: bernt-matthias
+      instructors: [davebx, bernt-matthias, astrovsky01]
+      video:
+        link: 19mKUENz_i0
+        length: 41M
+        captions:
+      material:
+          - type: Tutorial
+            link: /topics/dev/tutorials/tool-dev-from-scratch/tutorial.html
+      support_channel: "#dev-tools-conda"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/dev-tools-conda"
+      faq: "https://docs.google.com/document/d/1moSs0APNyhm4yZ9vPfpH0ErPONncNU-UCRzGvypc84I/pub"
+
+    - name: "Galaxy Tools: From Conda Through Deployment - Contributing"
+      description: |
+          Here you will creating Galaxy tools from scratch using Conda for requirements, Planemo for testing, and Git for deployment.
+      speaker: astrovsky01
+      instructors: [davebx, bernt-matthias, astrovsky01]
+      video:
+        link: hg0YreA8W1I
+        length: 30M
+        captions:
+      material:
+          - type: Tutorial
+            link: /topics/dev/tutorials/tool-dev-from-scratch/tutorial.html
+      support_channel: "#dev-tools-conda"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/dev-tools-conda"
+      faq: "https://docs.google.com/document/d/1moSs0APNyhm4yZ9vPfpH0ErPONncNU-UCRzGvypc84I/pub"
+
+
+
+
 
     - name: "ToolFactory: Generating Tools From Simple Scripts: Slides"
       description: |
-          Here you'll get a quick overview about what the ToolFactory is and how it works.
+          Here you'll get a quick overview about what the ToolFactory is and
+          how it works.
       speaker: awspolly
       instructors: [fubar2]
       video:
-        link:
-        length:
-        captions:
+        link: W5Ap5elAxQc
+        length: 3M
+        captions: [galaxycommunity]
       material:
           - type: Slides
             link: /topics/dev/tutorials/tool-generators/slides.html
+      support_channel: "#dev-toolfactory"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/dev-toolfactory"
+      faq: "https://docs.google.com/document/d/1e2iuYoseNkPvUBfMczEtPNsKI2Nfbyn6pN9Nz1x6E1o/pub"
 
-    - name: "ToolFactory: Generating Tools From Simple Scripts: Hands-on!"
+    - name: "ToolFactory: Generating Tools From Simple Scripts: Quick Hands On"
+      description: |
+          Here you'll see how the ToolFactory works and get a quick tour of the hands on
+      speaker: awspolly
+      instructors: [fubar2]
       video:
-        link:
-        length:
-        captions:
+        link: DK1eKz5TRs4
+        length: 7M
+        captions: [fubar2]
+      material:
+          - type: Tutorial
+            link: /topics/dev/tutorials/tool-generators/tutorial.html
+      support_channel: "#dev-toolfactory"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/dev-toolfactory"
+      faq: "https://docs.google.com/document/d/1e2iuYoseNkPvUBfMczEtPNsKI2Nfbyn6pN9Nz1x6E1o/pub"
+
+    - name: "ToolFactory: Generating Tools From Simple Scripts: Longer Hands-on"
+      video:
+        link: PJtjk6tVR2s
+        length: 30M
+        captions: [fubar2]
       description: |
           **Why this training might be useful:** If you write useful scientific
           analysis scripts, but have not yet learned to create new tools for
@@ -164,6 +245,9 @@ tooldev:
       material:
           - type: Tutorial
             link: /topics/dev/tutorials/tool-generators/tutorial.html
+      support_channel: "#dev-toolfactory"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/dev-toolfactory"
+      faq: "https://docs.google.com/document/d/1e2iuYoseNkPvUBfMczEtPNsKI2Nfbyn6pN9Nz1x6E1o/pub"
 
     - name: BioBlend
       type: Tutorial
@@ -173,22 +257,13 @@ tooldev:
     - name: The GTN & Training Material Development
       type: Tutorial
       description:
-      speaker: [shiltemann, bebatut, hexylena]
+      speaker: [shiltemann, bebatut, hexylena, slugger70]
 
-    - name: "TBC: Galaxy Interactive Tool Development"
-      type: Tutorial
-      description:
-      speaker: [blankenberg, bgruening, abretaud, yvanlebras]
 
     - name: "TBC: Galaxy Visualization Integration"
       type: Tutorial
       description:
       speaker: [dannon]
-
-    - name: "TBC: Data Sources"
-      type: Tutorial
-      description:
-      speaker: [blankenberg, hexylena]
 
 coredev:
   title: Galaxy Core Development
