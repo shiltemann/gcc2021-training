@@ -136,22 +136,6 @@ galaxyintro:
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01ES914GCU"
       faq: "https://docs.google.com/document/d/e/2PACX-1vQ1SZCsxEcRXp39J2BcFAjXyC3B20sWzI7IVgBgwe2pcC9b0cza417jzBPYJVqCRNbU0dD4rv_y6u6P/pub"
 
-    - name: "A Slightly Longer Introduction to Galaxy"
-      type: Tutorial
-      description: This video tutorial will provide a very first look at the Galaxy platform, how to use it, and discusses how you can get support for your data analysis.
-      speaker: jennaj
-      video:
-        link:
-        length:
-        captions:
-      material:
-        - type: Tutorial
-          link: topics/introduction/tutorials/galaxy-intro-101-everyone/tutorial.html
-      support_channel: "#galaxy_intro_short"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01ES914GCU"
-      faq: "https://docs.google.com/document/d/e/2PACX-1vQ1SZCsxEcRXp39J2BcFAjXyC3B20sWzI7IVgBgwe2pcC9b0cza417jzBPYJVqCRNbU0dD4rv_y6u6P/pub"
-
-
     - name: "Your First Galaxy Analysis"
       type: Tutorial
       description: |
