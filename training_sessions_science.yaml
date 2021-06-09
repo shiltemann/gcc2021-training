@@ -228,7 +228,7 @@ galaxyadvanced:
       video:
         link: o39QjVnLG68
         length: 30M
-        captions:
+        captions: simonbray
       material:
           - type: Get Set Up (Windows)
             link: "https://docs.microsoft.com/en-us/windows/wsl/install-win10"
@@ -898,15 +898,18 @@ proteomics:
       name: "Pandemics Research using Mass Spectrometry"
       speaker: [timothygriffin, subinamehta, andrewr, pratikdjagtap]
       instructors: *galaxypteam
-      type: Tutorial
+      type: Lecture and Demo
       description: "The Coronavirus Disease 2019 (COVID-19) global pandemic has had a profound, lasting impact on the world's population. Accurate and timely diagnosis of COVID-19 infection is an important step for providing care and containing its further spread. In this tutorial, attendees will be introduced to two workflows – a) database search workflow and b) peptide validation workflow. Attendees of the workshop will get an in-depth knowledge of the Galaxy workflows that detect SARS-CoV-2 peptides ([10.1186/s12014-021-09321-1)](https://doi.org/10.1186/s12014-021-09321-1)) and co-infecting pathogen peptides ([10.1021/acs.jproteome.0c00822](https://doi.org/10.1021/acs.jproteome.0c00822))."
 
 
       video:
-        link:
-        length:
+        link: CI35gTmZoqM
+        length: 35M
         captions:
       material:
+        - type: Slides
+          external: true
+          link: TODO
       support_channel: "#4-3_metaproteomics"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01FD4276P3"
       faq: "https://docs.google.com/document/d/e/2PACX-1vTX6JQG4oAKXvQSJU52thudorwANPtzIedTiTQU1NbXQYYfrNkBheN-gHu0O91bCOIk5wQBpH1mIk7v/pub"
@@ -1335,9 +1338,9 @@ nonomics:
       instructors: [simonbray, chrisbarnettster, tsenapathi]
       description: "Molecular dynamics (MD) is a method to simulate molecular motion by iterative application of Newton’s laws of motion. This tutorial provides an introduction to using high-throughput molecular dynamics to study protein-ligand interaction, as applied to the N-terminal domain of Hsp90 (heat shock protein 90)."
       video:
-        link: 1PG4x4ZE9OI
+        link: LjW3nES04bI
         length: 1H40M
-        captions:
+        captions: simonbray
       material:
         - type: Tutorial
           link: topics/computational-chemistry/tutorials/htmd-analysis/tutorial.html
