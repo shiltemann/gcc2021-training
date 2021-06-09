@@ -560,9 +560,9 @@ rnabasics:
           determine which transcripts are differentially expressed between the
           two states.
       video:
-        link:
-        length:
-        captions:
+        link: WrOIpCxba78
+        length: 48M
+        captions: malloryfreeberg
       material:
         - type: Tutorial
           link: topics/transcriptomics/tutorials/de-novo/tutorial.html
