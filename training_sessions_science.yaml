@@ -6,10 +6,10 @@ intro:
       description: "Start here; we will go over all the important things to know to get the most out of this workshop"
       speaker: shiltemann
       type: Lecture
-      video:
-        link: YXEnyIvYEKo
-        length: 25M
-        captions: [shiltemann]
+      videos:
+        - link: YXEnyIvYEKo
+          length: 25M
+          captions: [shiltemann]
       material:
         - type: Slides
           external: true
@@ -41,10 +41,10 @@ intro:
     - name: "Meet & Join the Galaxy Community!"
       description: "This short video gives an overview of the worldwide Galaxy community, and different ways you can get involved! <strong>Video created by Beatriz Serrano-Solano</strong>."
       speaker: galaxycommunity
-      video:
-        link: -1MPdxmRs8U
-        length: 5M
-        captions: [shiltemann]
+      videos:
+        - link: -1MPdxmRs8U
+          length: 5M
+          captions: [shiltemann]
       material: &communitymaterial
         - type: GalaxyProject Home
           external: true
@@ -124,10 +124,10 @@ galaxyintro:
       description: |
         This video will introduce the Galaxy data analysis platform, and give a short demo on how to use it.
       speaker: nekrut
-      video:
-        link: VZoz3k5EehI
-        length: 10M
-        captions: [nekrut]
+      videos:
+        - link: VZoz3k5EehI
+          length: 10M
+          captions: [nekrut]
       material:
         - type: Slides
           link: topics/introduction/videos/
@@ -136,15 +136,44 @@ galaxyintro:
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01ES914GCU"
       faq: "https://docs.google.com/document/d/e/2PACX-1vQ1SZCsxEcRXp39J2BcFAjXyC3B20sWzI7IVgBgwe2pcC9b0cza417jzBPYJVqCRNbU0dD4rv_y6u6P/pub"
 
+    - name: "Webinar Series: Galaxy Resources For.."
+      type: "Webinar Series: Galaxy Resources For.."
+      description: Each of the 4 webinars in this series highlights avaialble Galaxy resources for a different audience.
+        These videos are a nice way to get an overview of what Galaxy has to offer for different types of users.
+      videos:
+        - link: cFN_WPGz9qk
+          length: 1H10M
+          title: ..Researchers
+          description: Wondering how to get started, or how to do a particular type of analysis, or how to scale to thousands of datasets? This webinar will highlight how to find the resources and help you need for each of these questions and more.
+          speaker: [tnabtaf]
+
+        - link: AXynJtPXgRQ
+          length: 1H10M
+          title: ..Educators and Trainers
+          description: Galaxy is an exceptional resource for teaching bioinformatics and other data sciences. The Galaxy Platform itself makes sophisticated analysis tools and workflows accessible to learners without requiring them to become system administrators or learn command line interfaces. Galaxy is a graphical user interface that only requires a browser, and allows students and teachers to focus on concepts, rather than compute infrastructure.
+          speaker: [shiltemann, miaomiaozhou88, subinamehta, bebatut]
+          captions: shiltemann
+
+        - link: MdQyltMAocg
+          title: ..Tool Developers
+          description: Galaxy is an excellent platform for increasing the visibility and use of computational tools in any domain that Galaxy has been applied to. If you develop computational analysis or visualization tools then this webinar will demonstrate how porting your tools to Galaxy can significantly increase their visibility and adoption.
+          speaker: [blankenberg, abretaud, peternovak]
+
+        - link: vx2icgaU_h0
+          title: ..Administrators & Infrastructure Providers
+          description: Galaxy can empower your community to create and run their own sophisticated and repeatable data analyses and visualizations, without requiring them to learn command line interfaces or Linux systems administration. If you are interested in helping your researchers help themselves with their data analyses, then this webinar is for you. We will cover resources available in the Galaxy ecosystem to help those who setup and maintain production Galaxy servers.
+          speaker: [gmauro, lldelisle]
+
+
     - name: "Your First Galaxy Analysis"
       type: Tutorial
       description: |
         In this tutorial, we will walk you through your first (toy) analysis in Galaxy. This tutorial is aimed at familiarizing you with the Galaxy platform, and some basic NGS concepts.
       speaker: tnabtaf
-      video:
-        link: 1UPCrQxGwcU
-        length: 1H30M
-        captions: [tnabtaf]
+      videos:
+        - link: 1UPCrQxGwcU
+          length: 1H30M
+          captions: [tnabtaf]
       material:
         - type: Slides
           link: "https://docs.google.com/presentation/d/1rOGp4o_Dc-QIHS4YT4HizdfXTVhJB1HwPPZkSDuMhig/edit#slide=id.gbc9627d000_0_346"
@@ -164,10 +193,10 @@ galaxyintro:
       type: Tutorial
       description: This video tutorial will provide a non-genomics based first look at the Galaxy platform, how to use it, and discusses how you can get support for your data analysis.
       speaker: annefou
-      video:
-        link: dguN6Xw2Azs
-        length: 1H15M
-        captions: [annefou]
+      videos:
+        - link: dguN6Xw2Azs
+          length: 1H15M
+          captions: [annefou]
       material:
         - type: Tutorial
           link: topics/introduction/tutorials/galaxy-intro-101-everyone/tutorial.html
@@ -188,10 +217,10 @@ galaxyadvanced:
           URLs, sample sheets, list of accessions or identifiers, etc..
       speaker: [assuntad23]
       instructors: [assuntad23, jmchilton]
-      video:
-        link: 1MWHVRWXpyA
-        length: 22M
-        captions:
+      videos:
+        - link: 1MWHVRWXpyA
+          length: 22M
+          captions:
       material:
           - type: Tutorial
             link: /topics/galaxy-interface/tutorials/upload-rules/tutorial.html
@@ -209,10 +238,10 @@ galaxyadvanced:
           on Windows, you will need WSL/WSL2 setup before this session.
       speaker: [simonbray]
       instructors: [simonbray, wm75]
-      video:
-        link: o39QjVnLG68
-        length: 30M
-        captions: simonbray
+      videos:
+        - link: o39QjVnLG68
+          length: 30M
+          captions: simonbray
       material:
           - type: Get Set Up (Windows)
             link: "https://docs.microsoft.com/en-us/windows/wsl/install-win10"
@@ -233,10 +262,10 @@ ngsintro:
       description: |
         In this demo video, we will show how to perform an NGS data analysis, using a SARS-CoV-2 example dataset. If you would like to run the full tutorial yourself, please find the link below (duration 1h-1.5h).
       speaker: nekrut
-      video:
-        link: 9mIL0tIfZ_o
-        length: 15M
-        captions: [nekrut]
+      videos:
+        - link: 9mIL0tIfZ_o
+          length: 15M
+          captions: [nekrut]
       material:
         - type: Tutorial
           link: topics/introduction/tutorials/galaxy-intro-ngs-data-managment/tutorial.html
@@ -245,72 +274,58 @@ ngsintro:
       faq: "https://docs.google.com/document/u/2/d/12w_KCVN7z9DKLSxX6aCRfr8__nfANoIxfLJeYM4UGQA/pub"
 
 
-    - name: "Quality Control: Intro"
+    - name: "Quality Control"
       speaker: heylf
-      type: Lecture
+      type: Lecture and Hands-on Tutorial
       description: |
-        This tutorial covers the basics about how to assess and improve the quality of your sequencing data.
-      video:
-        link: BWonTPS4zB8
-        length: 40M
-        captions: [ennovytje,nagoue,hexylena]
+        This session covers the basics about how to assess and improve the quality of your sequencing data.
+      videos:
+        - link: BWonTPS4zB8
+          title: Lecture
+          description: This lecture goes over the concepts involved in assessing the quality of your sequencing data.
+          length: 40M
+          captions: [ennovytje,nagoue,hexylena]
+        - link: QJRlX2hWDKM
+          title: Tutorial
+          description: In this tutorial you will get some hand-on experience performing a quality assessment on sequencing data.
+          length: 1H10M
+          captions: [bebatut,nagoue,shiltemann]
       material:
         - type: Slides
           link: topics/sequence-analysis/tutorials/quality-control/slides.html
           title: Introduction to Quality Control
+        - type: Tutorial
+          link: "topics/sequence-analysis/tutorials/quality-control/tutorial.html"
+
       support_channel: "#1-3_quality-control"
       support_link: https://gtnsmrgsbord.slack.com/archives/C01FQ92MB7A
       faq: "https://docs.google.com/document/d/e/2PACX-1vRXhvMQNVRc41Xsg7NLeCLSefaWMEhKgkENmqQqAJUfZAk782616svDQPBQhMKeOqMhiKSZDbmFqsfO/pub"
 
 
-    - name: "Quality Control: Hands-on!"
-      type: Tutorial
-      speaker: heylf
-      description: |
-        Get hands-on experience assessing and improving the quality of
-        your sequencing data in Galaxy.
-      video:
-        link: QJRlX2hWDKM
-        length: 1H10M
-        captions: [bebatut,nagoue,shiltemann]
-      material:
-        - type: Tutorial
-          link: "topics/sequence-analysis/tutorials/quality-control/tutorial.html"
-      support_channel: "#1-3_quality-control"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01FQ92MB7A"
-      faq: "https://docs.google.com/document/d/e/2PACX-1vRXhvMQNVRc41Xsg7NLeCLSefaWMEhKgkENmqQqAJUfZAk782616svDQPBQhMKeOqMhiKSZDbmFqsfO/pub"
-
-
-    - name: "Mapping: Introduction"
-      type: Lecture
+    - name: "Mapping"
+      type: Lecture and Hands-on Tutorial
       speaker: pvanheus
       description: |
         Mapping sequencing reads to a reference genome is often the next step
-        after QC. This session covers the basic concepts of mapping.
-      video:
-        link: 7FhHb8EV3EU
-        length: 10M
-        captions: [blankenberg]
+        after QC. This session covers the basic concepts of mapping and the
+        practical will guide you through performing a mapping step on sequending data.
+      videos:
+        - link: 7FhHb8EV3EU
+          length: 10M
+          captions: [blankenberg]
+          speaker: pvanheus
+          title: Lecture
+          description: This lecture covers the basic concepts involved in mapping sequencing reads to a reference genome.
+        - link: 1wm-62E2NkY
+          length: 20M
+          captions: [shiltemann]
+          speaker: pvanheus
+          title: Tutorial
+          description: In this tutorial you will map sequencing data to a reference genome, and explore the mapped reads in a genome browser.
       material:
         - type: Slides
           link: topics/sequence-analysis/tutorials/mapping/slides.html
           title: Mapping
-      support_channel: "#1-4_mapping"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01F6JHCFT6"
-      faq: "https://docs.google.com/document/d/e/2PACX-1vReZf8DGTSf6DlgBzg_g4_PhiH7glzRNTXGxK2_xM3aAFL5A3x0FdawNCrna3NkZ_vj986u7nhWh3Bb/pub"
-
-
-    - name: "Mapping: Hands-on!"
-      type: Tutorial
-      speaker: pvanheus
-      description: |
-        In this tutorial you will map sequencing data to a reference genome,
-        and explore the mapped reads in a genome browser.
-      video:
-        link: 1wm-62E2NkY
-        length: 20M
-        captions: [shiltemann]
-      material:
         - type: Tutorial
           link: topics/sequence-analysis/tutorials/mapping/tutorial.html
           title: Mapping
@@ -319,40 +334,33 @@ ngsintro:
       faq: "https://docs.google.com/document/d/e/2PACX-1vReZf8DGTSf6DlgBzg_g4_PhiH7glzRNTXGxK2_xM3aAFL5A3x0FdawNCrna3NkZ_vj986u7nhWh3Bb/pub"
 
 
-    - name: "Genome Assembly: Introduction"
+    - name: "Genome Assembly"
       description: |
         When there is no reference genome available for your organism, you will
-        have to assemble the short reads into larger segments (contigs). This
-        introduction covers the basics of this assembly process.
-      type: Lecture
-      speaker: slugger70
-      video:
-        link: -EX_G1griZE
-        length: 25M
-        captions: [shiltemann, hexylena]
+        have to assemble the short reads into larger segments (contigs).
+      type: Lecture and Hands-on Tutorial
+      videos:
+        - link: -EX_G1griZE
+          length: 25M
+          speaker: slugger70
+          captions: [shiltemann, hexylena]
+          title: Lecture
+          description: This lecture walks you through the basic concepts involved in assembling a genome from short-read sequencing data.
+        - link: eyfCyINTD_E
+          length: 35M
+          speaker: annasyme
+          captions: [annasyme]
+          title: Tutorial
+          description: In this tutorial, you will assemble a chloroplast genome using a combination of short and long read data.
+
       material:
         - type: Slides
           link: topics/assembly/tutorials/general-introduction/slides.html
           title: An Introduction to Genome Assembly
-      support_channel: "#1-5_assembly"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01EKMD8VC7"
-      faq: "https://docs.google.com/document/d/e/2PACX-1vTed-1_nZK1liUdm5IZn_Qas7LcJE700WwsMAgT282Q1jx0Nkk4lZzzN47P9aS1suUAeh0ljIUYgXpG/pub"
-
-
-    - name: "Genome Assembly: Hands-on!"
-      type: Tutorial
-      description: |
-        In this tutorial, you will assemble a chloroplast genome using a
-        combination of short and long read data.
-      speaker: annasyme
-      video:
-        link: eyfCyINTD_E
-        length: 35M
-        captions: [annasyme]
-      material:
         - type: Tutorial
           link: topics/assembly/tutorials/chloroplast-assembly/tutorial.html
           title: Chloroplast genome assembly
+
       support_channel: "#1-5_assembly"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01EKMD8VC7"
       faq: "https://docs.google.com/document/d/e/2PACX-1vTed-1_nZK1liUdm5IZn_Qas7LcJE700WwsMAgT282Q1jx0Nkk4lZzzN47P9aS1suUAeh0ljIUYgXpG/pub"
@@ -366,10 +374,10 @@ ngsadvanced:
       speaker: gallardoalba
       type: Tutorial
       description: "This tutorial guides you through the preprocessing of sequencing data of bronchoalveolar lavage fluid (BALF) samples obtained from early COVID-19 patients in China. Since such samples are expected to be contaminated signficantly with human sequenced reads, the goal is to enrich the data for SARS-CoV-2 reads by identifying and discarding reads of human origin before trying to assemble the viral genome sequence."
-      video:
-        link: jNFLYhjgJPs
-        length: 25M
-        captions: [mtekman]
+      videos:
+        - link: jNFLYhjgJPs
+          length: 25M
+          captions: [mtekman]
       material:
         - type: Slides
           link: topics/assembly/tutorials/assembly-with-preprocessing/slides.html
@@ -379,34 +387,26 @@ ngsadvanced:
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01GJLDS01K"
       faq: "https://docs.google.com/document/d/e/2PACX-1vRcBWHbIIo6t_vXtZiaW_6t2qIUYwjiptC2MRVUG5KC31rwPg8fO9yCma22HqIV6Hu1T3wJXaV-GwxU/pub"
 
-    - name: "Genome Annotation: Annotation of a prokaryotic genome: Slides"
-      speaker: awspolly
-      type: Lecture
+    - name: "Genome Annotation: Annotation of a prokaryotic genome"
+      type: Lecture & Hands-on Tutorial
       description: "Genome annotation is a multi-level process that includes prediction of protein-coding genes, as well as other functional genome units such as structural RNAs, tRNAs, small RNAs, pseudogenes, control regions, direct and inverted repeats, insertion sequences, transposons and other mobile elements."
-      video:
-        link: eqHy-Cc7k4Q
-        length: 3M
-        captions: [abretaud]
+      videos:
+        - link: eqHy-Cc7k4Q
+          length: 3M
+          captions: [abretaud]
+          title: Lecture
+          speaker: awspolly
+        - link: B8pIQZPf21Y
+          speaker: abretaud
+          length: 20M
+          captions: [abretaud]
+          title: Tutorial
+          description: In this tutorial we will use Prokka to annotate a draft genome sequence. Prokka finds and annotates features (both protein coding regions and RNA genes, i.e. tRNA, rRNA) present on on a sequence. Prokka can be used to annotate bacterial, archaeal and viral genomes quickly, generating standard output files in GenBank, EMBL and gff formats."
       material:
-        - type: Tutorial
-          link: topics/genome-annotation/tutorials/annotation-with-prokka/slides.html
-      support_channel: "#5-g_annotation-prokaryotic-genome"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01GTTD1BE0"
-      faq: "https://docs.google.com/document/d/e/2PACX-1vSK-RjeRJC38_FSM9zC6SrfkvIz1W4uEMQkN95qk5OemvANuPF3aNEogVEvF6JEXeMomo-oMwi32Gv2/pub"
-
-    - name: "Genome Annotation: Annotation of a prokaryotic genome: Hands-on!"
-      speaker: abretaud
-      type: Tutorial
-      description: "In this tutorial we will use Prokka to annotate a draft genome sequence. Prokka finds and annotates features (both protein coding regions and RNA genes, i.e. tRNA, rRNA) present on on a sequence. Prokka can be used to annotate bacterial, archaeal and viral genomes quickly, generating standard output files in GenBank, EMBL and gff formats."
-      video:
-        link: B8pIQZPf21Y
-        length: 20M
-        captions: [abretaud]
-      material:
-        - type: Tutorial
-          link: topics/genome-annotation/tutorials/annotation-with-prokka/tutorial.html
         - type: Slides
           link: topics/genome-annotation/videos/
+        - type: Tutorial
+          link: topics/genome-annotation/tutorials/annotation-with-prokka/slides.html
       support_channel: "#5-g_annotation-prokaryotic-genome"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01GTTD1BE0"
       faq: "https://docs.google.com/document/d/e/2PACX-1vSK-RjeRJC38_FSM9zC6SrfkvIz1W4uEMQkN95qk5OemvANuPF3aNEogVEvF6JEXeMomo-oMwi32Gv2/pub"
@@ -414,14 +414,13 @@ ngsadvanced:
     - name: "Genome Annotation with Apollo"
       speaker: abretaud
       type: Tutorial
-      video:
-        link: B8pIQZPf21Y
-        length: 20M
-        captions: [abretaud]
+      videos:
+        - link:
+          length: 20M
+          captions: [abretaud]
 
-    - name: "Epigenetics - ATAC-Seq data analysis: Intro"
-      type: Lecture
-      speaker: [lldelisle]
+    - name: "Epigenetics - ATAC-Seq data analysis"
+      type: Lecture & Hands-on Tutorial
       instructors: [hrhotz, lldelisle, heylf]
       description: |
          In many eukaryotic organisms, such as humans, the genome is tightly
@@ -438,42 +437,23 @@ ngsadvanced:
          and thus a method to determine regulatory mechanisms of gene
          expression. The method can help identify promoter regions and
          potential enhancers and silencers.
-      video:
-        link: 2jPNNd5YJNM
-        length: 15M
-        captions: lldelisle
-      material:
-        - type: Tutorial
-          link: topics/epigenetics/tutorials/atac-seq/tutorial.html
-          title: ATAC-Seq data analysis
-      support_channel: "#5-k_atac-seq"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01LRHRC6A3"
-      faq: "https://docs.google.com/document/d/e/2PACX-1vQnEmZyZF3rLhU3mA-g5L8DVaTW8GHYTikxYnuvQG7sCT66owCIc-4KLLGw9S2nIo1XPPtV9Ledtm3n/pub"
+      videos:
+        - link: 2jPNNd5YJNM
+          speaker: lldelisle
+          title: Lecture
+          description: This lecture will introduce the basic concepts involved in ATAC-Seq analysis.
+          length: 15M
+          captions: lldelisle
 
-    - name: "Epigenetics - ATACSeq data analysis: Hands-on!"
-      type: Tutorial
-      speaker: [hrhotz, lldelisle, heylf]
-      instructors: [hrhotz, lldelisle, heylf]
-      description: |
-         In many eukaryotic organisms, such as humans, the genome is tightly
-         packed and organized with the help of nucleosomes (chromatin). A
-         nucleosome is a complex formed by eight histone proteins that is
-         wrapped with ~147bp of DNA. When the DNA is being actively transcribed
-         into RNA, the DNA will be opened and loosened from the nucleosome
-         complex. Many factors, such as the chromatin structure, the position
-         of the nucleosomes, and histone modifications, play an important role
-         in the organization and accessibility of the DNA. Consequently, these
-         factors are also important for the activation and inactivation of
-         genes. Assay for Transposase-Accessible Chromatin using sequencing
-         (ATAC-Seq) is a method to investigate the accessibility of chromatin
-         and thus a method to determine regulatory mechanisms of gene
-         expression. The method can help identify promoter regions and
-         potential enhancers and silencers.
-      video:
-        link:
-        length:
-        captions:
+        - link: Zc-bl6ZfcX4
+          title: Tutorial
+          description: This tutorial will walk you through a ATAC-Seq data analysis.
+          speaker: heylf
+          length: 1H50M
+          captions:
       material:
+        - type: Slides
+          link: topics/epigenetics/tutorials/atac-seq/slides.html
         - type: Tutorial
           link: topics/epigenetics/tutorials/atac-seq/tutorial.html
           title: ATAC-Seq data analysis
@@ -493,10 +473,10 @@ ngsadvanced:
         We will demonstrate how to access just the reads (FASTA or FASTQ format), just the contigs, the reads aligned to the contigs and VCF files for selected SARFs. These formats can speed up workflows such as assembly and variant calling, and this data format is still referenced by the run accession and accessed using the SRA toolkit.
         <br/><br/>
         This workshop describes the SARF data objects and demonstrates a few ways to filter them using the metadata before accessing them and entering them into Galaxy workflows.
-      video:
-        link:
-        length:
-        captions:
+      videos:
+        - link:
+          length:
+          captions:
 
       material:
         - type: Slides
@@ -522,10 +502,10 @@ rnabasics:
       type: Lecture
       speaker: fpsom
       description: RNA sequencing is used to assess the expression levels of genes. This video introduces the important concepts related to RNA-seq analysis.
-      video:
-        link: qKkS_tztw_Q
-        length: 30M
-        captions: [nagoue,shiltemann]
+      videos:
+        - link: qKkS_tztw_Q
+          length: 30M
+          captions: [nagoue,shiltemann]
       material:
         - type: Slides
           link: topics/transcriptomics/slides/introduction.html
@@ -538,10 +518,10 @@ rnabasics:
       type: Tutorial
       speaker: bebatut
       description: In this tutorial we will walk you through the process of an RNA-seq analysis, comparing gene expression levels between different conditions and assessing impacted gene pathways.
-      video:
-        link: j4onRSN650A # old one was  37Tc1xnrHK4
-        length: 2H30M
-        captions: [hexylena,shiltemann]
+      videos:
+        - link: j4onRSN650A # old one was  37Tc1xnrHK4
+          length: 2H30M
+          captions: [hexylena,shiltemann]
       material:
         - type: Tutorial
           link: topics/transcriptomics/tutorials/ref-based/tutorial.html
@@ -559,10 +539,10 @@ rnabasics:
           quantify transcripts present in two different cell state and
           determine which transcripts are differentially expressed between the
           two states.
-      video:
-        link: WrOIpCxba78
-        length: 48M
-        captions: malloryfreeberg
+      videos:
+        - link: WrOIpCxba78
+          length: 48M
+          captions: malloryfreeberg
       material:
         - type: Tutorial
           link: topics/transcriptomics/tutorials/de-novo/tutorial.html
@@ -573,10 +553,10 @@ rnabasics:
       type: Tutorial
       speaker: gallardoalba
       description: In this tutorial, we will analyze RNA sequencing data to extract information about potential genes regulated in response to abiotic stress in plants. For this purpose, the chosen approach is the identification of genes with complementary regions to miRNAs upregulated in response to brassinosteroids.
-      video:
-        link:
-        length:
-        captions:
+      videos:
+        - link:
+          length:
+          captions:
       material:
         - type: Tutorial
           link: topics/transcriptomics/tutorials/mirna-target-finder/tutorial.html
@@ -595,10 +575,10 @@ rnaseqandr:
       type: Demo
       speaker: fpsom
       description: "This tutorial will show you how you can start Rstudio from within Galaxy. This option is only available on Galaxy EU for the time being. If you are working on a different Galaxy server, you can use <strong>Rstudio Cloud (https://rstudio.cloud/)</strong>"
-      video:
-        link: vN14K74nFZc
-        length: 20M
-        captions: [shiltemann]
+      videos:
+        - link: vN14K74nFZc
+          length: 20M
+          captions: [shiltemann]
       support_channel: "#2-2_intro-to-r"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01F6JXPZM2"
       faq: "https://docs.google.com/document/d/e/2PACX-1vQuOJPPP2nosMG1gh1TuAFu479F4u2kGCCsICHuKvQE7lJGZCreVbXMQrhEORu3O1fV2hX_DZDE_Isk/pub"
@@ -608,10 +588,10 @@ rnaseqandr:
       type: Tutorial
       speaker: fpsom
       description: This tutorial will provide an introduction to using R with Rstudio in Galaxy.
-      video:
-        link: MKkQDh5Nguc
-        length: 50M
-        captions: [s3by01,annefou,kxk302]
+      videos:
+        - link: MKkQDh5Nguc
+          length: 50M
+          captions: [s3by01,annefou,kxk302]
       material:
         - type: Tutorial
           link: topics/introduction/tutorials/r-basics/tutorial.html
@@ -625,10 +605,10 @@ rnaseqandr:
       type: Tutorial
       speaker: fpsom
       description: An advanced tutorial covering downstream analysis of RNA-seq data using R.
-      video:
-        link: _hWBGdlICqg
-        length: 1H
-        captions: [ksuderman, nagoue]
+      videos:
+        - link: _hWBGdlICqg
+          length: 1H
+          captions: [ksuderman, nagoue]
       material:
         - type: Tutorial
           link: topics/introduction/tutorials/r-advanced/tutorial.html
@@ -642,10 +622,10 @@ rnaseqandr:
       type: Tutorial
       speaker: fpsom
       description: In this tutorial, we will visualize our RNA-seq analysis results using R.
-      video:
-        link: rJWgnLgA2BE
-        length: 30M
-        captions: [hexylena, shiltemann, fpsom]
+      videos:
+        - link: rJWgnLgA2BE
+          length: 30M
+          captions: [hexylena, shiltemann, fpsom]
       material:
         - type: Tutorial
           link: topics/transcriptomics/tutorials/rna-seq-counts-to-viz-in-r/tutorial.html
@@ -665,10 +645,10 @@ rnaseqsinglecell:
       instructors: [nomadscientist, mtekman]
       type: Lecture
       description: Single-cell RNA-seq analysis is a rapidly evolving field at the forefront of transcriptomic research, used in high-throughput developmental studies and rare transcript studies to examine cell heterogeneity within a populations of cells. The cellular resolution and genome wide scope make it possible to draw new conclusions that are not otherwise possible with bulk RNA-seq. <strong>Slides created by Mehmet Tekman</strong>.
-      video:
-        link: D3qvYWZMFa0
-        length: 20M
-        captions: [mtekman]
+      videos:
+        - link: D3qvYWZMFa0
+          length: 20M
+          captions: [mtekman]
       material:
         - type: Slides
           link: topics/transcriptomics/tutorials/scrna-intro/slides.html
@@ -682,10 +662,10 @@ rnaseqsinglecell:
       instructors: [nomadscientist, mtekman]
       type: Walkthrough for Self-Study Session
       description:
-      video:
-        link: 3ytm2AU6QUc
-        length: 30M
-        captions:
+      videos:
+        - link: 3ytm2AU6QUc
+          length: 30M
+          captions:
       material:
         - type: Tutorial
           link: topics/transcriptomics/tutorials/droplet-quantification-preprocessing/tutorial.html
@@ -695,10 +675,10 @@ rnaseqsinglecell:
       instructors: [nomadscientist, mtekman]
       type: Self-study with Video Walkthrough
       description:
-      video:
-        link: M6iepSJh0EQ
-        length: 30M
-        captions:
+      videos:
+        - link: M6iepSJh0EQ
+          length: 30M
+          captions:
       material:
         - type: Tutorial
           link: topics/transcriptomics/tutorials/scrna-seq-basic-pipeline/tutorial.html
@@ -708,10 +688,10 @@ rnaseqsinglecell:
       instructors: [nomadscientist, mtekman]
       type: Self-study with Video Walkthrough
       description:
-      video:
-        link: VEyTmwDIgPI
-        length: 10M
-        captions:
+      videos:
+        - link: VEyTmwDIgPI
+          length: 10M
+          captions:
       material:
         - type: Tutorial
           link: topics/transcriptomics/tutorials/scrna-JUPYTER-trajectories/tutorial.html
@@ -721,10 +701,10 @@ rnaseqsinglecell:
       instructors: [mtekman, nomadscientist]
       type: Tutorial
       description:
-      video:
-        link: yKlJ5ESri7o
-        length: 55M
-        captions: mtekman
+      videos:
+        - link: yKlJ5ESri7o
+          length: 55M
+          captions: mtekman
       material:
         - type: Tutorial
           link: topics/transcriptomics/tutorials/scrna-plant/tutorial.html
@@ -790,10 +770,10 @@ proteomics:
       instructors: &galaxypteam [foellmelanie, subinamehta, pratikdjagtap, timothygriffin, jj-umn, emmaleith, andrewr, ddan, npinter]
       type: Lecture
       description: This lecture will provide an introduction to mass spectrometry (MS) based proteomics analysis. <strong>Slides created by Melanie Föll</strong>.
-      video:
-        link: 2C96AvrFT38
-        length: 20M
-        captions: [foellmelanie]
+      videos:
+        - link: 2C96AvrFT38
+          length: 20M
+          captions: [foellmelanie]
       material:
         - type: Slides
           link: topics/proteomics/slides/introduction.html
@@ -807,10 +787,10 @@ proteomics:
       instructors: *galaxypteam
       description: "Modern mass spectrometry-based proteomics enables the identification and quantification of thousands of proteins. Therefore, quantitative mass spectrometry represents an indispensable technology for biological and clinical research. Statistical analyses are required for the unbiased answering of scientific questions and to uncover all important information in the proteomic data. In this training we will cover the full analysis workflow from label-free, data dependent acquisition (DDA) raw data to statistical results. We’ll use two popular quantitative proteomics software: MaxQuant and MSstats."
       type: Tutorial
-      video:
-        link: IXdLAt2PAT4
-        length: 1H
-        captions: [shiltemann]
+      videos:
+        - link: IXdLAt2PAT4
+          length: 1H
+          captions: [shiltemann]
       material:
         - type: Tutorial
           link: topics/proteomics/tutorials/maxquant-msstats-dda-lfq/tutorial.html
@@ -823,10 +803,10 @@ proteomics:
       description: "Data Independent Acquisition Mass Spectrometry (DIA-MS) provides reproducible quantitative information as an improvement over the Data Dependent Acquisition (DDA). The EncyclopeDIA workflow tutorial will guide the user through the steps of a) conversion of the input  DIA-MS RAW data files to mzML; b) the generation of a Chromatogram Library using the gas-phase fractionation (GPF) method and spectral library and c) generation of peptide and protein quantitation outputs."
       speaker: [emmaleith, jj-umn, pratikdjagtap]
       instructors: *galaxypteam
-      video:
-        link:
-        length:
-        captions:
+      videos:
+        - link:
+          length:
+          captions:
 
 
     - name: "ProteoRE tool for Functional Analysis of a Protein List"
@@ -834,10 +814,10 @@ proteomics:
       instructors: [yvesvdb, combesf]
       type: Tutorial
       description: "This tutorial covers an annotation pipeline for a protein list identified by LC-MS/MS experiments."
-      video:
-        link: qG7GZc6BeGY
-        length: 30M
-        captions: [combesf]
+      videos:
+        - link: qG7GZc6BeGY
+          length: 30M
+          captions: [combesf]
       material:
         - type: Tutorial
           link: topics/proteomics/tutorials/proteome_annotation/tutorial.html
@@ -867,10 +847,10 @@ proteomics:
         In this tutorial, the basic workflow for metaproteomics is described, which includes database search,
         seeking taxonomy information and functional analysis. Related metaproteomics and functional microbiome
         tools and GTN tutorials are also mentioned in this tutorial.
-      video:
-        link: 3_yaPp-RCFw
-        length: 1H
-        captions: [emmaleith]
+      videos:
+        - link: 3_yaPp-RCFw
+          length: 1H
+          captions: [emmaleith]
       material:
         - type: Tutorial
           link: topics/proteomics/tutorials/metaproteomics/tutorial.html
@@ -886,10 +866,10 @@ proteomics:
       description: "The Coronavirus Disease 2019 (COVID-19) global pandemic has had a profound, lasting impact on the world's population. Accurate and timely diagnosis of COVID-19 infection is an important step for providing care and containing its further spread. In this tutorial, attendees will be introduced to two workflows – a) database search workflow and b) peptide validation workflow. Attendees of the workshop will get an in-depth knowledge of the Galaxy workflows that detect SARS-CoV-2 peptides ([10.1186/s12014-021-09321-1)](https://doi.org/10.1186/s12014-021-09321-1)) and co-infecting pathogen peptides ([10.1021/acs.jproteome.0c00822](https://doi.org/10.1021/acs.jproteome.0c00822))."
 
 
-      video:
-        link: CI35gTmZoqM
-        length: 35M
-        captions:
+      videos:
+        - link: CI35gTmZoqM
+          length: 35M
+          captions:
       material:
         - type: Slides
           external: true
@@ -912,10 +892,10 @@ proteogenomics:
         including the main steps in the bioinformatics analysis workflow that make up this
         approach and will be detailed in the following tutorials. Some examples of research
         questions that benefit from a proteogenomics approach are also highlighted.
-      video:
-        link: WpH101OPrG0
-        length: 20M
-        captions: [emmaleith]
+      videos:
+        - link: WpH101OPrG0
+          length: 20M
+          captions: [emmaleith]
       material:
         - type: Slides
           link: "https://drive.google.com/file/d/1rqzf6Mrk9cMuQ2531tM6RpltPLrDCrgh/view?usp=sharing"
@@ -934,10 +914,10 @@ proteogenomics:
         with single amino acid variants (SAVs), insertions and deletions (indels)and transcript
         assemblies (splicing variants). This database can then be used to identify protein sequence
         variants from the mass spectrometry data.
-      video:
-        link: b_kZf8mXHdo
-        length: 40M
-        captions: [emmaleith]
+      videos:
+        - link: b_kZf8mXHdo
+          length: 40M
+          captions: [emmaleith]
       material:
         - type: Tutorial
           link: topics/proteomics/tutorials/proteogenomics-dbcreation/tutorial.html
@@ -954,10 +934,10 @@ proteogenomics:
         mass spectrometry data against a custom proteogenomics FASTA database to create peptide
         spectral matches (PSMs) for each dataset; we also isolate non-canonical peptides from the
         resulting data for further analysis. <strong> If you would like to view the results yourself, we provide example histories in the FAQ document</strong>
-      video:
-        link: q1OjmTcbvBA
-        length: 30M
-        captions: [emmaleith]
+      videos:
+        - link: q1OjmTcbvBA
+          length: 30M
+          captions: [emmaleith]
       material:
         - type: Tutorial
           link: topics/proteomics/tutorials/proteogenomics-dbsearch/tutorial.html
@@ -977,10 +957,10 @@ proteogenomics:
         In this demonstration, we will investigate the peptides that were identified during proteogenomics
         tutorial 2. We will identify the presence of novel proteoforms that are absent in the reference
         database, annotate the novel peptides and visualize them using the Multi-omics Visualization Platform (MVP). <strong> If you would like to view the results yourself, we provide example histories in the FAQ document</strong>
-      video:
-        link: Ku274KwFh1Y
-        length: 40M
-        captions: [subinamehta]
+      videos:
+        - link: Ku274KwFh1Y
+          length: 40M
+          captions: [subinamehta]
       material:
         - type: Tutorial
           link: topics/proteomics/tutorials/proteogenomics-novel-peptide-analysis/tutorial.html
@@ -994,74 +974,61 @@ microbial:
   sessions:
     - name: "Variant Analysis: M. Tuberculosis Variant Analysis (Lecture)"
       speaker: pvanheus
-      type: Lecture
+      type: Lecture & Hands-on Tutorial
       description: "Tuberculosis (TB) is an infectious disease caused by the bacterium Mycobacterium tuberculosis. According to the WHO, in 2018 there were 10.0 million new cases of TB worldwide and 1.4 million deaths due to the disease, making TB the world’s most deadly infectious disease."
-      video:
-        link: yCC9EmLuyJg
-        length: 20M
-        captions: [shiltemann]
+      videos:
+        - link: yCC9EmLuyJg
+          length: 20M
+          captions: [shiltemann]
+          title: Lecture
+        - link: G1DmquX6Wh8
+          length: 40M
+          captions: [pvanheus,nagoue,hexylena]
+          title: Tutorial
+          description: Variation in the genome of M. tuberculosis (Mtb) is associated with changes in phenotype, for example drug resistance and virulence. It is also useful for outbreak investigation as the single nucleotide polymorphisms (SNPs) in a sample can be used to build a phylogeny.
       material:
         - type: Slides
           link: "https://docs.google.com/presentation/d/16XTMh2fRrl73WVaezNAFWET0IIMXBv0MCI2engFtdQs/edit#slide=id.g6231f48ea2_0_34"
           external: true
-      support_channel: "#5-n_tuberculosis-variant-analysis"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01FD2WJU01"
-      faq: "https://docs.google.com/document/d/e/2PACX-1vTr2X-W-2-gronZbeEqj8OGTLyLqaUW2_7mCsHHgVMAVsOQt2faSNk5IaizQlYE_0vWU26v79Oqhyy3/pub"
-
-    - name: "Variant Analysis: M. Tuberculosis Variant Analysis (Hands-on!)"
-      speaker: pvanheus
-      type: Tutorial
-      description: "Tuberculosis (TB) is an infectious disease caused by the bacterium Mycobacterium tuberculosis. According to the WHO, in 2018 there were 10.0 million new cases of TB worldwide and 1.4 million deaths due to the disease, making TB the world’s most deadly infectious disease. Variation in the genome of M. tuberculosis (Mtb) is associated with changes in phenotype, for example drug resistance and virulence. It is also useful for outbreak investigation as the single nucleotide polymorphisms (SNPs) in a sample can be used to build a phylogeny."
-      video:
-        link: G1DmquX6Wh8
-        length: 40M
-        captions: [pvanheus,nagoue,hexylena]
-      material:
         - type: Tutorial
           link: topics/variant-analysis/tutorials/tb-variant-analysis/tutorial.html
+
       support_channel: "#5-n_tuberculosis-variant-analysis"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01FD2WJU01"
       faq: "https://docs.google.com/document/d/e/2PACX-1vTr2X-W-2-gronZbeEqj8OGTLyLqaUW2_7mCsHHgVMAVsOQt2faSNk5IaizQlYE_0vWU26v79Oqhyy3/pub"
 
-    - name: "Metagenomics: 16S Microbial Analysis with mothur (Lecture)"
+    - name: "Metagenomics: 16S Microbial Analysis with mothur"
       speaker: shiltemann
-      type: Lecture
+      type: Lecture & Hands-on Tutorial
       description: This lecture briefly introduces 16S sequencing, a popular technique used for taxonomic profiling of microbial communities.
-      video:
-        link: 9OY1mklWuK0
-        length: 15M
-        captions: [shiltemann]
+      videos:
+        - link: 9OY1mklWuK0
+          title: Lecture
+          length: 15M
+          captions: [shiltemann]
+        - link: mto4Nl-q7Kk
+          title: Tutorial
+          length: 1H40M
+          captions: [shiltemann]
       material:
+        - type: Slides
+          link: topics/metagenomics/slides/introduction.html
+          title: Introduction to Metagenomics Analyses
         - type: Tutorial
           link: topics/metagenomics/tutorials/mothur-miseq-sop-short/tutorial.html
       support_channel: "#5-b_16s-microbial-analysis"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01FDV16V25"
       faq: "https://docs.google.com/document/d/e/2PACX-1vRPPYdMfIA9R_w5y__jV9qdKbijJyOJiclx-2ACKFkAH8aIdlU3pY84xhivWEOmeEn_XQv8StFcjDLP/pub"
 
-
-    - name: "Metagenomics: 16S Microbial Analysis with mothur (Hands-on!)"
-      speaker: shiltemann
-      type: Tutorial
-      description: In this tutorial you will perform the mothur MiSeq SOP (Standard Operating Procedure) in Galaxy.
-      video:
-        link: mto4Nl-q7Kk
-        length: 1H40M
-        captions: [shiltemann]
-      material:
-        - type: Tutorial
-          link: topics/metagenomics/tutorials/mothur-miseq-sop-short/tutorial.html
-      support_channel: "#5-b_16s-microbial-analysis"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01FDV16V25"
-      faq: "https://docs.google.com/document/d/e/2PACX-1vRPPYdMfIA9R_w5y__jV9qdKbijJyOJiclx-2ACKFkAH8aIdlU3pY84xhivWEOmeEn_XQv8StFcjDLP/pub"
 
     - name: "Metagenomics Wetlab Demo: Genomic DNA sequencing by Oxford Nanopore MinIon"
       speaker: miaomiaozhou88
       type: Demo
       description: "This video will show you the full process of sequencing a bacterial genome using the Oxford Nanopore MinION sequencer."
-      video:
-        link: bZfEyd87xCE
-        length: 20M
-        captions: [shiltemann]
+      videos:
+        - link: bZfEyd87xCE
+          length: 20M
+          captions: [shiltemann]
       support_channel: "#5-a_antibiotic-resistance-detection-nanopore"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01F1GJ7JJX"
       faq: "https://docs.google.com/document/d/e/2PACX-1vQlG_Onq011MQqyIu4D_erDqiLKAMLnduhHr5cDWwbXVqlU9VZhmm4OT_zphKqb8TEZprAFo8rdPXjO/pub"
@@ -1070,10 +1037,10 @@ microbial:
       speaker: aheikema
       type: Lecture
       description: Nanopore Sequencing has many applications in a clinical setting. In this lecture, Astrid Heikema discusses how her group at the Erasmus Medical Center uses Nanopore for sequencing of bacterial Genomes.
-      video:
-        link: icXMqMut6PY
-        length: 30M
-        captions: [hexylena]
+      videos:
+        - link: icXMqMut6PY
+          length: 30M
+          captions: [hexylena]
       material:
         - type: Tutorial
           link: topics/metagenomics/tutorials/nanopore-16S-metagenomics/tutorial.html
@@ -1086,10 +1053,10 @@ microbial:
       speaker: willemdek11
       type: Tutorial
       description: This tutorial will guide you through the process of assembling your Nanopore-sequenced bacterial samples and determining the presence of antibiotic resistance genes.
-      video:
-        link: ECIl8ZU1Wko
-        length: 45M
-        captions: [bebatut]
+      videos:
+        - link: ECIl8ZU1Wko
+          length: 45M
+          captions: [bebatut]
       material:
         - type: Tutorial
           link: topics/metagenomics/tutorials/plasmid-metagenomics-nanopore/tutorial.html
@@ -1101,10 +1068,10 @@ microbial:
       speaker: [pratikdjagtap, timothygriffin, subinamehta, shiltemann]
       instructors: [pratikdjagtap, timothygriffin, subinamehta, shiltemann, jj-umn, andrewr, ddan, emmaleith]
       type: Tutorial
-      video:
-        link:
-        length:
-        captions:
+      videos:
+        - link:
+          length:
+          captions:
       material:
         - type: Slides
           link: topics/metagenomics/tutorials/metatranscriptomics/slides.html
@@ -1123,10 +1090,10 @@ machinelearning:
       speaker: anuprulez
       type: Lecture
       description: The lecture explains introductory concepts in machine learning such as supervised and unsupervised learning, classification and regression, hyperparameter optimisation, cross-validation, train, test and validation sets.
-      video:
-        link: ix58oj8n8nA
-        length: 15M
-        captions:
+      videos:
+        - link: ix58oj8n8nA
+          length: 15M
+          captions:
       material:
         - type: Slides
           link: "https://docs.google.com/presentation/d/1RZtXFk8qz6wmPsIKnMte3Y4SvmI_nD2vIyeSEvYR6RA/edit?usp=sharing"
@@ -1138,10 +1105,10 @@ machinelearning:
       speaker: anuprulez
       type: Tutorial
       description: The talk includes a lecture followed by a hands-on session to apply multiple classification algorithms on the Quantitative structure-activity relationship (QSAR) dataset to predict the biodegradable activity of chemical compounds. QSAR models attempt to predict the activity or property of chemicals based on their chemical structure. To achieve this, a database of compounds is collected for which the property of interest is known. For each compound, molecular descriptors are collected which describe the structure (for example - molecular weight, number of nitrogen atoms, number of carbon-carbon double bonds). Using these descriptors, a model is constructed which is capable of predicting the property of interest for a new, unknown molecule. In this tutorial, we will use a database assembled from experimental data of the Japanese Ministry of International Trade and Industry to create a classification model by applying simple and complex classifiers to learn the nature of biodegradation. We will use this model to classify new molecules into one of two classes - biodegradable or non-biodegradable. Different visualisations are used to analyze the results after applying each classification algorithm. Hyperparameters of one of the classifiers are also optimised.
-      video:
-        link: Gz2OdRPS2Nk
-        length: 1H50M
-        captions:
+      videos:
+        - link: Gz2OdRPS2Nk
+          length: 1H50M
+          captions:
       material:
         - type: Tutorial
           link: topics/statistics/tutorials/classification_machinelearning/tutorial.html
@@ -1154,10 +1121,10 @@ machinelearning:
     - name: "Regression in Machine Learning"
       speaker: anuprulez
       description: The talk includes a lecture followed by a hands-on session to apply multiple regression algorithms on the DNA-methylation dataset to predict biological age. In this tutorial, we will build a regression model for chronological age prediction, based on DNA methylation. This is based on the work of Jana Naue et al. 2017, in which biomarkers are examined to predict the chronological age of humans by analyzing the DNA methylation patterns. Different machine learning algorithms are used in this study to make an age prediction. It has been recognized that within each individual, the level of DNA methylation changes with age. This knowledge is used to select useful biomarkers from DNA methylation datasets. The CpG sites with the highest correlation to age are selected as the biomarkers (and therefore features for building a regression model). In this tutorial, specific biomarkers are analyzed by machine learning algorithms to create an age prediction model. Multiple visualisations are also used to analyse the predictions made by simple and complex regressors and hyperparameters of one of the regressors also optimised.
-      video:
-        link: qxaWQjtEOzM
-        length: 1H29M
-        captions:
+      videos:
+        - link: qxaWQjtEOzM
+          length: 1H29M
+          captions:
       material:
         - type: Tutorial
           link: topics/statistics/tutorials/regression_machinelearning/tutorial.html
@@ -1169,10 +1136,10 @@ machinelearning:
 
     - name: "Machine Learning using R in Galaxy"
       speaker: fpsom
-      video:
-        link:
-        length:
-        captions: MariaTsayo
+      videos:
+        - link:
+          length:
+          captions: MariaTsayo
 
 neuralnetworks:
  title: "Deep Neural Networks Demystified"
@@ -1180,10 +1147,10 @@ neuralnetworks:
  sessions:
     - name: "1: Feedforward Neural Networks"
       speaker: kxk302
-      video:
-        link: VbzJDkyPL4A
-        length: 1H10M
-        captions:
+      videos:
+        - link: VbzJDkyPL4A
+          length: 1H10M
+          captions:
       material:
         - type: Tutorial
           link: topics/statistics/tutorials/FNN/tutorial.html
@@ -1191,10 +1158,10 @@ neuralnetworks:
           link: topics/statistics/tutorials/FNN/slides.html
     - name: "2: Recurrent Neural Networks"
       speaker: kxk302
-      video:
-        link: 1dwzEhjOAmw
-        length: 50M
-        captions:
+      videos:
+        - link: 1dwzEhjOAmw
+          length: 50M
+          captions:
       material:
         - type: Tutorial
           link: topics/statistics/tutorials/RNN/tutorial.html
@@ -1202,10 +1169,10 @@ neuralnetworks:
           link: topics/statistics/tutorials/RNN/slides.html
     - name: "3: Convolutional Neural Networks"
       speaker: kxk302
-      video:
-        link: P1NVYOJrv_4
-        length: 1H
-        captions:
+      videos:
+        - link: P1NVYOJrv_4
+          length: 1H
+          captions:
       material:
         - type: Tutorial
           link: topics/statistics/tutorials/CNN/tutorial.html
@@ -1223,38 +1190,29 @@ viz:
       speaker: shiltemann
       type: Tutorial
       description: "This tutorial will cover various ways to visualize your data in Galaxy"
-      video:
-        link:
-        length:
-        captions:
+      videos:
+        - link:
+          length:
+          captions:
 
-    - name: "Circos Visualisation in Galaxy: Intro"
+    - name: "Circos Visualisation"
       speaker: hexylena
-      instructors: [shiltemann]
-      type: Lecture
+      instructors: [hexylena, shiltemann]
+      type: Lecture & Hands-on Tutorial
       description: "Circos is a popular tool for creating circular graphs to display genomic data. This video will introduce this tool and how to use it within Galaxy"
-      video:
-        link: KCtI5KLp05k
-        length: 6M
-        captions: [assuntad23,shiltemann]
+      videos:
+        - link: KCtI5KLp05k
+          length: 6M
+          captions: [assuntad23,shiltemann]
+          title: Lecture
+        - link: tbqeUP67w-Y
+          length: 50M
+          captions: [beatrizserrano, hexylena, shiltemann, khanteymoori]
+          title: Tutorial
+          description: This tutorial will walk you through creating your own Circos Visualisaions in Galaxy. We will build the plot up step by step.
       material:
-        - type: Tutorial
-          link: topics/visualisation/tutorials/circos/tutorial.html
-          title: Visualisation with Circos
-      support_channel: "#5-c_circos-visualisation"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01ELJ6QTQF"
-      faq: "https://docs.google.com/document/d/e/2PACX-1vSx65Dr5sFCvzvJoRGVMU9i4NJZTkpQktvTEER3T_Pd8PSrR_x9GsUBYBAEnS6-qStu7F-bI_nj2mgT/pub"
-
-    - name: "Circos Visualisation in Galaxy: Hands-on!"
-      speaker: hexylena
-      instructors: shiltemann
-      type: Tutorial
-      description: "Circos is a popular tool for creating circular graphs to display genomic data. In this tutorial you will create a Circos plot for a cancer dataset"
-      video:
-        link: tbqeUP67w-Y
-        length: 50M
-        captions: [beatrizserrano, hexylena, shiltemann, khanteymoori]
-      material:
+        - type: Slides
+          link: topics/visualisation/tutorials/circos/slides.html
         - type: Tutorial
           link: topics/visualisation/tutorials/circos/tutorial.html
           title: Visualisation with Circos
@@ -1265,10 +1223,10 @@ viz:
     - name: "Genomic Data Visualization with JBrowse"
       speaker: hexylena
       description: "JBrowse is a popular Genome Browser. It can be used directly within Galaxy. You may have seen it in our Mapping tutorial on Day 1. This tutorial will go into more depth about JBrowse and how to use it to explore your genome."
-      video:
-        link:
-        length:
-        captions:
+      videos:
+        - link:
+          length:
+          captions:
       material:
         - type: Slides
           link: topics/visualisation/tutorials/jbrowse/slides.html
@@ -1286,30 +1244,23 @@ nonomics:
   description: Galaxy is widely used for analysis of genomics data, but is not limited to any scientific domain. This module covers some non-genomics topics such as Climate research and cheminformatics.
   sessions:
     - name: "Climate: Functionally Assembled Terrestrial Ecosystem Simulator (FATES): Lecture"
-      speaker: awspolly
-      type: Lecture
-      description: "Terrestrial ecosystem models have been widely used to study the impact of climate changes on vegetation and terrestrial biogeochemical cycles in climate modelling community. They are also more and more applied in ecological studies to help ecologists to better understand the processes. But the technical challenges are still too high for most of the ecologists to use them. This practical aims at familiarizing you (especially ecologists) with running a terrestrial ecosystem model (i.e., CLM-FATES) at site-level in Galaxy and analyzing the model results. Slides by Anne Fouilloux."
-      video:
-        link: Z56C7MQG95s
-        length: 7M
-        captions: [annefou]
+      type: Lecture & Hands-on Tutorial
+      description: "Terrestrial ecosystem models have been widely used to study the impact of climate changes on vegetation and terrestrial biogeochemical cycles in climate modelling community. They are also more and more applied in ecological studies to help ecologists to better understand the processes. But the technical challenges are still too high for most of the ecologists to use them. This practical aims at familiarizing you (especially ecologists) with running a terrestrial ecosystem model (i.e., CLM-FATES) at site-level in Galaxy and analyzing the model results."
+      videos:
+        - link: Z57C7MQG95s
+          length: 7M
+          captions: [annefou]
+          title: Lecture
+          speaker: awspolly
+        - link: TFROMsZVMQg
+          length: 0H20M
+          captions: [s2by01]
+          title: Tutorial
+          speaker: annefou
       material:
         - type: Slides
           link: topics/climate/tutorials/fates/slides.html
           title: Functionally Assembled Terrestrial Ecosystem Simulator (FATES)
-      support_channel: "#4-f_climate-fates"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C00M63SFH34"
-      faq: "https://docs.google.com/document/d/e/1PACX-1vS5ucF3H8v1V43JPtw35V-pgGfhTbrHtjjN6X0BddzWispwuRElPYw7sWN1e8R360mdHyC1NcOSqxiy/pub"
-
-    - name: "Climate: Functionally Assembled Terrestrial Ecosystem Simulator (FATES): Hands-on!"
-      speaker: annefou
-      type: Tutorial
-      description: "Terrestrial ecosystem models have been widely used to study the impact of climate changes on vegetation and terrestrial biogeochemical cycles in climate modelling community. They are also more and more applied in ecological studies to help ecologists to better understand the processes. But the technical challenges are still too high for most of the ecologists to use them. This practical aims at familiarizing you (especially ecologists) with running a terrestrial ecosystem model (i.e., CLM-FATES) at site-level in Galaxy and analyzing the model results."
-      video:
-        link: -1LsEx11eLiI
-        length: 0H20M
-        captions: [s2by01]
-      material:
         - type: Tutorial
           link: topics/climate/tutorials/fates/tutorial.html
           title: Functionally Assembled Terrestrial Ecosystem Simulator (FATES)
@@ -1321,10 +1272,10 @@ nonomics:
       speaker: [simonbray, chrisbarnettster,]
       instructors: [simonbray, chrisbarnettster, tsenapathi]
       description: "Molecular dynamics (MD) is a method to simulate molecular motion by iterative application of Newton’s laws of motion. This tutorial provides an introduction to using high-throughput molecular dynamics to study protein-ligand interaction, as applied to the N-terminal domain of Hsp90 (heat shock protein 90)."
-      video:
-        link: LjW3nES04bI
-        length: 1H40M
-        captions: simonbray
+      videos:
+        - link: LjW3nES04bI
+          length: 1H40M
+          captions: simonbray
       material:
         - type: Tutorial
           link: topics/computational-chemistry/tutorials/htmd-analysis/tutorial.html
@@ -1336,10 +1287,10 @@ nonomics:
     - name: "Cheminformatics: Protein-ligand docking"
       speaker: simonbray
       description: "Cheminformatics is the use of computational techniques and information about molecules to solve problems in chemistry. This involves a number of steps: retrieving data on chemical compounds, sorting data for properties which are of interest, and extracting new information. This tutorial will provide a brief overview of all of these, centered around protein-ligand docking, a molecular modelling technique. "
-      video:
-        link:
-        length:
-        captions:
+      videos:
+        - link:
+          length:
+          captions:
       material:
         - type: Tutorial
           link: topics/computational-chemistry/tutorials/cheminformatics/tutorial.html
@@ -1353,10 +1304,10 @@ nonomics:
       description: "Molecular dynamics (MD) is a method to simulate molecular motion by iterative application of Newton’s laws of motion. It is often applied to large biomolecules such as proteins or nucleic acids.
 This is a introductory guide to using GROMACS (Abraham et al. 2015) in Galaxy to prepare and perform molecular dynamics on a small protein. For the tutorial, we will perform our simulations on hen egg white lysozyme.
 "
-      video:
-        link:
-        length:
-        captions:
+      videos:
+        - link:
+          length:
+          captions:
       material:
         - type: Tutorial
           link: topics/computational-chemistry/tutorials/md-simulation-gromacs/tutorial.html
@@ -1369,10 +1320,10 @@ This is a introductory guide to using GROMACS (Abraham et al. 2015) in Galaxy to
       type: Tutorial
       description: "This tutorial aims to present the PAMPA Galaxy workflow, how to use it to compute common biodiversity metrics from species abundance data and analyse it through generalized linear (mixed) models (GLM and GLMM). This workflow made up of 5 tools will allow you to process temporal series data that include at least year, location and species sampled along with abundance value and, finally, generate article-ready data products."
       speaker: [colineroyaux, yvanlebras]
-      video:
-        link:
-        length:
-        captions:
+      videos:
+        - link:
+          length:
+          captions:
       material:
         - type: Tutorial
           link: topics/ecology/tutorials/PAMPA-toolsuite-tutorial/tutorial.html

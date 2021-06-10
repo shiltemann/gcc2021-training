@@ -93,7 +93,7 @@ Scroll down to see all available tutorials, or jump directly to a module:
    -->
 
    <!-- speaker and video -->
-   {% if session.video %}
+   {% if session.videos %}
    {% include video-session.html session=session %}
    {% else %}
    {% unless session.type == 'icebreaker' or session.type == 'custom' %}{% unless session.type == 'setup' %}{% unless session.type == 'wrapup' %}{% unless session.type == 'post-event' %}

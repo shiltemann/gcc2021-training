@@ -6,13 +6,13 @@ intro:
     support_channel: '#general'
     support_link: TODO
     type: Tutorial
-    video:
-      captions:
-      - hexylena
-      length: 23M
-      link: R-__JqlLCdM
+    videos:
+      - captions: hexylena
+        length: 23M
+        link: R-__JqlLCdM
 day1:
   sessions:
+
   - material:
     - link: topics/admin/tutorials/ansible/slides.html
       type: Slides
@@ -21,11 +21,11 @@ day1:
     support_channel: '#01-ansible'
     support_link: TODO
     type: Tutorial
-    video:
-      captions:
-      - martenson
-      length: 5M
-      link: KFpbfmN0OTE
+    videos:
+      - captions: martenson
+        length: 5M
+        link: KFpbfmN0OTE
+
   - material:
     - link: topics/admin/tutorials/ansible/tutorial.html
       type: Tutorial
@@ -34,11 +34,11 @@ day1:
     support_channel: '#01-ansible'
     support_link: TODO
     type: Tutorial
-    video:
-      captions:
-      - martenson
-      length: 61M
-      link: 2KdT0sYKUeE
+    videos:
+      - captions: martenson
+        length: 61M
+        link: 2KdT0sYKUeE
+
   - material:
     - link: topics/admin/tutorials/ansible-galaxy/slides.html
       type: Slides
@@ -47,11 +47,11 @@ day1:
     support_channel: '#02-ansible-galaxy'
     support_link: TODO
     type: Tutorial
-    video:
-      captions:
-      - shiltemann
-      length: 4M
-      link: JN-C5UbHthY
+    videos:
+      - captions: shiltemann
+        length: 4M
+        link: JN-C5UbHthY
+
   - material:
     - link: topics/admin/tutorials/ansible-galaxy/tutorial.html
       type: Tutorial part 0
@@ -60,12 +60,11 @@ day1:
     support_channel: '#02-ansible-galaxy'
     support_link: TODO
     type: Tutorial
-    video:
-      captions:
-      - shiltemann
-      - hexylena
-      length: 111M
-      link: il83uApg7Hc
+    videos:
+      - captions: [shiltemann, hexylena]
+        length: 111M
+        link: il83uApg7Hc
+
   - material:
     - link: topics/admin/tutorials/ansible-galaxy/tutorial.html
       type: Tutorial part 1
@@ -74,12 +73,11 @@ day1:
     support_channel: '#02-ansible-galaxy'
     support_link: TODO
     type: Tutorial
-    video:
-      captions:
-      - shiltemann
-      - hexylena
-      length: 111M
-      link: il83uApg7Hc&t=544s
+    videos:
+      - captions: [shiltemann, hexylena]
+        length: 111M
+        link: il83uApg7Hc&t=544s
+
   - material:
     - link: topics/admin/tutorials/database/slides.html
       type: Slides
@@ -88,12 +86,11 @@ day1:
     support_channel: '#02-ansible-galaxy'
     support_link: TODO
     type: Tutorial
-    video:
-      captions:
-      - shiltemann
-      - hexylena
-      length: 111M
-      link: il83uApg7Hc&t=954s
+    videos:
+      - captions: [shiltemann,hexylena]
+        length: 111M
+        link: il83uApg7Hc&t=954s
+
   - material:
     - link: topics/admin/tutorials/systemd-supervisor/slides.html
       type: Slides
@@ -102,12 +99,11 @@ day1:
     support_channel: '#02-ansible-galaxy'
     support_link: TODO
     type: Tutorial
-    video:
-      captions:
-      - shiltemann
-      - hexylena
-      length: 111M
-      link: il83uApg7Hc&t=3409s
+    videos:
+      - captions: [shiltemann,hexylena]
+        length: 111M
+        link: il83uApg7Hc&t=3409s
+
   - material:
     - link: topics/admin/tutorials/ansible-galaxy/tutorial.html
       type: Tutorial part 2
@@ -116,12 +112,11 @@ day1:
     support_channel: '#02-ansible-galaxy'
     support_link: TODO
     type: Tutorial
-    video:
-      captions:
-      - shiltemann
-      - hexylena
-      length: 111M
-      link: il83uApg7Hc&t=3750s
+    videos:
+      - captions: [shiltemann, hexylena]
+        length: 111M
+        link: il83uApg7Hc&t=3750s
+
   - material:
     - link: topics/admin/tutorials/production/slides.html
       type: Production
@@ -130,12 +125,11 @@ day1:
     support_channel: '#02-ansible-galaxy'
     support_link: TODO
     type: Tutorial
-    video:
-      captions:
-      - shiltemann
-      - hexylena
-      length: 111M
-      link: il83uApg7Hc&t=4151s
+    videos:
+      - captions: [shiltemann, hexylena]
+        length: 111M
+        link: il83uApg7Hc&t=4151s
+
   - material:
     - link: topics/admin/tutorials/ansible-galaxy/tutorial.html
       type: Tutorial part 3
@@ -144,13 +138,13 @@ day1:
     support_channel: '#02-ansible-galaxy'
     support_link: TODO
     type: Tutorial
-    video:
-      captions:
-      - shiltemann
-      - hexylena
-      length: 111M
-      link: il83uApg7Hc&t=4552s
+    videos:
+      - captions: [shiltemann, hexylena]
+        length: 111M
+        link: il83uApg7Hc&t=4552s
   title: Day 1
+
+
 day2:
   sessions:
   - material:
@@ -161,11 +155,11 @@ day2:
     support_channel: '#03-singularity'
     support_link: TODO
     type: Tutorial
-    video:
-      captions:
-      - cat-bro
-      length: 16M
-      link: airzg4-ETEs
+    videos:
+      - captions: cat-bro
+        length: 16M
+        link: airzg4-ETEs
+
   - material:
     - link: topics/admin/tutorials/tool-management/slides.html
       type: Slides
@@ -174,11 +168,11 @@ day2:
     support_channel: '#03-ephemeris'
     support_link: TODO
     type: Tutorial
-    video:
-      captions:
-      - eancelet
-      length: 46M
-      link: 7Qqwrzn--YI&t=0s
+    videos:
+      - captions: eancelet
+        length: 46M
+        link: 7Qqwrzn--YI&t=0s
+
   - material:
     - link: topics/admin/tutorials/tool-management/tutorial.html
       type: Tutorial
@@ -187,11 +181,11 @@ day2:
     support_channel: '#03-ephemeris'
     support_link: TODO
     type: Tutorial
-    video:
-      captions:
-      - eancelet
-      length: 46M
-      link: 7Qqwrzn--YI&t=1122s
+    videos:
+      - captions: eancelet
+        length: 46M
+        link: 7Qqwrzn--YI&t=1122s
+
   - material:
     - link: topics/admin/tutorials/users-groups-quotas/slides.html
       type: Slides
@@ -200,11 +194,11 @@ day2:
     support_channel: '#general'
     support_link: TODO
     type: Tutorial
-    video:
-      captions:
-      - galaxycommunity
-      length: 4M
-      link: crywu31L8qg
+    videos:
+      - captions: galaxycommunity
+        length: 4M
+        link: crywu31L8qg
+
   - material:
     - link: topics/admin/tutorials/cvmfs/slides.html
       type: Slides
@@ -213,11 +207,11 @@ day2:
     support_channel: '#04-cvmfs'
     support_link: TODO
     type: Tutorial
-    video:
-      captions:
-      - galaxycommunity
-      length: 3M
-      link: g_cavAO-fBM
+    videos:
+      - captions: galaxycommunity
+        length: 3M
+        link: g_cavAO-fBM
+
   - material:
     - link: topics/admin/tutorials/cvmfs/tutorial.html
       type: Tutorial
@@ -226,11 +220,11 @@ day2:
     support_channel: '#04-cvmfs'
     support_link: TODO
     type: Tutorial
-    video:
-      captions:
-      - slugger70
-      length: 23M
-      link: X3iFMZP_fQ8
+    videos:
+      - captions: slugger70
+        length: 23M
+        link: X3iFMZP_fQ8
+
   - material:
     - link: topics/admin/tutorials/data-library/tutorial.html
       type: Tutorial
@@ -239,13 +233,13 @@ day2:
     support_channel: '#05-data-libraries'
     support_link: TODO
     type: Tutorial
-    video:
-      captions:
-      - hexylena
-      - shiltemann
-      length: 22M
-      link: 6BWu29Oiihw
+    videos:
+      - captions: [hexylena, shiltemann]
+        length: 22M
+        link: 6BWu29Oiihw
   title: Day 2
+
+
 day3:
   sessions:
   - material:
@@ -256,12 +250,11 @@ day3:
     support_channel: '#07-compute-cluster'
     support_link: TODO
     type: Tutorial
-    video:
-      captions:
-      - cat-bro
-      - shiltemann
-      length: 31M
-      link: R0NbHscL3jA&t=0s
+    videos:
+      - captions: [cat-bro, shiltemann]
+        length: 31M
+        link: R0NbHscL3jA&t=0s
+
   - material:
     - link: topics/admin/tutorials/connect-to-compute-cluster/tutorial.html
       type: Tutorial
@@ -270,12 +263,11 @@ day3:
     support_channel: '#07-compute-cluster'
     support_link: TODO
     type: Tutorial
-    video:
-      captions:
-      - cat-bro
-      - shiltemann
-      length: 31M
-      link: R0NbHscL3jA&t=940s
+    videos:
+      - captions: [at-bro, shiltemann]
+        length: 31M
+        link: R0NbHscL3jA&t=940s
+
   - material:
     - link: topics/admin/tutorials/job-destinations/tutorial.html
       type: Tutorial
@@ -284,11 +276,11 @@ day3:
     support_channel: '#07-compute-cluster'
     support_link: TODO
     type: Tutorial
-    video:
-      captions:
-      - shiltemann
-      length: 31M
-      link: qX8GjTJwnAk
+    videos:
+      - captions: [shiltemann]
+        length: 31M
+        link: qX8GjTJwnAk
+
   - material:
     - link: topics/admin/tutorials/job-metrics/tutorial.html
       type: Tutorial
@@ -297,12 +289,12 @@ day3:
     support_channel: '#07-compute-cluster'
     support_link: TODO
     type: Tutorial
-    video:
-      captions:
-      - beatrizserrano
-      length: 5M
-      link: 7CYI5yw9MN8
+    videos:
+      - captions: beatrizserrano
+        length: 5M
+        link: 7CYI5yw9MN8
   title: Day 3
+
 day4:
   sessions:
   - material:
@@ -313,11 +305,11 @@ day4:
     support_channel: '#08-pulsar'
     support_link: TODO
     type: Tutorial
-    video:
-      captions:
-      - shiltemann
-      length: 14M
-      link: M1-Z_2tuQPI
+    videos:
+      - captions: shiltemann
+        length: 14M
+        link: M1-Z_2tuQPI
+
   - material:
     - link: topics/admin/tutorials/heterogeneous-compute/tutorial.html
       type: Exercise
@@ -326,12 +318,10 @@ day4:
     support_channel: '#08-pulsar'
     support_link: TODO
     type: Tutorial
-    video:
-      captions:
-      - slugger70
-      - simonbray
-      length: 57M
-      link: a7fKJT4Fs9k
+    videos:
+      - captions: [slugger70, simonbray]
+        length: 57M
+        link: a7fKJT4Fs9k
 
   - material:
     - link: topics/admin/tutorials/gxadmin/slides.html
@@ -341,11 +331,11 @@ day4:
     support_channel: '#09-storage'
     support_link: TODO
     type: Tutorial
-    video:
-      captions:
-      - galaxycommunity
-      length: 2M
-      link: QFwOgDyFSSA
+    videos:
+      - captions: galaxycommunity
+        length: 2M
+        link: QFwOgDyFSSA
+
   - material:
     - link: topics/admin/tutorials/gxadmin/tutorial.html
       type: Exercise
@@ -354,6 +344,7 @@ day4:
     support_channel: '#09-storage'
     support_link: TODO
     type: Tutorial
+
   - material:
     - link: topics/admin/tutorials/monitoring/slides.html
       type: Slides
@@ -362,11 +353,11 @@ day4:
     support_channel: '#10-monitoring'
     support_link: TODO
     type: Tutorial
-    video:
-      captions:
-      - galaxycommunity
-      length: 2M
-      link: qcp9lEUxCGI
+    videos:
+      - captions: galaxycommunity
+        length: 2M
+        link: qcp9lEUxCGI
+
   - material:
     - link: topics/admin/tutorials/monitoring/tutorial.html
       type: Telegraf Exercise
@@ -375,11 +366,11 @@ day4:
     support_channel: '#10-monitoring'
     support_link: TODO
     type: Tutorial
-    video:
-      captions:
-      - '...'
-      length: 73M
-      link: drUaYQtMBLY
+    videos:
+      - captions: [shiltemann, hexylena]
+        length: 73M
+        link: drUaYQtMBLY
+
   - material:
     - link: topics/admin/tutorials/maintenance/slides.html
       type: Slides
@@ -388,12 +379,12 @@ day4:
     support_channel: '#10-monitoring'
     support_link: TODO
     type: Tutorial
-    video:
-      captions:
-      - galaxycommunity
-      length: 2M
-      link: 41_3WHXZA-o
+    videos:
+      - captions: galaxycommunity
+        length: 2M
+        link: 41_3WHXZA-o
   title: Day 4
+
 day5:
   sessions:
   - material:
@@ -412,11 +403,11 @@ day5:
     support_channel: '#12-tiaas'
     support_link: TODO
     type: Tutorial
-    video:
-      captions:
-      - '....'
-      length: 24M
-      link: tz0ZbK_8Vcc
+    videos:
+      - captions: [hexylena, shiltemann]
+        length: 24M
+        link: tz0ZbK_8Vcc
+
   - material:
     - link: topics/admin/tutorials/interactive-tools/slides.html
       type: Slides
@@ -427,12 +418,11 @@ day5:
     support_channel: '#11-cyoa'
     support_link: TODO
     type: Tutorial
-    video:
-      captions:
-      - abretaud
-      - hexylena
-      length: 44M
-      link: lACsIhnbTbE
+    videos:
+      - captions: [abretaud, hexylena]
+        length: 44M
+        link: lACsIhnbTbE
+
   - material:
     - link: topics/admin/tutorials/jenkins/tutorial.html
       type: Exercise
@@ -441,6 +431,7 @@ day5:
     support_channel: '#11-cyoa'
     support_link: TODO
     type: Tutorial
+
   - material:
     - link: topics/admin/tutorials/advanced-galaxy-customisation/slides.html
       type: Slides
@@ -449,6 +440,7 @@ day5:
     support_channel: '#11-cyoa'
     support_link: TODO
     type: Tutorial
+
   - material:
     - link: topics/admin/tutorials/troubleshooting/slides.html
       type: Slides
@@ -457,6 +449,7 @@ day5:
     support_channel: '#11-cyoa'
     support_link: TODO
     type: Tutorial
+
   - material:
     - link: https://docs.galaxyproject.org/en/master/admin/python.html
       type: Docs
@@ -497,9 +490,8 @@ day5:
     support_channel: '#09-storage'
     support_link: TODO
     type: Tutorial
-    video:
-      captions:
-      - cat-bro
-      length: 18M
-      link: Hv2bvjk5sjE
+    videos:
+      - captions: cat-bro
+        length: 18M
+        link: Hv2bvjk5sjE
   title: Day 5 - Choose Your OWN Adventure

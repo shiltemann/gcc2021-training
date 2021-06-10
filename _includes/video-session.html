@@ -1,21 +1,30 @@
 {% assign captions = include.session.video.captions | size %}
-{% if include.session.speaker.first %}
-{% assign numspeakers = include.session.speaker | size %}
-{% else %}
-{% assign numspeakers = 1 %}
-{% endif %}
+
+{% assign numvideos = include.session.videos.size %}
+
 
 <div class="flex-row" style="margin-top:1em;">
+  {% if numvideos > 1 %}
+    <h3 class="session-section"> {{include.session.type | default: "Tutorial" }} </h3>
+    {{include.session.description|markdownify| remove: '<p>' | remove: '</p>' }}
+  {% endif %}
 
- <div class="col-md-8">
-  <h3 class="session-section"> Video {{include.session.type | default: "Tutorial" }} </h3>
-  {% if include.session.video.link %}
+
+  {% for video in include.session.videos %}
+
+  <div class="col-md-8">
+  {% if numvideos == 1 %}
+    <h2 class="session-section"> {{include.session.type | default: "Tutorial" }} </h2>
+  {% endif %}
+  {% assign captions = video.captions | size %}
+  {% if video.title %} <br/><br/><h3>{{video.title}}</h3>{% endif %}
+  {% if video.link %}
   <div style="position:relative;padding-top:56.25%;margin-top:1rem">
    <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
-    {% if include.session.video.external %}
+    {% if video.external %}
     src="{{include.session.video.link}}"
     {% else %}
-    src="https://www.youtube.com/embed/{{include.session.video.link}}"
+    src="https://www.youtube.com/embed/{{video.link}}"
     {% endif %}
     frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
    </iframe>
@@ -24,19 +33,25 @@
    <div><img src="{{site.baseurl}}/assets/images/comingsoon.jpg" width="100%" height="100%"/></div>
    {% endif %}
   <div style="margin-top:1em;">
-    <strong>Video Length:</strong> {{include.session.video.length | downcase }} <br/>
-    <strong>Subtitles By:</strong> {% for name in include.session.video.captions %}{% unless forloop.first %}, {% endunless %} {{ site.data.instructors[name].name}}{% endfor %}
+    <strong>Video Length:</strong> {{video.length | downcase }} <br/>
+    <strong>Subtitles By:</strong> {% for name in video.captions %}{% unless forloop.first %}, {% endunless %} {{ site.data.instructors[name].name}}{% endfor %}
 {% if captions == 0 %} We apologize for lack of captions on this video. If you are reliant on captions, please check back here soon.{% endif %}<br/>
-    <strong>Description:</strong> {{include.session.description| markdownify| remove: '<p>' | remove: '</p>' | strip}}<br/>
-
-   </div>
+    <strong>Description:</strong> {% if video.description %}{{video.description | markdownify| remove: '<p>' | remove: '</p>' | strip}}{% else %}{{include.session.description| markdownify| remove: '<p>' | remove: '</p>' | strip}}{% endif %}<br/>
+      </div>
  </div>
 
- {% if include.session.speaker %}
+ {% if video.speaker %}
+ {% assign s = video.speaker %}
+ {% else %}
+ {% assign s = include.session.speaker %}
+ {% endif %}
+ {% assign numspeakers = s.speaker.size %}
+
  <div class="col-md-3">
   <center><h3 class="session-section">Speaker{%if numspeakers>1%}s{%endif%}</h3></center>
-  {% include speakers.html speakers=include.session.speaker border="yes"%}
+  {% include speakers.html speakers=s border="yes"%}
  </div>
- {% endif %}
+ {% endfor %}
+
 </div><!-- end video session -->
 
