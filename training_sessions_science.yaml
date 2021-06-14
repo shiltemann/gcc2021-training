@@ -24,20 +24,7 @@ intro:
 
     - name: "About Certificates"
       type: custom
-      description: |
-        ![](assets/images/wrapup/cert.gif){: width="10%"}
-        **Certificates of attendance can be requested after the training week.**
-
-        **NOTE:** You can follow as few or as many training sessions as you want, we will give you a **personalized certificate** listing all the sessions you attended.
-
-        **In order to obtain a certificate please make sure to:**
-        1. Keep all your **Galaxy histories**
-           - We will ask you to provide links to the histories for all sessions you followed
-        2. Answer the **icebreakers question** on Slack every day
-        3. Be active on **Slack**!
-          - Let us know when you are **starting with a session** in the session's dedicated Slack channel
-          - **Talk about the session**! Get stuck? Have a question about the science? want to discuss anything? do it in Slack!
-          - Whenever you **finish a session**, let us know on Slack that you have completed the tutorial, and let us know what you thought of it!
+      includefile: certificates.html
 
     - name: "Meet & Join the Galaxy Community!"
       description: "This short video gives an overview of the worldwide Galaxy community, and different ways you can get involved! <strong>Video created by Beatriz Serrano-Solano</strong>."
