@@ -475,9 +475,14 @@ ngsadvanced:
         <br/><br/>
         This workshop describes the SARF data objects and demonstrates a few ways to filter them using the metadata before accessing them and entering them into Galaxy workflows.
       videos:
-        - link:
-          length:
-          captions:
+        - link: siLP71B9gm4
+          length: 15M
+          captions: prodromus
+          title: Lecture
+        - link: ogu-NBTP-DM
+          length: 40M
+          captions: prodromus
+          title: Tutorial
 
       material:
         - type: Slides
