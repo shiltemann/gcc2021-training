@@ -16,8 +16,7 @@ jobs:
 
       - name: Send messages
         run: |
-            cd slack-bot;
-            bash cron.sh
+            cd slack-bot && bash cron.sh
         env:
           SLACK_URL: ${{ secrets.SLACK_API_ORGANISERS }}
 
