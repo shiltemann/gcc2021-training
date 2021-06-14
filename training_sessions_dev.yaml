@@ -94,10 +94,6 @@ tooldev:
       description: |
           This tutorial will teach you how to contribute to BioBlend and add support for a Galaxy API in BioBlend.
       speaker: [nsoranzo, rikeshi]
-      videos:
-        - link:
-          length:
-          captions:
       material:
           - type: Tutorial
             link: /topics/dev/tutorials/bioblend-dev/tutorial.html
