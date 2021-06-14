@@ -66,8 +66,8 @@ Scroll down to see all available tutorials, or jump directly to a module:
 
 
    <!-- setup -->
-   {% if session.type == 'setup' %}
-    {% include setup.html %}
+   {% if session.includefile %}
+    {% include {{session.includefile}} %}
    {% endif %}
 
    <!-- wrapup -->
