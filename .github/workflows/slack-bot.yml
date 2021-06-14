@@ -20,6 +20,8 @@ jobs:
             git add .
             count=$(git diff --name-only --cached | wc -l)
             if (( count > 0 )); then
+                git config --global user.email "bot@github.com"
+                git config --global user.name "Github Actions"
                 git commit -a -m "[slack-bot] $(date '+%H:%M')"
                 git push
             fi
