@@ -119,6 +119,11 @@ tooldev:
           captions:
           speaker:
           title: Writing the tool wrapper
+        - link: WFSQE8bq5qI
+          length: 1M
+          speaker: davebx
+          captions:
+          title: Writing the .shed.yml file
         - link: 19mKUENz_i0
           length: 41M
           speaker: bernt-matthias
@@ -129,11 +134,6 @@ tooldev:
           speaker: astrovsky01
           captions:
           title: Contributing the tool back to a public repository
-        - link: WFSQE8bq5qI
-          length: 1M
-          speaker: davebx
-          captions:
-          title: Writing the .shed.yml file
       material:
           - type: Tutorial
             link: /topics/dev/tutorials/tool-dev-from-scratch/tutorial.html
