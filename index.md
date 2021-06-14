@@ -101,3 +101,4 @@ This Global Galaxy course is only possible thanks to a Global network of instruc
 ### Institutions
 
 {% include institutions.html %}
+

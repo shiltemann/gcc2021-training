@@ -239,6 +239,9 @@ tooldev:
           title: Creating Slides
           description: |
             This lecture goes through the process of how to create a slide deck, common things you should bear in mind while you're writing them, and how to enable the amazing slides-to-video features for your slide decks! This video itself was produced automatically from the GTN's slide decks, anyone making edits to these slides will cause them to be rebuilt, making organising videos for events easier than ever.
+      support_channel: "#contributing-gtn"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/contributing-gtn"
+      faq: "https://docs.google.com/document/d/1-B5DvLcaylpJKfW-1F6tRhbCbpLlRbu2c3kTMuBFNk4/pub"
 
     - name: "TBC: Galaxy Visualization Integration"
       type: Tutorial
@@ -264,4 +267,3 @@ coredev:
     - name: CYOA
       type: Tutorial
       description: Here you can pick a Galaxy bug that you find interesting, especially a 'paper-cut', and the instructors will help guide you to resolving this bug.
-
