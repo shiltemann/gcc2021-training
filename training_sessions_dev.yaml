@@ -102,65 +102,42 @@ tooldev:
           - type: Tutorial
             link: /topics/dev/tutorials/bioblend-dev/tutorial.html
 
-    - name: "Galaxy Tools: From Conda Through Deployment - Planemo Tool Init & Structure"
+    - name: "Galaxy Tools: From Conda Through Deployment"
       description: |
           Here you will creating Galaxy tools from scratch using Conda for requirements, Planemo for testing, and Git for deployment.
       speaker: astrovsky01
       instructors: [davebx, bernt-matthias, astrovsky01]
       videos:
+        - link: UtNErGKw8SI
+          length: 8M
+          speaker: davebx
+          captions:
+          title: Conda
         - link: a6XZgEy6hlg
           length: 2M
           captions:
-      material:
-          - type: Tutorial
-            link: /topics/dev/tutorials/tool-dev-from-scratch/tutorial.html
-      support_channel: "#dev-tools-conda"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/dev-tools-conda"
-      faq: "https://docs.google.com/document/d/1moSs0APNyhm4yZ9vPfpH0ErPONncNU-UCRzGvypc84I/pub"
-
-
-    - name: "Galaxy Tools: From Conda Through Deployment - Writing the Wrapper"
-      description: |
-          Here you will creating Galaxy tools from scratch using Conda for requirements, Planemo for testing, and Git for deployment.
-      speaker: astrovsky01
-      instructors: [davebx, bernt-matthias, astrovsky01]
-      videos:
+          speaker:
+          title: Planemo Init & Tool Structure
         - link: FdtD8vBLK5k
           length: 17M
           captions:
-      material:
-          - type: Tutorial
-            link: /topics/dev/tutorials/tool-dev-from-scratch/tutorial.html
-      support_channel: "#dev-tools-conda"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/dev-tools-conda"
-      faq: "https://docs.google.com/document/d/1moSs0APNyhm4yZ9vPfpH0ErPONncNU-UCRzGvypc84I/pub"
-
-
-    - name: "Galaxy Tools: From Conda Through Deployment - Planemo Testing"
-      description: |
-          Here you will creating Galaxy tools from scratch using Conda for requirements, Planemo for testing, and Git for deployment.
-      speaker: bernt-matthias
-      instructors: [davebx, bernt-matthias, astrovsky01]
-      videos:
+          speaker:
+          title: Writing the tool wrapper
         - link: 19mKUENz_i0
           length: 41M
+          speaker: bernt-matthias
           captions:
-      material:
-          - type: Tutorial
-            link: /topics/dev/tutorials/tool-dev-from-scratch/tutorial.html
-      support_channel: "#dev-tools-conda"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/dev-tools-conda"
-      faq: "https://docs.google.com/document/d/1moSs0APNyhm4yZ9vPfpH0ErPONncNU-UCRzGvypc84I/pub"
-
-    - name: "Galaxy Tools: From Conda Through Deployment - Contributing"
-      description: |
-          Here you will creating Galaxy tools from scratch using Conda for requirements, Planemo for testing, and Git for deployment.
-      speaker: astrovsky01
-      instructors: [davebx, bernt-matthias, astrovsky01]
-      videos:
+          title: Testing with Planemo
         - link: hg0YreA8W1I
           length: 30M
+          speaker: astrovsky01
           captions:
+          title: Contributing the tool back to a public repository
+        - link: WFSQE8bq5qI
+          length: 1M
+          speaker: davebx
+          captions:
+          title: Writing the .shed.yml file
       material:
           - type: Tutorial
             link: /topics/dev/tutorials/tool-dev-from-scratch/tutorial.html
@@ -168,48 +145,37 @@ tooldev:
       support_link: "https://gtnsmrgsbord.slack.com/archives/dev-tools-conda"
       faq: "https://docs.google.com/document/d/1moSs0APNyhm4yZ9vPfpH0ErPONncNU-UCRzGvypc84I/pub"
 
-
-
-
-
-    - name: "ToolFactory: Generating Tools From Simple Scripts: Slides"
+    - name: "ToolFactory: Generating Tools From Simple Scripts"
       description: |
-          Here you'll get a quick overview about what the ToolFactory is and
-          how it works.
-      speaker: awspolly
+          Here you'll see how the ToolFactory works and get a quick tour of the hands on
       instructors: [fubar2]
       videos:
         - link: W5Ap5elAxQc
           length: 3M
+          speaker: awspolly
           captions: [galaxycommunity]
-      material:
-          - type: Slides
-            link: /topics/dev/tutorials/tool-generators/slides.html
-      support_channel: "#dev-toolfactory"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/dev-toolfactory"
-      faq: "https://docs.google.com/document/d/1e2iuYoseNkPvUBfMczEtPNsKI2Nfbyn6pN9Nz1x6E1o/pub"
-
-    - name: "ToolFactory: Generating Tools From Simple Scripts: Quick Hands On"
-      description: |
-          Here you'll see how the ToolFactory works and get a quick tour of the hands on
-      speaker: awspolly
-      instructors: [fubar2]
-      videos:
+          title: Lecture
+          description: |
+              Here you'll get a quick overview about what the ToolFactory is
+              and how it works.
         - link: DK1eKz5TRs4
           length: 7M
+          speaker: fubar2
           captions: [fubar2]
+          title: Quick Tutorial
+          description: |
+            Here you'll see how the ToolFactory works and get a quick tour of
+            the hands on portion of the tutorial.
+        - link: 8nKBfVM6240 # PJtjk6tVR2s
+          length: 30M
+          speaker: fubar2
+          captions: [fubar2]
+          title: In Depth
+          description: |
+              Finally, a more in depth discussion of the ToolFactory
       material:
           - type: Tutorial
             link: /topics/dev/tutorials/tool-generators/tutorial.html
-      support_channel: "#dev-toolfactory"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/dev-toolfactory"
-      faq: "https://docs.google.com/document/d/1e2iuYoseNkPvUBfMczEtPNsKI2Nfbyn6pN9Nz1x6E1o/pub"
-
-    - name: "ToolFactory: Generating Tools From Simple Scripts: Longer Hands-on"
-      videos:
-        - link: PJtjk6tVR2s
-          length: 30M
-          captions: [fubar2]
       description: |
           **Why this training might be useful:** If you write useful scientific
           analysis scripts, but have not yet learned to create new tools for
@@ -244,15 +210,6 @@ tooldev:
           The ToolFactory is recommended for private desktop use only because
           executing unrestricted user installed tools is an unacceptable
           potential security risk for any production server.
-      speaker: fubar2
-      instructors: [fubar2]
-      videos:
-        - link:
-          length:
-          captions:
-      material:
-          - type: Tutorial
-            link: /topics/dev/tutorials/tool-generators/tutorial.html
       support_channel: "#dev-toolfactory"
       support_link: "https://gtnsmrgsbord.slack.com/archives/dev-toolfactory"
       faq: "https://docs.google.com/document/d/1e2iuYoseNkPvUBfMczEtPNsKI2Nfbyn6pN9Nz1x6E1o/pub"
