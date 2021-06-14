@@ -271,7 +271,7 @@ coredev:
            locating specific errors in the logs of Galaxy's GitHub Actions, to
            identifying their cause, developing a solution and committing your
            edits.
-      speaker: [ic4f, assuntad23, jmchilton]
+      speaker: [ic4f, assuntad23, jmchilton, dannon]
       material:
           - type: Tutorial
             link: /topics/dev/tutorials/debugging/tutorial.html
