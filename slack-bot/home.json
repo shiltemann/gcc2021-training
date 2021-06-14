@@ -1,0 +1,22 @@
+{
+  "user_id": "U01F7TAQXNG",
+  "view": {
+       "type":"home",
+       "blocks":[
+          {
+             "type":"section",
+             "text":{
+                "type":"mrkdwn",
+                "text":"This is a simple slack bot that automatically sends messages on a regular schedule."
+             }
+          },
+          {
+             "type":"section",
+             "text":{
+                "type":"mrkdwn",
+                "text":"All of our messages are managed in a <https://github.com/shiltemann/gcc2021-training/tree/main/slack-bot|github repository> where you can open a PR to submit a new message that should go out over the announcements channel."
+             }
+          }
+       ]
+    }
+}
