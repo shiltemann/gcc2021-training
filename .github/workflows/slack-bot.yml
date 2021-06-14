@@ -18,7 +18,7 @@ jobs:
         run: |
             cd slack-bot && bash cron.sh
         env:
-          SLACK_URL: ${{ secrets.SLACK_API_ORGANISERS }}
+          SLACK_URL: ${{ secrets.SLACK_API_ANNOUNCEMENTS }}
 
       - name: Commit changed files back
         run: |
