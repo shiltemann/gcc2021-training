@@ -1,0 +1,25 @@
+name: Monthly GTN Release
+
+on:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '5,15,25,35,45,55 * * * *'
+
+jobs:
+  setup:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 1
+
+      - name: Send messages
+        run: |
+            cd slack-bot;
+            bash cron.sh
+            git add .
+            count=$(git diff --name-only --cached | wc -l)
+            if (( count > 0 )); then
+                git commit -a -m "[slack-bot] $(date '+%H:%M')"
+                git push
+            fi
