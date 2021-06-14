@@ -276,7 +276,7 @@ coredev:
           - type: Tutorial
             link: /topics/dev/tutorials/debugging/tutorial.html
 
-    - name: Contributing extensions to Galaxy core (backend and frontend)
+    - name: Contributing extensions to Galaxy core
       type: Tutorial
       description: |
         This tutorial walks you through an extension to Galaxy and how to contribute back to the core project.
