@@ -19,7 +19,8 @@ intro:
       faq: "https://docs.google.com/document/d/e/2PACX-1vTfNT2qS2Yb7qTAcnOFrMWwE_aPPUuYJJ0hdjw5gqV_JtMUWQ3NSkr6qAdrmF2EUGBBzTL8wFiILz8B/pub"
 
     - name: "Get set up for the course"
-      type: setup
+      type: custom
+      includefile: "setup.html"
 
     - name: "About Certificates"
       type: custom
@@ -223,9 +224,9 @@ galaxyadvanced:
           captions:
       material:
           - type: Tutorial
-            link: /topics/galaxy-interface/tutorials/upload-rules/tutorial.html
+            link: topics/galaxy-interface/tutorials/upload-rules/tutorial.html
           - type: Tutorial
-            link: /topics/galaxy-interface/tutorials/upload-rules-advanced/tutorial.html
+            link: topics/galaxy-interface/tutorials/upload-rules-advanced/tutorial.html
       support_channel: "#galaxy-rule-builder"
       support_link: "https://gtnsmrgsbord.slack.com/archives/galaxy-rule-builder"
       faq: "https://docs.google.com/document/d/1FtLwF3FLNVavVk4fRSka8YpDMHZJiScwT4rK0Ww4Ndw/pub"
@@ -463,8 +464,8 @@ ngsadvanced:
 
     - name: "SRA Aligned Read Formats to Speed Up SARS-CoV-2 Analysis"
       type: Tutorial
-      speaker: NCBI
-      instructors: [prodromus, skripche]
+      speaker: prodromus
+      instructors: [prodromus, skripche, Arhodes-NCBI]
       description: |
         Traditionally, after a list of run accessions has been filtered on the NCBI website, the accessions are used to download and extract fastq using the SRA toolkit to enter into the next steps of the workflow.  A newer compressed data type generated from raw submission data for sequences containing hits to SARS-CoV-2 is also accessible to Galaxy users from SRA in the Cloud.
         <br/><br/>
@@ -549,21 +550,30 @@ rnabasics:
 
 
 
-    - name: Plant transcriptome analysis
-      type: Tutorial
+    - name: Whole transcriptome analysis of Arabidopsis thaliana
+      tags: plants
+      type: Lecture & Hands-on Tutorial
       speaker: gallardoalba
       description: In this tutorial, we will analyze RNA sequencing data to extract information about potential genes regulated in response to abiotic stress in plants. For this purpose, the chosen approach is the identification of genes with complementary regions to miRNAs upregulated in response to brassinosteroids.
       videos:
-        - link:
-          length:
-          captions:
+        - link: 7t0Gr1Jklqs
+          length: 10M
+          captions: gallardoalba
+          speaker: awspolly
+          title: Lecture
+        - link: wS1X_0Mgw7M
+          length: 1H10M
+          speaker: gallardoalba
+          captions: gallardoalba
+          title: Tutorial
       material:
+        - type: Slides
+          link: topics/transcriptomics/tutorials/mirna-target-finder/slides.html
         - type: Tutorial
           link: topics/transcriptomics/tutorials/mirna-target-finder/tutorial.html
-          title: Whole transcriptome analysis of Arabidopsis thaliana
-      support_channel: "#plants-2-2_mirna-data-analysis"
+      support_channel: "#transcriptomics_mirna-data-analysis"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01TCB1J7SA"
-      faq: ""
+      faq: "https://docs.google.com/document/d/1MEbBmyDaH0mt65wL3_P7YMn-PZD1mYkAAfE6gY55_Wg/edit"
 
 
 rnaseqandr:
