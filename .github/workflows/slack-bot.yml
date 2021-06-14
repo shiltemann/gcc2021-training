@@ -23,3 +23,6 @@ jobs:
                 git commit -a -m "[slack-bot] $(date '+%H:%M')"
                 git push
             fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SLACK_URL: ${{ secrets.SLACK_API_ORGANISERS }}
