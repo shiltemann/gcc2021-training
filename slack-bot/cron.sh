@@ -14,7 +14,7 @@ for fn in scheduled/*.json; do
 	ts=$(date -d "$ds" +%s)
 	if (( ts < NOW )); then
 		# Send the message
-		response=$(curl -X POST -H 'Content-type: application/json' --data "@$fn" "${SLACK_URL}")
+		response=$(curl --silent -X POST -H 'Content-type: application/json' --data "@$fn" "${SLACK_URL}")
 		# If it was received OK
 		if [[ "$response" == "ok" ]]; then
 			mv "$fn" "sent/"
