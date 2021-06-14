@@ -3,7 +3,7 @@ name: Send to Slack
 on:
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron:  '5,15,25,35,45,55 * * * *'
+    - cron:  '5,35 * * * *'
 
 jobs:
   setup:
