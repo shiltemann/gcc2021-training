@@ -250,16 +250,41 @@ coredev:
   sessions:
     - name: Galaxy architecture
       type: Lecture
-      description:
-      speaker: [jmchilton, natefoo, dannon]
-    - name: Debugging and testing Galaxy core
+      material:
+          - type: Slides
+            link: /topics/dev/tutorials/architecture/slides.html
+      description: |
+          This talk will cover:
+
+          - How is the Galaxy code structured?
+          - What do the various other projects related to Galaxy do?
+          - What happens when I start Galaxy
+
+      speaker: [jmchilton]
+
+    - name: Debugging Galaxy
       type: Tutorial
-      description:
-      speaker: [ic4f, assuntad23, jmchilton, mvdbeek]
+      description: |
+           In this tutorial we will demonstrate how to find and fix common
+           types of bugs you may encounter as a contributor to Galaxy. We will
+           step you through the process of finding and fixing a bug - from
+           locating specific errors in the logs of Galaxy's GitHub Actions, to
+           identifying their cause, developing a solution and committing your
+           edits.
+      speaker: [ic4f, assuntad23, jmchilton]
+      material:
+          - type: Tutorial
+            link: /topics/dev/tutorials/debugging/tutorial.html
+
     - name: Contributing extensions to Galaxy core (backend and frontend)
       type: Tutorial
-      description:
-      speaker: [jmchilton, dannon, ic4f, assuntad23, mvdbeek]
+      description: |
+        This tutorial walks you through an extension to Galaxy and how to contribute back to the core project.
+      speaker: [jmchilton]
+      material:
+          - type: Tutorial
+            link: /topics/dev/tutorials/core-contributing/tutorial.html
+
     - name: CYOA
       type: Tutorial
       description: Here you can pick a Galaxy bug that you find interesting, especially a 'paper-cut', and the instructors will help guide you to resolving this bug.
