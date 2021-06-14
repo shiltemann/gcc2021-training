@@ -876,6 +876,9 @@ proteomics:
         - type: Slides
           external: true
           link: TODO
+        - type: Workflow
+          external: true
+          link: "https://usegalaxy.eu/workflow/export_to_file?id=8a85663218676b59"
       support_channel: "#4-3_metaproteomics"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01FD4276P3"
       faq: "https://docs.google.com/document/d/e/2PACX-1vTX6JQG4oAKXvQSJU52thudorwANPtzIedTiTQU1NbXQYYfrNkBheN-gHu0O91bCOIk5wQBpH1mIk7v/pub"
