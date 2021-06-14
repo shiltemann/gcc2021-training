@@ -450,16 +450,20 @@ ngsadvanced:
       faq: "https://docs.google.com/document/d/e/2PACX-1vQnEmZyZF3rLhU3mA-g5L8DVaTW8GHYTikxYnuvQG7sCT66owCIc-4KLLGw9S2nIo1XPPtV9Ledtm3n/pub"
 
     - name: "SRA Aligned Read Formats to Speed Up SARS-CoV-2 Analysis"
-      type: Tutorial
+      type: Lecture & Hands-on Tutorial
       speaker: prodromus
       instructors: [prodromus, skripche, Arhodes-NCBI]
       description: |
-        Traditionally, after a list of run accessions has been filtered on the NCBI website, the accessions are used to download and extract fastq using the SRA toolkit to enter into the next steps of the workflow.  A newer compressed data type generated from raw submission data for sequences containing hits to SARS-CoV-2 is also accessible to Galaxy users from SRA in the Cloud.
-        <br/><br/>
-        SRA Aligned Read Format (SARFs) provides further output options other than basic fastq format, for example 1) contigs created from the raw reads in the run (FASTA format), 2) reads aligned back to the contigs (SAM format), 3) VCF files generated for each record relative to the SARS-CoV-2 RefSeq record.
-        <br/><br/>
+
+        <img alt="ncbi logo" src="https://uribeconvers.files.wordpress.com/2015/05/ncbi.png" width="10%" style="float: right"/> Traditionally, after a list of run accessions has been filtered on the NCBI website, the accessions are used to download and extract fastq using the SRA toolkit to enter into the next steps of the workflow.  A newer compressed data type generated from raw submission data for sequences containing hits to SARS-CoV-2 is also accessible to Galaxy users from SRA in the Cloud.
+
+        SRA Aligned Read Format (SARFs) provides further output options other than basic FASTQ format, for example:
+        1. contigs created from the raw reads in the run (FASTA format)
+        2. reads aligned back to the contigs (SAM format)
+        3. VCF files generated for each record relative to the SARS-CoV-2 RefSeq record.
+
         We will demonstrate how to access just the reads (FASTA or FASTQ format), just the contigs, the reads aligned to the contigs and VCF files for selected SARFs. These formats can speed up workflows such as assembly and variant calling, and this data format is still referenced by the run accession and accessed using the SRA toolkit.
-        <br/><br/>
+
         This workshop describes the SARF data objects and demonstrates a few ways to filter them using the metadata before accessing them and entering them into Galaxy workflows.
       videos:
         - link: siLP71B9gm4
@@ -468,7 +472,7 @@ ngsadvanced:
           title: Lecture
           description: |
             This lecture will introduce the SRA Aligned Read format available in the cloud from SRA, as well as some accompanying metadata
-            that can help you search and filter the data. This sessions is aimed specifically for SARS-CoV-2 runs in SRA.
+            that can help you search and filter the data. This sessions is aimed specifically at SARS-CoV-2 runs in SRA.
         - link: ogu-NBTP-DM
           length: 40M
           captions: prodromus
