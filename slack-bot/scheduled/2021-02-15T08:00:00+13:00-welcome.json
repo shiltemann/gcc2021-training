@@ -1,13 +1,11 @@
 {
 	"blocks": [
 		{
-			"type": "header",
+			"type": "section",
 			"text": {
-				"type": "plain_text",
-				"text": "The infrastructure for the slack bot is now completely open and runs in the public view in a github action. Neat. <https://github.com/shiltemann/gcc2021-training/actions|gh-actions>",
-				"emoji": true
+				"type": "mrkdwn",
+				"text": "The infrastructure for the slack bot is now completely open and runs in the public view in a github action. Neat. <https://github.com/shiltemann/gcc2021-training/actions|gh-actions>"
 			}
 		}
 	]
 }
-
