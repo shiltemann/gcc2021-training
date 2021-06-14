@@ -17,6 +17,11 @@ jobs:
         run: |
             cd slack-bot;
             bash cron.sh
+        env:
+          SLACK_URL: ${{ secrets.SLACK_API_ORGANISERS }}
+
+      - name: Commit changed files back
+        run: |
             git add .
             count=$(git diff --name-only --cached | wc -l)
             if (( count > 0 )); then
@@ -27,4 +32,3 @@ jobs:
             fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SLACK_URL: ${{ secrets.SLACK_API_ORGANISERS }}
