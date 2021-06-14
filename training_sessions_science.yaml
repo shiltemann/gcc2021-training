@@ -466,10 +466,15 @@ ngsadvanced:
           length: 15M
           captions: prodromus
           title: Lecture
+          description: |
+            This lecture will introduce the SRA Aligned Read format available in the cloud from SRA, as well as some accompanying metadata
+            that can help you search and filter the data. This sessions is aimed specifically for SARS-CoV-2 runs in SRA.
         - link: ogu-NBTP-DM
           length: 40M
           captions: prodromus
           title: Tutorial
+          description: |
+            This tutorials will walk you through accessing and using SRA Aligned read format in Galaxy.
 
       material:
         - type: Slides
