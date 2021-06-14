@@ -1,4 +1,4 @@
-name: Monthly GTN Release
+name: Send to Slack
 
 on:
   schedule:
