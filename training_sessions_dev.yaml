@@ -94,6 +94,7 @@ tooldev:
       description: |
           This tutorial will teach you how to contribute to BioBlend and add support for a Galaxy API in BioBlend.
       speaker: [nsoranzo, rikeshi]
+      videos: []
       material:
           - type: Tutorial
             link: /topics/dev/tutorials/bioblend-dev/tutorial.html
@@ -214,6 +215,7 @@ tooldev:
       type: Tutorial
       description: Ever wondered how to interact with the Galaxy API to scale your work and automated processes? Learn how to here with BioBlend.
       speaker: [nsoranzo]
+      videos: []
 
     - name: The GTN & Training Material Development
       type: Tutorial
@@ -239,10 +241,11 @@ tooldev:
       support_link: "https://gtnsmrgsbord.slack.com/archives/contributing-gtn"
       faq: "https://docs.google.com/document/d/1-B5DvLcaylpJKfW-1F6tRhbCbpLlRbu2c3kTMuBFNk4/pub"
 
-    - name: "TBC: Galaxy Visualization Integration"
+    - name: "Galaxy Visualization Integration"
       type: Tutorial
       description:
       speaker: [dannon]
+      videos: []
 
 coredev:
   title: Galaxy Core Development
@@ -261,6 +264,7 @@ coredev:
           - What happens when I start Galaxy
 
       speaker: [jmchilton]
+      videos: []
 
     - name: Debugging Galaxy
       type: Tutorial
@@ -275,12 +279,15 @@ coredev:
       material:
           - type: Tutorial
             link: /topics/dev/tutorials/debugging/tutorial.html
+      videos: []
+
 
     - name: Contributing extensions to Galaxy core
       type: Tutorial
       description: |
         This tutorial walks you through an extension to Galaxy and how to contribute back to the core project.
       speaker: [jmchilton]
+      videos: []
       material:
           - type: Tutorial
             link: /topics/dev/tutorials/core-contributing/tutorial.html
