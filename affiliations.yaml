@@ -110,6 +110,10 @@ pennstate:
   link: "https://www.psu.edu/"
   logo: pennstate.png
 
+petermac:
+  name: Peter MacCallum Cancer Centre
+  link: "https://www.petermac.org/"
+
 sanbi:
   name: SANBI/UWC
   link: "https://www.sanbi.org/"

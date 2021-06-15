@@ -120,7 +120,7 @@ galaxyintro:
         - type: Slides
           link: topics/introduction/videos/
           title: A Slightly Longer Introduction to Galaxy
-      support_channel: "#galaxy_intro-short"
+      support_channel: "#galaxy_introduction"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01ES914GCU"
       faq: "https://docs.google.com/document/d/e/2PACX-1vQ1SZCsxEcRXp39J2BcFAjXyC3B20sWzI7IVgBgwe2pcC9b0cza417jzBPYJVqCRNbU0dD4rv_y6u6P/pub"
 
@@ -158,11 +158,11 @@ galaxyintro:
           link: "https://galaxyproject.org/events/webinars/"
           external: true
 
-      support_channel: "#general"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01MNM98X9V"
+      support_channel: "#event-gcc2021"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C0253H46ABV"
 
-    - name: "Your First Galaxy Analysis"
-      type: Tutorial
+    - name: "Your First Galaxy Analysis (genomics-based)"
+      type: Hands-on Tutorial
       description: |
         In this tutorial, we will walk you through your first (toy) analysis in Galaxy. This tutorial is aimed at familiarizing you with the Galaxy platform, and some basic NGS concepts.
       speaker: tnabtaf
@@ -174,19 +174,19 @@ galaxyintro:
         - type: Slides
           link: "https://docs.google.com/presentation/d/1rOGp4o_Dc-QIHS4YT4HizdfXTVhJB1HwPPZkSDuMhig/edit#slide=id.gbc9627d000_0_346"
           external: true
-          title: Overview Prsentations
+          title: Overview Presentation
         - type: Tutorial
           link: topics/introduction/tutorials/galaxy-intro-strands/tutorial.html
           title: Introduction to Genomics and Galaxy
         - type: Tutorial
           link: topics/galaxy-interface/tutorials/history-to-workflow/tutorial.html
           title: Extracting Workflows from Histories
-      support_channel: "#galaxy_intro_short"
+      support_channel: "#galaxy_introduction"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01ES914GCU"
-      faq: "https://docs.google.com/document/d/e/2PACX-1vQ1SZCsxEcRXp39J2BcFAjXyC3B20sWzI7IVgBgwe2pcC9b0cza417jzBPYJVqCRNbU0dD4rv_y6u6P/pub"
+      faq: "https://docs.google.com/document/u/2/d/1uFeeF2OwgzFFc8jbVF2elV5PQB5gbxMtE4pX2FOpXKM/pub"
 
     - name: "Galaxy Intro for Everyone (non-genomics)"
-      type: Tutorial
+      type: Hands-on Tutorial
       description: This video tutorial will provide a non-genomics based first look at the Galaxy platform, how to use it, and discusses how you can get support for your data analysis.
       speaker: annefou
       videos:
@@ -198,7 +198,7 @@ galaxyintro:
           link: topics/introduction/tutorials/galaxy-intro-101-everyone/tutorial.html
       support_channel: "#galaxy_intro_101-for-everyone"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C023KFGASK0"
-
+      faq: "https://docs.google.com/document/d/e/2PACX-1vToYVCisDQ8qDSKKmDvdlZ3e87HzfnO6KQkOReDd0LtHTNKDUDj2vpqWj73bj_2UelNStLZpoSpNlGj/pub"
 
 galaxyadvanced:
   title: Advanced Galaxy Features
@@ -206,7 +206,7 @@ galaxyadvanced:
   description: These tutorials cover some more advanced Galaxy features
   sessions:
     - name: "Uploading data with the Rule Based Uploader"
-      type: Tutorial
+      type: Hands-on Tutorial
       description: |
           Through a series of examples, this tutorial aims to familiarize the
           reader with building Galaxy collections from tabular data containing
@@ -227,7 +227,7 @@ galaxyadvanced:
       faq: "https://docs.google.com/document/d/1FtLwF3FLNVavVk4fRSka8YpDMHZJiScwT4rK0Ww4Ndw/pub"
 
     - name: Running Workflows from the Command Line using Planemo
-      type: Tutorial
+      type: Hands-on Tutorial
       description: |
           This is a more technical tutorial which will teach you how to run
           workflows from the command line and scale your analyses. If you are
@@ -253,7 +253,8 @@ ngsintro:
   title: Introduction to NGS Analysis
   description: This module will introduce the basics of NGS analysis, from cleaning your data to mapping and assembly
   sessions:
-    - name: "Demo: NGS Data Logistics using SARS-CoV-2 data"
+    - &covid19-ngs-logistics
+      name: "Demo: NGS Data Logistics using SARS-CoV-2 data"
       type: Demo
       description: |
         In this demo video, we will show how to perform an NGS data analysis, using a SARS-CoV-2 example dataset. If you would like to run the full tutorial yourself, please find the link below (duration 1h-1.5h).
@@ -265,14 +266,15 @@ ngsintro:
       material:
         - type: Tutorial
           link: topics/introduction/tutorials/galaxy-intro-ngs-data-managment/tutorial.html
-      support_channel: "#ngs_introduction"
+          title: NGS data logistics
+      support_channel: "#ngs_data-logistics"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01EXB3BKN1"
       faq: "https://docs.google.com/document/u/2/d/12w_KCVN7z9DKLSxX6aCRfr8__nfANoIxfLJeYM4UGQA/pub"
 
 
     - name: "Quality Control"
       speaker: heylf
-      type: Lecture and Hands-on Tutorial
+      type: Lecture & Hands-on Tutorial
       description: |
         This session covers the basics about how to assess and improve the quality of your sequencing data.
       videos:
@@ -293,13 +295,13 @@ ngsintro:
         - type: Tutorial
           link: "topics/sequence-analysis/tutorials/quality-control/tutorial.html"
 
-      support_channel: "#1-3_quality-control"
+      support_channel: "#ngs_quality-control"
       support_link: https://gtnsmrgsbord.slack.com/archives/C01FQ92MB7A
       faq: "https://docs.google.com/document/d/e/2PACX-1vRXhvMQNVRc41Xsg7NLeCLSefaWMEhKgkENmqQqAJUfZAk782616svDQPBQhMKeOqMhiKSZDbmFqsfO/pub"
 
 
     - name: "Mapping"
-      type: Lecture and Hands-on Tutorial
+      type: Lecture & Hands-on Tutorial
       speaker: pvanheus
       description: |
         Mapping sequencing reads to a reference genome is often the next step
@@ -325,7 +327,7 @@ ngsintro:
         - type: Tutorial
           link: topics/sequence-analysis/tutorials/mapping/tutorial.html
           title: Mapping
-      support_channel: "#1-4_mapping"
+      support_channel: "#ngs_mapping"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01F6JHCFT6"
       faq: "https://docs.google.com/document/d/e/2PACX-1vReZf8DGTSf6DlgBzg_g4_PhiH7glzRNTXGxK2_xM3aAFL5A3x0FdawNCrna3NkZ_vj986u7nhWh3Bb/pub"
 
@@ -334,7 +336,7 @@ ngsintro:
       description: |
         When there is no reference genome available for your organism, you will
         have to assemble the short reads into larger segments (contigs).
-      type: Lecture and Hands-on Tutorial
+      type: Lecture & Hands-on Tutorial
       videos:
         - link: -EX_G1griZE
           length: 25M
@@ -357,7 +359,7 @@ ngsintro:
           link: topics/assembly/tutorials/chloroplast-assembly/tutorial.html
           title: Chloroplast genome assembly
 
-      support_channel: "#1-5_assembly"
+      support_channel: "#ngs_assembly"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01EKMD8VC7"
       faq: "https://docs.google.com/document/d/e/2PACX-1vTed-1_nZK1liUdm5IZn_Qas7LcJE700WwsMAgT282Q1jx0Nkk4lZzzN47P9aS1suUAeh0ljIUYgXpG/pub"
 
@@ -366,9 +368,10 @@ ngsintro:
 ngsadvanced:
   title: "Advanced NGS Analysis"
   sessions:
-    - name: "Assembly: Unicycler assembly of SARS-CoV-2 genome"
+    - &covid19-assembly
+      name: "Assembly: Unicycler assembly of SARS-CoV-2 genome"
       speaker: gallardoalba
-      type: Tutorial
+      type: Hands-on Tutorial
       description: "This tutorial guides you through the preprocessing of sequencing data of bronchoalveolar lavage fluid (BALF) samples obtained from early COVID-19 patients in China. Since such samples are expected to be contaminated signficantly with human sequenced reads, the goal is to enrich the data for SARS-CoV-2 reads by identifying and discarding reads of human origin before trying to assemble the viral genome sequence."
       videos:
         - link: jNFLYhjgJPs
@@ -379,7 +382,7 @@ ngsadvanced:
           link: topics/assembly/tutorials/assembly-with-preprocessing/slides.html
         - type: Tutorial
           link: topics/assembly/tutorials/assembly-with-preprocessing/tutorial.html
-      support_channel: "#5-h_unicycler-assembly-sars-cov2-genome"
+      support_channel: "#ngs_advanced_unicycler-assembly-sars-cov2-genome"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01GJLDS01K"
       faq: "https://docs.google.com/document/d/e/2PACX-1vRcBWHbIIo6t_vXtZiaW_6t2qIUYwjiptC2MRVUG5KC31rwPg8fO9yCma22HqIV6Hu1T3wJXaV-GwxU/pub"
 
@@ -403,7 +406,7 @@ ngsadvanced:
           link: topics/genome-annotation/videos/
         - type: Tutorial
           link: topics/genome-annotation/tutorials/annotation-with-prokka/slides.html
-      support_channel: "#5-g_annotation-prokaryotic-genome"
+      support_channel: "#ngs_advanced_annotation-prokaryotic-genome"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01GTTD1BE0"
       faq: "https://docs.google.com/document/d/e/2PACX-1vSK-RjeRJC38_FSM9zC6SrfkvIz1W4uEMQkN95qk5OemvANuPF3aNEogVEvF6JEXeMomo-oMwi32Gv2/pub"
 
@@ -453,11 +456,12 @@ ngsadvanced:
         - type: Tutorial
           link: topics/epigenetics/tutorials/atac-seq/tutorial.html
           title: ATAC-Seq data analysis
-      support_channel: "#5-k_atac-seq"
+      support_channel: "#ngs_advanced_epigenetics_atac-seq"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01LRHRC6A3"
       faq: "https://docs.google.com/document/d/e/2PACX-1vQnEmZyZF3rLhU3mA-g5L8DVaTW8GHYTikxYnuvQG7sCT66owCIc-4KLLGw9S2nIo1XPPtV9Ledtm3n/pub"
 
-    - name: "SRA Aligned Read Formats to Speed Up SARS-CoV-2 Analysis"
+    - &covid19-sra
+      name: "SRA Aligned Read Formats to Speed Up SARS-CoV-2 Analysis"
       type: Lecture & Hands-on Tutorial
       speaker: prodromus
       instructors: [prodromus, skripche, Arhodes-NCBI]
@@ -522,7 +526,7 @@ rnabasics:
         - type: Slides
           link: topics/transcriptomics/slides/introduction.html
           title: Introduction to Transcriptomics
-      support_channel: "#2-1_ref-based-rna-seq"
+      support_channel: "#transcriptomics_ref-based-rna-seq"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01F0L6UW03"
       faq: "https://docs.google.com/document/d/e/2PACX-1vTOAKhYdmiiTucIarwlehmnPaxi0MXDmuCPdyZwB27xvBJPksDOLCOYMGdtEZAoz4WGxHGdDcBDdlM9/pub"
 
@@ -538,7 +542,7 @@ rnabasics:
         - type: Tutorial
           link: topics/transcriptomics/tutorials/ref-based/tutorial.html
           title: Reference-based RNA-Seq data analysis
-      support_channel: "#2-1_ref-based-rna-seq"
+      support_channel: "#transcriptomics_ref-based-rna-seq"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01F0L6UW03"
       faq: "https://docs.google.com/document/d/e/2PACX-1vTOAKhYdmiiTucIarwlehmnPaxi0MXDmuCPdyZwB27xvBJPksDOLCOYMGdtEZAoz4WGxHGdDcBDdlM9/pub"
 
@@ -558,11 +562,14 @@ rnabasics:
       material:
         - type: Tutorial
           link: topics/transcriptomics/tutorials/de-novo/tutorial.html
+      support_channel: "#transcriptomics_de-novo-transcriptome-reconstruction"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C024NGLDALF"
+      faq: "https://docs.google.com/document/u/2/d/e/2PACX-1vT9HPChmFeBl8cQVp4OzTwYeKvXlUq_vnzj7BfWQ3G9HmiaIiX4ezLl2ciiyyK_ODrU1hyfIFoplmpW/pub"
 
 
 
-    - name: Whole transcriptome analysis of Arabidopsis thaliana
-      tags: plants
+    - &plants_mirna
+      name: Whole transcriptome analysis of Arabidopsis thaliana
       type: Lecture & Hands-on Tutorial
       speaker: gallardoalba
       description: In this tutorial, we will analyze RNA sequencing data to extract information about potential genes regulated in response to abiotic stress in plants. For this purpose, the chosen approach is the identification of genes with complementary regions to miRNAs upregulated in response to brassinosteroids.
@@ -654,6 +661,40 @@ rnaseqandr:
       support_channel: "#2-4_visualisation-with-r"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01FD3AFLN5"
       faq: "https://docs.google.com/document/d/e/2PACX-1vTRNzQHT9qyPr9kdWOM1l8HiD0A1xCRMW7bYnUCcLYmF5yJFytYSOVrq_JFtRvqnat-_41JBkQray2F/pub"
+
+    - &volcano-plot
+      name: Visualization of RNA-Seq results with Volcano Plot in Galaxy and R
+      type: Two Hands-on Tutorials
+      speaker: mblue9
+      description: Volcano plots are commonly used to display the results of RNA-seq or other omics experiments.
+        A volcano plot is a type of scatterplot that shows statistical significance (P value) versus magnitude of
+        change (fold change). It enables quick visual identification of genes with large fold changes that are also
+        statistically significant. These tutorials will first teach you how to create such plots from your RNA-Seq results
+        in Galaxy, and then how you can further customized the plots using R directly within Galaxy.
+      videos:
+        - link: uNGXIcEGZwA
+          length: 10M
+          captions:
+          title: Creating Volcano Plots in Galaxy
+          description: This tutorial will show you how you can create volcano plots from your RNA-Seq analysis results using Galaxy tools.
+        - link: 4dspgiwkuxk
+          length: 15M
+          title: Customizing your Volcano Plots with R
+          captions:
+          description: The previous tutorial introduced volcano plots and showed how they can be generated with the Galaxy Volcano plot tool.
+            In this tutorial we show how you can customise a plot using the R script output from the tool.
+
+      material:
+        - type: Tutorial 1
+          link: topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot/tutorial.html
+          title: Visualization of RNA-Seq results with Volcano Plot
+        - type: Tutorial 2
+          link: topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot-r/tutorial.html
+          title: Customizing your Volcano plots using R in Galaxy
+
+      support_channel: "#transcriptomics_volcano-plot"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C0253LVPLFM"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vRuH3ZhCKeLypPNA-BYueeKo2pPjluLzk9go6dLEmQjg1C_d59uzSV25TDRZo6zRWKMLtKCcsgzHyMq/pub"
 
 
 
@@ -1204,7 +1245,19 @@ neuralnetworks:
           link: topics/statistics/tutorials/CNN/slides.html
 
 
+covid19:
+  title: SARS-CoV-2 analysis
+  description: Here we have collected all the training sessions that cover SARS-CoV-2 analysis. These sessions also appear in other modules and cover a range of topics, but one thing they have in common is that they use SARS-CoV-2 or COVID-19 data.
+  sessions:
+    - *covid19-ngs-logistics
+    - *covid19-sra
+    - *covid19-assembly
 
+plants:
+  title: Plant data analysis
+  description: Here we have collected all the training sessions that cover plant data analysis. These sessions also appear in other modules and cover a range of topics, but one thing they have in common is that they use plant datasets.
+  sessions:
+    - *plants_mirna
 
 viz:
  title: Visualisation in Galaxy
@@ -1262,6 +1315,7 @@ viz:
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01FP1QR49H"
       faq: "https://docs.google.com/document/d/e/2PACX-1vRm1swqoqbrCWXKc2ncvDahm_RvbRCAn0oCPuJmQxorUgk38nI4Y_qtAGiECk53q5xr5wx-vNE5xJje/pub"
 
+    - *volcano-plot
 
 nonomics:
   title: Galaxy for Non-Genomics
