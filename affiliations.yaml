@@ -48,6 +48,10 @@ fmi:
   link: "https://www.fmi.ch/"
   logo: fmi.png
 
+fredhutch:
+  name: Fred Hutchinson Cancer Research Center
+  link: "https://www.fredhutch.org"
+
 freiburguni:
   name: Albert-Ludwigs-Universität Freiburg
   link: "https://uni-freiburg.de/"

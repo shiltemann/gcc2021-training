@@ -77,6 +77,10 @@ combesf:
     name: Florence Combes
     affiliation: ifb
 
+christinecucinotta:
+    name: Christine Cucinotta
+    affiliation: fredhutch
+
 dannon:
     name: Dannon Baker
     affiliation: johnshopkins
@@ -236,6 +240,9 @@ nomadscientist:
 npinter:
     name: Niko Pinter
     affiliation: freiburg-uniklinik-surgpathol
+
+petrnovak:
+    name: Petr Novák
 
 pratikdjagtap:
     name: Pratik Jagtap

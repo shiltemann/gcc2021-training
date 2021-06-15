@@ -126,7 +126,7 @@ galaxyintro:
 
     - name: "Webinar Series: Galaxy Resources For.."
       type: "Webinar Series: Galaxy Resources For.."
-      description: Each of the 4 webinars in this series highlights avaialble Galaxy resources for a different audience.
+      description: Each of the 4 webinars in this series that ran earlier this year highlights avaialble Galaxy resources for a different audience.
         These videos are a nice way to get an overview of what Galaxy has to offer for different types of users.
       videos:
         - link: cFN_WPGz9qk
@@ -139,19 +139,27 @@ galaxyintro:
           length: 1H10M
           title: ..Educators and Trainers
           description: Galaxy is an exceptional resource for teaching bioinformatics and other data sciences. The Galaxy Platform itself makes sophisticated analysis tools and workflows accessible to learners without requiring them to become system administrators or learn command line interfaces. Galaxy is a graphical user interface that only requires a browser, and allows students and teachers to focus on concepts, rather than compute infrastructure.
-          speaker: [shiltemann, miaomiaozhou88, subinamehta, bebatut]
+          speaker: [shiltemann, miaomiaozhou88, christinecucinotta, subinamehta, bebatut]
           captions: shiltemann
 
         - link: MdQyltMAocg
           title: ..Tool Developers
           description: Galaxy is an excellent platform for increasing the visibility and use of computational tools in any domain that Galaxy has been applied to. If you develop computational analysis or visualization tools then this webinar will demonstrate how porting your tools to Galaxy can significantly increase their visibility and adoption.
-          speaker: [blankenberg, abretaud, peternovak]
+          speaker: [blankenberg, abretaud, petrnovak]
 
         - link: vx2icgaU_h0
           title: ..Administrators & Infrastructure Providers
           description: Galaxy can empower your community to create and run their own sophisticated and repeatable data analyses and visualizations, without requiring them to learn command line interfaces or Linux systems administration. If you are interested in helping your researchers help themselves with their data analyses, then this webinar is for you. We will cover resources available in the Galaxy ecosystem to help those who setup and maintain production Galaxy servers.
           speaker: [gmauro, lldelisle]
 
+      material:
+        - type: Galaxy Webinar Page
+          title: View past & upcoming webinars
+          link: "https://galaxyproject.org/events/webinars/"
+          external: true
+
+      support_channel: "#general"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01MNM98X9V"
 
     - name: "Your First Galaxy Analysis"
       type: Tutorial
