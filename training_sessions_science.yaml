@@ -940,7 +940,10 @@ proteomics:
       material:
         - type: Tutorial
           link: topics/proteomics/tutorials/metaproteomics/tutorial.html
-      support_channel: "#4-3_metaproteomics"
+        - type: Slides
+          link: "https://drive.google.com/file/d/11TOrL7Kxgel71AT1rBc4DqjaUh3QB2G_/view?usp=sharing"
+          external: true
+      support_channel: "#proteomics_metaproteomics"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01FD4276P3"
       faq: "https://docs.google.com/document/d/e/2PACX-1vTX6JQG4oAKXvQSJU52thudorwANPtzIedTiTQU1NbXQYYfrNkBheN-gHu0O91bCOIk5wQBpH1mIk7v/pub"
 
@@ -958,7 +961,7 @@ proteomics:
       material:
         - type: Slides
           external: true
-          link: TODO
+          link: "https://drive.google.com/file/d/1anBPmGRWEVp9pBLZ_JInWV7iWrBpyCDs/view?usp=sharing"
         - type: Workflow
           external: true
           link: "https://usegalaxy.eu/workflow/export_to_file?id=8a85663218676b59"
@@ -988,7 +991,7 @@ proteogenomics:
         - type: Slides
           link: "https://drive.google.com/file/d/1rqzf6Mrk9cMuQ2531tM6RpltPLrDCrgh/view?usp=sharing"
           external: true
-      support_channel: "#4-2_protegenomics"
+      support_channel: "#proteomics_protegenomics"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01ETNTP6HL"
       faq: "https://docs.google.com/document/d/e/2PACX-1vTjQFq5wdkZeEFiQq-E8DkOTlLI9PChgWrwekHjPYBqndlb6kuAoXDiuiJaX5N09r63dWTyLPnnL8BK/pub"
 
@@ -1009,7 +1012,7 @@ proteogenomics:
       material:
         - type: Tutorial
           link: topics/proteomics/tutorials/proteogenomics-dbcreation/tutorial.html
-      support_channel: "#4-2_protegenomics"
+      support_channel: "#proteomics_protegenomics"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01ETNTP6HL"
       faq: "https://docs.google.com/document/d/e/2PACX-1vTjQFq5wdkZeEFiQq-E8DkOTlLI9PChgWrwekHjPYBqndlb6kuAoXDiuiJaX5N09r63dWTyLPnnL8BK/pub"
 
@@ -1032,7 +1035,7 @@ proteogenomics:
         - type: Slides
           link: "https://docs.google.com/presentation/d/1gAOJ7WQI1CEc3VeSm_fcvjg_GTxTCZ1N/edit#slide=id.p2"
           external: true
-      support_channel: "#4-2_protegenomics"
+      support_channel: "#proteomics_protegenomics"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01ETNTP6HL"
       faq: "https://docs.google.com/document/d/e/2PACX-1vTjQFq5wdkZeEFiQq-E8DkOTlLI9PChgWrwekHjPYBqndlb6kuAoXDiuiJaX5N09r63dWTyLPnnL8BK/pub"
 
@@ -1052,7 +1055,7 @@ proteogenomics:
       material:
         - type: Tutorial
           link: topics/proteomics/tutorials/proteogenomics-novel-peptide-analysis/tutorial.html
-      support_channel: "#4-2_protegenomics"
+      support_channel: "#proteomics_protegenomics"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01ETNTP6HL"
       faq: "https://docs.google.com/document/d/e/2PACX-1vTjQFq5wdkZeEFiQq-E8DkOTlLI9PChgWrwekHjPYBqndlb6kuAoXDiuiJaX5N09r63dWTyLPnnL8BK/pub"
 
