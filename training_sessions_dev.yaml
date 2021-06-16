@@ -89,6 +89,7 @@ tooldev:
   title: Galaxy Tool Development
   description: This module covers everything you need to start developing your own Galaxy Tools. This module will likely take you several days to complete.
   sessions:
+<<<<<<< HEAD
     - name: Contributing to BioBlend Development
       type: Tutorial
       description: |
@@ -98,6 +99,8 @@ tooldev:
       material:
           - type: Tutorial
             link: /topics/dev/tutorials/bioblend-dev/tutorial.html
+=======
+>>>>>>> x
 
     - name: "Galaxy Tools: From Conda Through Deployment"
       description: |
@@ -211,12 +214,19 @@ tooldev:
       support_link: "https://gtnsmrgsbord.slack.com/archives/dev-toolfactory"
       faq: "https://docs.google.com/document/d/1e2iuYoseNkPvUBfMczEtPNsKI2Nfbyn6pN9Nz1x6E1o/pub"
 
+<<<<<<< HEAD
     - name: BioBlend
       type: Tutorial
       description: Ever wondered how to interact with the Galaxy API to scale your work and automated processes? Learn how to here with BioBlend.
       speaker: [nsoranzo]
       videos: []
 
+=======
+gtn:
+  title: Galaxy Training Network
+  description: Here you can learn about contributing to the GTN's development, adding new tutorials or slides, and correcting any typos you might spot in the training materials this week.
+  sessions:
+>>>>>>> x
     - name: The GTN & Training Material Development
       type: Tutorial
       description: |
@@ -241,15 +251,10 @@ tooldev:
       support_link: "https://gtnsmrgsbord.slack.com/archives/contributing-gtn"
       faq: "https://docs.google.com/document/d/1-B5DvLcaylpJKfW-1F6tRhbCbpLlRbu2c3kTMuBFNk4/pub"
 
-    - name: "Galaxy Visualization Integration"
-      type: Tutorial
-      description:
-      speaker: [dannon]
-      videos: []
 
-coredev:
-  title: Galaxy Core Development
-  description: This covers everything you need to start developing for Galaxy, understanding the codebase, adding APIs, implementing features. This module will likely take you several days to complete.
+arch:
+  title: Galaxy Architecture Lectures
+  description: Here you'll learn about the internals of Galaxy in a lecture from John Chiltonm
   sessions:
     - name: Galaxy architecture
       type: Lecture
@@ -265,6 +270,29 @@ coredev:
 
       speaker: [jmchilton]
       videos: []
+
+selfstudy:
+  title: Self-Study Galaxy Development
+  description: These tutorials will all be supported by their authors during the week, but unfortunately don't have a full tutorial video walking you through the steps.
+  sessions:
+    - name: BioBlend
+      type: Tutorial
+      description: Ever wondered how to interact with the Galaxy API to scale your work and automated processes? Learn how to here with BioBlend.
+      speaker: [nsoranzo]
+      material:
+          - type: Slides
+            link: /topics/dev/tutorials/bioblend-api/slides.html
+          - type: Tutorial
+            link: https://github.com/nsoranzo/bioblend-tutorial/
+
+    - name: Contributing to BioBlend Development
+      type: Tutorial
+      description: |
+          This tutorial will teach you how to contribute to BioBlend and add support for a Galaxy API in BioBlend.
+      speaker: [nsoranzo, rikeshi]
+      material:
+          - type: Tutorial
+            link: /topics/dev/tutorials/bioblend-dev/tutorial.html
 
     - name: Debugging Galaxy
       type: Tutorial
@@ -292,6 +320,8 @@ coredev:
           - type: Tutorial
             link: /topics/dev/tutorials/core-contributing/tutorial.html
 
-    - name: CYOA
+    - name: "Galaxy Visualization Integration"
       type: Tutorial
-      description: Here you can pick a Galaxy bug that you find interesting, especially a 'paper-cut', and the instructors will help guide you to resolving this bug.
+      description:
+      speaker: [dannon]
+      videos: []
