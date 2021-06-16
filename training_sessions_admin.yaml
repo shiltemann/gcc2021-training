@@ -1,16 +1,192 @@
 intro:
   title: Introduction
   sessions:
-  - name: Welcome and introduction
-    speaker: hexylena
-    support_channel: '#general'
-    support_link: TODO
-    type: Tutorial
-    videos:
-      - captions: hexylena
-        length: 23M
-        link: R-__JqlLCdM
+    - name: Welcome and introduction
+      speaker: hexylena
+      support_channel: '#general'
+      support_link: "https://galaxyadmintraining.slack.com/archives/general"
+      type: Tutorial
+      videos:
+        - captions: hexylena
+          length: 23M
+          link: R-__JqlLCdM
+
+galaxyintro:
+  title: "Introduction to Galaxy"
+  description: "Start here if you are new to Galaxy. These videos will introduce you to the Galaxy platform, and walk you through your first analyses"
+  sessions:
+
+    - name: "Meet & Join the Galaxy Community!"
+      description: "This short video gives an overview of the worldwide Galaxy community, and different ways you can get involved! <strong>Video created by Beatriz Serrano-Solano</strong>."
+      speaker: galaxycommunity
+      videos:
+        - link: -1MPdxmRs8U
+          length: 5M
+          captions: [shiltemann]
+      material: &communitymaterial
+        - type: GalaxyProject Home
+          external: true
+          title: galaxyproject.org
+          link: "https://galaxyproject.org"
+        - type: Galaxy servers
+          external: true
+          title: Find a Galaxy server near you!
+          link: "https://galaxyproject.org/use/"
+        - type: Galaxy Training Network
+          external: true
+          title: Start learning Galaxy
+          link: "https://training.galaxyproject.org"
+        - type: Support
+          external: true
+          link: "https://help.galaxyproject.org/"
+          title: Galaxy Help Forum
+        - type: Galaxy Publications
+          external: true
+          title: Zotero
+          link: "https://www.zotero.org/groups/1732893/galaxy"
+        - type: Galaxy Communities
+          external: true
+          title: Find and Join a community
+          link: "https://galaxyproject.org/community/"
+        - type: Events
+          external: true
+          link: "https://galaxyproject.org/events/"
+          title: Galaxy Event Horizon
+        - type: Mailing Lists
+          external: true
+          title: Stay informed of Galaxy activity!
+          link: "https://galaxyproject.org/mailing-lists/"
+        - type: Galaxy Working Groups
+          external: true
+          link: "https://galaxyproject.org/community/wg/"
+          title: Find and join a WG
+        - type: GitHub
+          external: true
+          link: "https://github.com/galaxyproject"
+          title: galaxyproject
+        - type: Gitter Chat
+          external: true
+          link: "https://gitter.im/galaxyproject/Lobby"
+          title: Start talking with the Galaxy Community!
+        - type: GTN Gitter
+          external: true
+          title: Join the training discussion here!
+          link: "https://gitter.im/Galaxy-Training-Network/Lobby"
+        - type: PaperCuts
+          external: true
+          title: Monthly Collaboration Fest
+          link: "https://galaxyproject.org/events/2021-02-papercuts/"
+        - type: GTN CoFest
+          external: true
+          title: Everybody Welcome!
+          link: "https://github.com/galaxyproject/training-material/issues/1712"
+        - type: Twitter
+          external: true
+          title: follow @galaxyproject
+          link: "https://twitter.com/galaxyproject"
+        - type: Twitter
+          external: true
+          title: follow the GTN @gxytraining
+          link: "https://twitter.com/gxytraining"
+
+    - name: "A Very Short Introduction to Galaxy"
+      type: Lecture/Demo
+      description: |
+        This video will introduce the Galaxy data analysis platform, and give a short demo on how to use it.
+      speaker: nekrut
+      videos:
+        - link: VZoz3k5EehI
+          length: 10M
+          captions: [nekrut]
+      material:
+        - type: Slides
+          link: topics/introduction/videos/
+          title: A Slightly Longer Introduction to Galaxy
+      support_channel: "#galaxy_introduction"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01ES914GCU"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vQ1SZCsxEcRXp39J2BcFAjXyC3B20sWzI7IVgBgwe2pcC9b0cza417jzBPYJVqCRNbU0dD4rv_y6u6P/pub"
+
+    - name: "Webinar Series: Galaxy Resources For.."
+      type: "Webinar Series: Galaxy Resources For.."
+      description: Each of the 4 webinars in this series that ran earlier this year highlights avaialble Galaxy resources for a different audience.
+        These videos are a nice way to get an overview of what Galaxy has to offer for different types of users.
+      videos:
+        - link: cFN_WPGz9qk
+          length: 1H10M
+          title: ..Researchers
+          description: Wondering how to get started, or how to do a particular type of analysis, or how to scale to thousands of datasets? This webinar will highlight how to find the resources and help you need for each of these questions and more.
+          speaker: [tnabtaf]
+
+        - link: AXynJtPXgRQ
+          length: 1H10M
+          title: ..Educators and Trainers
+          description: Galaxy is an exceptional resource for teaching bioinformatics and other data sciences. The Galaxy Platform itself makes sophisticated analysis tools and workflows accessible to learners without requiring them to become system administrators or learn command line interfaces. Galaxy is a graphical user interface that only requires a browser, and allows students and teachers to focus on concepts, rather than compute infrastructure.
+          speaker: [shiltemann, miaomiaozhou88, christinecucinotta, subinamehta, bebatut]
+          captions: shiltemann
+
+        - link: MdQyltMAocg
+          title: ..Tool Developers
+          description: Galaxy is an excellent platform for increasing the visibility and use of computational tools in any domain that Galaxy has been applied to. If you develop computational analysis or visualization tools then this webinar will demonstrate how porting your tools to Galaxy can significantly increase their visibility and adoption.
+          speaker: [blankenberg, abretaud, petrnovak]
+
+        - link: vx2icgaU_h0
+          title: ..Administrators & Infrastructure Providers
+          description: Galaxy can empower your community to create and run their own sophisticated and repeatable data analyses and visualizations, without requiring them to learn command line interfaces or Linux systems administration. If you are interested in helping your researchers help themselves with their data analyses, then this webinar is for you. We will cover resources available in the Galaxy ecosystem to help those who setup and maintain production Galaxy servers.
+          speaker: [gmauro, lldelisle]
+
+      material:
+        - type: Galaxy Webinar Page
+          title: View past & upcoming webinars
+          link: "https://galaxyproject.org/events/webinars/"
+          external: true
+
+      support_channel: "#event-gcc2021"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C0253H46ABV"
+
+    - name: "Your First Galaxy Analysis (genomics-based)"
+      type: Hands-on Tutorial
+      description: |
+        In this tutorial, we will walk you through your first (toy) analysis in Galaxy. This tutorial is aimed at familiarizing you with the Galaxy platform, and some basic NGS concepts.
+      speaker: tnabtaf
+      videos:
+        - link: 1UPCrQxGwcU
+          length: 1H30M
+          captions: [tnabtaf]
+      material:
+        - type: Slides
+          link: "https://docs.google.com/presentation/d/1rOGp4o_Dc-QIHS4YT4HizdfXTVhJB1HwPPZkSDuMhig/edit#slide=id.gbc9627d000_0_346"
+          external: true
+          title: Overview Presentation
+        - type: Tutorial
+          link: topics/introduction/tutorials/galaxy-intro-strands/tutorial.html
+          title: Introduction to Genomics and Galaxy
+        - type: Tutorial
+          link: topics/galaxy-interface/tutorials/history-to-workflow/tutorial.html
+          title: Extracting Workflows from Histories
+      support_channel: "#galaxy_introduction"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01ES914GCU"
+      faq: "https://docs.google.com/document/u/2/d/1uFeeF2OwgzFFc8jbVF2elV5PQB5gbxMtE4pX2FOpXKM/pub"
+
+    - name: "Galaxy Intro for Everyone (non-genomics)"
+      type: Hands-on Tutorial
+      description: This video tutorial will provide a non-genomics based first look at the Galaxy platform, how to use it, and discusses how you can get support for your data analysis.
+      speaker: annefou
+      videos:
+        - link: dguN6Xw2Azs
+          length: 1H15M
+          captions: [annefou]
+      material:
+        - type: Tutorial
+          link: topics/introduction/tutorials/galaxy-intro-101-everyone/tutorial.html
+      support_channel: "#galaxy_intro_101-for-everyone"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C023KFGASK0"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vToYVCisDQ8qDSKKmDvdlZ3e87HzfnO6KQkOReDd0LtHTNKDUDj2vpqWj73bj_2UelNStLZpoSpNlGj/pub"
+
+
+
+
 day1:
+  title: Day 1
   sessions:
 
   - material:
@@ -19,7 +195,7 @@ day1:
     name: Intro to Ansible
     speaker: ic4f
     support_channel: '#01-ansible'
-    support_link: TODO
+    support_link: "https://galaxyadmintraining.slack.com/archives/01-ansible"
     type: Tutorial
     videos:
       - captions: martenson
@@ -32,118 +208,40 @@ day1:
     name: Ansible
     speaker: martenson
     support_channel: '#01-ansible'
-    support_link: TODO
+    support_link: "https://galaxyadmintraining.slack.com/archives/01-ansible"
     type: Tutorial
     videos:
       - captions: martenson
         length: 61M
         link: 2KdT0sYKUeE
 
-  - material:
-    - link: topics/admin/tutorials/ansible-galaxy/slides.html
-      type: Slides
-    name: Galaxy Ansible Introduction
+  - name: Installing Galaxy with Ansible
     speaker: hexylena
     support_channel: '#02-ansible-galaxy'
-    support_link: TODO
+    support_link: "https://galaxyadmintraining.slack.com/archives/02-ansible-galaxy"
     type: Tutorial
+    material:
+    - link: topics/admin/tutorials/ansible-galaxy/slides.html
+      type: Week Overview Slides
+    - link: topics/admin/tutorials/ansible-galaxy/tutorial.html
+      type: Tutorial (All Parts)
+    - link: topics/admin/tutorials/database/slides.html
+      type: Database Slides
+    - link: topics/admin/tutorials/systemd-supervisor/slides.html
+      type: systemd Slides
+    - link: topics/admin/tutorials/production/slides.html
+      type: Moving Towards Production Slides
     videos:
       - captions: shiltemann
         length: 4M
         link: JN-C5UbHthY
-
-  - material:
-    - link: topics/admin/tutorials/ansible-galaxy/tutorial.html
-      type: Tutorial part 0
-    name: 'Part 0: Playbook Overview'
-    speaker: hexylena
-    support_channel: '#02-ansible-galaxy'
-    support_link: TODO
-    type: Tutorial
-    videos:
+        speaker: hexylena
+        title: Week Overview
       - captions: [shiltemann, hexylena]
         length: 111M
         link: il83uApg7Hc
-
-  - material:
-    - link: topics/admin/tutorials/ansible-galaxy/tutorial.html
-      type: Tutorial part 1
-    name: 'Part 1: Basic Installation'
-    speaker: hexylena
-    support_channel: '#02-ansible-galaxy'
-    support_link: TODO
-    type: Tutorial
-    videos:
-      - captions: [shiltemann, hexylena]
-        length: 111M
-        link: il83uApg7Hc&t=544s
-
-  - material:
-    - link: topics/admin/tutorials/database/slides.html
-      type: Slides
-    name: Database
-    speaker: hexylena
-    support_channel: '#02-ansible-galaxy'
-    support_link: TODO
-    type: Tutorial
-    videos:
-      - captions: [shiltemann,hexylena]
-        length: 111M
-        link: il83uApg7Hc&t=954s
-
-  - material:
-    - link: topics/admin/tutorials/systemd-supervisor/slides.html
-      type: Slides
-    name: SystemD
-    speaker: hexylena
-    support_channel: '#02-ansible-galaxy'
-    support_link: TODO
-    type: Tutorial
-    videos:
-      - captions: [shiltemann,hexylena]
-        length: 111M
-        link: il83uApg7Hc&t=3409s
-
-  - material:
-    - link: topics/admin/tutorials/ansible-galaxy/tutorial.html
-      type: Tutorial part 2
-    name: 'Part 2: Towards Production'
-    speaker: hexylena
-    support_channel: '#02-ansible-galaxy'
-    support_link: TODO
-    type: Tutorial
-    videos:
-      - captions: [shiltemann, hexylena]
-        length: 111M
-        link: il83uApg7Hc&t=3750s
-
-  - material:
-    - link: topics/admin/tutorials/production/slides.html
-      type: Production
-    name: Production
-    speaker: hexylena
-    support_channel: '#02-ansible-galaxy'
-    support_link: TODO
-    type: Tutorial
-    videos:
-      - captions: [shiltemann, hexylena]
-        length: 111M
-        link: il83uApg7Hc&t=4151s
-
-  - material:
-    - link: topics/admin/tutorials/ansible-galaxy/tutorial.html
-      type: Tutorial part 3
-    name: 'Part 3: Advanced Install'
-    speaker: hexylena
-    support_channel: '#02-ansible-galaxy'
-    support_link: TODO
-    type: Tutorial
-    videos:
-      - captions: [shiltemann, hexylena]
-        length: 111M
-        link: il83uApg7Hc&t=4552s
-  title: Day 1
-
+        speaker: hexylena
+        title: Tutorial
 
 day2:
   sessions:
@@ -151,40 +249,36 @@ day2:
     - link: topics/admin/tutorials/singularity/tutorial.html
       type: Tutorial
     name: Running jobs in Singularity
-    speaker: hexylena
+    speaker: slugger70
     support_channel: '#03-singularity'
-    support_link: TODO
+    support_link: "https://galaxyadmintraining.slack.com/archives/03-singularity"
     type: Tutorial
     videos:
-      - captions: cat-bro
-        length: 16M
-        link: airzg4-ETEs
+      - captions:
+        length: 43M
+        link: q6Dt7j713tI
 
   - material:
     - link: topics/admin/tutorials/tool-management/slides.html
       type: Slides
-    name: Ephemeris (Intro)
-    speaker: cat-bro
-    support_channel: '#03-ephemeris'
-    support_link: TODO
-    type: Tutorial
-    videos:
-      - captions: eancelet
-        length: 46M
-        link: 7Qqwrzn--YI&t=0s
-
-  - material:
     - link: topics/admin/tutorials/tool-management/tutorial.html
       type: Tutorial
     name: Ephemeris
     speaker: cat-bro
     support_channel: '#03-ephemeris'
-    support_link: TODO
+    support_link: "https://galaxyadmintraining.slack.com/archives/03-ephemeris"
     type: Tutorial
     videos:
-      - captions: eancelet
-        length: 46M
-        link: 7Qqwrzn--YI&t=1122s
+      - captions:
+        length: 17M
+        link: 8Rdho_eUeKc
+        speaker: cat-bro
+        title: Slides
+      - captions: cat-bro
+        length: 27M
+        link: pda0v9b3vO4
+        speaker: cat-bro
+        title: Tutorial
 
   - material:
     - link: topics/admin/tutorials/users-groups-quotas/slides.html
@@ -192,7 +286,7 @@ day2:
     name: Users, Groups, and Quotas
     speaker: awspolly
     support_channel: '#general'
-    support_link: TODO
+    support_link: "https://galaxyadmintraining.slack.com/archives/general"
     type: Tutorial
     videos:
       - captions: galaxycommunity
@@ -202,28 +296,23 @@ day2:
   - material:
     - link: topics/admin/tutorials/cvmfs/slides.html
       type: Slides
-    name: Reference Data (Intro)
+    - link: topics/admin/tutorials/cvmfs/tutorial.html
+      type: Tutorial
+    name: Reference Data
     speaker: awspolly
     support_channel: '#04-cvmfs'
-    support_link: TODO
+    support_link: "https://galaxyadmintraining.slack.com/archives/04-cvmfs"
     type: Tutorial
     videos:
       - captions: galaxycommunity
         length: 3M
         link: g_cavAO-fBM
-
-  - material:
-    - link: topics/admin/tutorials/cvmfs/tutorial.html
-      type: Tutorial
-    name: Reference Data
-    speaker: slugger70
-    support_channel: '#04-cvmfs'
-    support_link: TODO
-    type: Tutorial
-    videos:
+        title: "CVMFS Slides"
       - captions: slugger70
         length: 23M
         link: X3iFMZP_fQ8
+        speaker: slugger70
+        title: "CVMFS Tutorial"
 
   - material:
     - link: topics/admin/tutorials/data-library/tutorial.html
@@ -231,7 +320,7 @@ day2:
     name: Data Libraries
     speaker: shiltemann
     support_channel: '#05-data-libraries'
-    support_link: TODO
+    support_link: "https://galaxyadmintraining.slack.com/archives/05-data-libraries"
     type: Tutorial
     videos:
       - captions: [hexylena, shiltemann]
@@ -241,32 +330,22 @@ day2:
 
 
 day3:
+  title: Day 3
   sessions:
   - material:
     - link: topics/admin/tutorials/connect-to-compute-cluster/slides.html
       type: Slides
-    name: "Galaxy Cluster Computing (Intro)"
+    - link: topics/admin/tutorials/connect-to-compute-cluster/tutorial.html
+      type: Tutorial
+    name: "Galaxy Cluster Computing"
     speaker: hexylena
     support_channel: '#07-compute-cluster'
-    support_link: TODO
+    support_link: "https://galaxyadmintraining.slack.com/archives/07-compute-cluster"
     type: Tutorial
     videos:
       - captions: [cat-bro, shiltemann]
         length: 31M
-        link: R0NbHscL3jA&t=0s
-
-  - material:
-    - link: topics/admin/tutorials/connect-to-compute-cluster/tutorial.html
-      type: Tutorial
-    name: Connecting Galaxy to a compute cluster
-    speaker: hexylena
-    support_channel: '#07-compute-cluster'
-    support_link: TODO
-    type: Tutorial
-    videos:
-      - captions: [at-bro, shiltemann]
-        length: 31M
-        link: R0NbHscL3jA&t=940s
+        link: R0NbHscL3jA
 
   - material:
     - link: topics/admin/tutorials/job-destinations/tutorial.html
@@ -274,51 +353,30 @@ day3:
     name: Mapping Jobs to Destinations
     speaker: hexylena
     support_channel: '#07-compute-cluster'
-    support_link: TODO
+    support_link: "https://galaxyadmintraining.slack.com/archives/07-compute-cluster"
     type: Tutorial
     videos:
       - captions: [shiltemann]
         length: 31M
         link: qX8GjTJwnAk
 
-  - material:
-    - link: topics/admin/tutorials/job-metrics/tutorial.html
-      type: Tutorial
-    name: Recording Job Metrics
-    speaker: hexylena
-    support_channel: '#07-compute-cluster'
-    support_link: TODO
-    type: Tutorial
-    videos:
-      - captions: beatrizserrano
-        length: 5M
-        link: 7CYI5yw9MN8
-  title: Day 3
-
 day4:
+  title: Day 4
   sessions:
   - material:
     - link: topics/admin/tutorials/heterogeneous-compute/slides.html
       type: Slides
-    name: Pulsar (Intro)
-    speaker: slugger70
-    support_channel: '#08-pulsar'
-    support_link: TODO
-    type: Tutorial
-    videos:
-      - captions: shiltemann
-        length: 14M
-        link: M1-Z_2tuQPI
-
-  - material:
     - link: topics/admin/tutorials/heterogeneous-compute/tutorial.html
       type: Exercise
     name: Pulsar
     speaker: slugger70
     support_channel: '#08-pulsar'
-    support_link: TODO
+    support_link: "https://galaxyadmintraining.slack.com/archives/08-pulsar"
     type: Tutorial
     videos:
+      - captions: shiltemann
+        length: 14M
+        link: M1-Z_2tuQPI
       - captions: [slugger70, simonbray]
         length: 57M
         link: a7fKJT4Fs9k
@@ -326,10 +384,12 @@ day4:
   - material:
     - link: topics/admin/tutorials/gxadmin/slides.html
       type: Slides
-    name: DB Query (Intro)
+    - link: topics/admin/tutorials/gxadmin/tutorial.html
+      type: Exercise
+    name: DB queries, command line & scripts
     speaker: awspolly
     support_channel: '#09-storage'
-    support_link: TODO
+    support_link: "https://galaxyadmintraining.slack.com/archives/09-storage"
     type: Tutorial
     videos:
       - captions: galaxycommunity
@@ -337,39 +397,25 @@ day4:
         link: QFwOgDyFSSA
 
   - material:
-    - link: topics/admin/tutorials/gxadmin/tutorial.html
-      type: Exercise
-    name: DB queries, command line & scripts
-    speaker: TODO
-    support_channel: '#09-storage'
-    support_link: TODO
-    type: Tutorial
-
-  - material:
     - link: topics/admin/tutorials/monitoring/slides.html
       type: Slides
-    name: Monitoring (Intro)
-    speaker: awspolly
+    - link: topics/admin/tutorials/monitoring/tutorial.html
+      type: Tutorial
+    name: "Monitoring: Telegraf, InfluxDB, Grafana"
     support_channel: '#10-monitoring'
-    support_link: TODO
+    support_link: "https://galaxyadmintraining.slack.com/archives/10-monitoring"
     type: Tutorial
     videos:
       - captions: galaxycommunity
         length: 2M
         link: qcp9lEUxCGI
-
-  - material:
-    - link: topics/admin/tutorials/monitoring/tutorial.html
-      type: Telegraf Exercise
-    name: "Monitoring: Telegraf, InfluxDB, Grafana"
-    speaker: slugger70
-    support_channel: '#10-monitoring'
-    support_link: TODO
-    type: Tutorial
-    videos:
+        speaker: awspolly
+        title: Slides
       - captions: [shiltemann, hexylena]
         length: 73M
         link: drUaYQtMBLY
+        speaker: slugger70
+        title: Tutorial
 
   - material:
     - link: topics/admin/tutorials/maintenance/slides.html
@@ -377,13 +423,12 @@ day4:
     name: Maintenance, Backup and Restore
     speaker: awspolly
     support_channel: '#10-monitoring'
-    support_link: TODO
+    support_link: "https://galaxyadmintraining.slack.com/archives/10-monitoring"
     type: Tutorial
     videos:
       - captions: galaxycommunity
         length: 2M
         link: 41_3WHXZA-o
-  title: Day 4
 
 day5:
   sessions:
@@ -391,9 +436,8 @@ day5:
     - link: topics/admin/tutorials/reports/tutorial.html
       type: Reports Exercise
     name: Monitoring With Reports
-    speaker: TODO
     support_channel: '#10-monitoring'
-    support_link: TODO
+    support_link: "https://galaxyadmintraining.slack.com/archives/10-monitoring"
     type: Tutorial
   - material:
     - link: topics/admin/tutorials/tiaas/tutorial.html
@@ -401,7 +445,7 @@ day5:
     name: "Training Infrastructure as a Service (TIaaS)"
     speaker: hexylena
     support_channel: '#12-tiaas'
-    support_link: TODO
+    support_link: "https://galaxyadmintraining.slack.com/archives/12-tiaas"
     type: Tutorial
     videos:
       - captions: [hexylena, shiltemann]
@@ -416,7 +460,7 @@ day5:
     name: Interactive Tools
     speaker: abretaud
     support_channel: '#11-cyoa'
-    support_link: TODO
+    support_link: "https://galaxyadmintraining.slack.com/archives/11-cyoa"
     type: Tutorial
     videos:
       - captions: [abretaud, hexylena]
@@ -427,60 +471,53 @@ day5:
     - link: topics/admin/tutorials/jenkins/tutorial.html
       type: Exercise
     name: Jenkins & Automation
-    speaker: TODO
     support_channel: '#11-cyoa'
-    support_link: TODO
+    support_link: "https://galaxyadmintraining.slack.com/archives/11-cyoa"
     type: Tutorial
 
   - material:
     - link: topics/admin/tutorials/advanced-galaxy-customisation/slides.html
       type: Slides
     name: Advanced Customisation
-    speaker: TODO
     support_channel: '#11-cyoa'
-    support_link: TODO
+    support_link: "https://galaxyadmintraining.slack.com/archives/11-cyoa"
     type: Tutorial
 
   - material:
     - link: topics/admin/tutorials/troubleshooting/slides.html
       type: Slides
     name: 'When things go wrong: Galaxy Server Troubleshooting'
-    speaker: TODO
     support_channel: '#11-cyoa'
-    support_link: TODO
+    support_link: "https://galaxyadmintraining.slack.com/archives/11-cyoa"
     type: Tutorial
 
   - material:
     - link: https://docs.galaxyproject.org/en/master/admin/python.html
       type: Docs
     name: Python 2 to Python 3!
-    speaker: TODO
     support_channel: '#11-cyoa'
-    support_link: TODO
+    support_link: "https://galaxyadmintraining.slack.com/archives/11-cyoa"
     type: Tutorial
   - material:
     - link: topics/dev/tutorials/tool-integration/slides.html
       type: Slides, Exercise
     name: Tool Development
-    speaker: TODO
     support_channel: '#11-cyoa'
-    support_link: TODO
+    support_link: "https://galaxyadmintraining.slack.com/archives/11-cyoa"
     type: Tutorial
   - material:
     - link: topics/galaxy-data-manipulation/tutorials/processing-many-samples-at-once/tutorial.html
       type: DCs, Rule based
     name: Dataset Collections
-    speaker: TODO
     support_channel: '#11-cyoa'
-    support_link: TODO
+    support_link: "https://galaxyadmintraining.slack.com/archives/11-cyoa"
     type: Tutorial
   - material:
     - link: topics/contributing/tutorials/running-jekyll/tutorial.html
       type: Setting up, Exercise
     name: Developing your own Training
-    speaker: TODO
     support_channel: '#11-cyoa'
-    support_link: TODO
+    support_link: "https://galaxyadmintraining.slack.com/archives/11-cyoa"
     type: Tutorial
   - material:
     - link: topics/admin/tutorials/object-store/tutorial.html
@@ -488,7 +525,7 @@ day5:
     name: Storage management
     speaker: gmauro
     support_channel: '#09-storage'
-    support_link: TODO
+    support_link: "https://galaxyadmintraining.slack.com/archives/11-cyoa"
     type: Tutorial
     videos:
       - captions: cat-bro
