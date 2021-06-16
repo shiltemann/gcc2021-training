@@ -410,13 +410,42 @@ ngsadvanced:
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01GTTD1BE0"
       faq: "https://docs.google.com/document/d/e/2PACX-1vSK-RjeRJC38_FSM9zC6SrfkvIz1W4uEMQkN95qk5OemvANuPF3aNEogVEvF6JEXeMomo-oMwi32Gv2/pub"
 
-    - name: "Genome Annotation with Apollo"
+    - name: "Genome Annotation: Refining Genome Annotations with Apollo"
       speaker: abretaud
-      type: Tutorial
+      type: Lecture & Hands-on Tutorial
+      description: |
+        After automatically annotating your genome using Prokka or Maker, it is important to visualize your results so you can understand what your organism
+        looks like, and then to manually refine these annotations along with any additional data you might have. This process is most often done as part of
+        a group, smaller organisms may be annotated individually though.
+        <br><br>
+        Apollo (Dunn et al. 2019) provides a platform to do this. It is a web-based, collaborative genome annotation editor. Think of it as “Google Docs”
+        for genome annotation, multiple users can work together simultaneously to curate evidences and annotate a genome.
+        <br><br>
+        This tutorial is inspired by the [Apollo User’s Guide](https://genomearchitect.readthedocs.io/en/latest/UsersGuide.html), which provides additional guidance.
       videos:
-        - link:
-          length: 20M
+        - link: ailUycRVHtE
+          length: 5M
+          speaker: awspolly
+          captions: abretaud
+          title: Lecture
+          description: This lecture gives a quick overview of Apollo
+        - link: ywK1fhM-QFU
+          length: 1H
+          speaker: abretaud
           captions: [abretaud]
+          title: Tutorial
+          description: In this tutorial you will get some hands-on experience using Apollo in Galaxy
+      material:
+        - type: Slides
+          link: topics/genome-annotation/tutorials/apollo/slides.html
+        - type: Tutorial
+          link: topics/genome-annotation/tutorials/apollo/tutorial.html
+        - type: Apollo User's Guide
+          external: true
+          link: "https://genomearchitect.readthedocs.io/en/latest/UsersGuide.html"
+      support_channel: "#genome_annotation_apollo"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C02597VTR9Q"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vTm-7zB2tkAHKai6N0fSLqxuzFz1OPE3mow2jIMaEorgww3Z84jTwwXKt5qCAcNLrFqpb-Lh6wob_QB/pub"
 
     - name: "Epigenetics - ATAC-Seq data analysis"
       type: Lecture & Hands-on Tutorial
