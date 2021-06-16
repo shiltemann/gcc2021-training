@@ -362,6 +362,7 @@ selfstudy:
             link: /topics/dev/tutorials/debugging/tutorial.html
       support_channel: "#dev-debugging-galaxy"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C025DL2S03W"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vT3bgaeSbiZ0lofmUS-KB-2-OZkdxP8_OnWl1kOex5O7HSAR_Sj8Xmzz26lrh3k5aTzhjDNzt6cVa0S/pub"
 
     - name: Contributing extensions to Galaxy core
       type: Self-study Tutorial
