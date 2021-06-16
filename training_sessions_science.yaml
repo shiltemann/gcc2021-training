@@ -929,10 +929,9 @@ proteomics:
       instructors: [subinamehta, pratikdjagtap, timothygriffin, jj-umn, emmaleith, andrewr]
       type: Video Demo
       description: |
-        Metatranscriptomics analysis examines how the microbiome responds to the environment by studying the taxonomic composition and
-        functional analysis of genes expressed by the microbiome, using microbial community RNASeq data and subsequent metatranscriptomics
-        workflows. This workshop will introduce researchers to the basic concepts and tools from the ASaiM-MT workflow. ASaiM-MT provides
-        a curated collection of tools to explore and visualize taxonomic and functional information from metatranscriptomic sequences.
+        In this tutorial, the basic workflow for metaproteomics is described, which includes database search,
+        seeking taxonomy information and functional analysis. Related metaproteomics and functional microbiome
+        tools and GTN tutorials are also mentioned in this tutorial.
       videos:
         - link: 3_yaPp-RCFw
           length: 1H
@@ -940,9 +939,6 @@ proteomics:
       material:
         - type: Tutorial
           link: topics/proteomics/tutorials/metaproteomics/tutorial.html
-        - type: Slides
-          link: "https://drive.google.com/file/d/11TOrL7Kxgel71AT1rBc4DqjaUh3QB2G_/view?usp=sharing"
-          external: true
       support_channel: "#proteomics_metaproteomics"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01FD4276P3"
       faq: "https://docs.google.com/document/d/e/2PACX-1vTX6JQG4oAKXvQSJU52thudorwANPtzIedTiTQU1NbXQYYfrNkBheN-gHu0O91bCOIk5wQBpH1mIk7v/pub"
@@ -1063,7 +1059,7 @@ proteogenomics:
 microbial:
   title: Microbial Analysis using Galaxy
   sessions:
-    - name: "Variant Analysis: M. Tuberculosis Variant Analysis (Lecture)"
+    - name: "Variant Analysis: M. Tuberculosis Variant Analysis"
       speaker: pvanheus
       type: Lecture & Hands-on Tutorial
       description: "Tuberculosis (TB) is an infectious disease caused by the bacterium Mycobacterium tuberculosis. According to the WHO, in 2018 there were 10.0 million new cases of TB worldwide and 1.4 million deaths due to the disease, making TB the world’s most deadly infectious disease."
@@ -1084,11 +1080,11 @@ microbial:
         - type: Tutorial
           link: topics/variant-analysis/tutorials/tb-variant-analysis/tutorial.html
 
-      support_channel: "#5-n_tuberculosis-variant-analysis"
+      support_channel: "#microbial_tuberculosis-variant-analysis"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01FD2WJU01"
       faq: "https://docs.google.com/document/d/e/2PACX-1vTr2X-W-2-gronZbeEqj8OGTLyLqaUW2_7mCsHHgVMAVsOQt2faSNk5IaizQlYE_0vWU26v79Oqhyy3/pub"
 
-    - name: "Metagenomics: 16S Microbial Analysis with mothur"
+    - name: "16S Microbial Analysis with mothur"
       speaker: shiltemann
       type: Lecture & Hands-on Tutorial
       description: This lecture briefly introduces 16S sequencing, a popular technique used for taxonomic profiling of microbial communities.
@@ -1107,68 +1103,74 @@ microbial:
           title: Introduction to Metagenomics Analyses
         - type: Tutorial
           link: topics/metagenomics/tutorials/mothur-miseq-sop-short/tutorial.html
-      support_channel: "#5-b_16s-microbial-analysis"
+      support_channel: "#microbiome_16s-microbial-analysis"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01FDV16V25"
       faq: "https://docs.google.com/document/d/e/2PACX-1vRPPYdMfIA9R_w5y__jV9qdKbijJyOJiclx-2ACKFkAH8aIdlU3pY84xhivWEOmeEn_XQv8StFcjDLP/pub"
 
 
-    - name: "Metagenomics Wetlab Demo: Genomic DNA sequencing by Oxford Nanopore MinIon"
-      speaker: miaomiaozhou88
-      type: Demo
-      description: "This video will show you the full process of sequencing a bacterial genome using the Oxford Nanopore MinION sequencer."
+    - name: "Antimicrobial Resistance (AMR) Detection using long-read sequencing"
+      type: Wetlab Demo, Lecture & Hands-on Tutorial
+      description: Antimicrobial resistnace poses a major threat to human health. Plasmids are able to transfer AMR genes among bacterial isolates
+        Long-read sequencing technologies aid in the reconstruction of bacterials genomes and plasmids, in order to determine the presence of
+        antimicrobial resistant genes.
       videos:
         - link: bZfEyd87xCE
           length: 20M
           captions: [shiltemann]
-      support_channel: "#5-a_antibiotic-resistance-detection-nanopore"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01F1GJ7JJX"
-      faq: "https://docs.google.com/document/d/e/2PACX-1vQlG_Onq011MQqyIu4D_erDqiLKAMLnduhHr5cDWwbXVqlU9VZhmm4OT_zphKqb8TEZprAFo8rdPXjO/pub"
-
-    - name: "Metagenomics in the Clinic: Nanopore Whole Bacterial Genome Sequencing"
-      speaker: aheikema
-      type: Lecture
-      description: Nanopore Sequencing has many applications in a clinical setting. In this lecture, Astrid Heikema discusses how her group at the Erasmus Medical Center uses Nanopore for sequencing of bacterial Genomes.
-      videos:
+          speaker: miaomiaozhou88
+          title: "Wetlab: Genomic DNA sequencing by Oxford Nanopore MinIon"
+          description: "This video will show you the full process of sequencing a bacterial genome using the Oxford Nanopore MinION sequencer."
         - link: icXMqMut6PY
           length: 30M
           captions: [hexylena]
-      material:
-        - type: Tutorial
-          link: topics/metagenomics/tutorials/nanopore-16S-metagenomics/tutorial.html
-      support_channel: "#5-a_antibiotic-resistance-detection-nanopore"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01F1GJ7JJX"
-      faq: "https://docs.google.com/document/d/e/2PACX-1vQlG_Onq011MQqyIu4D_erDqiLKAMLnduhHr5cDWwbXVqlU9VZhmm4OT_zphKqb8TEZprAFo8rdPXjO/pub"
-
-
-    - name: "Metagenomics: Antibiotic Resistance Detection with Nanopore Data"
-      speaker: willemdek11
-      type: Tutorial
-      description: This tutorial will guide you through the process of assembling your Nanopore-sequenced bacterial samples and determining the presence of antibiotic resistance genes.
-      videos:
+          speaker: aheikema
+          title: "Nanopore Whole Bacterial Genome Sequencing in the Clinic"
+          description: Nanopore Sequencing has many applications in a clinical setting. In this lecture,
+            Astrid Heikema discusses how her group at the Erasmus Medical Center uses Nanopore for sequencing of bacterial Genomes.
         - link: ECIl8ZU1Wko
           length: 45M
+          speaker: willemdek11
           captions: [bebatut]
+          title: Antibiotic Resistance Detection with Nanopore Plasmid Data
+          description: This tutorial will guide you through the process of assembling your Nanopore-sequenced bacterial samples and determining the presence of antibiotic resistance genes.
       material:
         - type: Tutorial
           link: topics/metagenomics/tutorials/plasmid-metagenomics-nanopore/tutorial.html
-      support_channel: "#5-a_antibiotic-resistance-detection-nanopore"
+          title: Antibiotic resistance detection of plasmid data
+        - type: Related Tutorial
+          link: topics/metagenomics/tutorials/nanopore-16S-metagenomics/tutorial.html
+          title: 16S Microbial analysis with Nanopore data
+
+      support_channel: "#microbiome_antibiotic-resistance-detection-nanopore"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01F1GJ7JJX"
       faq: "https://docs.google.com/document/d/e/2PACX-1vQlG_Onq011MQqyIu4D_erDqiLKAMLnduhHr5cDWwbXVqlU9VZhmm4OT_zphKqb8TEZprAFo8rdPXjO/pub"
+
 
     - name: "Metatranscriptomics analysis using microbiome RNA-seq data"
       speaker: [pratikdjagtap, timothygriffin, subinamehta, shiltemann]
       instructors: [pratikdjagtap, timothygriffin, subinamehta, shiltemann, jj-umn, andrewr, ddan, emmaleith]
       type: Tutorial
+      description: Metatranscriptomics analysis examines how the microbiome responds to the environment by studying the taxonomic composition and
+        functional analysis of genes expressed by the microbiome, using microbial community RNASeq data and subsequent metatranscriptomics
+        workflows. This workshop will introduce researchers to the basic concepts and tools from the ASaiM-MT workflow. ASaiM-MT provides
+        a curated collection of tools to explore and visualize taxonomic and functional information from metatranscriptomic sequences.
+
       videos:
-        - link:
-          length:
+        - link: EMaos5u1_a8
+          length: 1H30M
           captions:
       material:
-        - type: Slides
+        - type: Slides from video
+          link: "https://drive.google.com/file/d/11TOrL7Kxgel71AT1rBc4DqjaUh3QB2G_/view?usp=sharing"
+          external: true
+        - type: Related Slides
           link: topics/metagenomics/tutorials/metatranscriptomics/slides.html
-          title: Introduction to Metatranscrtiptomics
+          title: Introduction to Metatranscriptomics
         - type: Tutorial
           link: topics/metagenomics/tutorials/metatranscriptomics/tutorial.html
+      support_channel: "#microbiome_metatranscriptomics"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C0255JJQSKF"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vRS1OnbS9qH6C7-p0NDoF9bQEyW8ICrqTEIrb55X9dVzMmu5_46FUx2uD0XHGLBQvqsZU66MP7_9seV/pub"
 
     - *metaproteomics1
 
