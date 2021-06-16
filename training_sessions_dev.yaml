@@ -307,6 +307,10 @@ arch:
         - type: Self-study tutorial
           link: topics/dev/tutorials/core-contributing/tutorial.html
           title: Contributing to Galaxy Core
+        - type: Youtube Playlist
+          link: "https://bit.ly/gx-arch-vids"
+          external: true
+          title: use this link to always find the latest version of these lectures.
       support_channel: "#dev-galaxy-architecture"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C025X3XLZ4Y"
       faq: "https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub"
