@@ -313,7 +313,7 @@ arch:
           link: "https://bit.ly/gx-arch-vids"
           external: true
           title: Always contains the latest version of these lectures.
-      support_channel: "#dev-galaxy-architecture"
+      support_channel: "#dev-galaxy-core"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C025X3XLZ4Y"
       faq: "https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub"
 
@@ -325,7 +325,7 @@ selfstudy:
     - name: BioBlend
       type: Self-study Tutorial
       description: Ever wondered how to interact with the Galaxy API to scale your work and automated processes? Learn how to here with BioBlend.
-      speaker: [nsoranzo]
+      instructors: [nsoranzo, hexylena, bgruening]
       material:
           - type: Slides
             link: /topics/dev/tutorials/bioblend-api/slides.html
@@ -339,7 +339,7 @@ selfstudy:
       type: Self-study Tutorial
       description: |
           This tutorial will teach you how to contribute to BioBlend and add support for a Galaxy API in BioBlend.
-      speaker: [nsoranzo, rikeshi]
+      instructors: [nsoranzo, rikeshi]
       material:
           - type: Tutorial
             link: /topics/dev/tutorials/bioblend-dev/tutorial.html
@@ -356,18 +356,22 @@ selfstudy:
            locating specific errors in the logs of Galaxy's GitHub Actions, to
            identifying their cause, developing a solution and committing your
            edits.
-      speaker: [ic4f, assuntad23, jmchilton, dannon]
+      instructors: [ic4f, assuntad23, jmchilton, dannon]
       material:
           - type: Tutorial
             link: /topics/dev/tutorials/debugging/tutorial.html
-
+      support_channel: "#dev-debugging-galaxy"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C025DL2S03W"
 
     - name: Contributing extensions to Galaxy core
       type: Self-study Tutorial
       description: |
         This tutorial walks you through an extension to Galaxy and how to contribute back to the core project.
-      speaker: [jmchilton]
+      instructors: [jmchilton]
       material:
           - type: Tutorial
             link: /topics/dev/tutorials/core-contributing/tutorial.html
+      support_channel: "#dev-galaxy-core"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C025X3XLZ4Y"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub"
 
