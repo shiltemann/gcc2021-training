@@ -664,7 +664,7 @@ rnaseqandr:
 
     - &volcano-plot
       name: Visualization of RNA-Seq results with Volcano Plot in Galaxy and R
-      type: Two Hands-on Tutorials
+      type: Duo of Hands-on Tutorials
       speaker: mblue9
       description: Volcano plots are commonly used to display the results of RNA-seq or other omics experiments.
         A volcano plot is a type of scatterplot that shows statistical significance (P value) versus magnitude of
@@ -723,11 +723,11 @@ rnaseqsinglecell:
       speaker: nomadscientist
       instructors: [nomadscientist, mtekman]
       type: Self-Study with Video Walkthrough
-      description:
+      description: This tutorial will take you from raw FASTQ files to a cell x gene data matrix in AnnData format. What’s a data matrix, and what’s AnnData format? Well you’ll find out! Importantly, this is the first step in processing single cell data in order to start analysing it.
       videos:
         - link: 3ytm2AU6QUc
           length: 30M
-          captions:
+          captions: [nomadscientist]
       material:
         - type: Tutorial
           link: topics/transcriptomics/tutorials/droplet-quantification-preprocessing/tutorial.html
@@ -739,7 +739,9 @@ rnaseqsinglecell:
       speaker: nomadscientist
       instructors: [nomadscientist, mtekman]
       type: Self-study with Video Walkthrough
-      description:
+      description: You’ve done all the work to make a single cell matrix, with gene counts and mitochondrial counts and buckets of cell metadata
+        from all your variables of interest, now it’s time to fully process our data, to remove low quality cells, to reduce the many dimensions
+        of data that make it difficult to work with, and ultimately to try to define our clusters and to find our biological meaning and insights!
       videos:
         - link: M6iepSJh0EQ
           length: 30M
@@ -747,12 +749,20 @@ rnaseqsinglecell:
       material:
         - type: Tutorial
           link: topics/transcriptomics/tutorials/scrna-seq-basic-pipeline/tutorial.html
+      support_channel: "#transcriptomics_single-cell-filter-plot-explore"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C025LA0NBLH"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vTIorwkiFua1sXaJwKOsXPTugOZz_BzcfNnFgbsd2a6AjDuHbrj-KD023J25OHp9F_Dmql0luIMCN3N/pub"
 
     - name: Trajectory Analysis using Python (Jupyter Notebook) in Galaxy
       speaker: nomadscientist
       instructors: [nomadscientist, mtekman]
       type: Self-study with Video Walkthrough
-      description:
+      description: You’ve done all the hard work of preparing a single cell matrix, processing it, plotting it, interpreting it, finding lots
+        of lovely genes, all within the glorious Galaxy interface. Now you want to infer trajectories, or relationships between cells… and
+        you’ve been threatened with learning Python to do so! Well, fear not. If you can have a run-through of a basic python coding introduction,
+        then that will help you make more sense of this tutorial, however you’ll be able to make and interpret glorious plots
+        even without understanding the Python coding language. This is the beauty of Galaxy - all the ‘set-up’ is identical across computers,
+        because it’s browser based. So fear not!
       videos:
         - link: VEyTmwDIgPI
           length: 10M
@@ -760,11 +770,16 @@ rnaseqsinglecell:
       material:
         - type: Tutorial
           link: topics/transcriptomics/tutorials/scrna-JUPYTER-trajectories/tutorial.html
+      support_channel: "#transcriptomics_single_cell_trajectory-analysis-jupyter"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C0257SCES83"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vQFtqSeiowtVHQHdNuJ8tjAhfSKtmfm0B_pfrbOhx0EVYxO4sbza3AKFcVEyrGtM3q5QNH82LaDKyki/pub"
 
-    - name: Analysis of plant scRNA-Seq Data with Scanpy
+
+    - &plants-scrna-scanpy
+      name: Analysis of plant scRNA-Seq Data with Scanpy
       speaker: mtekman
       instructors: [mtekman, nomadscientist]
-      type: Tutorial
+      type: Hands-on Tutorial
       description:
       videos:
         - link: yKlJ5ESri7o
@@ -773,7 +788,9 @@ rnaseqsinglecell:
       material:
         - type: Tutorial
           link: topics/transcriptomics/tutorials/scrna-plant/tutorial.html
-
+      support_name: "#trancriptomics_single-cell-with-scanpy"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01TG5YNF6Z"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vS8qAPOQwMPlt16fFWQ-JPHNrzKT_46I1OHiFFaJ9r8oT6LZaelryrwnigWUPVPfsccQJkm3Q68TyHr/pub"
 
 
 #    - name: "Understanding Barcodes"
@@ -1261,6 +1278,7 @@ plants:
   description: Here we have collected all the training sessions that cover plant data analysis. These sessions also appear in other modules and cover a range of topics, but one thing they have in common is that they use plant datasets.
   sessions:
     - *plants_mirna
+    - *plants-scrna-scanpy
 
 viz:
  title: Visualisation in Galaxy
