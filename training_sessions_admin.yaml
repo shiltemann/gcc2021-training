@@ -192,28 +192,22 @@ day1:
   - material:
     - link: topics/admin/tutorials/ansible/slides.html
       type: Slides
-    name: Intro to Ansible
-    speaker: ic4f
-    support_channel: '#01-ansible'
-    support_link: "https://galaxyadmintraining.slack.com/archives/01-ansible"
-    type: Tutorial
-    videos:
-      - captions: martenson
-        length: 5M
-        link: KFpbfmN0OTE
-
-  - material:
     - link: topics/admin/tutorials/ansible/tutorial.html
       type: Tutorial
     name: Ansible
-    speaker: martenson
     support_channel: '#01-ansible'
     support_link: "https://galaxyadmintraining.slack.com/archives/01-ansible"
-    type: Tutorial
     videos:
       - captions: martenson
         length: 61M
         link: 2KdT0sYKUeE
+        speaker: martenson
+        title: Slides
+      - captions: martenson
+        length: 5M
+        link: KFpbfmN0OTE
+        speaker: ic4f
+        title: Tutorial
 
   - name: Installing Galaxy with Ansible
     speaker: hexylena
