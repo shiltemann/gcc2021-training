@@ -860,7 +860,7 @@ proteomics:
         - type: Slides
           link: topics/proteomics/slides/introduction.html
           title: Introduction to proteomics, protein identification, quantification and statistical modelling
-      support_channel: "#4-0_introduction-to-ms-proteomics"
+      support_channel: "#proteomics_introduction-to-ms"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01MQEDM39P"
       faq: "https://docs.google.com/document/d/e/2PACX-1vSYkfAT8PgEygCcqVhjzhioS23I1Tod0V2l6q60fbMkl6t21y09I62BYFrlWaSMO8p5_Y2JwilHSP5m/pub"
 
@@ -868,28 +868,31 @@ proteomics:
       speaker: foellmelanie
       instructors: *galaxypteam
       description: "Modern mass spectrometry-based proteomics enables the identification and quantification of thousands of proteins. Therefore, quantitative mass spectrometry represents an indispensable technology for biological and clinical research. Statistical analyses are required for the unbiased answering of scientific questions and to uncover all important information in the proteomic data. In this training we will cover the full analysis workflow from label-free, data dependent acquisition (DDA) raw data to statistical results. We’ll use two popular quantitative proteomics software: MaxQuant and MSstats."
-      type: Tutorial
+      type: Hands-on Tutorial
       videos:
         - link: IXdLAt2PAT4
           length: 1H
-          captions: [shiltemann]
+          captions: [foellmelanie]
       material:
         - type: Tutorial
           link: topics/proteomics/tutorials/maxquant-msstats-dda-lfq/tutorial.html
           title: MaxQuant and MSstats for the analysis of label-free data
-      support_channel: "#4-1_maxquant-and-msstats"
+      support_channel: "#proteomics_maxquant-and-msstats"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01F0LY58R1"
       faq: "https://docs.google.com/document/d/e/2PACX-1vS4GuHPJrRcpGmNCXBTJ9wyUp6X33Xe6Ou8N_q0Ko5AJ-_rUy7ZsAu-x6R9yf7iRZLxK-t_e-O4Xoc6/pub"
 
     - name: "DIA Mass-spectrometry with EncyclopeDIA"
       description: "Data Independent Acquisition Mass Spectrometry (DIA-MS) provides reproducible quantitative information as an improvement over the Data Dependent Acquisition (DDA). The EncyclopeDIA workflow tutorial will guide the user through the steps of a) conversion of the input  DIA-MS RAW data files to mzML; b) the generation of a Chromatogram Library using the gas-phase fractionation (GPF) method and spectral library and c) generation of peptide and protein quantitation outputs."
       speaker: [emmaleith, jj-umn, pratikdjagtap]
+      type:
       instructors: *galaxypteam
       videos:
         - link:
           length:
           captions:
-
+      support_channel: "#proteomics_ms-encyclopedia"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C0257QKT998"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vTgfPPgjsGSaYjcKaeJZPsav6Ck-EPWMDscR6KGUFX2X9gdmQcO93T7DFxgfj5hxWEfN3qnSoEpzORB/pub"
 
     - name: "ProteoRE tool for Functional Analysis of a Protein List"
       speaker: yvesvdb
@@ -904,7 +907,7 @@ proteomics:
         - type: Tutorial
           link: topics/proteomics/tutorials/proteome_annotation/tutorial.html
           title: Annotating a protein list identified by LC-MS/MS experiments
-      support_channel: "#5-i_proteore-protein-list-annotation"
+      support_channel: "#proteomics_proteore-protein-list-annotation"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01EYBNQRL5"
       faq: "https://docs.google.com/document/d/e/2PACX-1vT7_ulDI8Mf4BpE8JPmvXYVqk1UmMGEFJ6Cj2ZvlxwLfP8riaaVicPtGR5HeFDAEmKMjaXPcub6cL1w/pub"
 
@@ -916,7 +919,7 @@ proteomics:
         - type: Tutorial
           link: topics/proteomics/tutorials/biomarker_selection/tutorial.html
           title: Biomarker candidate identification
-      support_channel: "#5-j_proteore-biomarkers-discovery"
+      support_channel: "#proteomics_proteore-biomarkers-discovery"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01FP2AHUV9"
       faq: "https://docs.google.com/document/d/e/2PACX-1vQVj92upQT2Z4B6ZF6kmhrbnHesbkS--e5ge14iRbxDsxRHuOb52XJE8DI584asA0t2GJIjS_qliPZu/pub"
 
@@ -924,11 +927,12 @@ proteomics:
       name: "Metaproteomics Introduction"
       speaker: pratikdjagtap
       instructors: [subinamehta, pratikdjagtap, timothygriffin, jj-umn, emmaleith, andrewr]
-      type: Tutorial
+      type: Video Demo
       description: |
-        In this tutorial, the basic workflow for metaproteomics is described, which includes database search,
-        seeking taxonomy information and functional analysis. Related metaproteomics and functional microbiome
-        tools and GTN tutorials are also mentioned in this tutorial.
+        Metatranscriptomics analysis examines how the microbiome responds to the environment by studying the taxonomic composition and
+        functional analysis of genes expressed by the microbiome, using microbial community RNASeq data and subsequent metatranscriptomics
+        workflows. This workshop will introduce researchers to the basic concepts and tools from the ASaiM-MT workflow. ASaiM-MT provides
+        a curated collection of tools to explore and visualize taxonomic and functional information from metatranscriptomic sequences.
       videos:
         - link: 3_yaPp-RCFw
           length: 1H
@@ -940,13 +944,12 @@ proteomics:
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01FD4276P3"
       faq: "https://docs.google.com/document/d/e/2PACX-1vTX6JQG4oAKXvQSJU52thudorwANPtzIedTiTQU1NbXQYYfrNkBheN-gHu0O91bCOIk5wQBpH1mIk7v/pub"
 
-    - &metaproteomics2
+    - &proteomics-pandemic
       name: "Pandemics Research using Mass Spectrometry"
       speaker: [timothygriffin, subinamehta, andrewr, pratikdjagtap]
       instructors: *galaxypteam
       type: Lecture and Demo
       description: "The Coronavirus Disease 2019 (COVID-19) global pandemic has had a profound, lasting impact on the world's population. Accurate and timely diagnosis of COVID-19 infection is an important step for providing care and containing its further spread. In this tutorial, attendees will be introduced to two workflows – a) database search workflow and b) peptide validation workflow. Attendees of the workshop will get an in-depth knowledge of the Galaxy workflows that detect SARS-CoV-2 peptides ([10.1186/s12014-021-09321-1)](https://doi.org/10.1186/s12014-021-09321-1)) and co-infecting pathogen peptides ([10.1021/acs.jproteome.0c00822](https://doi.org/10.1021/acs.jproteome.0c00822))."
-
 
       videos:
         - link: CI35gTmZoqM
@@ -959,9 +962,9 @@ proteomics:
         - type: Workflow
           external: true
           link: "https://usegalaxy.eu/workflow/export_to_file?id=8a85663218676b59"
-      support_channel: "#4-3_metaproteomics"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01FD4276P3"
-      faq: "https://docs.google.com/document/d/e/2PACX-1vTX6JQG4oAKXvQSJU52thudorwANPtzIedTiTQU1NbXQYYfrNkBheN-gHu0O91bCOIk5wQBpH1mIk7v/pub"
+      support_channel: "#proteomics_pandemics_research_ms"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C025E2S35PE"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vRQ-GVpA-btUnHv3PBDkD2vM5OYg_iPPOFPTH7VVxz-0pLFdi8ZN82zXEBGpk1rrRuOrRKiX8sy3_Yr/pub"
 
 proteogenomics:
   title: Proteogenomics
@@ -1272,6 +1275,7 @@ covid19:
     - *covid19-ngs-logistics
     - *covid19-sra
     - *covid19-assembly
+    - *proteomics-pandemic
 
 plants:
   title: Plant data analysis
