@@ -246,7 +246,6 @@ arch:
           - How is the Galaxy code structured?
           - What do the various other projects related to Galaxy do?
           - What happens when I start Galaxy
-
       speaker: [jmchilton]
       videos: []
 
@@ -257,7 +256,6 @@ selfstudy:
     - name: BioBlend
       type: Tutorial
       description: Ever wondered how to interact with the Galaxy API to scale your work and automated processes? Learn how to here with BioBlend.
-      videos: []
       speaker: [nsoranzo]
       material:
           - type: Slides
@@ -270,7 +268,6 @@ selfstudy:
       description: |
           This tutorial will teach you how to contribute to BioBlend and add support for a Galaxy API in BioBlend.
       speaker: [nsoranzo, rikeshi]
-      videos: []
       material:
           - type: Tutorial
             link: /topics/dev/tutorials/bioblend-dev/tutorial.html
@@ -288,7 +285,6 @@ selfstudy:
       material:
           - type: Tutorial
             link: /topics/dev/tutorials/debugging/tutorial.html
-      videos: []
 
 
     - name: Contributing extensions to Galaxy core
@@ -296,7 +292,6 @@ selfstudy:
       description: |
         This tutorial walks you through an extension to Galaxy and how to contribute back to the core project.
       speaker: [jmchilton]
-      videos: []
       material:
           - type: Tutorial
             link: /topics/dev/tutorials/core-contributing/tutorial.html
@@ -305,4 +300,3 @@ selfstudy:
       type: Tutorial
       description:
       speaker: [dannon]
-      videos: []
