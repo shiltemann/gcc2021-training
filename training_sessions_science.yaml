@@ -531,7 +531,7 @@ rnabasics:
       faq: "https://docs.google.com/document/d/e/2PACX-1vTOAKhYdmiiTucIarwlehmnPaxi0MXDmuCPdyZwB27xvBJPksDOLCOYMGdtEZAoz4WGxHGdDcBDdlM9/pub"
 
     - name: Reference-based RNA-seq Analysis
-      type: Tutorial
+      type: Hands-on Tutorial
       speaker: bebatut
       description: In this tutorial we will walk you through the process of an RNA-seq analysis, comparing gene expression levels between different conditions and assessing impacted gene pathways.
       videos:
@@ -547,7 +547,7 @@ rnabasics:
       faq: "https://docs.google.com/document/d/e/2PACX-1vTOAKhYdmiiTucIarwlehmnPaxi0MXDmuCPdyZwB27xvBJPksDOLCOYMGdtEZAoz4WGxHGdDcBDdlM9/pub"
 
     - name: De novo transcriptome reconstruction with RNA-Seq
-      type: Tutorial
+      type: Hands-on Tutorial
       speaker: malloryfreeberg
       description: |
           In this tutorial, we will use de novo transcript reconstruction to
@@ -607,13 +607,13 @@ rnaseqandr:
         - link: vN14K74nFZc
           length: 20M
           captions: [shiltemann]
-      support_channel: "#2-2_intro-to-r"
+      support_channel: "#transcriptomics_intro-to-r"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01F6JXPZM2"
       faq: "https://docs.google.com/document/d/e/2PACX-1vQuOJPPP2nosMG1gh1TuAFu479F4u2kGCCsICHuKvQE7lJGZCreVbXMQrhEORu3O1fV2hX_DZDE_Isk/pub"
 
 
     - name: "Introduction to R"
-      type: Tutorial
+      type: Hands-on Tutorial
       speaker: fpsom
       description: This tutorial will provide an introduction to using R with Rstudio in Galaxy.
       videos:
@@ -624,13 +624,13 @@ rnaseqandr:
         - type: Tutorial
           link: topics/introduction/tutorials/r-basics/tutorial.html
           title: R basics in Galaxy
-      support_channel: "#2-2_intro-to-r"
+      support_channel: "#transcriptomics_intro-to-r"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01F6JXPZM2"
       faq: "https://docs.google.com/document/d/e/2PACX-1vQuOJPPP2nosMG1gh1TuAFu479F4u2kGCCsICHuKvQE7lJGZCreVbXMQrhEORu3O1fV2hX_DZDE_Isk/pub"
 
 
     - name: "Advanced R in Galaxy"
-      type: Tutorial
+      type: Hands-on Tutorial
       speaker: fpsom
       description: An advanced tutorial covering downstream analysis of RNA-seq data using R.
       videos:
@@ -641,13 +641,13 @@ rnaseqandr:
         - type: Tutorial
           link: topics/introduction/tutorials/r-advanced/tutorial.html
           title: Advanced R in Galaxy
-      support_channel: "#2-3_advanced_r"
+      support_channel: "#transcriptomics_advanced_r"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01LKGNPE5V"
       faq: "https://docs.google.com/document/d/e/2PACX-1vQuOJPPP2nosMG1gh1TuAFu479F4u2kGCCsICHuKvQE7lJGZCreVbXMQrhEORu3O1fV2hX_DZDE_Isk/pub"
 
 
     - name: "Visualisation: RNASeq postprocessing with R"
-      type: Tutorial
+      type: Hands-on Tutorial
       speaker: fpsom
       description: In this tutorial, we will visualize our RNA-seq analysis results using R.
       videos:
@@ -658,7 +658,7 @@ rnaseqandr:
         - type: Tutorial
           link: topics/transcriptomics/tutorials/rna-seq-counts-to-viz-in-r/tutorial.html
           title: RNA Seq Counts to Viz in R
-      support_channel: "#2-4_visualisation-with-r"
+      support_channel: "#transcriptomics_visualisation-with-r"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01FD3AFLN5"
       faq: "https://docs.google.com/document/d/e/2PACX-1vTRNzQHT9qyPr9kdWOM1l8HiD0A1xCRMW7bYnUCcLYmF5yJFytYSOVrq_JFtRvqnat-_41JBkQray2F/pub"
 
@@ -715,14 +715,14 @@ rnaseqsinglecell:
         - type: Slides
           link: topics/transcriptomics/tutorials/scrna-intro/slides.html
           title: An introduction to scRNA-Seq data analysis
-      support_channel: "#3-0_single-cell-rnaseq"
+      support_channel: "#transcriptomics_single-cell-rnaseq"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01M17R4YA1"
       faq: "https://docs.google.com/document/d/e/2PACX-1vSVFOV1C6hqMPGIpZ1qeOo6t-ubjaWbtsGSTMH9TwNlvfqZrP48i0_7_Xk5rxmY7g2CroOF1dNIyfMY/pub"
 
     - name: Generating a single cell matrix using Alevin
       speaker: nomadscientist
       instructors: [nomadscientist, mtekman]
-      type: Walkthrough for Self-Study Session
+      type: Self-Study with Video Walkthrough
       description:
       videos:
         - link: 3ytm2AU6QUc
@@ -731,6 +731,9 @@ rnaseqsinglecell:
       material:
         - type: Tutorial
           link: topics/transcriptomics/tutorials/droplet-quantification-preprocessing/tutorial.html
+      support_channel: "#transcriptomics_single-cell-matrix-alevin"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C0250JZCA6R"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vT2mDOrH9L8oky-MG26vKjnRmV1zGNZd3vsOGFUjL-lhpBQi95vSYKgWYyqgTEPC4wz8LjGvTgfBi1Z/pub"
 
     - name: Filter, Plot and Explore Single-cell RNA-seq Data
       speaker: nomadscientist

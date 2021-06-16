@@ -2,13 +2,12 @@
 
 {% assign numvideos = include.session.videos.size %}
 
-
-<div class="flex-row" style="margin-top:1em;">
-  {% if numvideos > 1 %}
+{% if numvideos > 1 %}
     <h3 class="session-section"> {{include.session.type | default: "Tutorial" }} </h3>
     {{include.session.description|markdownify| remove: '<p>' | remove: '</p>' }}
   {% endif %}
 
+<div class="flex-row" style="margin-top:1em;">
 
   {% for video in include.session.videos %}
 
