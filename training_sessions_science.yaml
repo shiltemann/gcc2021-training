@@ -112,6 +112,7 @@ galaxyintro:
       description: |
         This video will introduce the Galaxy data analysis platform, and give a short demo on how to use it.
       speaker: nekrut
+      instructors: [nekrut]
       videos:
         - link: VZoz3k5EehI
           length: 10M
@@ -166,6 +167,7 @@ galaxyintro:
       description: |
         In this tutorial, we will walk you through your first (toy) analysis in Galaxy. This tutorial is aimed at familiarizing you with the Galaxy platform, and some basic NGS concepts.
       speaker: tnabtaf
+      instructors: [tnabtaf]
       videos:
         - link: 1UPCrQxGwcU
           length: 1H30M
@@ -189,6 +191,7 @@ galaxyintro:
       type: Hands-on Tutorial
       description: This video tutorial will provide a non-genomics based first look at the Galaxy platform, how to use it, and discusses how you can get support for your data analysis.
       speaker: annefou
+      instructors: [annefou]
       videos:
         - link: dguN6Xw2Azs
           length: 1H15M
@@ -259,6 +262,7 @@ ngsintro:
       description: |
         In this demo video, we will show how to perform an NGS data analysis, using a SARS-CoV-2 example dataset. If you would like to run the full tutorial yourself, please find the link below (duration 1h-1.5h).
       speaker: nekrut
+      instructors: [nekrut]
       videos:
         - link: 9mIL0tIfZ_o
           length: 15M
@@ -274,6 +278,7 @@ ngsintro:
 
     - name: "Quality Control"
       speaker: heylf
+      instructors: [heylf, bebatut]
       type: Lecture & Hands-on Tutorial
       description: |
         This session covers the basics about how to assess and improve the quality of your sequencing data.
@@ -303,6 +308,7 @@ ngsintro:
     - name: "Mapping"
       type: Lecture & Hands-on Tutorial
       speaker: pvanheus
+      instructors: [pvanheus]
       description: |
         Mapping sequencing reads to a reference genome is often the next step
         after QC. This session covers the basic concepts of mapping and the
@@ -337,6 +343,7 @@ ngsintro:
         When there is no reference genome available for your organism, you will
         have to assemble the short reads into larger segments (contigs).
       type: Lecture & Hands-on Tutorial
+      instructors: [slugger70, annasyme]
       videos:
         - link: -EX_G1griZE
           length: 25M
@@ -371,6 +378,7 @@ ngsadvanced:
     - &covid19-assembly
       name: "Assembly: Unicycler assembly of SARS-CoV-2 genome"
       speaker: gallardoalba
+      instructors: [gallardoalba]
       type: Hands-on Tutorial
       description: "This tutorial guides you through the preprocessing of sequencing data of bronchoalveolar lavage fluid (BALF) samples obtained from early COVID-19 patients in China. Since such samples are expected to be contaminated signficantly with human sequenced reads, the goal is to enrich the data for SARS-CoV-2 reads by identifying and discarding reads of human origin before trying to assemble the viral genome sequence."
       videos:
@@ -388,6 +396,7 @@ ngsadvanced:
 
     - name: "Genome Annotation: Annotation of a prokaryotic genome"
       type: Lecture & Hands-on Tutorial
+      instructors: [abretaud]
       description: "Genome annotation is a multi-level process that includes prediction of protein-coding genes, as well as other functional genome units such as structural RNAs, tRNAs, small RNAs, pseudogenes, control regions, direct and inverted repeats, insertion sequences, transposons and other mobile elements."
       videos:
         - link: eqHy-Cc7k4Q
@@ -412,6 +421,7 @@ ngsadvanced:
 
     - name: "Genome Annotation: Refining Genome Annotations with Apollo"
       speaker: abretaud
+      instructors: [abretaud]
       type: Lecture & Hands-on Tutorial
       description: |
         After automatically annotating your genome using Prokka or Maker, it is important to visualize your results so you can understand what your organism
@@ -546,6 +556,7 @@ rnabasics:
     - name: "Introduction to RNA-Seq"
       type: Lecture
       speaker: fpsom
+      instructors: [fpsom, bebatut]
       description: RNA sequencing is used to assess the expression levels of genes. This video introduces the important concepts related to RNA-seq analysis.
       videos:
         - link: qKkS_tztw_Q
@@ -562,6 +573,7 @@ rnabasics:
     - name: Reference-based RNA-seq Analysis
       type: Hands-on Tutorial
       speaker: bebatut
+      instructors: [bebatut]
       description: In this tutorial we will walk you through the process of an RNA-seq analysis, comparing gene expression levels between different conditions and assessing impacted gene pathways.
       videos:
         - link: j4onRSN650A # old one was  37Tc1xnrHK4
@@ -578,6 +590,7 @@ rnabasics:
     - name: De novo transcriptome reconstruction with RNA-Seq
       type: Hands-on Tutorial
       speaker: malloryfreeberg
+      instructors: [malloryfreeberg]
       description: |
           In this tutorial, we will use de novo transcript reconstruction to
           infer transcript structures from aligned reads. We will identify and
@@ -601,6 +614,7 @@ rnabasics:
       name: Whole transcriptome analysis of Arabidopsis thaliana
       type: Lecture & Hands-on Tutorial
       speaker: gallardoalba
+      instructors: [gallardoalba]
       description: In this tutorial, we will analyze RNA sequencing data to extract information about potential genes regulated in response to abiotic stress in plants. For this purpose, the chosen approach is the identification of genes with complementary regions to miRNAs upregulated in response to brassinosteroids.
       videos:
         - link: 7t0Gr1Jklqs
@@ -631,6 +645,7 @@ rnaseqandr:
     - name: "Starting Rstudio in Galaxy"
       type: Demo
       speaker: fpsom
+      instructors: [fpsom, hexylena]
       description: "This tutorial will show you how you can start Rstudio from within Galaxy. This option is only available on Galaxy EU for the time being. If you are working on a different Galaxy server, you can use <strong>Rstudio Cloud (https://rstudio.cloud/)</strong>"
       videos:
         - link: vN14K74nFZc
@@ -644,6 +659,7 @@ rnaseqandr:
     - name: "Introduction to R"
       type: Hands-on Tutorial
       speaker: fpsom
+      instructors: [fpsom]
       description: This tutorial will provide an introduction to using R with Rstudio in Galaxy.
       videos:
         - link: MKkQDh5Nguc
@@ -661,6 +677,7 @@ rnaseqandr:
     - name: "Advanced R in Galaxy"
       type: Hands-on Tutorial
       speaker: fpsom
+      instructors: [fpsom]
       description: An advanced tutorial covering downstream analysis of RNA-seq data using R.
       videos:
         - link: _hWBGdlICqg
@@ -1092,6 +1109,7 @@ microbial:
   sessions:
     - name: "Variant Analysis: M. Tuberculosis Variant Analysis"
       speaker: pvanheus
+      instructors: [pvanheus]
       type: Lecture & Hands-on Tutorial
       description: "Tuberculosis (TB) is an infectious disease caused by the bacterium Mycobacterium tuberculosis. According to the WHO, in 2018 there were 10.0 million new cases of TB worldwide and 1.4 million deaths due to the disease, making TB the world’s most deadly infectious disease."
       videos:
@@ -1117,6 +1135,7 @@ microbial:
 
     - name: "16S Microbial Analysis with mothur"
       speaker: shiltemann
+      instructors: [shiltemann, bebatut]
       type: Lecture & Hands-on Tutorial
       description: This lecture briefly introduces 16S sequencing, a popular technique used for taxonomic profiling of microbial communities.
       videos:
@@ -1141,6 +1160,7 @@ microbial:
 
     - name: "Antimicrobial Resistance Detection using Nanopore long-read sequencing"
       type: Wetlab Demo, Lecture & Hands-on Tutorial
+      instructors: [willemdek11, shiltemann, hexylena]
       description: Antimicrobial resistnace (AMR) poses a major threat to human health. Plasmids are able to transfer AMR genes among bacterial isolates
         Long-read sequencing technologies aid in the reconstruction of bacterials genomes and plasmids, in order to determine the presence of
         antimicrobial resistant genes.
