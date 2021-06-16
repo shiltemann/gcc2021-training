@@ -118,7 +118,7 @@ Scroll down to see all available tutorials, or jump directly to a module:
    {% if session.instructors %}
     <h3 class="session-section">Instructors</h3>
     The following instructors are available online this week for support for this session:
-    {% include speakers.html speakers=session.instructors %}
+    {% include speakers.html speakers=session.instructors gtn=true %}
    {% endif %}
 
    {% endunless %}{% endunless %}{% endunless %}{% endunless %}

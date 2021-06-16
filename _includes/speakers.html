@@ -27,4 +27,14 @@
 			</div>
 		</div>
 	{% endfor %}
+    {% if include.gtn %}
+        <div class="hall-of-fame-hero" id="gtn-community">
+            <img src="{{site.baseurl}}/{{site.image_dir}}/instructors/gtn.png" alt="GTN Community">
+			<div class="name">
+				The Global GTN Community			</div>
+            <div class="affil">
+				<a href=" https://training.galaxyproject.org/training-material/hall-of-fame">Hall of Fame</a>
+			</div>
+		</div>
+    {% endif %}
 </div>
