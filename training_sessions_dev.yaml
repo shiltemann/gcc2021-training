@@ -236,7 +236,7 @@ arch:
   title: Galaxy Architecture Lectures
   description: Here you'll learn about the internals of Galaxy in a lecture from John Chilton
   sessions:
-    - name: Galaxy architecture
+    - name: Galaxy Architecture
       type: Lecture Series & Self-study Tutorial
 
       material:
@@ -310,7 +310,7 @@ arch:
         - type: Youtube Playlist
           link: "https://bit.ly/gx-arch-vids"
           external: true
-          title: use this link to always find the latest version of these lectures.
+          title: Always contains the latest version of these lectures.
       support_channel: "#dev-galaxy-architecture"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C025X3XLZ4Y"
       faq: "https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub"
