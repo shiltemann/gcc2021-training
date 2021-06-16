@@ -1108,9 +1108,9 @@ microbial:
       faq: "https://docs.google.com/document/d/e/2PACX-1vRPPYdMfIA9R_w5y__jV9qdKbijJyOJiclx-2ACKFkAH8aIdlU3pY84xhivWEOmeEn_XQv8StFcjDLP/pub"
 
 
-    - name: "Antimicrobial Resistance (AMR) Detection using long-read sequencing"
+    - name: "Antimicrobial Resistance Detection using Nanopore long-read sequencing"
       type: Wetlab Demo, Lecture & Hands-on Tutorial
-      description: Antimicrobial resistnace poses a major threat to human health. Plasmids are able to transfer AMR genes among bacterial isolates
+      description: Antimicrobial resistnace (AMR) poses a major threat to human health. Plasmids are able to transfer AMR genes among bacterial isolates
         Long-read sequencing technologies aid in the reconstruction of bacterials genomes and plasmids, in order to determine the presence of
         antimicrobial resistant genes.
       videos:
@@ -1181,6 +1181,7 @@ machinelearning:
   sessions:
     - name: "Introduction to Machine Learning"
       speaker: anuprulez
+      instructors: &ml-instructors [fpsom, anuprulez, kxk302]
       type: Lecture
       description: The lecture explains introductory concepts in machine learning such as supervised and unsupervised learning, classification and regression, hyperparameter optimisation, cross-validation, train, test and validation sets.
       videos:
@@ -1192,10 +1193,13 @@ machinelearning:
           link: "https://docs.google.com/presentation/d/1RZtXFk8qz6wmPsIKnMte3Y4SvmI_nD2vIyeSEvYR6RA/edit?usp=sharing"
           external: true
           title: Introduction to Machine Learning
-      faq: "https://docs.google.com/document/d/1RO-wMMfK2o9deE8WsOcC1Bl_StFKp8VXCOV9W5Xm3uY/edit?usp=sharing"
+      support_channel: "#machine_learning_introduction"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C025EUF0R0U"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vQUIonilhLMvaTlPaYvi5BeOwFsWsmd30tlo1PXYCpOXNUTXiYkm4fxZ23MoOSh_PqVSqmF0lSXeE1C/pub"
 
     - name: "Classification in Machine Learning"
       speaker: anuprulez
+      instructors: *ml-instructors
       type: Tutorial
       description: The talk includes a lecture followed by a hands-on session to apply multiple classification algorithms on the Quantitative structure-activity relationship (QSAR) dataset to predict the biodegradable activity of chemical compounds. QSAR models attempt to predict the activity or property of chemicals based on their chemical structure. To achieve this, a database of compounds is collected for which the property of interest is known. For each compound, molecular descriptors are collected which describe the structure (for example - molecular weight, number of nitrogen atoms, number of carbon-carbon double bonds). Using these descriptors, a model is constructed which is capable of predicting the property of interest for a new, unknown molecule. In this tutorial, we will use a database assembled from experimental data of the Japanese Ministry of International Trade and Industry to create a classification model by applying simple and complex classifiers to learn the nature of biodegradation. We will use this model to classify new molecules into one of two classes - biodegradable or non-biodegradable. Different visualisations are used to analyze the results after applying each classification algorithm. Hyperparameters of one of the classifiers are also optimised.
       videos:
@@ -1209,10 +1213,13 @@ machinelearning:
           link: "https://docs.google.com/presentation/d/1lAYCZ-g6y8cC1aH68FWL6gkRRI2srXSHuJwaaYAQZaU/edit?usp=sharing"
           external: true
           title: Classification in Machine Learning
-      faq: "https://docs.google.com/document/d/1u3lm533STzYstnUn5807QXZxSPNkU0tj3QvtfvibEfs/edit?usp=sharing"
+      support_channel: "#machine_learning_classification"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C025MCF4C8Z"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vQS2fppEH7Kf6QCNOUozRu4reYkiASYk4ig6qUfqW3eewqdZ0fKEWLz9rT2iBxohXYYaiDOsto8Aa8V/pub"
 
     - name: "Regression in Machine Learning"
       speaker: anuprulez
+      instructors: *ml-instructors
       description: The talk includes a lecture followed by a hands-on session to apply multiple regression algorithms on the DNA-methylation dataset to predict biological age. In this tutorial, we will build a regression model for chronological age prediction, based on DNA methylation. This is based on the work of Jana Naue et al. 2017, in which biomarkers are examined to predict the chronological age of humans by analyzing the DNA methylation patterns. Different machine learning algorithms are used in this study to make an age prediction. It has been recognized that within each individual, the level of DNA methylation changes with age. This knowledge is used to select useful biomarkers from DNA methylation datasets. The CpG sites with the highest correlation to age are selected as the biomarkers (and therefore features for building a regression model). In this tutorial, specific biomarkers are analyzed by machine learning algorithms to create an age prediction model. Multiple visualisations are also used to analyse the predictions made by simple and complex regressors and hyperparameters of one of the regressors also optimised.
       videos:
         - link: qxaWQjtEOzM
@@ -1225,52 +1232,76 @@ machinelearning:
           link: "https://docs.google.com/presentation/d/16Ct2wJmLz4YI2rF9Y1SxcFWfSdVyJVoBy3YynBRDB0Q/edit?usp=sharing"
           external: true
           title: Regression in Machine Learning
-      faq: "https://docs.google.com/document/d/185PbhtdKaG6Gme4QXA-mkwfGgF4QorVkiSnHC0XQFSs/edit?usp=sharing"
+      support_channel: "#machine_learning_regression"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C02590LE3DH"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vTUEQlhHqgV60mvPjZ1MzcNKDxwyftm76JNLzcI2XKqTaXnO1gPLEGoTXuNZHXpLY1jBSSm3oUJk1Vs/pub"
 
     - name: "Machine Learning using R in Galaxy"
       speaker: fpsom
+      instructors: *ml-instructors
       videos:
-        - link:
-          length:
+        - link: RT-g6KyAGdE
+          length: 1H30M
           captions: MariaTsayo
+      material:
+        - type: Tutorial
+          link: topics/statistics/tutorials/intro-to-ml-with-r/tutorial.html
+          title: Introduction to Machine Learning using R
+      support_channel: "#machine_learning_with_r"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C025MCK52TT"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vRtiyOfFPtBN5MVB_nopElfYYKtS595Nbx9XlXvfO_66six-ZMKA4iwI914P18XvzSHmS_ov72-53L3/pub"
 
-neuralnetworks:
- title: "Deep Neural Networks Demystified"
- subday: true
- sessions:
-    - name: "1: Feedforward Neural Networks"
+    - name: "Deep Neural Networks Demystified"
+      type: Trio of Hands-on Tutorials
+      description: Artificial neural networks are a machine learning discipline roughly inspired by how neurons in a human brain work.
+        In the past decade, there has been a huge resurgence of neural networks thanks to the vast availability of data and enormous
+        increases in computing capacity (Successfully training complex neural networks in some domains requires lots of data and compute
+        capacity). There are various types of neural networks, 3 of which we will cover in this set of tutorials.
       speaker: kxk302
+      instructors: *ml-instructors
       videos:
         - link: VbzJDkyPL4A
           length: 1H10M
           captions:
-      material:
-        - type: Tutorial
-          link: topics/statistics/tutorials/FNN/tutorial.html
-        - type: Slides
-          link: topics/statistics/tutorials/FNN/slides.html
-    - name: "2: Recurrent Neural Networks"
-      speaker: kxk302
-      videos:
+          title: Feedforward Neural Networks
+          description: TODO
         - link: 1dwzEhjOAmw
           length: 50M
           captions:
-      material:
-        - type: Tutorial
-          link: topics/statistics/tutorials/RNN/tutorial.html
-        - type: Slides
-          link: topics/statistics/tutorials/RNN/slides.html
-    - name: "3: Convolutional Neural Networks"
-      speaker: kxk302
-      videos:
+          title: Recurrent Neural Networks
+          description: TODO
         - link: P1NVYOJrv_4
           length: 1H
           captions:
+          title: Convolutional Neural Networks
+          description: TODO
+
       material:
-        - type: Tutorial
-          link: topics/statistics/tutorials/CNN/tutorial.html
-        - type: Slides
+        - type: FNN Slides
+          link: topics/statistics/tutorials/FNN/slides.html
+          title: Feedforward Neural Networks
+        - type: FNN Tutorial
+          link: topics/statistics/tutorials/FNN/tutorial.html
+          title: Feedforward Neural Networks
+        - type: RNN Slides
+          link: topics/statistics/tutorials/RNN/slides.html
+          title: Recurrent Neural Networks
+        - type: RNN Tutorial
+          link: topics/statistics/tutorials/RNN/tutorial.html
+          title: Recurrent Neural Networks
+        - type: CNN Slides
           link: topics/statistics/tutorials/CNN/slides.html
+          title: Convolutional Neural Networks
+        - type: CNN Tutorial
+          link: topics/statistics/tutorials/CNN/tutorial.html
+          title: Convolutional Neural Networks
+
+
+
+      support_channel: "#machine_learning_deep-neural-networks-demystified"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C025MKQNPU1"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vTYyxANwg5BJXe6b9BwRnwBATU1GAYfOjLM-4SNBoPf5WQOucX9Hx-b2JiINpnAI4tRLAY_v8iXgnOy/pub"
+
 
 
 covid19:
@@ -1293,14 +1324,6 @@ viz:
  title: Visualisation in Galaxy
  description: This module will cover various ways of visualizing your data in Galaxy
  sessions:
-    - name: "Introduction to Visualisations in Galaxy"
-      speaker: shiltemann
-      type: Tutorial
-      description: "This tutorial will cover various ways to visualize your data in Galaxy"
-      videos:
-        - link:
-          length:
-          captions:
 
     - name: "Circos Visualisation"
       speaker: hexylena
