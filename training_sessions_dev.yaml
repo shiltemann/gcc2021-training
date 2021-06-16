@@ -233,7 +233,7 @@ gtn:
 
 arch:
   title: Galaxy Architecture Lectures
-  description: Here you'll learn about the internals of Galaxy in a lecture from John Chiltonm
+  description: Here you'll learn about the internals of Galaxy in a lecture from John Chilton
   sessions:
     - name: Galaxy architecture
       type: Lecture
