@@ -133,6 +133,7 @@ tooldev:
       support_link: "https://gtnsmrgsbord.slack.com/archives/dev-tools-conda"
       faq: "https://docs.google.com/document/d/1moSs0APNyhm4yZ9vPfpH0ErPONncNU-UCRzGvypc84I/pub"
 
+
     - name: "ToolFactory: Generating Tools From Simple Scripts"
       description: |
           Here you'll see how the ToolFactory works and get a quick tour of the hands on
@@ -236,25 +237,87 @@ arch:
   description: Here you'll learn about the internals of Galaxy in a lecture from John Chilton
   sessions:
     - name: Galaxy architecture
-      type: Lecture
+      type: Lecture Series & Self-study Tutorial
+
       material:
           - type: Slides
             link: /topics/dev/tutorials/architecture/slides.html
       description: |
-          This talk will cover:
+          This lecture series will cover:
 
           - How is the Galaxy code structured?
           - What do the various other projects related to Galaxy do?
           - What happens when I start Galaxy
-      speaker: [jmchilton]
-      videos: []
+
+          As Galaxy evolves, these slides will also be updated. The latest version of these videos can
+          always be seen in this **YouTube playlist**: [bit.ly/gx-arch-vids](https://bit.ly/gx-arch-vids)
+          <br><br>
+          There is also a **GTN tutorial (self-study)** which will walk you through contributing to the Galaxy
+          core code base. See supporting materials at the bottom of this session to find this tutorial.
+      speaker: jmchilton
+      instructors: [jmchilton]
+      videos:
+        - title: Ecosystem
+          link: WbC2NorVKr0
+          description: TODO
+          length: 25M
+          captions:
+        - title: Project Management
+          link: ElOys4F7bzY
+          description: TODO
+          captions:
+          length: 25M
+        - title: Principles
+          link: TKs4IF4ZbeQ
+          description: TODO
+          captions:
+          length: 5M
+        - title: Files and Directories
+          link: Nrk0o4EIeUU
+          description: TODO
+          captions:
+          length: 17M
+        - title: Web Requests
+          link: vwsxkDMiA10
+          description: TODO
+          captions:
+          length: 35M
+        - title: app and Dependency Injection
+          link: Yjl4MIo95nY
+          description: TODO
+          captions:
+          length: 15M
+        - title: Models and Managers
+          link: joiiHN9LlVo
+          description: TODO
+          captions:
+          length: 15M
+        - title: Pluggable Components
+          link: wiKv9MDNjA4
+          description: TODO
+          captions:
+          length: 45M
+        - title: Web Client
+          link: GSfj5wkMa_w
+          description: TODO
+          captions:
+          length: 15M
+
+      material:
+        - type: Self-study tutorial
+          link: topics/dev/tutorials/core-contributing/tutorial.html
+          title: Contributing to Galaxy Core
+      support_channel: "#dev-galaxy-architecture"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C025X3XLZ4Y"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub"
 
 selfstudy:
   title: Self-Study Galaxy Development
-  description: These tutorials will all be supported by their authors during the week, but unfortunately don't have a full tutorial video walking you through the steps.
+  description: These tutorials don't have video walkthroughs, but will all be supported by their authors during the week.
+    So please work through these tutorials by yourself, and ask LOTS of questions in Slack!
   sessions:
     - name: BioBlend
-      type: Tutorial
+      type: Self-study Tutorial
       description: Ever wondered how to interact with the Galaxy API to scale your work and automated processes? Learn how to here with BioBlend.
       speaker: [nsoranzo]
       material:
@@ -262,18 +325,24 @@ selfstudy:
             link: /topics/dev/tutorials/bioblend-api/slides.html
           - type: Tutorial
             link: https://github.com/nsoranzo/bioblend-tutorial/
+      support_channel: "dev-bioblend"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C024DG695SR"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vQFX_i49M0m87F4kvS7uXIsNrA7CGoBn8i7M8WPcRwvDtR3RFrbXxF4g4ZsKa2Yr4GRvSaY5ELmJ5kJ/pub"
 
     - name: Contributing to BioBlend Development
-      type: Tutorial
+      type: Self-study Tutorial
       description: |
           This tutorial will teach you how to contribute to BioBlend and add support for a Galaxy API in BioBlend.
       speaker: [nsoranzo, rikeshi]
       material:
           - type: Tutorial
             link: /topics/dev/tutorials/bioblend-dev/tutorial.html
+      support_channel: "dev-bioblend"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C024DG695SR"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vQFX_i49M0m87F4kvS7uXIsNrA7CGoBn8i7M8WPcRwvDtR3RFrbXxF4g4ZsKa2Yr4GRvSaY5ELmJ5kJ/pub"
 
     - name: Debugging Galaxy
-      type: Tutorial
+      type: Self-study Tutorial
       description: |
            In this tutorial we will demonstrate how to find and fix common
            types of bugs you may encounter as a contributor to Galaxy. We will
@@ -288,7 +357,7 @@ selfstudy:
 
 
     - name: Contributing extensions to Galaxy core
-      type: Tutorial
+      type: Self-study Tutorial
       description: |
         This tutorial walks you through an extension to Galaxy and how to contribute back to the core project.
       speaker: [jmchilton]
@@ -296,7 +365,3 @@ selfstudy:
           - type: Tutorial
             link: /topics/dev/tutorials/core-contributing/tutorial.html
 
-    - name: "TBC: Galaxy Visualization Integration"
-      type: Tutorial
-      description:
-      speaker: [dannon]
