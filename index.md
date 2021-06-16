@@ -14,9 +14,15 @@ We will have **3 Training Tracks**, aimed at scientists, developers and system a
 
 [**The Galaxy for Scientists Track**](#science-track) will cover a wide range of topics including NGS Analysis (DNA & RNA), Proteomics, Microbial Analysis, Machine Learning, using R in Galaxy, Visualisation, Clinical workflows (including COVID-19), Nanopore Analysis, Single-cell RNASeq, Epigenetics, Climate Science, Cheminformatics, Advanced Galaxy features (scaling your analysis) and more! **YOU** can choose which of these training modules you want to follow during the week of training.
 
+<a href="{{site.baseurl}}/science-track"><button type="button" class="btn btn-warning btn-info">View Science Track</button></a>
+
 [**The Galaxy for Developers Track**](#developer-track) will teach you how Galaxy works internally (frontend and backend), how to add new features for Galaxy, how to build the best tools and visualisations, how to interact with the Galaxy API using BioBlend, and more!
 
+<a href="{{site.baseurl}}/dev-track"><button type="button" class="btn btn-warning btn-info">View Developer Track</button></a>
+
 [**The Galaxy for Administrators Track**](#admin-track) teaches you how to be a stellar admin, easily deploying a production-ready Galaxy with Ansible!
+
+<a href="{{site.baseurl}}/admin-track"><button type="button" class="btn btn-warning btn-info">View Admin Track</button></a>
 
 
 The Science and Developer tracks do not have a predetermined path, there will be a number of training “modules” covering a variety of topics from which you can choose to **build your own training program** for the week. For the Admin track, there is a set 5-day curriculum that will guide you through the end-to-end process of building your own Galaxy. For all 3 tracks you can work through the materials **at your own pace and according to your own time schedule**. A global community of instructors will be online to provide **24/7 support** to help you with these trainin sessions.
@@ -66,7 +72,7 @@ Welcome! We will have 3 tracks during this GCC Training Week. A short overview o
 
 **Note: The schedule is subject to change**
 
-## Science Track
+## Science Track: Overview table
 
 <a href="{{site.baseurl}}/science-track"><button type="button" class="btn btn-success btn-info">Full program here</button></a>
 
@@ -74,14 +80,14 @@ Welcome! We will have 3 tracks during this GCC Training Week. A short overview o
 {% include table_curriculum.html training_sessions=site.data.training_sessions_science %}
 
 
-## Admin Track
+## Admin Track: Overview table
 
 <a href="{{site.baseurl}}/admin-track"><button type="button" class="btn btn-success btn-info">Full program here</button></a>
 
 {% include table_curriculum.html training_sessions=site.data.training_sessions_admin %}
 
 
-## Developer Track
+## Developer Track: Overview table
 
 <a href="{{site.baseurl}}/dev-track"><button type="button" class="btn btn-success btn-info">Full program here</button></a>
 
