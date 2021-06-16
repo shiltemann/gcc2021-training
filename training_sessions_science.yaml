@@ -678,6 +678,7 @@ rnaseqandr:
     - name: "Visualisation: RNASeq postprocessing with R"
       type: Hands-on Tutorial
       speaker: fpsom
+      instructors: [fpsom]
       description: In this tutorial, we will visualize our RNA-seq analysis results using R.
       videos:
         - link: rJWgnLgA2BE
@@ -695,6 +696,7 @@ rnaseqandr:
       name: Visualization of RNA-Seq results with Volcano Plot in Galaxy and R
       type: Duo of Hands-on Tutorials
       speaker: mblue9
+      instrucors: [mblue9]
       description: Volcano plots are commonly used to display the results of RNA-seq or other omics experiments.
         A volcano plot is a type of scatterplot that shows statistical significance (P value) versus magnitude of
         change (fold change). It enables quick visual identification of genes with large fold changes that are also
@@ -1375,17 +1377,13 @@ viz:
         - type: Tutorial
           link: topics/visualisation/tutorials/circos/tutorial.html
           title: Visualisation with Circos
-      support_channel: "#5-c_circos-visualisation"
+      support_channel: "#visualisation_circos"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01ELJ6QTQF"
       faq: "https://docs.google.com/document/d/e/2PACX-1vSx65Dr5sFCvzvJoRGVMU9i4NJZTkpQktvTEER3T_Pd8PSrR_x9GsUBYBAEnS6-qStu7F-bI_nj2mgT/pub"
 
     - name: "Genomic Data Visualization with JBrowse"
-      speaker: hexylena
+      instructors: [hexylena, shiltemann, abretaud]
       description: "JBrowse is a popular Genome Browser. It can be used directly within Galaxy. You may have seen it in our Mapping tutorial on Day 1. This tutorial will go into more depth about JBrowse and how to use it to explore your genome."
-      videos:
-        - link:
-          length:
-          captions:
       material:
         - type: Slides
           link: topics/visualisation/tutorials/jbrowse/slides.html
@@ -1393,7 +1391,7 @@ viz:
         - type: Tutorial
           link: topics/visualisation/tutorials/jbrowse/tutorial.html
 
-      support_channel: "#5-e_jbrowse"
+      support_channel: "#visualisation_jbrowse"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01FP1QR49H"
       faq: "https://docs.google.com/document/d/e/2PACX-1vRm1swqoqbrCWXKc2ncvDahm_RvbRCAn0oCPuJmQxorUgk38nI4Y_qtAGiECk53q5xr5wx-vNE5xJje/pub"
 
@@ -1403,8 +1401,9 @@ nonomics:
   title: Galaxy for Non-Genomics
   description: Galaxy is widely used for analysis of genomics data, but is not limited to any scientific domain. This module covers some non-genomics topics such as Climate research and cheminformatics.
   sessions:
-    - name: "Climate: Functionally Assembled Terrestrial Ecosystem Simulator (FATES): Lecture"
+    - name: "Climate: Functionally Assembled Terrestrial Ecosystem Simulator (FATES)"
       type: Lecture & Hands-on Tutorial
+      instructors: [annefou]
       description: "Terrestrial ecosystem models have been widely used to study the impact of climate changes on vegetation and terrestrial biogeochemical cycles in climate modelling community. They are also more and more applied in ecological studies to help ecologists to better understand the processes. But the technical challenges are still too high for most of the ecologists to use them. This practical aims at familiarizing you (especially ecologists) with running a terrestrial ecosystem model (i.e., CLM-FATES) at site-level in Galaxy and analyzing the model results."
       videos:
         - link: Z57C7MQG95s
@@ -1412,11 +1411,13 @@ nonomics:
           captions: [annefou]
           title: Lecture
           speaker: awspolly
-        - link: TFROMsZVMQg
-          length: 0H20M
+          description: This lecture provides a brief overview of FATES
+        - link: 0LsEx11eLiI
+          length: 1H20M
           captions: [s2by01]
           title: Tutorial
           speaker: annefou
+          description: This tutorial will walk you through a Galaxy analysis step by step
       material:
         - type: Slides
           link: topics/climate/tutorials/fates/slides.html
@@ -1424,13 +1425,13 @@ nonomics:
         - type: Tutorial
           link: topics/climate/tutorials/fates/tutorial.html
           title: Functionally Assembled Terrestrial Ecosystem Simulator (FATES)
-      support_channel: "#4-f_climate-fates"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C00M63SFH34"
+      support_channel: "#climate_fates"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C01M63SFH34"
       faq: "https://docs.google.com/document/d/e/1PACX-1vS5ucF3H8v1V43JPtw35V-pgGfhTbrHtjjN6X0BddzWispwuRElPYw7sWN1e8R360mdHyC1NcOSqxiy/pub"
 
     - name: "Cheminformatics: High Throughput Molecular Dynamics and Analysis"
       speaker: [simonbray, chrisbarnettster,]
-      instructors: [simonbray, chrisbarnettster, tsenapathi]
+      instructors: &cheminformatics-team [simonbray, chrisbarnettster, tsenapathi]
       description: "Molecular dynamics (MD) is a method to simulate molecular motion by iterative application of Newton’s laws of motion. This tutorial provides an introduction to using high-throughput molecular dynamics to study protein-ligand interaction, as applied to the N-terminal domain of Hsp90 (heat shock protein 90)."
       videos:
         - link: LjW3nES04bI
@@ -1440,55 +1441,43 @@ nonomics:
         - type: Tutorial
           link: topics/computational-chemistry/tutorials/htmd-analysis/tutorial.html
           title: High Throughput Molecular Dynamics and Analysis
-      support_channel: "#5-m_cheminformatics"
+      support_channel: "#cheminformatics"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01MC9SK344"
       faq: "https://docs.google.com/document/d/e/2PACX-1vTqwxMLs0LfAJY77y9M2DFv9VixyFdtwU65AYpQoPn_0YmMEhOOp3jxhJ1tALWz3Vc2qp9Acctz2Lp3/pub"
 
     - name: "Cheminformatics: Protein-ligand docking"
-      speaker: simonbray
+      instructors: *cheminformatics-team
       description: "Cheminformatics is the use of computational techniques and information about molecules to solve problems in chemistry. This involves a number of steps: retrieving data on chemical compounds, sorting data for properties which are of interest, and extracting new information. This tutorial will provide a brief overview of all of these, centered around protein-ligand docking, a molecular modelling technique. "
-      videos:
-        - link:
-          length:
-          captions:
       material:
         - type: Tutorial
           link: topics/computational-chemistry/tutorials/cheminformatics/tutorial.html
           title: Protein-ligand docking
-      support_channel: "#5-m_cheminformatics"
+      support_channel: "#cheminformatics"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01MC9SK344"
       faq: "https://docs.google.com/document/d/e/2PACX-1vTqwxMLs0LfAJY77y9M2DFv9VixyFdtwU65AYpQoPn_0YmMEhOOp3jxhJ1tALWz3Vc2qp9Acctz2Lp3/pub"
 
     - name: "Cheminformatics: Running molecular dynamics simulations using GROMACS"
-      speaker: simonbray
+      instructors: *cheminformatics-team
       description: "Molecular dynamics (MD) is a method to simulate molecular motion by iterative application of Newton’s laws of motion. It is often applied to large biomolecules such as proteins or nucleic acids.
 This is a introductory guide to using GROMACS (Abraham et al. 2015) in Galaxy to prepare and perform molecular dynamics on a small protein. For the tutorial, we will perform our simulations on hen egg white lysozyme.
 "
-      videos:
-        - link:
-          length:
-          captions:
       material:
         - type: Tutorial
           link: topics/computational-chemistry/tutorials/md-simulation-gromacs/tutorial.html
           title: Running molecular dynamics simulations using GROMACS
-      support_channel: "#5-m_cheminformatics"
+      support_channel: "#cheminformatics"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01MC9SK344"
       faq: "https://docs.google.com/document/d/e/2PACX-1vTqwxMLs0LfAJY77y9M2DFv9VixyFdtwU65AYpQoPn_0YmMEhOOp3jxhJ1tALWz3Vc2qp9Acctz2Lp3/pub"
 
     - name: "Ecology: Compute and analyze biodiversity metrics with PAMPA toolsuite"
       type: Tutorial
       description: "This tutorial aims to present the PAMPA Galaxy workflow, how to use it to compute common biodiversity metrics from species abundance data and analyse it through generalized linear (mixed) models (GLM and GLMM). This workflow made up of 5 tools will allow you to process temporal series data that include at least year, location and species sampled along with abundance value and, finally, generate article-ready data products."
-      speaker: [colineroyaux, yvanlebras]
-      videos:
-        - link:
-          length:
-          captions:
+      instructors: [colineroyaux, yvanlebras]
       material:
         - type: Tutorial
           link: topics/ecology/tutorials/PAMPA-toolsuite-tutorial/tutorial.html
           title: Compute and analyze biodiversity metrics with PAMPA toolsuite
-      support_channel: "#5-d_ecology_pampa-toolsuite"
+      support_channel: "#ecology_pampa-toolsuite"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01FG38RR7Y"
       faq: "https://docs.google.com/document/d/e/2PACX-1vT-Qmqw2zxaaFZXqbNaxMkcgl-0HjU6LvU0K0O51cCyCv_HjJdGk_2VPvMRghCW0sUKF-58_SuDQ1fn/pub"
 
