@@ -418,7 +418,7 @@ ngsadvanced:
         looks like, and then to manually refine these annotations along with any additional data you might have. This process is most often done as part of
         a group, smaller organisms may be annotated individually though.
         <br><br>
-        Apollo (Dunn et al. 2019) provides a platform to do this. It is a web-based, collaborative genome annotation editor. Think of it as “Google Docs”
+        Apollo ([Dunn et al. 2019](https://doi.org/10.1371/journal.pcbi.1006790)) provides a platform to do this. It is a web-based, collaborative genome annotation editor. Think of it as “Google Docs”
         for genome annotation, multiple users can work together simultaneously to curate evidences and annotate a genome.
         <br><br>
         This tutorial is inspired by the [Apollo User’s Guide](https://genomearchitect.readthedocs.io/en/latest/UsersGuide.html), which provides additional guidance.
