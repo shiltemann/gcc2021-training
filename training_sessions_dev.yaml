@@ -89,18 +89,6 @@ tooldev:
   title: Galaxy Tool Development
   description: This module covers everything you need to start developing your own Galaxy Tools. This module will likely take you several days to complete.
   sessions:
-<<<<<<< HEAD
-    - name: Contributing to BioBlend Development
-      type: Tutorial
-      description: |
-          This tutorial will teach you how to contribute to BioBlend and add support for a Galaxy API in BioBlend.
-      speaker: [nsoranzo, rikeshi]
-      videos: []
-      material:
-          - type: Tutorial
-            link: /topics/dev/tutorials/bioblend-dev/tutorial.html
-=======
->>>>>>> x
 
     - name: "Galaxy Tools: From Conda Through Deployment"
       description: |
@@ -214,19 +202,10 @@ tooldev:
       support_link: "https://gtnsmrgsbord.slack.com/archives/dev-toolfactory"
       faq: "https://docs.google.com/document/d/1e2iuYoseNkPvUBfMczEtPNsKI2Nfbyn6pN9Nz1x6E1o/pub"
 
-<<<<<<< HEAD
-    - name: BioBlend
-      type: Tutorial
-      description: Ever wondered how to interact with the Galaxy API to scale your work and automated processes? Learn how to here with BioBlend.
-      speaker: [nsoranzo]
-      videos: []
-
-=======
 gtn:
   title: Galaxy Training Network
   description: Here you can learn about contributing to the GTN's development, adding new tutorials or slides, and correcting any typos you might spot in the training materials this week.
   sessions:
->>>>>>> x
     - name: The GTN & Training Material Development
       type: Tutorial
       description: |
@@ -278,6 +257,7 @@ selfstudy:
     - name: BioBlend
       type: Tutorial
       description: Ever wondered how to interact with the Galaxy API to scale your work and automated processes? Learn how to here with BioBlend.
+      videos: []
       speaker: [nsoranzo]
       material:
           - type: Slides
@@ -290,6 +270,7 @@ selfstudy:
       description: |
           This tutorial will teach you how to contribute to BioBlend and add support for a Galaxy API in BioBlend.
       speaker: [nsoranzo, rikeshi]
+      videos: []
       material:
           - type: Tutorial
             link: /topics/dev/tutorials/bioblend-dev/tutorial.html
@@ -320,7 +301,7 @@ selfstudy:
           - type: Tutorial
             link: /topics/dev/tutorials/core-contributing/tutorial.html
 
-    - name: "Galaxy Visualization Integration"
+    - name: "TBC: Galaxy Visualization Integration"
       type: Tutorial
       description:
       speaker: [dannon]
