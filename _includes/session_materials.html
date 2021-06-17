@@ -9,7 +9,7 @@
     <ul>
      {% if include.session.material %}
      {% for m in include.session.material %}
-     <li><strong>{{m.type }}: </strong><a href="{% unless m.external %}{{site.gtn_url}}{% endunless %}{{m.link}}{{site.analytics_suffix}}">{{m.title | default: include.session.name }} </a></li>
+     <li><strong>{{m.type }}: </strong><a href="{% unless m.external %}{{site.gtn_url}}{% endunless %}{{m.link}}{% unless m.utm == false %}{{site.analytics_suffix}}{% endunless %}">{{m.title | default: include.session.name }} </a></li>
 
      {% endfor %}
      {% endif %}

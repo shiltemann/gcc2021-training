@@ -926,6 +926,8 @@ proteomics:
           link: topics/proteomics/tutorials/maxquant-msstats-dda-lfq/tutorial.html
           title: MaxQuant and MSstats for the analysis of label-free data
         - type: Example History
+          external: true
+          utm: false
           link: https://usegalaxy.eu/u/melanie-foell/h/maxquant-and-msstats-label-free-proteomics-training
           external: true
           title: "Galaxy History of this tutorial"
