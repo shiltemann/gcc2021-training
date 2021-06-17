@@ -322,7 +322,7 @@ selfstudy:
   description: These tutorials don't have video walkthroughs, but will all be supported by their authors during the week.
     So please work through these tutorials by yourself, and ask LOTS of questions in Slack!
   sessions:
-    - name: BioBlend
+    - name: "BioBlend: Scripting Galaxy using the API"
       type: Self-study Tutorial
       description: Ever wondered how to interact with the Galaxy API to scale your work and automated processes? Learn how to here with BioBlend.
       instructors: [nsoranzo, cat-bro, simonbray]
