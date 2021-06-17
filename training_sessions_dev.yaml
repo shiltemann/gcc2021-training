@@ -332,11 +332,12 @@ selfstudy:
         Ever wondered how to interact with the Galaxy API to scale your work and automated processes? Learn how to here with BioBlend.
         <br><br>
         This tutorial consists of a set of hands-on exercises in the form of **Jupyter Notebooks**. You can run these locally on
-        your computer, or online via Binder. See the README in the tutorial link listed below for more information.
+        your computer, or online via Binder. See the README in the tutorial listed below for more information.
       instructors: [nsoranzo, cat-bro, simonbray]
       material:
           - type: Slides
             link: /topics/dev/tutorials/bioblend-api/slides.html
+            title: Scripting Galaxy using the API and BioBlend
           - type: Tutorial
             link: https://github.com/nsoranzo/bioblend-tutorial/
             external: true
