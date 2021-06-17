@@ -488,7 +488,7 @@ ngsadvanced:
           description: This tutorial will walk you through a ATAC-Seq data analysis.
           speaker: heylf
           length: 1H50M
-          captions:
+          captions: hrhotz
       material:
         - type: Slides
           link: topics/epigenetics/tutorials/atac-seq/slides.html
