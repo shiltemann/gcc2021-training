@@ -324,7 +324,7 @@ selfstudy:
   sessions:
     - name: "BioBlend: Scripting Galaxy using the API"
       type: Self-study Tutorial
-      description: Ever wondered how to interact with the Galaxy API to scale your work and automated processes? Learn how to here with BioBlend.
+      description: Ever wondered how to interact with the Galaxy API to scale your work and automated processes? Learn how to here with BioBlend. This tutorial consists of a set of exercises in the form of a Jupyter Notebook. You can run these locally on your computer, or online via Binder. See the README in the tutorial link listed below for more information.
       instructors: [nsoranzo, cat-bro, simonbray]
       material:
           - type: Slides
