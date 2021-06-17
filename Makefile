@@ -1,5 +1,5 @@
-_data/servers.yml: tools.yml
+_data/servers.yml: _data/tools.yml
 	bash bin/check.sh > _data/servers.yml
 
-tools.yml: training_sessions.yaml
+_data/tools.yml: training_sessions_science.yaml
 	bin/build-tool-check.sh
