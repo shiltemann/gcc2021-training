@@ -897,7 +897,7 @@ proteomics:
   sessions:
     - name: "Introduction to mass spectrometry based proteomics data analysis"
       speaker: awspolly
-      instructors: &galaxypteam [foellmelanie, subinamehta, pratikdjagtap, timothygriffin, jj-umn, emmaleith, andrewr, ddan, npinter]
+      instructors: &galaxypteam [foellmelanie, subinamehta, pratikdjagtap, timothygriffin, jj-umn, emmaleith, andrewr, ddan, npinter, MarenStilger]
       type: Lecture
       description: This lecture will provide an introduction to mass spectrometry (MS) based proteomics analysis. <strong>Slides created by Melanie Föll</strong>.
       videos:
@@ -925,6 +925,10 @@ proteomics:
         - type: Tutorial
           link: topics/proteomics/tutorials/maxquant-msstats-dda-lfq/tutorial.html
           title: MaxQuant and MSstats for the analysis of label-free data
+        - type: Example History
+          link: https://usegalaxy.eu/u/melanie-foell/h/maxquant-and-msstats-label-free-proteomics-training
+          external: true
+          title: "Galaxy History of this tutorial"
       support_channel: "#proteomics_maxquant-and-msstats"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01F0LY58R1"
       faq: "https://docs.google.com/document/d/e/2PACX-1vS4GuHPJrRcpGmNCXBTJ9wyUp6X33Xe6Ou8N_q0Ko5AJ-_rUy7ZsAu-x6R9yf7iRZLxK-t_e-O4Xoc6/pub"
