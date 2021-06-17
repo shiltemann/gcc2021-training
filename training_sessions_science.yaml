@@ -604,6 +604,24 @@ rnabasics:
       material:
         - type: Tutorial
           link: topics/transcriptomics/tutorials/de-novo/tutorial.html
+        - type: Publication
+          link: "https://europepmc.org/article/MED/25319994"
+          external: true
+          title: Dynamic shifts in occupancy by TAL1 are guided by GATA factors and drive large-scale reprogramming of gene expression during hematopoiesis.
+        - type: Training data
+          link: "https://zenodo.org/record/583140#.YMpdBTZKjt1"
+          external: true
+          title: Zenodo
+        - type: Related Slides
+          link: topics/transcriptomics/slides/introduction.html
+          title: Introduction to Transcriptomics
+        - type: Related Slides
+          link: topics/sequence-analysis/tutorials/quality-control/slides.html
+          title: Intro to Quality Control
+        - type: Related Slides
+          link: topics/sequence-analysis/tutorials/mapping/slides.html
+          title: Intro to Mapping
+
       support_channel: "#transcriptomics_de-novo-transcriptome-reconstruction"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C024NGLDALF"
       faq: "https://docs.google.com/document/u/2/d/e/2PACX-1vT9HPChmFeBl8cQVp4OzTwYeKvXlUq_vnzj7BfWQ3G9HmiaIiX4ezLl2ciiyyK_ODrU1hyfIFoplmpW/pub"
