@@ -5,7 +5,7 @@ topics/proteomics/tutorials/biomarker_selection/tutorial.html:
   override:
     - http://www.proteore.org/
 topics/introduction/tutorials/r-basics/tutorial.html:
-  overall
+  overall:
     eu: 1
     org: 1
     org.au: 0
@@ -41,6 +41,13 @@ topics/galaxy-interface/tutorials/history-to-workflow/tutorial.html:
     org.au: 1
     be: 1
 topics/statistics/tutorials/intro-to-ml-with-r/tutorial.html:
+  overall:
+    eu: 1
+    org: 1
+    org.au: 0
+    be: 0
+
+topics/transcriptomics/tutorials/scrna-JUPYTER-trajectories/tutorial.html:
   overall:
     eu: 1
     org: 1
