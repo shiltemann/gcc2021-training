@@ -331,6 +331,8 @@ selfstudy:
             link: /topics/dev/tutorials/bioblend-api/slides.html
           - type: Tutorial
             link: https://github.com/nsoranzo/bioblend-tutorial/
+            external: true
+            title: Jupyter Notebook Bioblend Tutorials
       support_channel: "dev-bioblend"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C024DG695SR"
       faq: "https://docs.google.com/document/d/e/2PACX-1vQFX_i49M0m87F4kvS7uXIsNrA7CGoBn8i7M8WPcRwvDtR3RFrbXxF4g4ZsKa2Yr4GRvSaY5ELmJ5kJ/pub"
