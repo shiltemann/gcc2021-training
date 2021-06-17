@@ -52,8 +52,11 @@ topics/assembly/tutorials/chloroplast-assembly:
   - toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.4+galaxy3
   - toolshed.g2.bx.psu.edu/repos/iuc/nanoplot/nanoplot/1.28.2+galaxy1
   - toolshed.g2.bx.psu.edu/repos/iuc/pilon/pilon/1.20.1
+  - upload1
 topics/climate/tutorials/fates:
   ## tools
+  - __EXTRACT_DATASET__
+  - interactive_tool_panoply
   - toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/1.1.3
   - toolshed.g2.bx.psu.edu/repos/climate/ctsm_fates/ctsm_fates/2.0.1
   - toolshed.g2.bx.psu.edu/repos/ecology/xarray_metadata_info/xarray_metadata_info/0.15.1
@@ -119,6 +122,8 @@ topics/ecology/tutorials/PAMPA-toolsuite-tutorial:
   - toolshed.g2.bx.psu.edu/repos/galaxyp/regex_find_replace/regexColumn1/1.0.1
   - toolshed.g2.bx.psu.edu/repos/iuc/datamash_transpose/datamash_transpose/1.1.0
   ## tools
+  - Count1
+  - Filter1
   - toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.0
   - toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/1.1.0
   - toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_easyjoin_tool/1.1.2
@@ -147,6 +152,9 @@ topics/epigenetics/tutorials/atac-seq:
   - toolshed.g2.bx.psu.edu/repos/iuc/pygenometracks/pygenomeTracks/3.6
   - toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/1.16.5
   ## tools
+  - Cut1
+  - Filter1
+  - Grep1
   - toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_compute_matrix/deeptools_compute_matrix/3.3.2.0.0
   - toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_heatmap/deeptools_plot_heatmap/3.3.2.0.1
   - toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/1.1.1
@@ -157,11 +165,12 @@ topics/epigenetics/tutorials/atac-seq:
   - toolshed.g2.bx.psu.edu/repos/devteam/samtools_idxstats/samtools_idxstats/2.0.3
   - toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_bamtobed/2.30.0
   - toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_intersectbed/2.30.0
-  - toolshed.g2.bx.psu.edu/repos/iuc/datamash_transpose/datamash_transpose/1.1.0
   - toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_callpeak/2.1.1.20160309.6
   - toolshed.g2.bx.psu.edu/repos/iuc/pe_histogram/pe_histogram/1.0.1
   - toolshed.g2.bx.psu.edu/repos/iuc/pygenometracks/pygenomeTracks/3.6
   - toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/1.16.5
+  - ucsc_table_direct1
+  - wig_to_bigWig
 topics/galaxy-interface/tutorials/history-to-workflow:
   ## tools
 topics/galaxy-interface/tutorials/ncbi-sarf:
@@ -177,8 +186,8 @@ topics/galaxy-interface/tutorials/upload-rules-advanced:
   ## tools
 topics/galaxy-interface/tutorials/upload-rules:
   ## tools
-/topics/galaxy-interface/tutorials/workflow-automation:
-  ## ../training-material//topics/galaxy-interface/tutorials/workflow-automation/workflows/main_workflow.ga
+topics/galaxy-interface/tutorials/workflow-automation:
+  ## ../training-material/topics/galaxy-interface/tutorials/workflow-automation/workflows/main_workflow.ga
   - toolshed.g2.bx.psu.edu/repos/iuc/bcftools_consensus/bcftools_consensus/1.10
   - toolshed.g2.bx.psu.edu/repos/iuc/compose_text_param/compose_text_param/0.1.1
   - toolshed.g2.bx.psu.edu/repos/iuc/pangolin/pangolin/2.3.8
@@ -203,9 +212,13 @@ topics/introduction/tutorials/galaxy-intro-101-everyone:
   - toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.1.0
   - toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_point/ggplot2_point/2.2.1+galaxy1
   ## tools
+  - Cut1
+  - Grouping1
+  - Remove+beginning1
   - toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/1.1.0
   - toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.1.0
   - toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_point/ggplot2_point/2.2.1+galaxy1
+  - upload1
 topics/introduction/tutorials/galaxy-intro-ngs-data-managment:
   ## ../training-material/topics/introduction/tutorials/galaxy-intro-ngs-data-managment/workflows/ngs_intro_workflow.ga
   - toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.17.1
@@ -222,9 +235,9 @@ topics/introduction/tutorials/galaxy-intro-ngs-data-managment:
   - toolshed.g2.bx.psu.edu/repos/iuc/sra_tools/fasterq_dump/2.10.8+galaxy0
   - toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/5.1.0
   ## tools
+  - Grep1
   - toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/1.1.0
   - toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.17.1
-  - toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MarkDuplicates/2.18.2.2
   - toolshed.g2.bx.psu.edu/repos/iuc/fastp/fastp/0.20.1+galaxy0
   - toolshed.g2.bx.psu.edu/repos/iuc/lofreq_call/lofreq_call/2.1.5+galaxy1
   - toolshed.g2.bx.psu.edu/repos/iuc/lofreq_indelqual/lofreq_indelqual/2.1.5+galaxy0
@@ -242,11 +255,16 @@ topics/introduction/tutorials/galaxy-intro-strands:
   - toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.0
   - toolshed.g2.bx.psu.edu/repos/devteam/intersect/gops_intersect_1/1.0.0
   ## tools
+  - cat1
+  - Filter1
+  - gene2exon1
   - toolshed.g2.bx.psu.edu/repos/devteam/intersect/gops_intersect_1/1.0.0
+  - ucsc_table_direct1
 topics/introduction/tutorials/r-advanced:
   ## tools
 topics/introduction/tutorials/r-basics:
   ## tools
+  - interactive_tool_rstudio
 topics/metagenomics/tutorials/metatranscriptomics:
   ## ../training-material/topics/metagenomics/tutorials/metatranscriptomics/workflows/main_workflow.ga
   - toolshed.g2.bx.psu.edu/repos/bebatut/combine_metaphlan2_humann2/combine_metaphlan2_humann2/0.1.0
@@ -321,6 +339,7 @@ topics/metagenomics/tutorials/nanopore-16S-metagenomics:
   - toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.8+galaxy1
   - toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.3
   ## tools
+  - Remove+beginning1
   - toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/1.1.2
   - toolshed.g2.bx.psu.edu/repos/crs4/taxonomy_krona_chart/taxonomy_krona_chart/2.7.1
   - toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.72+galaxy1
@@ -372,6 +391,10 @@ topics/proteomics/tutorials/maxquant-msstats-dda-lfq:
   - toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/datamash_ops/1.0.6
   - toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_heatmap2/ggplot2_heatmap2/3.0.1
   ## tools
+  - Cut1
+  - Filter1
+  - Grep1
+  - Summary_Statistics1
   - toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_easyjoin_tool/1.1.2
   - toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_column/1.1.3
   - toolshed.g2.bx.psu.edu/repos/bgruening/uniprot_rest_interface/uniprot/0.2
@@ -513,6 +536,7 @@ topics/statistics/tutorials/FNN:
   - toolshed.g2.bx.psu.edu/repos/bgruening/plotly_regression_performance_plots/0.1
 topics/statistics/tutorials/intro-to-ml-with-r:
   ## tools
+  - interactive_tool_rstudio
 topics/statistics/tutorials/regression_machinelearning:
   ## ../training-material/topics/statistics/tutorials/regression_machinelearning/workflows/regression.ga
   - toolshed.g2.bx.psu.edu/repos/bgruening/plotly_regression_performance_plots/plotly_regression_performance_plots/0.1
@@ -563,17 +587,17 @@ topics/transcriptomics/tutorials/droplet-quantification-preprocessing:
   - toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.7.5+galaxy0
   - toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.7.5+galaxy0
   ## tools
+  - Cut1
+  - join1
+  - Paste1
   - toolshed.g2.bx.psu.edu/repos/bgruening/alevin/alevin/1.3.0+galaxy2
   - toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_column/1.1.3
   - toolshed.g2.bx.psu.edu/repos/ebi-gxa/anndata_ops/anndata_ops/0.0.3+galaxy1
   - toolshed.g2.bx.psu.edu/repos/ebi-gxa/droplet_barcode_plot/_dropletBarcodePlot/1.6.1+galaxy2
-  - toolshed.g2.bx.psu.edu/repos/ebi-gxa/dropletutils_empty_drops/dropletutils_empty_drops/1.0.3+galaxy1
-  - toolshed.g2.bx.psu.edu/repos/ebi-gxa/dropletutils_read_10x/dropletutils_read_10x/1.0.3+galaxy2
   - toolshed.g2.bx.psu.edu/repos/ebi-gxa/gtf2gene_list/_ensembl_gtf2gene_list/1.42.1+galaxy6
   - toolshed.g2.bx.psu.edu/repos/ebi-gxa/retrieve_scxa/retrieve_scxa/v0.0.2+galaxy2
   - toolshed.g2.bx.psu.edu/repos/ebi-gxa/salmon_kallisto_mtx_to_10x/_salmon_kallisto_mtx_to_10x/0.0.1+galaxy5
   - toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_read_10x/scanpy_read_10x/1.6.0+galaxy0
-  - toolshed.g2.bx.psu.edu/repos/ebi-gxa/sceasy_convert/sceasy_convert/0.0.5+galaxy1
   - toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.7.5+galaxy0
   - toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.7.5+galaxy0
 topics/transcriptomics/tutorials/mirna-target-finder:
@@ -588,6 +612,11 @@ topics/transcriptomics/tutorials/mirna-target-finder:
   - toolshed.g2.bx.psu.edu/repos/rnateam/mirdeep2_quantifier/rbc_mirdeep2_quantifier/2.0.0
   - toolshed.g2.bx.psu.edu/repos/rnateam/targetfinder/targetfinder/1.7.0+galaxy1
   ## tools
+  - cat1
+  - Cut1
+  - Filter1
+  - __MERGE_COLLECTION__
+  - sort1
   - toolshed.g2.bx.psu.edu/repos/bgruening/salmon/salmon/0.14.1.2+galaxy1
   - toolshed.g2.bx.psu.edu/repos/bgruening/trim_galore/trim_galore/0.4.3.1
   - toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.72+galaxy1
@@ -617,6 +646,9 @@ topics/transcriptomics/tutorials/ref-based:
   - toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt/1.16.1
   - toolshed.g2.bx.psu.edu/repos/nilesh/rseqc/rseqc_infer_experiment/2.6.4.1
   ## tools
+  - ChangeCase
+  - Filter1
+  - Grouping1
   - toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.0
   - toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/1.1.0
   - toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sort_header_tool/1.1.1
@@ -642,8 +674,10 @@ topics/transcriptomics/tutorials/ref-based:
   - toolshed.g2.bx.psu.edu/repos/nilesh/rseqc/rseqc_read_distribution/2.6.4.1
 topics/transcriptomics/tutorials/rna-seq-counts-to-viz-in-r:
   ## tools
+  - interactive_tool_rstudio
 topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot-r:
   ## tools
+  - interactive_tool_rstudio
   - toolshed.g2.bx.psu.edu/repos/iuc/volcanoplot/volcanoplot/0.0.5
 topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot:
   ## ../training-material/topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot/workflows/rna-seq-viz-with-volcanoplot.ga
@@ -652,6 +686,7 @@ topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot:
   - toolshed.g2.bx.psu.edu/repos/iuc/volcanoplot/volcanoplot/0.0.5
 topics/transcriptomics/tutorials/scrna-JUPYTER-trajectories:
   ## tools
+  - interactive_tool_jupyter_notebook
   - toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.7.5+galaxy0
 topics/transcriptomics/tutorials/scrna-plant:
   ## ../training-material/topics/transcriptomics/tutorials/scrna-plant/workflows/main_workflow.ga
@@ -691,6 +726,9 @@ topics/transcriptomics/tutorials/scrna-seq-basic-pipeline:
   - toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.7.5+galaxy0
   - toolshed.g2.bx.psu.edu/repos/iuc/scanpy_plot/scanpy_plot/1.7.1+galaxy0
   ## tools
+  - Cut1
+  - interactive_tool_cellxgene
+  - join1
   - toolshed.g2.bx.psu.edu/repos/ebi-gxa/anndata_ops/anndata_ops/1.6.0+galaxy1
   - toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_compute_graph/scanpy_compute_graph/1.6.0+galaxy4
   - toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_filter_cells/scanpy_filter_cells/1.6.0+galaxy0
@@ -738,7 +776,6 @@ topics/variant-analysis/tutorials/tb-variant-analysis:
   - toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.72+galaxy1
   - toolshed.g2.bx.psu.edu/repos/devteam/samtools_stats/samtools_stats/2.0.2+galaxy2
   - toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.8+galaxy1
-  - toolshed.g2.bx.psu.edu/repos/iuc/jvarkit_wgscoverageplotter/jvarkit_wgscoverageplotter/20201223+galaxy0
   - toolshed.g2.bx.psu.edu/repos/iuc/kraken2/kraken2/2.0.8_beta+galaxy0
   - toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.8+galaxy0
   - toolshed.g2.bx.psu.edu/repos/iuc/snippy/snippy/4.5.0
@@ -746,13 +783,19 @@ topics/variant-analysis/tutorials/tb-variant-analysis:
   - toolshed.g2.bx.psu.edu/repos/iuc/tb_variant_filter/tb_variant_filter/0.1.3+galaxy0
   - toolshed.g2.bx.psu.edu/repos/iuc/tbvcfreport/tbvcfreport/0.1.7+galaxy0
   - toolshed.g2.bx.psu.edu/repos/pjbriggs/trimmomatic/trimmomatic/0.36.5
+  - upload1
 topics/visualisation/tutorials/circos:
   ## ../training-material/topics/visualisation/tutorials/circos/workflows/main_workflow.ga
   - toolshed.g2.bx.psu.edu/repos/iuc/circos/circos/0.69.8+galaxy7
   ## ../training-material/topics/visualisation/tutorials/circos/workflows/nature_workflow.ga
   - toolshed.g2.bx.psu.edu/repos/iuc/circos/circos/0.69.8+galaxy7
   ## tools
+  - Cut1
+  - Grep1
+  - random_lines1
+  - Remove+beginning1
   - toolshed.g2.bx.psu.edu/repos/iuc/circos/circos/0.69.8+galaxy7
+  - upload1
 topics/visualisation/tutorials/jbrowse:
   ## tools
   - toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.9+galaxy0

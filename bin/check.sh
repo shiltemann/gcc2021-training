@@ -17,8 +17,20 @@ for tuto in $(cat _data/tools.yml | y2j | jq '. | to_entries[]' -c); do
 		for tool_id in $tools; do
 			echo "  $tool_id:"
 			for server in {eu,org,org.au,be}; do
-				expected_version=$(echo $tool_id | cut -d/ -f6)
-				seen_version=$(cache curl --silent https://usegalaxy.${server}/api/tools/$tool_id | jq -r .version)
+				# lies
+				if [[ "$tool_id" == "Remove+beginning1" ]]; then
+					tool_id="Remove beginning1"
+				fi
+
+				seen_version=$(cache curl --silent "https://usegalaxy.${server}/api/tools/${tool_id}" | jq -r .version)
+				slashes=$(echo "$tool_id" | tr '/' '\n' | wc -l)
+				if (( slashes > 3 )); then
+					# If there's a tool id, take it.
+					expected_version=$(echo $tool_id | cut -d/ -f6)
+				else
+					expected_version="$seen_version"
+				fi
+
 				echo "    $server: {seen: \"$seen_version\", exp: \"$expected_version\"}"
 				if [[ "$server" == "eu" ]] && [[ "$seen_version" == "null" ]]; then
 					eu=0
