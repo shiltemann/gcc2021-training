@@ -5,27 +5,44 @@ topics/proteomics/tutorials/biomarker_selection/tutorial.html:
   override:
     - http://www.proteore.org/
 topics/introduction/tutorials/r-basics/tutorial.html:
-  overall:
-    emea: 1
-    apac: 0
-    amer: 1
+  overall
+    eu: 1
+    org: 1
+    org.au: 0
+    be: 0
 topics/transcriptomics/tutorials/rna-seq-counts-to-viz-in-r/tutorial.html:
   overall:
-    emea: 1
-    apac: 0
-    amer: 1
+    eu: 1
+    org: 1
+    org.au: 0
+    be: 0
 topics/introduction/tutorials/r-advanced/tutorial.html:
   overall:
-    emea: 1
-    apac: 0
-    amer: 1
-topics/ecology/tutorials/PAMPA-toolsuite-tutorial/tutorial.html:
+    eu: 1
+    org: 1
+    org.au: 0
+    be: 0
+topics/galaxy-interface/tutorials/upload-rules-advanced/tutorial.html:
   overall:
-    emea: 1
-    apac: 0
-    amer: 0
-topics/transcriptomics/tutorials/scrna-umis/tutorial.html:
+    eu: 1
+    org: 1
+    org.au: 1
+    be: 1
+topics/galaxy-interface/tutorials/upload-rules/tutorial.html:
   overall:
-    emea: 1
-    apac: 0
-    amer: 0
+    eu: 1
+    org: 1
+    org.au: 1
+    be: 1
+topics/galaxy-interface/tutorials/history-to-workflow/tutorial.html:
+  overall:
+    eu: 1
+    org: 1
+    org.au: 1
+    be: 1
+topics/statistics/tutorials/intro-to-ml-with-r/tutorial.html:
+  overall:
+    eu: 1
+    org: 1
+    org.au: 0
+    be: 0

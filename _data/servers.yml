@@ -146,8 +146,8 @@ topics/assembly/tutorials/assembly-with-preprocessing/tutorial.html:
     be: {seen: "4.2", exp: "4.2"}
   overall:
     eu: 1
-    usa: 1
-    au: 1
+    org: 1
+    org.au: 1
     be: 1
 topics/assembly/tutorials/chloroplast-assembly/tutorial.html:
   toolshed.g2.bx.psu.edu/repos/bgruening/flye/flye/2.3.7:
@@ -242,8 +242,8 @@ topics/assembly/tutorials/chloroplast-assembly/tutorial.html:
     be: {seen: "1.20.1", exp: "1.20.1"}
   overall:
     eu: 1
-    usa: 1
-    au: 1
+    org: 1
+    org.au: 1
     be: 1
 topics/climate/tutorials/fates/tutorial.html:
   toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_find_and_replace/1.1.3:
@@ -268,8 +268,8 @@ topics/climate/tutorials/fates/tutorial.html:
     be: {seen: "null", exp: "0.15.1"}
   overall:
     eu: 1
-    usa: 1
-    au: 0
+    org: 1
+    org.au: 0
     be: 0
 topics/computational-chemistry/tutorials/cheminformatics/tutorial.html:
   toolshed.g2.bx.psu.edu/repos/bgruening/chemfp/ctb_chemfp_mol2fps/0.2.0:
@@ -324,8 +324,8 @@ topics/computational-chemistry/tutorials/cheminformatics/tutorial.html:
     be: {seen: "null", exp: "1.0"}
   overall:
     eu: 1
-    usa: 0
-    au: 0
+    org: 0
+    org.au: 0
     be: 0
 topics/computational-chemistry/tutorials/htmd-analysis/tutorial.html:
   toolshed.g2.bx.psu.edu/repos/chemteam/bio3d_pca/bio3d_pca/2.3.4:
@@ -420,8 +420,8 @@ topics/computational-chemistry/tutorials/htmd-analysis/tutorial.html:
     be: {seen: "2019.1.4", exp: "2019.1.4"}
   overall:
     eu: 1
-    usa: 0
-    au: 1
+    org: 0
+    org.au: 1
     be: 1
 topics/computational-chemistry/tutorials/md-simulation-gromacs/tutorial.html:
   toolshed.g2.bx.psu.edu/repos/bgruening/get_pdb/get_pdb/0.1.0:
@@ -461,8 +461,8 @@ topics/computational-chemistry/tutorials/md-simulation-gromacs/tutorial.html:
     be: {seen: "2020.2+galaxy0", exp: "2020.2+galaxy0"}
   overall:
     eu: 1
-    usa: 1
-    au: 1
+    org: 1
+    org.au: 1
     be: 1
 topics/ecology/tutorials/PAMPA-toolsuite-tutorial/tutorial.html:
   toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.0:
@@ -597,8 +597,8 @@ topics/ecology/tutorials/PAMPA-toolsuite-tutorial/tutorial.html:
     be: {seen: "1.1.0", exp: "1.1.0"}
   overall:
     eu: 1
-    usa: 0
-    au: 0
+    org: 0
+    org.au: 0
     be: 0
 topics/epigenetics/tutorials/atac-seq/tutorial.html:
   toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_compute_matrix/deeptools_compute_matrix/3.3.2.0.0:
@@ -738,8 +738,8 @@ topics/epigenetics/tutorials/atac-seq/tutorial.html:
     be: {seen: "1.16.5", exp: "1.16.5"}
   overall:
     eu: 1
-    usa: 1
-    au: 0
+    org: 1
+    org.au: 0
     be: 0
 topics/galaxy-interface/tutorials/history-to-workflow/tutorial.html: {}
 topics/galaxy-interface/tutorials/ncbi-sarf/tutorial.html:
@@ -780,12 +780,12 @@ topics/galaxy-interface/tutorials/ncbi-sarf/tutorial.html:
     be: {seen: "2.10.7+galaxy1", exp: "2.11.0+galaxy0"}
   overall:
     eu: 1
-    usa: 1
-    au: 0
+    org: 1
+    org.au: 0
     be: 1
 topics/galaxy-interface/tutorials/upload-rules-advanced/tutorial.html: {}
 topics/galaxy-interface/tutorials/upload-rules/tutorial.html: {}
-/topics/galaxy-interface/tutorials/workflow-automation/tutorial.html:
+topics/galaxy-interface/tutorials/workflow-automation/tutorial.html:
   toolshed.g2.bx.psu.edu/repos/iuc/bcftools_consensus/bcftools_consensus/1.10:
     eu: {seen: "1.10", exp: "1.10"}
     org: {seen: "1.10", exp: "1.10"}
@@ -813,8 +813,8 @@ topics/galaxy-interface/tutorials/upload-rules/tutorial.html: {}
     be: {seen: "4.2", exp: "4.2"}
   overall:
     eu: 1
-    usa: 0
-    au: 0
+    org: 0
+    org.au: 0
     be: 0
 topics/genome-annotation/tutorials/apollo/tutorial.html:
   toolshed.g2.bx.psu.edu/repos/gga/apollo_create_account/create_account/3.1:
@@ -864,8 +864,8 @@ topics/genome-annotation/tutorials/apollo/tutorial.html:
     be: {seen: "1.16.10+galaxy0", exp: "1.16.11+galaxy1"}
   overall:
     eu: 1
-    usa: 0
-    au: 0
+    org: 0
+    org.au: 0
     be: 0
 topics/introduction/tutorials/galaxy-intro-101-everyone/tutorial.html:
   toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_sorted_uniq/1.1.0:
@@ -900,8 +900,8 @@ topics/introduction/tutorials/galaxy-intro-101-everyone/tutorial.html:
     be: {seen: "2.2.1+galaxy1", exp: "2.2.1+galaxy1"}
   overall:
     eu: 1
-    usa: 1
-    au: 1
+    org: 1
+    org.au: 1
     be: 1
 topics/introduction/tutorials/galaxy-intro-ngs-data-managment/tutorial.html:
   toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.17.1:
@@ -1031,8 +1031,8 @@ topics/introduction/tutorials/galaxy-intro-ngs-data-managment/tutorial.html:
     be: {seen: "4.0", exp: "4.0"}
   overall:
     eu: 1
-    usa: 1
-    au: 1
+    org: 1
+    org.au: 1
     be: 1
 topics/introduction/tutorials/galaxy-intro-strands/tutorial.html:
   toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.0:
@@ -1062,8 +1062,8 @@ topics/introduction/tutorials/galaxy-intro-strands/tutorial.html:
     be: {seen: "1.0.0", exp: "1.0.0"}
   overall:
     eu: 1
-    usa: 1
-    au: 1
+    org: 1
+    org.au: 1
     be: 1
 topics/introduction/tutorials/r-advanced/tutorial.html: {}
 topics/introduction/tutorials/r-basics/tutorial.html: {}
@@ -1160,8 +1160,8 @@ topics/metagenomics/tutorials/metatranscriptomics/tutorial.html:
     be: {seen: "2.1b.6", exp: "2.1b.6"}
   overall:
     eu: 1
-    usa: 0
-    au: 0
+    org: 0
+    org.au: 0
     be: 0
 topics/metagenomics/tutorials/mothur-miseq-sop-short/tutorial.html:
   toolshed.g2.bx.psu.edu/repos/iuc/mothur_count_seqs/mothur_count_seqs/1.39.5.0:
@@ -1331,8 +1331,8 @@ topics/metagenomics/tutorials/mothur-miseq-sop-short/tutorial.html:
     be: {seen: "4.0", exp: "4.0"}
   overall:
     eu: 1
-    usa: 1
-    au: 1
+    org: 1
+    org.au: 1
     be: 1
 topics/metagenomics/tutorials/nanopore-16S-metagenomics/tutorial.html:
   toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/1.1.2:
@@ -1417,8 +1417,8 @@ topics/metagenomics/tutorials/nanopore-16S-metagenomics/tutorial.html:
     be: {seen: "0.2.3", exp: "0.2.3"}
   overall:
     eu: 1
-    usa: 1
-    au: 1
+    org: 1
+    org.au: 1
     be: 1
 topics/metagenomics/tutorials/plasmid-metagenomics-nanopore/tutorial.html:
   toolshed.g2.bx.psu.edu/repos/bgruening/racon/racon/1.3.1.1:
@@ -1513,8 +1513,8 @@ topics/metagenomics/tutorials/plasmid-metagenomics-nanopore/tutorial.html:
     be: {seen: "0.5.1", exp: "0.7.1+galaxy2"}
   overall:
     eu: 1
-    usa: 1
-    au: 0
+    org: 1
+    org.au: 0
     be: 1
 topics/proteomics/tutorials/biomarker_selection/tutorial.html:
   toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cut_tool/1.0.0:
@@ -1559,8 +1559,8 @@ topics/proteomics/tutorials/biomarker_selection/tutorial.html:
     be: {seen: "2018.12.18", exp: "2018.12.18"}
   overall:
     eu: 0
-    usa: 0
-    au: 0
+    org: 0
+    org.au: 0
     be: 1
 topics/proteomics/tutorials/maxquant-msstats-dda-lfq/tutorial.html:
   toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_easyjoin_tool/1.1.2:
@@ -1645,8 +1645,8 @@ topics/proteomics/tutorials/maxquant-msstats-dda-lfq/tutorial.html:
     be: {seen: "3.0.1", exp: "3.0.1"}
   overall:
     eu: 1
-    usa: 0
-    au: 0
+    org: 0
+    org.au: 0
     be: 0
 topics/proteomics/tutorials/metaproteomics/tutorial.html:
   toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/peptide_shaker/1.16.36.3:
@@ -1676,8 +1676,8 @@ topics/proteomics/tutorials/metaproteomics/tutorial.html:
     be: {seen: "2.0.0", exp: "2.0.0"}
   overall:
     eu: 1
-    usa: 1
-    au: 1
+    org: 1
+    org.au: 1
     be: 1
 topics/proteomics/tutorials/proteogenomics-dbcreation/tutorial.html:
   toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.0:
@@ -1767,8 +1767,8 @@ topics/proteomics/tutorials/proteogenomics-dbcreation/tutorial.html:
     be: {seen: "2.1.1", exp: "2.1.1"}
   overall:
     eu: 1
-    usa: 1
-    au: 1
+    org: 1
+    org.au: 1
     be: 1
 topics/proteomics/tutorials/proteogenomics-dbsearch/tutorial.html:
   toolshed.g2.bx.psu.edu/repos/devteam/tabular_to_fasta/tab2fasta/1.1.1:
@@ -1813,8 +1813,8 @@ topics/proteomics/tutorials/proteogenomics-dbsearch/tutorial.html:
     be: {seen: "3.3.10.1", exp: "3.3.10.1"}
   overall:
     eu: 1
-    usa: 1
-    au: 1
+    org: 1
+    org.au: 1
     be: 1
 topics/proteomics/tutorials/proteogenomics-novel-peptide-analysis/tutorial.html:
   toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/0.3.3:
@@ -1859,8 +1859,8 @@ topics/proteomics/tutorials/proteogenomics-novel-peptide-analysis/tutorial.html:
     be: {seen: "3.0.0", exp: "3.0.0"}
   overall:
     eu: 1
-    usa: 1
-    au: 1
+    org: 1
+    org.au: 1
     be: 1
 topics/proteomics/tutorials/proteome_annotation/tutorial.html:
   toolshed.g2.bx.psu.edu/repos/proteore/proteore_clusterprofiler/cluter_profiler/2019.02.18:
@@ -1935,8 +1935,8 @@ topics/proteomics/tutorials/proteome_annotation/tutorial.html:
     be: {seen: "2019.02.21", exp: "2019.02.21"}
   overall:
     eu: 0
-    usa: 0
-    au: 0
+    org: 0
+    org.au: 0
     be: 1
 topics/sequence-analysis/tutorials/mapping/tutorial.html:
   toolshed.g2.bx.psu.edu/repos/bgruening/trim_galore/trim_galore/0.4.3.1:
@@ -2016,8 +2016,8 @@ topics/sequence-analysis/tutorials/mapping/tutorial.html:
     be: {seen: "1.16.10+galaxy0", exp: "1.16.11+galaxy0"}
   overall:
     eu: 1
-    usa: 1
-    au: 1
+    org: 1
+    org.au: 1
     be: 1
 topics/sequence-analysis/tutorials/quality-control/tutorial.html:
   toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.72+galaxy1:
@@ -2037,8 +2037,8 @@ topics/sequence-analysis/tutorials/quality-control/tutorial.html:
     be: {seen: "1.16.3", exp: "1.16.3"}
   overall:
     eu: 1
-    usa: 1
-    au: 1
+    org: 1
+    org.au: 1
     be: 1
 topics/statistics/tutorials/classification_machinelearning/tutorial.html:
   toolshed.g2.bx.psu.edu/repos/bgruening/plotly_ml_performance_plots/plotly_ml_performance_plots/0.2:
@@ -2083,8 +2083,8 @@ topics/statistics/tutorials/classification_machinelearning/tutorial.html:
     be: {seen: "1.0.8.2", exp: "1.0.8.2"}
   overall:
     eu: 1
-    usa: 1
-    au: 1
+    org: 1
+    org.au: 1
     be: 1
 topics/statistics/tutorials/CNN/tutorial.html:
   toolshed.g2.bx.psu.edu/repos/bgruening/keras_model_builder/keras_model_builder/0.5.0:
@@ -2144,8 +2144,8 @@ topics/statistics/tutorials/CNN/tutorial.html:
     be: {seen: "1.0.8.2", exp: "1.0.8.2"}
   overall:
     eu: 1
-    usa: 0
-    au: 0
+    org: 0
+    org.au: 0
     be: 0
 topics/statistics/tutorials/FNN/tutorial.html:
   toolshed.g2.bx.psu.edu/repos/bgruening/keras_model_builder/keras_model_builder/0.4.2:
@@ -2200,8 +2200,8 @@ topics/statistics/tutorials/FNN/tutorial.html:
     be: {seen: "null", exp: ""}
   overall:
     eu: 0
-    usa: 0
-    au: 0
+    org: 0
+    org.au: 0
     be: 0
 topics/statistics/tutorials/intro-to-ml-with-r/tutorial.html: {}
 topics/statistics/tutorials/regression_machinelearning/tutorial.html:
@@ -2232,8 +2232,8 @@ topics/statistics/tutorials/regression_machinelearning/tutorial.html:
     be: {seen: "1.0.8.1", exp: "1.0.8.1"}
   overall:
     eu: 1
-    usa: 1
-    au: 1
+    org: 1
+    org.au: 1
     be: 1
 topics/statistics/tutorials/RNN/tutorial.html:
   toolshed.g2.bx.psu.edu/repos/bgruening/keras_model_builder/keras_model_builder/0.4.2:
@@ -2288,8 +2288,8 @@ topics/statistics/tutorials/RNN/tutorial.html:
     be: {seen: "1.0.8.2", exp: "1.0.8.2"}
   overall:
     eu: 1
-    usa: 0
-    au: 0
+    org: 0
+    org.au: 0
     be: 1
 topics/transcriptomics/tutorials/de-novo/tutorial.html:
   toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_bam_coverage/deeptools_bam_coverage/3.3.0.0.0:
@@ -2339,8 +2339,8 @@ topics/transcriptomics/tutorials/de-novo/tutorial.html:
     be: {seen: "0.38.0", exp: "0.38.0"}
   overall:
     eu: 1
-    usa: 1
-    au: 1
+    org: 1
+    org.au: 1
     be: 1
 topics/transcriptomics/tutorials/droplet-quantification-preprocessing/tutorial.html:
   toolshed.g2.bx.psu.edu/repos/bgruening/alevin/alevin/1.3.0+galaxy2:
@@ -2475,8 +2475,8 @@ topics/transcriptomics/tutorials/droplet-quantification-preprocessing/tutorial.h
     be: {seen: "0.6.22.post1+galaxy3", exp: "0.7.5+galaxy0"}
   overall:
     eu: 1
-    usa: 0
-    au: 0
+    org: 0
+    org.au: 0
     be: 0
 topics/transcriptomics/tutorials/mirna-target-finder/tutorial.html:
   toolshed.g2.bx.psu.edu/repos/bgruening/salmon/salmon/0.14.1.2+galaxy1:
@@ -2576,8 +2576,8 @@ topics/transcriptomics/tutorials/mirna-target-finder/tutorial.html:
     be: {seen: "null", exp: "1.7.0+galaxy1"}
   overall:
     eu: 0
-    usa: 0
-    au: 0
+    org: 0
+    org.au: 0
     be: 0
 topics/transcriptomics/tutorials/ref-based/tutorial.html:
   toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/1.2.0:
@@ -2772,8 +2772,8 @@ topics/transcriptomics/tutorials/ref-based/tutorial.html:
     be: {seen: "2.6.4.1", exp: "2.6.4.1"}
   overall:
     eu: 1
-    usa: 1
-    au: 1
+    org: 1
+    org.au: 1
     be: 1
 topics/transcriptomics/tutorials/rna-seq-counts-to-viz-in-r/tutorial.html: {}
 topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot-r/tutorial.html:
@@ -2784,8 +2784,8 @@ topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot-r/tutorial.html:
     be: {seen: "0.0.3", exp: "0.0.5"}
   overall:
     eu: 1
-    usa: 1
-    au: 1
+    org: 1
+    org.au: 1
     be: 1
 topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot/tutorial.html:
   toolshed.g2.bx.psu.edu/repos/iuc/volcanoplot/volcanoplot/0.0.3:
@@ -2800,8 +2800,8 @@ topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot/tutorial.html:
     be: {seen: "0.0.3", exp: "0.0.5"}
   overall:
     eu: 1
-    usa: 1
-    au: 1
+    org: 1
+    org.au: 1
     be: 1
 topics/transcriptomics/tutorials/scrna-JUPYTER-trajectories/tutorial.html:
   toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.7.5+galaxy0:
@@ -2811,8 +2811,8 @@ topics/transcriptomics/tutorials/scrna-JUPYTER-trajectories/tutorial.html:
     be: {seen: "0.6.22.post1+galaxy3", exp: "0.7.5+galaxy0"}
   overall:
     eu: 1
-    usa: 1
-    au: 1
+    org: 1
+    org.au: 1
     be: 1
 topics/transcriptomics/tutorials/scrna-plant/tutorial.html:
   toolshed.g2.bx.psu.edu/repos/iuc/anndata_import/anndata_import/0.7.5+galaxy0:
@@ -2897,8 +2897,8 @@ topics/transcriptomics/tutorials/scrna-plant/tutorial.html:
     be: {seen: "1.4.4.post1+galaxy2", exp: "1.7.1+galaxy0"}
   overall:
     eu: 1
-    usa: 1
-    au: 1
+    org: 1
+    org.au: 1
     be: 1
 topics/transcriptomics/tutorials/scrna-seq-basic-pipeline/tutorial.html:
   toolshed.g2.bx.psu.edu/repos/ebi-gxa/anndata_ops/anndata_ops/1.6.0+galaxy1:
@@ -3068,8 +3068,8 @@ topics/transcriptomics/tutorials/scrna-seq-basic-pipeline/tutorial.html:
     be: {seen: "1.4.4.post1+galaxy2", exp: "1.7.1+galaxy0"}
   overall:
     eu: 1
-    usa: 0
-    au: 0
+    org: 0
+    org.au: 0
     be: 0
 topics/variant-analysis/tutorials/sars-cov-2/tutorial.html:
   toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.17.1:
@@ -3129,8 +3129,8 @@ topics/variant-analysis/tutorials/sars-cov-2/tutorial.html:
     be: {seen: "2.10.7+galaxy1", exp: "2.10.7+galaxy1"}
   overall:
     eu: 1
-    usa: 1
-    au: 1
+    org: 1
+    org.au: 1
     be: 1
 topics/variant-analysis/tutorials/tb-variant-analysis/tutorial.html:
   toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.72+galaxy1:
@@ -3240,8 +3240,8 @@ topics/variant-analysis/tutorials/tb-variant-analysis/tutorial.html:
     be: {seen: "0.36.5", exp: "0.36.5"}
   overall:
     eu: 1
-    usa: 1
-    au: 0
+    org: 1
+    org.au: 0
     be: 0
 topics/visualisation/tutorials/circos/tutorial.html:
   toolshed.g2.bx.psu.edu/repos/iuc/circos/circos/0.69.8+galaxy7:
@@ -3261,8 +3261,8 @@ topics/visualisation/tutorials/circos/tutorial.html:
     be: {seen: "0.69.8+galaxy7", exp: "0.69.8+galaxy7"}
   overall:
     eu: 1
-    usa: 1
-    au: 1
+    org: 1
+    org.au: 1
     be: 1
 topics/visualisation/tutorials/jbrowse/tutorial.html:
   toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/1.16.9+galaxy0:
@@ -3272,6 +3272,6 @@ topics/visualisation/tutorials/jbrowse/tutorial.html:
     be: {seen: "1.16.9+galaxy0", exp: "1.16.9+galaxy0"}
   overall:
     eu: 1
-    usa: 1
-    au: 1
+    org: 1
+    org.au: 1
     be: 1

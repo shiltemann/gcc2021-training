@@ -36,8 +36,8 @@ for tuto in $(cat _data/tools.yml | y2j | jq '. | to_entries[]' -c); do
 		done
 		echo "  overall:"
 		echo "    eu: $eu"
-		echo "    usa: $usa"
-		echo "    au: $au"
+		echo "    org: $usa"
+		echo "    org.au: $au"
 		echo "    be: $be"
 
 	fi

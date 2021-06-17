@@ -246,7 +246,7 @@ galaxyadvanced:
             link: "https://docs.microsoft.com/en-us/windows/wsl/install-win10"
             title: "Installing WSL on Windows"
           - type: Tutorial
-            link: /topics/galaxy-interface/tutorials/workflow-automation/tutorial.html
+            link: topics/galaxy-interface/tutorials/workflow-automation/tutorial.html
       support_channel: "#galaxy-workflow-automation"
       support_link: "https://gtnsmrgsbord.slack.com/archives/galaxy-workflow-automation"
       faq: "https://docs.google.com/document/d/17FUV3YzInIMhDaTntZL3lb74AjhgKlPAXMOhJdX9DIE/pub"
