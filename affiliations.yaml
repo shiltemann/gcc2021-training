@@ -109,6 +109,11 @@ ncbi:
   link: "https://www.ncbi.nlm.nih.gov/"
   logo: ncbi.png
 
+openuni:
+  name: The Open University
+  link: "https://www.open.ac.uk/"
+  logo: openuni.png
+
 pennstate:
   name: Penn State University
   link: "https://www.psu.edu/"

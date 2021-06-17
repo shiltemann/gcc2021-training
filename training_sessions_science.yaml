@@ -771,6 +771,7 @@ rnaseqandr:
 rnaseqsinglecell:
   title: "Single-cell RNA-Seq Analysis"
   subday: true
+  description: Why smash tissues up to analyse them, when you can find what’s inside each individual cell? In these scRNA-seq tutorials, you’ll move from FASTQ to trajectory using the same dataset throughout – a case study of previously published, real mouse data. And for the plant enthusiasts, you’ll do the same thing in Arabidopsis! Enjoy life at a single cell scale!
   sessions:
     - name: "An introduction to scRNA-seq data analysis"
       speaker: awspolly
