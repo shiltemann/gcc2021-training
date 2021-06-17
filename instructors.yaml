@@ -142,8 +142,9 @@ gmauro:
     affiliation: freiburguni
 
 galaxycommunity:
-    name: The Global Galaxy Community
-    photo: community.png
+    name: The Global GTN Community
+    photo: gtn.png
+    affiliation: gtnhof
 
 heylf:
     name: Florian Heyl

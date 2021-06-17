@@ -62,6 +62,10 @@ freiburg-uniklinik-surgpathol:
   link: "https://www.uniklinik-freiburg.de/pathologie-en.html"
   logo: 06_uniklikik.png
 
+gtn-hof:
+  name: Hall of Fame
+  link: "https://training.galaxyproject.org/training-material/hall-of-fame"
+
 inab-certh:
   name: INAB|CERTH
   link: "https://www.inab.certh.gr/"

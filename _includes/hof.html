@@ -11,8 +11,11 @@
 		{% if username != "awspolly" %}
 		<div class="hall-of-fame-hero" id="{{ username }}">
 
+            {% if instructor.photo %}
+          	<img src="{{site.baseurl}}/{{site.image_dir}}/instructors/{{instructor.photo}}" alt="{{ username }}">
+            {% else %}
 			<img src="https://avatars.githubusercontent.com/{{ username }}" alt="{{ username }}">
-
+            {% endif %}
 			<div class="name">
 				{{ instructor.name | default: username }}
 			</div>
