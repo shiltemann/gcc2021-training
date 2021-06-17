@@ -325,7 +325,7 @@ selfstudy:
     - name: BioBlend
       type: Self-study Tutorial
       description: Ever wondered how to interact with the Galaxy API to scale your work and automated processes? Learn how to here with BioBlend.
-      instructors: [nsoranzo, hexylena, bgruening]
+      instructors: [nsoranzo, cat-bro, simonbray]
       material:
           - type: Slides
             link: /topics/dev/tutorials/bioblend-api/slides.html
@@ -339,7 +339,7 @@ selfstudy:
       type: Self-study Tutorial
       description: |
           This tutorial will teach you how to contribute to BioBlend and add support for a Galaxy API in BioBlend.
-      instructors: [nsoranzo, rikeshi]
+      instructors: [nsoranzo, rikeshi, cat-bro, simonbray]
       material:
           - type: Tutorial
             link: /topics/dev/tutorials/bioblend-dev/tutorial.html
