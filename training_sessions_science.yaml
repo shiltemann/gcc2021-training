@@ -740,7 +740,7 @@ rnaseqandr:
       videos:
         - link: uNGXIcEGZwA
           length: 10M
-          captions:
+          captions: [mblue9]
           title: Creating Volcano Plots in Galaxy
           description: This tutorial will show you how you can create volcano plots from your RNA-Seq analysis results using Galaxy tools.
         - link: 4dspgiwkuxk

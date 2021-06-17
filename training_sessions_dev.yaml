@@ -103,32 +103,32 @@ tooldev:
         - link: UtNErGKw8SI
           length: 8M
           speaker: davebx
-          captions:
+          captions: davebx
           title: Conda
         - link: a6XZgEy6hlg
           length: 2M
-          captions:
+          captions: astrovsky01
           speaker: astrovsky01
           title: Planemo Init & Tool Structure
         - link: FdtD8vBLK5k
           length: 17M
-          captions:
+          captions: astrovsky01
           speaker: astrovsky01
           title: Writing the tool wrapper
         - link: WFSQE8bq5qI
           length: 1M
           speaker: astrovsky01
-          captions:
+          captions: astrovsky01
           title: Writing the .shed.yml file
         - link: 19mKUENz_i0
           length: 41M
           speaker: bernt-matthias
-          captions:
+          captions: bernt-matthias
           title: Testing with Planemo
         - link: hg0YreA8W1I
           length: 30M
           speaker: bernt-matthias
-          captions:
+          captions: bernt-matthias
           title: Contributing the tool back to a public repository
       material:
           - type: Tutorial
@@ -220,7 +220,7 @@ gtn:
         - link: Vw9h5kvRH2k
           length: 42M
           speaker: bebatut
-          captions:
+          captions: [EngyNasr]
           title: Creating a new Tutorial
           description: |
             This tutorial will go through all of the steps of creating a simple tutorial and contributing it to the GTN.
