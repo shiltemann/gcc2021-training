@@ -252,7 +252,7 @@ day2:
     support_link: "https://galaxyadmintraining.slack.com/archives/03-singularity"
     type: Tutorial
     videos:
-      - captions:
+      - captions: [gallardoalba, slugger70]
         length: 43M
         link: q6Dt7j713tI
 
