@@ -375,9 +375,9 @@ day4:
       - captions: shiltemann
         length: 14M
         link: M1-Z_2tuQPI
-      - captions: [slugger70, simonbray]
+      - captions:
         length: 57M
-        link: a7fKJT4Fs9k
+        link: f0QdF8NDhsM
 
   - material:
     - link: topics/admin/tutorials/gxadmin/slides.html
