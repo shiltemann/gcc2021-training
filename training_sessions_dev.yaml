@@ -174,7 +174,7 @@ tooldev:
               Finally, a more in depth discussion of the ToolFactory
       material:
           - type: Tutorial
-            link: /topics/dev/tutorials/tool-generators/tutorial.html
+            link: topics/dev/tutorials/tool-generators/tutorial.html
       description: |
           **Why this training might be useful:** If you write useful scientific
           analysis scripts, but have not yet learned to create new tools for
@@ -197,8 +197,8 @@ tooldev:
 
           **Resources:**
           1. Hello Galaxy video demonstration 10m (TBA)
-          2. Tutorial: ["hello Galaxy" tools](https://training.galaxyproject.org/training-material/topics/dev/tutorials/tool-generators/tutorial.html)
-          3. Tutorial: [Advanced features](https://training.galaxyproject.org/training-material/topics/dev/tutorials/tool-generators-advanced/tutorial.html)
+          2. Tutorial: ["hello Galaxy" tools](https://training.galaxyproject.org/training-materialtopics/dev/tutorials/tool-generators/tutorial.html)
+          3. Tutorial: [Advanced features](https://training.galaxyproject.org/training-materialtopics/dev/tutorials/tool-generators-advanced/tutorial.html)
           4. Sample tools in the Appliance history: The best way to learn what the ToolFactory can do is to rerun them with changes to the script, I/O and parameters to suit your needs.
           5. The ToolFactory Appliance is a flavour of docker-galaxy-stable for your private workstation or high-end laptop. Installation and disposal are described in the introductory tutorial.
 
@@ -257,7 +257,7 @@ coredev:
       instructors: [ic4f, assuntad23, jmchilton, dannon]
       material:
           - type: Tutorial
-            link: /topics/dev/tutorials/debugging/tutorial.html
+            link: topics/dev/tutorials/debugging/tutorial.html
       videos:
 
         - link: FlFF3TPEfC8
@@ -329,7 +329,7 @@ arch:
 
       material:
           - type: Slides
-            link: /topics/dev/tutorials/architecture/slides.html
+            link: topics/dev/tutorials/architecture/slides.html
       description: |
           This lecture series will cover:
 
@@ -420,7 +420,7 @@ selfstudy:
       instructors: [nsoranzo, cat-bro, simonbray]
       material:
           - type: Slides
-            link: /topics/dev/tutorials/bioblend-api/slides.html
+            link: topics/dev/tutorials/bioblend-api/slides.html
             title: Scripting Galaxy using the API and BioBlend
           - type: Tutorial
             link: https://github.com/nsoranzo/bioblend-tutorial/
@@ -437,7 +437,7 @@ selfstudy:
       instructors: [nsoranzo, rikeshi, cat-bro, simonbray]
       material:
           - type: Tutorial
-            link: /topics/dev/tutorials/bioblend-dev/tutorial.html
+            link: topics/dev/tutorials/bioblend-dev/tutorial.html
       support_channel: "dev-bioblend"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C024DG695SR"
       faq: "https://docs.google.com/document/d/e/2PACX-1vQFX_i49M0m87F4kvS7uXIsNrA7CGoBn8i7M8WPcRwvDtR3RFrbXxF4g4ZsKa2Yr4GRvSaY5ELmJ5kJ/pub"
@@ -449,7 +449,7 @@ selfstudy:
       instructors: [jmchilton]
       material:
           - type: Tutorial
-            link: /topics/dev/tutorials/core-contributing/tutorial.html
+            link: topics/dev/tutorials/core-contributing/tutorial.html
       support_channel: "#dev-galaxy-core"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C025X3XLZ4Y"
       faq: "https://docs.google.com/document/d/e/2PACX-1vQc9v1cfpXZFTha3EnP-9hWw_FH9T9QkGaBxnr2YJ_KEckHhNp8uiHNUR5aeM74Zgrb9mXeIZYIlMmP/pub"
