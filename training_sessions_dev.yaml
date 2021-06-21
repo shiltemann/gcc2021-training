@@ -241,6 +241,84 @@ gtn:
       support_link: "https://gtnsmrgsbord.slack.com/archives/contributing-gtn"
       faq: "https://docs.google.com/document/d/1-B5DvLcaylpJKfW-1F6tRhbCbpLlRbu2c3kTMuBFNk4/pub"
 
+coredev:
+  title: Galaxy Core Development
+  description: Ever wanted to contribute features to Galaxy? Here you'll learn a bit about how Galaxy works and how to debug issues in features in Galaxy.
+  sessions:
+    - name: Debugging Galaxy
+      type: Tutorial
+      description: |
+           In this tutorial we will demonstrate how to find and fix common
+           types of bugs you may encounter as a contributor to Galaxy. We will
+           step you through the process of finding and fixing a bug - from
+           locating specific errors in the logs of Galaxy's GitHub Actions, to
+           identifying their cause, developing a solution and committing your
+           edits.
+      instructors: [ic4f, assuntad23, jmchilton, dannon]
+      material:
+          - type: Tutorial
+            link: /topics/dev/tutorials/debugging/tutorial.html
+      videos:
+
+        - link: FlFF3TPEfC8
+          length: 11M
+          speaker: [assuntad23, ic4f]
+          captions: [assuntad23, ic4f, tnabtaf, beatrizserrano] # Unknown but present
+          title: Intro
+          description: |
+            This is the first video in the Debugging Galaxy series.
+
+        - link: BiANBC78EXM # 2
+          length: 14M
+          speaker: [assuntad23, ic4f]
+          captions: # Missing
+          title: Fix a failing unit test
+          description: |
+            What to do when a unit test fails.
+
+        - link: vYFiFcEuLI0 # 3
+          length: 23M
+          speaker: [assuntad23, ic4f]
+          captions: # Missing
+          title: API Test Failure
+          description: |
+            What to do when an API test fails.
+
+        - link: A6LSTCb-rGg
+          length: 6M
+          speaker: [assuntad23, ic4f]
+          captions: [assuntad23, ic4f, tnabtaf, beatrizserrano] # Unknown but present
+          title: Client Unit Test Failure
+          description: |
+            What to do when your client throws a unit test failure.
+
+        - link: YKyP5Y4Y4js
+          length: 6M
+          speaker: [assuntad23, ic4f]
+          captions: [beatrizserrano]
+          title: Client Linter
+          description: |
+            This video covers working through the client linting error hit in the previous tutorial.
+
+        - link: 5AAHjxEZb-Y
+          length: 18M
+          speaker: assuntad23
+          captions: [assuntad23, ic4f, tnabtaf, beatrizserrano] # Unknown but present
+          title: Selenium Test Failures
+          description: |
+            Selenium is used to test Galaxy development.  Learn more about test failure and how to address them.
+
+        - link: _sH1uTKf4ec
+          length: 3M
+          speaker: [assuntad23, ic4f]
+          captions: [assuntad23, ic4f, tnabtaf, beatrizserrano] # Unknown but present
+          title: Conclusion
+          description: |
+              A summary of wisdom to debug Galaxy with.
+
+      support_channel: "#dev-debugging-galaxy"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C025DL2S03W"
+      faq: "https://docs.google.com/document/d/e/2PACX-1vT3bgaeSbiZ0lofmUS-KB-2-OZkdxP8_OnWl1kOex5O7HSAR_Sj8Xmzz26lrh3k5aTzhjDNzt6cVa0S/pub"
 
 arch:
   title: Galaxy Architecture Lectures
@@ -363,23 +441,6 @@ selfstudy:
       support_channel: "dev-bioblend"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C024DG695SR"
       faq: "https://docs.google.com/document/d/e/2PACX-1vQFX_i49M0m87F4kvS7uXIsNrA7CGoBn8i7M8WPcRwvDtR3RFrbXxF4g4ZsKa2Yr4GRvSaY5ELmJ5kJ/pub"
-
-    - name: Debugging Galaxy
-      type: Self-study Tutorial
-      description: |
-           In this tutorial we will demonstrate how to find and fix common
-           types of bugs you may encounter as a contributor to Galaxy. We will
-           step you through the process of finding and fixing a bug - from
-           locating specific errors in the logs of Galaxy's GitHub Actions, to
-           identifying their cause, developing a solution and committing your
-           edits.
-      instructors: [ic4f, assuntad23, jmchilton, dannon]
-      material:
-          - type: Tutorial
-            link: /topics/dev/tutorials/debugging/tutorial.html
-      support_channel: "#dev-debugging-galaxy"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C025DL2S03W"
-      faq: "https://docs.google.com/document/d/e/2PACX-1vT3bgaeSbiZ0lofmUS-KB-2-OZkdxP8_OnWl1kOex5O7HSAR_Sj8Xmzz26lrh3k5aTzhjDNzt6cVa0S/pub"
 
     - name: Contributing extensions to Galaxy core
       type: Self-study Tutorial
