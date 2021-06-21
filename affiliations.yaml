@@ -150,6 +150,11 @@ uct:
   link: "https://www.uct.ac.za/"
   logo: UCTlogo.png
 
+ufz:
+  name: UFZ - Helmholtz Centre for Environmental Research
+  link: "https://www.ufz.de/"
+  logo: ufz.png
+
 usj:
   name: University of Sri Jayewardenepura
   link: "https://www.sjp.ac.lk/"

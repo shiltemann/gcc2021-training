@@ -105,34 +105,40 @@ tooldev:
           speaker: davebx
           captions: davebx
           title: Conda
+          description: The first step to adding a tool to Galaxy, is to add it to (Bio)Conda. This tutorial will show you how to do that.
         - link: a6XZgEy6hlg
           length: 2M
           captions: astrovsky01
           speaker: astrovsky01
           title: Planemo Init & Tool Structure
+          description: Planemo is the Galaxy tool development kit, and will make your tool development process a lot easier! This tutorial will show you how to use Planemo to start the tool wrapping process, and covers the general structure of a Galaxy tool wrapper.
         - link: FdtD8vBLK5k
           length: 17M
           captions: astrovsky01
           speaker: astrovsky01
           title: Writing the tool wrapper
+          description: You are now ready to start writing your tool wrapper! This video will show you how.
         - link: WFSQE8bq5qI
           length: 1M
           speaker: astrovsky01
           captions: astrovsky01
           title: Writing the .shed.yml file
+          description: Each tool wrapper also needs a .shed.yml file, which contains some metadata about the tool.
         - link: 19mKUENz_i0
           length: 41M
           speaker: bernt-matthias
           captions: bernt-matthias
           title: Testing with Planemo
+          description: Here you will learn how to test Galaxy tools using Planemo.
         - link: hg0YreA8W1I
           length: 30M
           speaker: bernt-matthias
           captions: bernt-matthias
           title: Contributing the tool back to a public repository
+          description: Here you will learn how to publish tools in public tool repositories.
       material:
           - type: Tutorial
-            link: /topics/dev/tutorials/tool-dev-from-scratch/tutorial.html
+            link: topics/dev/tutorials/tool-from-scratch/tutorial.html
       support_channel: "#dev-tools-conda"
       support_link: "https://gtnsmrgsbord.slack.com/archives/dev-tools-conda"
       faq: "https://docs.google.com/document/d/1moSs0APNyhm4yZ9vPfpH0ErPONncNU-UCRzGvypc84I/pub"
