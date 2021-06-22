@@ -4,26 +4,27 @@
 # Once sent, we document this in a logfile.
 NOW=$(date +%s)
 
-if [[ -z "${SLACK_URL}" ]]; then
-	echo Please set SLACK_URL
-	exit 1
-fi
+process_folder(){
+	folder="$1"
+	slack_url="$2"
 
-for fn in scheduled/*.json; do
-	ds=$(echo "$fn" | sed 's|scheduled/||g' | cut -c1-25)
-	ts=$(date -d "$ds" +%s)
-	if (( ts < NOW )); then
-		# Send the message
-		echo "$fn has not been sent"
-		response=$(curl --silent -X POST -H 'Content-type: application/json' --data "@$fn" "${SLACK_URL}")
-		# If it was received OK
-		if [[ "$response" == "ok" ]]; then
-			mv "$fn" "sent/"
-		else
-			echo "$response"
+	for fn in scheduled/$1/*.json; do
+		ds=$(echo "$fn" | sed 's|scheduled/||g' | cut -d/ -f3 | cut -c1-25)
+		ts=$(date -d "$ds" +%s)
+		if (( ts < NOW )); then
+			# Send the message
+			echo "$fn has not been sent"
+			response=$(curl --silent -X POST -H 'Content-type: application/json' --data "@$fn" "${slack_url}")
+
+			# If it was received OK
+			if [[ "$response" == "ok" ]]; then
+				mv "$fn" "sent/$1/"
+			else
+				echo "$response"
+			fi
 		fi
-	else
-		# We're not sending this yet
-		true
-	fi
-done
+	done
+}
+
+process_folder gat "$SLACK_API_GAT_GENERAL"
+process_folder gtn "$SLACK_API_ANNOUNCEMENTS"
