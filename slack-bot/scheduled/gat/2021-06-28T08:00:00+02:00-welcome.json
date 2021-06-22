@@ -1,0 +1,139 @@
+{
+	"blocks": [
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "Welcome Africa/Middle East/Europe :earth_africa: to GCC-GAT 2021!",
+				"emoji": true
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Everyone is expected to abide by the <https://www.vibconferences.be/code-of-conduct|Code of Conduct (CoC)> that you signed before this training. We want this to be a welcoming and friendly environment for everyone! Please see the CoC for more information and the point of contact for any issues."
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": ":sparkles: *Let's Get Started!* :sparkles:"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "This is probably  different kind of training than you have attended before. This is completely _asynchronous_ workshop. There are tutorials and recordings online, and you are free to go through these at your own pace.\n\nFor this training week there is a fixed ordering, but *no fixed schedule*. Take breaks when you want to, do as much as you want or as little as you need to on a specific day."
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Important Information*\nYou'll need an SSH client. For OSX/linux, this should already be there. For Windows, you'll probably need to install PuTTY. If you cannot get an SSH client installed, then all VMs come pre-configured with an SSH client. You'll login with your VM credentials and find 'Terminal' at the bottom left."
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": ":calendar: *The Available Tracks* :calendar:"
+			}
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Science :microscope:",
+						"emoji": true
+					},
+					"url": "https://galaxyproject.org/events/gcc2021/training/science-track"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Dev :technologist:",
+						"emoji": true
+					},
+					"url": "https://galaxyproject.org/events/gcc2021/training/dev-track"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Admin :floppy_disk: ",
+						"emoji": true
+					},
+					"url": "https://galaxyproject.org/events/gcc2021/training/admin-track"
+				}
+			]
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": ":computer: *Doing the tutorials* :computer:"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Whenever you're ready to get started, find the module of interest in your track, and start following the videos and/or tutorials for that module.\n• The schedule page has all of the information you might need.\n• Each tutorial has it's own channel in this Slack. On the schedule you'll find the channel in which you should ask questions about a specific tutorial."
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Contents*\nThe course is a mix of:\n1. video recorded by our instructor community\n2. Auto-generated videos from slides\n3. Tutorials without videos.\nThe videos are strictly supplementary to the training material and will show instructors going through the lessons.\n\nIf you prefer video content, you can watch those. If you dislike video training, you can choose to just read the training materials for each topic.\n\nWe may change things between recording videos, and you following them! You will need to consult the written training materials as well for blocks of text that are written to the VMs."
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": ":question: *Questions* :question:"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "When asking a question:\n1. Ask in the appropriate place (#general for general issues or the tutorial specific channel.)\n2. Use threads\n3. Say which VM you're using.\n4. Share all of the details (what did the output say? what was the error? did you see more information in the ansible logs?)"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": ":ice_cube: *Today's Icebreaker* :ice_cube:"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Head over to #general and let us know the answer to this important question:\n>  *Let us know where you are from, and one fun fact about yourself!*"
+			}
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "plain_text",
+					"text": "Author: GCC Training Organisers",
+					"emoji": true
+				}
+			]
+		}
+	]
+}
+

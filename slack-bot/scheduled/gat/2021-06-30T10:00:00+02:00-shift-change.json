@@ -1,0 +1,90 @@
+{
+	"blocks": [
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "*Good Morning/Afternoon Africa/Middle East/Europe :earth_africa:*",
+				"emoji": true
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Asia/Pacific :earth_asia: region helpers are ending their workday so it's over to Africa/Middle East/Europe :earth_africa:"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "We hope it's going well for you so far! Please let us know if you have any questions _or_ difficulties today, in the #general chat if they're general issues, and in the tutorial specific chat if they're related to the tutorials"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": ":calendar: *The Available Tracks* :calendar:"
+			}
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Science :microscope:",
+						"emoji": true
+					},
+					"url": "https://galaxyproject.org/events/gcc2021/training/science-track"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Dev :technologist:",
+						"emoji": true
+					},
+					"url": "https://galaxyproject.org/events/gcc2021/training/dev-track"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Admin :floppy_disk: ",
+						"emoji": true
+					},
+					"url": "https://galaxyproject.org/events/gcc2021/training/admin-track"
+				}
+			]
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Don't forget to check the *FAQ document* in each channel's description (at the top of the screen on desktop)"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": ":ice_cube: *Today's Icebreaker* :ice_cube:"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Head over to #general and let us know the answer to this important question:\n>  *What is your favorite dish (food or drink)? Bonus points for recipes!*"
+			}
+		}
+	]
+}
+

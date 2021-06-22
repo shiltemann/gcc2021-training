@@ -6,7 +6,8 @@ process_folder(){
 	for fn in scheduled/$1/*.json; do
 		ds=$(echo "$fn" | cut -d/ -f3 | cut -c1-25)
 		ts=$(date -d "$ds" "+%Y-%m-%d %H:%M %Z")
-		echo -e "$folder\t$ts\t$fn"
+		wc=$(wc -c "$fn" | cut -d' ' -f 1)
+		echo -e "$folder\t$ts\t$fn\t$wc"
 	done
 }
 

@@ -4,7 +4,13 @@ Everything in the scheduled directory will be sent once, after the specific time
 
 ## Editing the template
 
-You can use [this page](https://app.slack.com/block-kit-builder/T01EGPWTHFF) to edit and create the custom templates you might want to send.
+1. You can use [this page](https://app.slack.com/block-kit-builder/T01EGPWTHFF) to edit and create the custom templates you might want to send.
+2. This command can help previewing the message you're going to send:
+
+   ```bash
+   xdg-open "$(cat extra/shift-change-gtn.json | jq -c | sed 's|^|https://app.slack.com/block-kit-builder/T01EGPWTHFF\#|g')"
+   ```
+
 
 ## Rebuilding the shift-change messages
 
