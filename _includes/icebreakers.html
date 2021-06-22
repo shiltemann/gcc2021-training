@@ -1,0 +1,32 @@
+<p> At the beginning of each day, say hi in Slack and let us know are getting started by answering the following icebreaker questions! </p>
+
+{% for question in include.session.questions %}
+<div class="card" style="width: 100%">
+ <div class="row no-gutters">
+  <div class="col-sm-5">
+   <img class="card-img" src="{{site.baseurl}}/assets/images/icebreaker.jpg" alt="Icebreaker pictogram">
+  </div>
+  <div class="col-sm-7">
+   <div class="card-body">
+    <h5 class="card-title">{{question.day}} Icebreaker Question</h5>
+    <p class="card-text">
+     <br/><strong> {{ question.prompt }} </strong><br/>
+    </p>
+    <p class="card-text">
+     Post your answers in <a href="{{include.session.slack_link}}">{{include.session.slack_channel}}</a> on Slack!
+    </p>
+   </div>
+  </div>
+ </div>
+</div>
+<br/>
+<br/>
+{% endfor %}
+
+<p class="card-text">
+     And of course please feel free to respond to anybody here, this channel is for socializing and getting to know each other :)
+</p>
+
+<p class="text-muted"><strong>Note:</strong> Please do this every day if you would like to receive a certificate of attendance</p>
+
+

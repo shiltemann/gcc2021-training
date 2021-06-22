@@ -67,7 +67,7 @@ Scroll down to see all available tutorials, or jump directly to a module:
 
    <!-- setup -->
    {% if session.includefile %}
-    {% include {{session.includefile}} %}
+    {% include {{session.includefile}} session=session %}
    {% endif %}
 
    <!-- wrapup -->
