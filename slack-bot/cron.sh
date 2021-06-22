@@ -9,7 +9,7 @@ process_folder(){
 	slack_url="$2"
 
 	for fn in scheduled/$1/*.json; do
-		ds=$(echo "$fn" | sed 's|scheduled/||g' | cut -d/ -f3 | cut -c1-25)
+		ds=$(echo "$fn" | cut -d/ -f3 | cut -c1-25)
 		ts=$(date -d "$ds" +%s)
 		if (( ts < NOW )); then
 			# Send the message
