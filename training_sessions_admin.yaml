@@ -192,6 +192,14 @@ galaxyintro:
 day1:
   title: Day 1
   sessions:
+  - name: "Daily Icebreaker Question"
+    type: custom
+    includefile: icebreakers.html
+    questions:
+      - day: Monday
+        prompt: Let us know where you are from, and one fun fact about yourself!
+    slack_channel: "#general"
+    slack_link: "https://galaxyadmintraining.slack.com/archives/C01EYFM13DX"
 
   - material:
     - link: topics/admin/tutorials/ansible/slides.html
@@ -243,6 +251,15 @@ day1:
 
 day2:
   sessions:
+  - name: "Daily Icebreaker Question"
+    type: custom
+    includefile: icebreakers.html
+    questions:
+      - day: Tuesday
+        prompt: What is the coolest, most mind blowing fact (nature/people/animal etc.) you know?
+    slack_channel: "#general"
+    slack_link: "https://galaxyadmintraining.slack.com/archives/C01EYFM13DX"
+
   - material:
     - link: topics/admin/tutorials/singularity/tutorial.html
       type: Tutorial
@@ -330,6 +347,15 @@ day2:
 day3:
   title: Day 3
   sessions:
+  - name: "Daily Icebreaker Question"
+    type: custom
+    includefile: icebreakers.html
+    questions:
+      - day: Wednesday
+        prompt: What is your favorite dish (food or drink)? Bonus points for recipes!
+    slack_channel: "#general"
+    slack_link: "https://galaxyadmintraining.slack.com/archives/C01EYFM13DX"
+
   - material:
     - link: topics/admin/tutorials/connect-to-compute-cluster/slides.html
       type: Slides
@@ -361,6 +387,15 @@ day3:
 day4:
   title: Day 4
   sessions:
+  - name: "Daily Icebreaker Question"
+    type: custom
+    includefile: icebreakers.html
+    questions:
+      - day: Thursday
+        prompt: If you had a time machine, what is the first place & time you would visit? why?
+    slack_channel: "#general"
+    slack_link: "https://galaxyadmintraining.slack.com/archives/C01EYFM13DX"
+
   - material:
     - link: topics/admin/tutorials/heterogeneous-compute/slides.html
       type: Slides
@@ -430,6 +465,15 @@ day4:
 
 day5:
   sessions:
+  - name: "Daily Icebreaker Question"
+    type: custom
+    includefile: icebreakers.html
+    questions:
+      - day: Friday
+        prompt: What has been you favourite part of this training week? And what are you looking forward to most during the rest of GCC (if you are attending)?
+    slack_channel: "#general"
+    slack_link: "https://galaxyadmintraining.slack.com/archives/C01EYFM13DX"
+
   - material:
     - link: topics/admin/tutorials/reports/tutorial.html
       type: Reports Exercise
