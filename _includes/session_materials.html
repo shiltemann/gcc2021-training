@@ -25,7 +25,7 @@
      {% endif %}
 
      <!-- support -->
-     <li><a href="{{include.session.support_link }}">Ask an instructor</a> - Have question about the training? Did you run into a problem? Just wanna chat? Ask away on {{ site.support_platform }}! {% if session.support_channel %} (Channel: <a href="{{include.session.support_link}}">{{session.support_channel}}</a> ){%endif%} </li>
+     <li><strong>Slack channel: </strong><a href="{{include.session.support_link }}">{{session.support_channel}}</a> - Have question about the training? Did you run into a problem? Just wanna chat? {% if session.support_channel %} <a href="{{include.session.support_link}}">Ask an Instructor on {{ site.support_platform }}!</a> {%endif%} </li>
 
 
      <!-- feedback -->
