@@ -284,7 +284,7 @@ day2:
     support_link: "https://galaxyadmintraining.slack.com/archives/03-ephemeris"
     type: Tutorial
     videos:
-      - captions:
+      - captions: cat-bro
         length: 17M
         link: 8Rdho_eUeKc
         speaker: cat-bro
