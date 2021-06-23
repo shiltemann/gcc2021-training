@@ -39,7 +39,7 @@ logo_dir: /assets/images/logos/
 # support
 support_platform: "Slack"
 support_link: "https://gtnsmrgsbord.slack.com/"
-support_join:
+support_join: "https://join.slack.com/t/gtnsmrgsbord/shared_invite/zt-qlcyf4z9-oWwkRDYEoyoSGyp4abalJw"
 icebreaker_channel: "#social"
 icebreaker_link:
 
