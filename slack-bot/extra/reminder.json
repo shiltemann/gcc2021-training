@@ -1,0 +1,98 @@
+{
+	"blocks": [
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "Hi <EVENT> Participants!",
+				"emoji": true
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "The <EVENT> Training week starts next week, and we are very happy to see so many of you here already!"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Format*\nThe training will be completely *asynchronous, and does not have a fixed daily schedule*. This means that you can start, stop and take breaks whenever is convenient for you, and you can pick which training sessions to follow, and which to skip.\n\nWhen you are ready to get started next week, go to the <<COURSE_WEBSITE>|course website>, choose a track, and then choose a training session you are interested in, and work through the session at your own pace. Watch the video, follow along in Galaxy, and if you have any questions, or need some help, or want to discuss anything else related to Galaxy, do it here in Slack!"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Slack*\nEach training session has its own Slack channel.\n• Make sure you join the channels for any sessions you want to attend\n• The Slack channel for a session can be found on the training website, under the '*supporting materials*' section of the session. Or you can *Browse Channels* on Slack (click plus icon next to the 'Channels' section header on left menu)\n• You can already say hi in these channels and let us know you plan to follow the session next week!"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Galaxy*\nIf you don't have a Galaxy account yet, you can already create one now if you like, to save some time next week:"
+			}
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "UseGalaxy.eu :earth_africa:",
+						"emoji": true
+					},
+					"url": "https://usegalaxy.eu"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "UseGalaxy.be :flag-be:",
+						"emoji": true
+					},
+					"url": "https://usegalaxy.be"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "UseGalaxy.org.au :earth_asia:",
+						"emoji": true
+					},
+					"url": "https://usegalaxy.org.au"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "UseGalaxy.org :earth_americas:",
+						"emoji": true
+					},
+					"url": "https://usegalaxy.org"
+				}
+			]
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "You can just pick the one closest to you. You may get a confirmation email with an activation link that you must click before you can start using Galaxy."
+			}
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "plain_text",
+					"text": "Author: GCC Training Organisers",
+					"emoji": true
+				}
+			]
+		}
+	]
+}
