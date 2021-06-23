@@ -20,10 +20,14 @@ replacements = {
         'BYE_REGION': 'Europe/Middle East/Africa :earth_africa:'
     },
     'gat': {
-        'SOCIAL_CHANNEL': '#general'
+        'SOCIAL_CHANNEL': '#general',
+        'EVENT': 'GCC-GAT2021',
+        'COURSE_WEBSITE': 'https://galaxyproject.org/events/gcc2021/training/admin-track',
     },
     'gtn': {
-        'SOCIAL_CHANNEL': '#social'
+        'SOCIAL_CHANNEL': '#social',
+        'EVENT': 'GCC2021',
+        'COURSE_WEBSITE': 'https://galaxyproject.org/events/gcc2021/training/',
     }
 }
 
