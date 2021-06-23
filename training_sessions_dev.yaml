@@ -11,7 +11,17 @@ intro:
       faq: "https://docs.google.com/document/d/e/2PACX-1vTfNT2qS2Yb7qTAcnOFrMWwE_aPPUuYJJ0hdjw5gqV_JtMUWQ3NSkr6qAdrmF2EUGBBzTL8wFiILz8B/pub"
 
     - name: "Get set up for the course"
-      description: "Here are the tasks you need to do ...."
+      type: custom
+      description: |
+          Most of these training sessions require you to have some prior setup
+          to begin them.
+
+          **Windows**
+          - You will need WSL2 installed
+          - Having `git` installed will help you for a number of the tutorials which work with Galaxy.
+
+          **OSX/Linux**
+          - Having `git` installed will help you for a number of the tutorials which work with Galaxy.
 
     - name: "About Certificates"
       type: custom
