@@ -9,6 +9,8 @@ Welcome everybody, and thank you for joining the GCC training week! <br/><br/>
 Everything you need for this course can be found on this webpage. More information including
 links to all training materials can be found by clicking on each session.
 
+Please adhere to our <a href="https://www.vibconferences.be/code-of-conduct">Code of Conduct</a>, and have fun!
+
 <br/><br/>
 
 {{ content }}
@@ -20,7 +22,8 @@ links to all training materials can be found by clicking on each session.
 
 Scroll down to see all available tutorials, or jump directly to a module:
 <ul>
-{% for day in site.data.training_sessions_science %}
+{% capture track %}training_sessions_{{page.track}}{% endcapture %}
+{% for day in site.data[track] %}
 {% unless day[1].subday %}
 <li> <a href="#{{day[1].title| slugify}}">{{day[1].title}}</a></li>
 {% endunless %}

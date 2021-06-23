@@ -241,7 +241,7 @@ tooldev:
       faq: "https://docs.google.com/document/d/1e2iuYoseNkPvUBfMczEtPNsKI2Nfbyn6pN9Nz1x6E1o/pub"
 
 gtn:
-  title: Galaxy Training Network
+  title: Galaxy Training Material Development
   description: Here you can learn about contributing to the GTN's development, adding new tutorials or slides, and correcting any typos you might spot in the training materials this week.
   sessions:
     - name: The GTN & Training Material Development
