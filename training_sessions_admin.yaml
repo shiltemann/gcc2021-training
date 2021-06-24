@@ -1,7 +1,26 @@
 intro:
   title: Introduction
+  description: Start here. This will cover all the logistics and practical information for this training week.
   sessions:
-    - name: Welcome and introduction
+
+
+    - name: Welcome to GCC2021 & Course Information
+      description: "Start here; we will go over all the important things to know to get the most out of this workshop"
+      speaker:
+      type: Lecture
+      speaker: [hexylena,shiltemann]
+      videos:
+        - link: 5kjIn1ci4qw
+          length: 25M
+          captions: [shiltemann, hexylena]
+      material:
+        - type: Slides
+          link: "https://docs.google.com/presentation/d/11iR7mjnyhl2OX9KDmeE6TrArYeEUwVnnV3cFMFWMBwI/edit?usp=sharing"
+          external: true
+      support_channel: '#general'
+      support_link: "https://galaxyadmintraining.slack.com/archives/general"
+
+    - name: Admin Training Logistics
       speaker: hexylena
       support_channel: '#general'
       support_link: "https://galaxyadmintraining.slack.com/archives/general"

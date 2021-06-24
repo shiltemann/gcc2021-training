@@ -1,14 +1,25 @@
 ---
 intro:
   title: Welcome & Practical Information
+  description: Start here. This will cover all the logistics and practical information for this training week.
   sessions:
     - name: Welcome & Course Information
       description: "Start here; we will go over all the important things to know to get the most out of this workshop"
       speaker:
       type: Lecture
-      support_channel: "#general"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01ES8R0RNG"
+      speaker: [hexylena,shiltemann]
+      videos:
+        - link: 5kjIn1ci4qw
+          length: 25M
+          captions: [shiltemann, hexylena]
+      material:
+        - type: Slides
+          link: "https://docs.google.com/presentation/d/11iR7mjnyhl2OX9KDmeE6TrArYeEUwVnnV3cFMFWMBwI/edit?usp=sharing"
+          external: true
+      support_channel: "#event-gcc2021"
+      support_link: "https://gtnsmrgsbord.slack.com/archives/C0253H46ABV"
       faq: "https://docs.google.com/document/d/e/2PACX-1vTfNT2qS2Yb7qTAcnOFrMWwE_aPPUuYJJ0hdjw5gqV_JtMUWQ3NSkr6qAdrmF2EUGBBzTL8wFiILz8B/pub"
+
 
     - name: "Get set up for the course"
       type: custom
