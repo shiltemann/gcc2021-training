@@ -135,7 +135,7 @@ galaxyintro:
           captions: [nekrut]
       material:
         - type: Slides
-          link: topics/introduction/videos/
+          link: videos/watch.html?v=introduction/tutorials/galaxy-intro-short/slides
           title: A Slightly Longer Introduction to Galaxy
       support_channel: "#galaxy_first_analysis"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01ES914GCU"
