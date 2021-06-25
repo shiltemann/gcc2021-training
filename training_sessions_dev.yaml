@@ -261,6 +261,11 @@ gtn:
         Learn to contribute to the GTN! Everything from tutorials to slides, small edits and big are welcome and here you'll learn how.
       instructors: [shiltemann, bebatut, hexylena, slugger70]
       videos:
+        - link: _-wnsPttBCo
+          length: 20M
+          captions: shiltemann
+          title: GitPod for contributing to the GTN.
+          description: This tutorial will show you how you can preview your contributions to the GTN online using GitPod.
         - link: Vw9h5kvRH2k
           length: 42M
           speaker: bebatut
@@ -275,6 +280,19 @@ gtn:
           title: Creating Slides
           description: |
             This lecture goes through the process of how to create a slide deck, common things you should bear in mind while you're writing them, and how to enable the amazing slides-to-video features for your slide decks! This video itself was produced automatically from the GTN's slide decks, anyone making edits to these slides will cause them to be rebuilt, making organising videos for events easier than ever.
+      material:
+        - type: Tutorial 1
+          title: Running the GTN website online using GitPod
+          link: "/topics/contributing/tutorials/gitpod/tutorial.html"
+        - type: Tutorial 2
+          title: Creating a new tutorial
+          link: "topics/contributing/tutorials/create-new-tutorial/tutorial.html"
+        - type: Related tutorial
+          title: Creating content in Markdown
+          link: "topics/contributing/tutorials/create-new-tutorial-content/tutorial.html"
+        - type: Slides
+          title: Creating Slides for the GTN
+          link: "topics/contributing/tutorials/create-new-tutorial-slides/slides.html"
       support_channel: "#contributing-gtn"
       support_link: "https://gtnsmrgsbord.slack.com/archives/contributing-gtn"
       faq: "https://docs.google.com/document/d/1-B5DvLcaylpJKfW-1F6tRhbCbpLlRbu2c3kTMuBFNk4/pub"
