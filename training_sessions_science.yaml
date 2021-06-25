@@ -977,12 +977,22 @@ proteomics:
     - name: "DIA Mass-spectrometry with EncyclopeDIA"
       description: "Data Independent Acquisition Mass Spectrometry (DIA-MS) provides reproducible quantitative information as an improvement over the Data Dependent Acquisition (DDA). The EncyclopeDIA workflow tutorial will guide the user through the steps of a) conversion of the input  DIA-MS RAW data files to mzML; b) the generation of a Chromatogram Library using the gas-phase fractionation (GPF) method and spectral library and c) generation of peptide and protein quantitation outputs."
       speaker: [emmaleith, jj-umn, pratikdjagtap]
-      type:
+      type: Lecture & Hands-on Tutorial
       instructors: *galaxypteam
       videos:
-        - link:
-          length:
+        - link: EGWTFWeI5gg
+          length: 20M
           captions:
+          speaker: [pratikdjagtap, jj-umn]
+          description: This lecture will introduce EncyclopeDIA.
+          title: Lecture
+        - link: eCEjHtbZLVg
+          length: 30M
+          captions:
+          speaker: emmaleith
+          description: This tutorial will walk you through an analysis with EncyclopeDIA step by step.
+          title: Lecture
+
       support_channel: "#proteomics_ms-encyclopedia"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C0257QKT998"
       faq: "https://docs.google.com/document/d/e/2PACX-1vTgfPPgjsGSaYjcKaeJZPsav6Ck-EPWMDscR6KGUFX2X9gdmQcO93T7DFxgfj5hxWEfN3qnSoEpzORB/pub"
