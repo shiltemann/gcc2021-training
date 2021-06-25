@@ -264,6 +264,7 @@ gtn:
         - link: _-wnsPttBCo
           length: 20M
           captions: shiltemann
+          speaker: shiltemann
           title: GitPod for contributing to the GTN.
           description: This tutorial will show you how you can preview your contributions to the GTN online using GitPod.
         - link: Vw9h5kvRH2k
