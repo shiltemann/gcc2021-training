@@ -991,7 +991,7 @@ proteomics:
           captions:
           speaker: emmaleith
           description: This tutorial will walk you through an analysis with EncyclopeDIA step by step.
-          title: Lecture
+          title: Tutorial
       material:
         - type: Tutorial
           link: "topics/proteomics/tutorials/encyclopedia/tutorial.html"
