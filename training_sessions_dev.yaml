@@ -188,6 +188,13 @@ tooldev:
           and can be edited and re-generated in Galaxy. It lacks many advanced features (e.g. filters) but is easy to learn to use for those useful
           scripts that do not require them. **Prerequisites:** Linux shell and scripting skills are required. A Linux/Docker workstation or
           high-end laptop is needed for Appliance installation.
+
+          <br />
+          <br />
+          There are two hands-on tutorials associated with this session:
+
+          1. Introductory hands-on DIY tutorial - obtaining the Appliance and creating "hello world" tools using the ToolFactory
+          2. Exploring the demonstration tools in depth and some handy ToolFactory features. There is no particular curriculum - developers will want to explore their own needs. The Appliance encourages learning by doing. It provides instant feedback when a tool is (re)generated.
       instructors: [fubar2]
       videos:
         - link: W5Ap5elAxQc
@@ -203,27 +210,24 @@ tooldev:
           captions: [fubar2]
           title: Your first "Hello world" tools using Galaxy as an integrated development environment
           description: |
-          Hands on demonstration for the Introductory tutorial. Create, run and update a "Hello World" tool in Galaxy
+            Hands on demonstration for the Introductory tutorial. Create, run and update a "Hello World" tool in Galaxy
         - link: 8nKBfVM6240 # PJtjk6tVR2s
           length: 30M
           speaker: fubar2
           captions: [fubar2]
           title: Long story
           description: |
-           ToolFactory Presentation: Abstract tool interface code that wraps simple scripts can be generated using a Galaxy tool.
-           If you haven't already decided that the GTN tutorials linked below might be useful for your work, or if want to hear Ross's opinions on tools,
-           abstract interfaces and why they matter, this talk is for you.
+            ToolFactory Presentation: Abstract tool interface code that wraps simple scripts can be generated using a Galaxy tool.
+            If you haven't already decided that the GTN tutorials linked below might be useful for your work, or if want to hear Ross's opinions on tools,
+            abstract interfaces and why they matter, this talk is for you.
       material:
           - type: Tutorial
             link: topics/dev/tutorials/tool-generators/tutorial.html
             description: |
-            Introductory hands-on DIY tutorial - obtaining the Appliance and creating "hello world" tools using the ToolFactory
-      material:
+              Introductory hands-on DIY tutorial - obtaining the Appliance and creating "hello world" tools using the ToolFactory
           - type: Tutorial
             link: topics/dev/tutorials/tool-generators-advanced/tutorial.html
-            description: |
-            Exploring the demonstration tools in depth and some handy ToolFactory features. There is no particular curriculum - developers will want to
-            explore their own needs. The Appliance encourages learning by doing. It provides instant feedback when a tool is (re)generated.
+            title: "ToolFactory: Generating Tools From More Complex Scripts"
       support_channel: "#dev-toolfactory"
       support_link: "https://gtnsmrgsbord.slack.com/archives/dev-toolfactory"
       faq: "https://docs.google.com/document/d/1e2iuYoseNkPvUBfMczEtPNsKI2Nfbyn6pN9Nz1x6E1o/pub"
