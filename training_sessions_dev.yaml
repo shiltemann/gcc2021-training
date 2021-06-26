@@ -184,69 +184,50 @@ tooldev:
 
     - name: "ToolFactory: Generating Tools From Simple Scripts"
       description: |
-          Here you'll see how the ToolFactory works and get a quick tour of the hands on
+          Here you can learn about a specialised Galaxy tool that generates tool wrappers for supplied analysis scripts. Generated tools are immediately installed and ready to run,
+          and can be edited and re-generated in Galaxy. It lacks many advanced features (e.g. filters) but is easy to learn to use for those useful
+          scripts that do not require them. **Prerequisites:** Linux shell and scripting skills are required. A Linux/Docker workstation or
+          high-end laptop is needed for Appliance installation.
+
+          <br />
+          <br />
+          There are two hands-on tutorials associated with this session:
+
+          1. Introductory hands-on DIY tutorial - obtaining the Appliance and creating "hello world" tools using the ToolFactory
+          2. Exploring the demonstration tools in depth and some handy ToolFactory features. There is no particular curriculum - developers will want to explore their own needs. The Appliance encourages learning by doing. It provides instant feedback when a tool is (re)generated.
       instructors: [fubar2]
       videos:
         - link: W5Ap5elAxQc
           length: 3M
           speaker: awspolly
           captions: [galaxycommunity]
-          title: Lecture
+          title: Brief Overview
           description: |
-              Here you'll get a quick overview about what the ToolFactory is
-              and how it works.
+            Making tools from command-line scripts with the ToolFactory.
         - link: DK1eKz5TRs4
           length: 7M
           speaker: fubar2
           captions: [fubar2]
-          title: Quick Tutorial
+          title: Your first "Hello world" tools using Galaxy as an integrated development environment
           description: |
-            Here you'll see how the ToolFactory works and get a quick tour of
-            the hands on portion of the tutorial.
+            Hands on demonstration for the Introductory tutorial. Create, run and update a "Hello World" tool in Galaxy
         - link: 8nKBfVM6240 # PJtjk6tVR2s
           length: 30M
           speaker: fubar2
           captions: [fubar2]
-          title: In Depth
+          title: Long story
           description: |
-              Finally, a more in depth discussion of the ToolFactory
+            ToolFactory Presentation: Abstract tool interface code that wraps simple scripts can be generated using a Galaxy tool.
+            If you haven't already decided that the GTN tutorials linked below might be useful for your work, or if want to hear Ross's opinions on tools,
+            abstract interfaces and why they matter, this talk is for you.
       material:
           - type: Tutorial
             link: topics/dev/tutorials/tool-generators/tutorial.html
-      description: |
-          **Why this training might be useful:** If you write useful scientific
-          analysis scripts, but have not yet learned to create new tools for
-          Galaxy, the ToolFactory might help.
-
-          It generates the XML "wrapper" for any simple, working command line
-          script. The script, I/O and parameters are specified using a Galaxy
-          tool form. When the form is completed, the tool it specifies is
-          generated and installed, ready to run in the local Galaxy server.
-
-          If a generated tool might be useful to other users, it can be linted
-          and tested, producing a toolshed-ready archive for sharing.
-
-          **Training model and support:** The ToolFactory training is designed
-          for asynchronous self guided study. Developers have widely varying
-          needs and interests. The ToolFactory is adaptable to almost any of
-          these if a script is ready to wrap. No formal presentations are
-          planned but the developer will be available during designated
-          sessions to answer questions and learn about new bugs.
-
-          **Resources:**
-          1. Hello Galaxy video demonstration 10m (TBA)
-          2. Tutorial: ["hello Galaxy" tools](https://training.galaxyproject.org/training-materialtopics/dev/tutorials/tool-generators/tutorial.html)
-          3. Tutorial: [Advanced features](https://training.galaxyproject.org/training-materialtopics/dev/tutorials/tool-generators-advanced/tutorial.html)
-          4. Sample tools in the Appliance history: The best way to learn what the ToolFactory can do is to rerun them with changes to the script, I/O and parameters to suit your needs.
-          5. The ToolFactory Appliance is a flavour of docker-galaxy-stable for your private workstation or high-end laptop. Installation and disposal are described in the introductory tutorial.
-
-          **Prerequisites:** Linux shell and scripting skills are required. A
-          dedicated, private Linux workstation or high-end laptop is needed for
-          Appliance installation.
-
-          The ToolFactory is recommended for private desktop use only because
-          executing unrestricted user installed tools is an unacceptable
-          potential security risk for any production server.
+            description: |
+              Introductory hands-on DIY tutorial - obtaining the Appliance and creating "hello world" tools using the ToolFactory
+          - type: Tutorial
+            link: topics/dev/tutorials/tool-generators-advanced/tutorial.html
+            title: "ToolFactory: Generating Tools From More Complex Scripts"
       support_channel: "#dev-toolfactory"
       support_link: "https://gtnsmrgsbord.slack.com/archives/dev-toolfactory"
       faq: "https://docs.google.com/document/d/1e2iuYoseNkPvUBfMczEtPNsKI2Nfbyn6pN9Nz1x6E1o/pub"
