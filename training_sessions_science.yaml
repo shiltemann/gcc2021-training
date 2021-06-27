@@ -989,13 +989,13 @@ proteomics:
       videos:
         - link: EGWTFWeI5gg
           length: 20M
-          captions:
+          captions: emmaleith
           speaker: [pratikdjagtap, jj-umn]
           description: This lecture will introduce EncyclopeDIA.
           title: Lecture
         - link: eCEjHtbZLVg
           length: 30M
-          captions:
+          captions: mtekman
           speaker: emmaleith
           description: This tutorial will walk you through an analysis with EncyclopeDIA step by step.
           title: Tutorial
