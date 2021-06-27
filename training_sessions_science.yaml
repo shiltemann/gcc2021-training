@@ -1065,7 +1065,7 @@ proteomics:
       videos:
         - link: CI35gTmZoqM
           length: 35M
-          captions:
+          captions: emmaleith
       material:
         - type: Slides
           external: true
