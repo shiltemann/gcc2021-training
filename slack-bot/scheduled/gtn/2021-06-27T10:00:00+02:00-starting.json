@@ -1,0 +1,30 @@
+{
+	"blocks": [
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "Welcome to GCC2021!",
+				"emoji": true
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "The event will begin on Monday the 28th in your local time zone. We're super excited to see folks getting a head start, but please be aware that there will be decreased support available until the event officially starts. Happy analysis!"
+			}
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "plain_text",
+					"text": "Author: GCC Training Organisers",
+					"emoji": true
+				}
+			]
+		}
+	]
+}
+
