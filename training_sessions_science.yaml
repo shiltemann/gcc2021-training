@@ -868,11 +868,17 @@ rnaseqsinglecell:
       speaker: mtekman
       instructors: [mtekman, nomadscientist]
       type: Hands-on Tutorial
-      description:
+      description: Single cell RNA-seq analysis is a cornerstone of developmental research and provides a great level of detail in understanding the underlying
+        dynamic processes within tissues. In the context of plants, this highlights some of the key differentiation pathways that root cells undergo.
       videos:
         - link: yKlJ5ESri7o
           length: 55M
           captions: mtekman
+          description: |
+            This tutorial replicates the paper “Spatiotemporal Developmental Trajectories in the Arabidopsis Root Revealed Using High-Throughput Single-Cell
+            RNA Sequencing” (Denyer et al. 2019), where the major plant cell types are recovered in the data as well as distinguishing between QC and meristematic
+            cells. The original paper used the Seurat analysis suite (Satija et al. 2015), but here we will use the ScanPy analysis suite (Wolf et al. 2018)
+            integrated within the single-cell resources in Galaxy (Tekman et al. 2020).
       material:
         - type: Tutorial
           link: topics/transcriptomics/tutorials/scrna-plant/tutorial.html
@@ -1503,7 +1509,7 @@ nonomics:
           description: This lecture provides a brief overview of FATES
         - link: 0LsEx11eLiI
           length: 1H20M
-          captions: [s2by01]
+          captions: [s3by01]
           title: Tutorial
           speaker: annefou
           description: This tutorial will walk you through a Galaxy analysis step by step
