@@ -767,7 +767,7 @@ rnaseqandr:
         - link: 4dspgiwkuxk
           length: 15M
           title: Customizing your Volcano Plots with R
-          captions:
+          captions: [mblue9]
           description: The previous tutorial introduced volcano plots and showed how they can be generated with the Galaxy Volcano plot tool.
             In this tutorial we show how you can customise a plot using the R script output from the tool.
 
