@@ -236,7 +236,7 @@ galaxyadvanced:
       videos:
         - link: 1MWHVRWXpyA
           length: 22M
-          captions:
+          captions: assuntad23
       material:
           - type: Tutorial
             link: topics/galaxy-interface/tutorials/upload-rules/tutorial.html
