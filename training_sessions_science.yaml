@@ -1390,17 +1390,17 @@ machinelearning:
           length: 1H10M
           captions: [kxk302]
           title: Feedforward Neural Networks
-          description: TODO
+          description: This hands-on tutorial covers Feedforward Neural Networks (FNN)
         - link: 1dwzEhjOAmw
           length: 50M
           captions: [kxk302]
           title: Recurrent Neural Networks
-          description: TODO
+          description: This hands-on tutorial covers Recurrenct Neural Networks (RNN)
         - link: P1NVYOJrv_4
           length: 1H
           captions: [FilipposZ]
           title: Convolutional Neural Networks
-          description: TODO
+          description: This hands-on tutorial covers Convolutional Neural Networks (CNN)
 
       material:
         - type: FNN Slides
