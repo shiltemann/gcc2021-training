@@ -330,6 +330,7 @@ day4:
         link: 41_3WHXZA-o
 
 day5:
+  title: Day 5 - Choose Your OWN Adventure
   sessions:
   - name: "Daily Icebreaker Question"
     type: custom
@@ -340,78 +341,78 @@ day5:
     slack_channel: "#general"
     slack_link: "https://galaxyadmintraining.slack.com/archives/C01EYFM13DX"
 
-    - name: "Meet & Join the Galaxy Community!"
-      description: "This short video gives an overview of the worldwide Galaxy community, and different ways you can get involved! <strong>Video created by Beatriz Serrano-Solano</strong>."
-      speaker: galaxycommunity
-      videos:
-        - link: -1MPdxmRs8U
-          length: 5M
-          captions: [shiltemann]
-      material: &communitymaterial
-        - type: GalaxyProject Home
-          external: true
-          title: galaxyproject.org
-          link: "https://galaxyproject.org"
-        - type: Galaxy servers
-          external: true
-          title: Find a Galaxy server near you!
-          link: "https://galaxyproject.org/use/"
-        - type: Galaxy Training Network
-          external: true
-          title: Start learning Galaxy
-          link: "https://training.galaxyproject.org"
-        - type: Support
-          external: true
-          link: "https://help.galaxyproject.org/"
-          title: Galaxy Help Forum
-        - type: Galaxy Publications
-          external: true
-          title: Zotero
-          link: "https://www.zotero.org/groups/1732893/galaxy"
-        - type: Galaxy Communities
-          external: true
-          title: Find and Join a community
-          link: "https://galaxyproject.org/community/"
-        - type: Events
-          external: true
-          link: "https://galaxyproject.org/events/"
-          title: Galaxy Event Horizon
-        - type: Mailing Lists
-          external: true
-          title: Stay informed of Galaxy activity!
-          link: "https://galaxyproject.org/mailing-lists/"
-        - type: Galaxy Working Groups
-          external: true
-          link: "https://galaxyproject.org/community/wg/"
-          title: Find and join a WG
-        - type: GitHub
-          external: true
-          link: "https://github.com/galaxyproject"
-          title: galaxyproject
-        - type: Gitter Chat
-          external: true
-          link: "https://gitter.im/galaxyproject/Lobby"
-          title: Start talking with the Galaxy Community!
-        - type: GTN Gitter
-          external: true
-          title: Join the training discussion here!
-          link: "https://gitter.im/Galaxy-Training-Network/Lobby"
-        - type: PaperCuts
-          external: true
-          title: Monthly Collaboration Fest
-          link: "https://galaxyproject.org/events/2021-02-papercuts/"
-        - type: GTN CoFest
-          external: true
-          title: Everybody Welcome!
-          link: "https://github.com/galaxyproject/training-material/issues/1712"
-        - type: Twitter
-          external: true
-          title: follow @galaxyproject
-          link: "https://twitter.com/galaxyproject"
-        - type: Twitter
-          external: true
-          title: follow the GTN @gxytraining
-          link: "https://twitter.com/gxytraining"
+  - name: "Meet & Join the Galaxy Community!"
+    description: "This short video gives an overview of the worldwide Galaxy community, and different ways you can get involved! <strong>Video created by Beatriz Serrano-Solano</strong>."
+    speaker: galaxycommunity
+    videos:
+      - link: -1MPdxmRs8U
+        length: 5M
+        captions: [shiltemann]
+    material: &communitymaterial
+      - type: GalaxyProject Home
+        external: true
+        title: galaxyproject.org
+        link: "https://galaxyproject.org"
+      - type: Galaxy servers
+        external: true
+        title: Find a Galaxy server near you!
+        link: "https://galaxyproject.org/use/"
+      - type: Galaxy Training Network
+        external: true
+        title: Start learning Galaxy
+        link: "https://training.galaxyproject.org"
+      - type: Support
+        external: true
+        link: "https://help.galaxyproject.org/"
+        title: Galaxy Help Forum
+      - type: Galaxy Publications
+        external: true
+        title: Zotero
+        link: "https://www.zotero.org/groups/1732893/galaxy"
+      - type: Galaxy Communities
+        external: true
+        title: Find and Join a community
+        link: "https://galaxyproject.org/community/"
+      - type: Events
+        external: true
+        link: "https://galaxyproject.org/events/"
+        title: Galaxy Event Horizon
+      - type: Mailing Lists
+        external: true
+        title: Stay informed of Galaxy activity!
+        link: "https://galaxyproject.org/mailing-lists/"
+      - type: Galaxy Working Groups
+        external: true
+        link: "https://galaxyproject.org/community/wg/"
+        title: Find and join a WG
+      - type: GitHub
+        external: true
+        link: "https://github.com/galaxyproject"
+        title: galaxyproject
+      - type: Gitter Chat
+        external: true
+        link: "https://gitter.im/galaxyproject/Lobby"
+        title: Start talking with the Galaxy Community!
+      - type: GTN Gitter
+        external: true
+        title: Join the training discussion here!
+        link: "https://gitter.im/Galaxy-Training-Network/Lobby"
+      - type: PaperCuts
+        external: true
+        title: Monthly Collaboration Fest
+        link: "https://galaxyproject.org/events/2021-02-papercuts/"
+      - type: GTN CoFest
+        external: true
+        title: Everybody Welcome!
+        link: "https://github.com/galaxyproject/training-material/issues/1712"
+      - type: Twitter
+        external: true
+        title: follow @galaxyproject
+        link: "https://twitter.com/galaxyproject"
+      - type: Twitter
+        external: true
+        title: follow the GTN @gxytraining
+        link: "https://twitter.com/gxytraining"
 
   - material:
     - link: topics/admin/tutorials/reports/tutorial.html
@@ -512,4 +513,3 @@ day5:
       - captions: cat-bro
         length: 18M
         link: Hv2bvjk5sjE
-  title: Day 5 - Choose Your OWN Adventure
