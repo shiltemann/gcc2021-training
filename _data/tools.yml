@@ -289,21 +289,20 @@ topics/metagenomics/tutorials/metatranscriptomics:
 topics/metagenomics/tutorials/mothur-miseq-sop-short:
   ## ../training-material/topics/metagenomics/tutorials/mothur-miseq-sop-short/workflows/workflow1_quality_control.ga
   - toolshed.g2.bx.psu.edu/repos/iuc/mothur_count_seqs/mothur_count_seqs/1.39.5.0
-  - toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.0
+  - toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.1
   - toolshed.g2.bx.psu.edu/repos/iuc/mothur_summary_seqs/mothur_summary_seqs/1.39.5.0
   - toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.39.5.0
   ## ../training-material/topics/metagenomics/tutorials/mothur-miseq-sop-short/workflows/workflow2_data_cleaning.ga
   - toolshed.g2.bx.psu.edu/repos/iuc/mothur_chimera_vsearch/mothur_chimera_vsearch/1.39.5.1
   - toolshed.g2.bx.psu.edu/repos/iuc/mothur_filter_seqs/mothur_filter_seqs/1.39.5.0
   - toolshed.g2.bx.psu.edu/repos/iuc/mothur_pre_cluster/mothur_pre_cluster/1.39.5.0
-  - toolshed.g2.bx.psu.edu/repos/iuc/mothur_remove_seqs/mothur_remove_seqs/1.36.1.0
-  - toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.0
+  - toolshed.g2.bx.psu.edu/repos/iuc/mothur_remove_seqs/mothur_remove_seqs/1.39.5.0
+  - toolshed.g2.bx.psu.edu/repos/iuc/mothur_screen_seqs/mothur_screen_seqs/1.39.5.1
   - toolshed.g2.bx.psu.edu/repos/iuc/mothur_summary_seqs/mothur_summary_seqs/1.39.5.0
   - toolshed.g2.bx.psu.edu/repos/iuc/mothur_unique_seqs/mothur_unique_seqs/1.39.5.0
   ## ../training-material/topics/metagenomics/tutorials/mothur-miseq-sop-short/workflows/workflow3_classification.ga
   - toolshed.g2.bx.psu.edu/repos/iuc/mothur_classify_seqs/mothur_classify_seqs/1.39.5.0
   - toolshed.g2.bx.psu.edu/repos/iuc/mothur_remove_lineage/mothur_remove_lineage/1.39.5.0
-  - toolshed.g2.bx.psu.edu/repos/iuc/mothur_summary_seqs/mothur_summary_seqs/1.39.5.0
   ## ../training-material/topics/metagenomics/tutorials/mothur-miseq-sop-short/workflows/workflow4_mock_otu_clustering.ga
   - toolshed.g2.bx.psu.edu/repos/iuc/mothur_cluster/mothur_cluster/1.39.5.0
   - toolshed.g2.bx.psu.edu/repos/iuc/mothur_dist_seqs/mothur_dist_seqs/1.39.5.0
@@ -319,14 +318,14 @@ topics/metagenomics/tutorials/mothur-miseq-sop-short:
   ## ../training-material/topics/metagenomics/tutorials/mothur-miseq-sop-short/workflows/workflow6_alpha_diversity.ga
   - toolshed.g2.bx.psu.edu/repos/devteam/xy_plot/XY_Plot_1/1.0.2
   - toolshed.g2.bx.psu.edu/repos/iuc/mothur_rarefaction_single/mothur_rarefaction_single/1.39.5.0
-  - toolshed.g2.bx.psu.edu/repos/iuc/mothur_summary_single/mothur_summary_single/1.39.5.0
+  - toolshed.g2.bx.psu.edu/repos/iuc/mothur_summary_single/mothur_summary_single/1.39.5.2
   ## ../training-material/topics/metagenomics/tutorials/mothur-miseq-sop-short/workflows/workflow7_beta_diversity.ga
   - toolshed.g2.bx.psu.edu/repos/iuc/mothur_dist_shared/mothur_dist_shared/1.39.5.0
   - toolshed.g2.bx.psu.edu/repos/iuc/mothur_heatmap_sim/mothur_heatmap_sim/1.39.5.0
   - toolshed.g2.bx.psu.edu/repos/iuc/mothur_tree_shared/mothur_tree_shared/1.39.5.0
   - toolshed.g2.bx.psu.edu/repos/iuc/mothur_venn/mothur_venn/1.39.5.0
-  - toolshed.g2.bx.psu.edu/repos/iuc/newick_utils/newick_display/1.6
-  - toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.0
+  - toolshed.g2.bx.psu.edu/repos/iuc/newick_utils/newick_display/1.6+galaxy1
+  - toolshed.g2.bx.psu.edu/repos/nml/collapse_collections/collapse_dataset/4.2
   ## tools
 topics/metagenomics/tutorials/nanopore-16S-metagenomics:
   ## ../training-material/topics/metagenomics/tutorials/nanopore-16S-metagenomics/workflows/main_workflow.ga
@@ -380,6 +379,15 @@ topics/proteomics/tutorials/biomarker_selection:
   - toolshed.g2.bx.psu.edu/repos/proteore/proteore_tissue_specific_expression_data/retrieve_from_hpa/2019.02.27
   - toolshed.g2.bx.psu.edu/repos/proteore/proteore_venn_diagram/Jvenn/2018.12.18
   ## tools
+topics/proteomics/tutorials/encyclopedia:
+  ## ../training-material/topics/proteomics/tutorials/encyclopedia/workflows/main_workflow.ga
+  - toolshed.g2.bx.psu.edu/repos/galaxyp/encyclopedia_quantify/encyclopedia_quantify/1.2.2+galaxy0
+  - toolshed.g2.bx.psu.edu/repos/galaxyp/encyclopedia_searchtolib/encyclopedia_searchtolib/1.2.2+galaxy0
+  - toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.20287.2
+  ## tools
+  - toolshed.g2.bx.psu.edu/repos/galaxyp/encyclopedia_quantify/encyclopedia_quantify/0.9.5.0
+  - toolshed.g2.bx.psu.edu/repos/galaxyp/encyclopedia_searchtolib/encyclopedia_searchtolib/0.9.5.0
+  - toolshed.g2.bx.psu.edu/repos/galaxyp/msconvert/msconvert/3.0.19052.1
 topics/proteomics/tutorials/maxquant-msstats-dda-lfq:
   ## ../training-material/topics/proteomics/tutorials/maxquant-msstats-dda-lfq/workflows/main_workflow.ga
   - toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_easyjoin_tool/1.1.2
@@ -411,6 +419,11 @@ topics/proteomics/tutorials/metaproteomics:
   - toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.0.0
   - toolshed.g2.bx.psu.edu/repos/iuc/sqlite_to_tabular/sqlite_to_tabular/2.0.0
   ## tools
+  - toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/peptide_shaker/1.16.36.3
+  - toolshed.g2.bx.psu.edu/repos/galaxyp/peptideshaker/search_gui/3.3.10.1
+  - toolshed.g2.bx.psu.edu/repos/galaxyp/unipept/unipept/4.3.0
+  - toolshed.g2.bx.psu.edu/repos/iuc/query_tabular/query_tabular/3.0.0
+  - toolshed.g2.bx.psu.edu/repos/iuc/sqlite_to_tabular/sqlite_to_tabular/2.0.0
 topics/proteomics/tutorials/proteogenomics-dbcreation:
   ## ../training-material/topics/proteomics/tutorials/proteogenomics-dbcreation/workflows/galaxy-workflow-mouse_rnaseq_dbcreation.ga
   - toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.0
@@ -533,7 +546,7 @@ topics/statistics/tutorials/FNN:
   - toolshed.g2.bx.psu.edu/repos/bgruening/keras_model_config/keras_model_config/0.4.2
   - toolshed.g2.bx.psu.edu/repos/bgruening/keras_train_and_eval/keras_train_and_eval/1.0.8.2
   - toolshed.g2.bx.psu.edu/repos/bgruening/model_prediction/model_prediction/1.0.8.2
-  - toolshed.g2.bx.psu.edu/repos/bgruening/plotly_regression_performance_plots/0.1
+  - toolshed.g2.bx.psu.edu/repos/bgruening/plotly_regression_performance_plots/plotly_regression_performance_plots/0.1
 topics/statistics/tutorials/intro-to-ml-with-r:
   ## tools
   - interactive_tool_rstudio
@@ -623,7 +636,7 @@ topics/transcriptomics/tutorials/mirna-target-finder:
   - toolshed.g2.bx.psu.edu/repos/galaxyp/filter_by_fasta_ids/filter_by_fasta_ids/2.1
   - toolshed.g2.bx.psu.edu/repos/iuc/deseq2/deseq2/2.11.40.6+galaxy1
   - toolshed.g2.bx.psu.edu/repos/iuc/multiqc/multiqc/1.8+galaxy1
-  - toolshed.g2.bx.psu.edu/repos/peterjc/sample_seqs
+  - toolshed.g2.bx.psu.edu/repos/peterjc/sample_seqs/sample_seqs/0.2.5
   - toolshed.g2.bx.psu.edu/repos/rnateam/mirdeep2_mapper/rbc_mirdeep2_mapper/2.0.0
   - toolshed.g2.bx.psu.edu/repos/rnateam/mirdeep2_quantifier/rbc_mirdeep2_quantifier/2.0.0
   - toolshed.g2.bx.psu.edu/repos/rnateam/targetfinder/targetfinder/1.7.0+galaxy1
@@ -681,7 +694,7 @@ topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot-r:
   - toolshed.g2.bx.psu.edu/repos/iuc/volcanoplot/volcanoplot/0.0.5
 topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot:
   ## ../training-material/topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot/workflows/rna-seq-viz-with-volcanoplot.ga
-  - toolshed.g2.bx.psu.edu/repos/iuc/volcanoplot/volcanoplot/0.0.3
+  - toolshed.g2.bx.psu.edu/repos/iuc/volcanoplot/volcanoplot/0.0.5
   ## tools
   - toolshed.g2.bx.psu.edu/repos/iuc/volcanoplot/volcanoplot/0.0.5
 topics/transcriptomics/tutorials/scrna-JUPYTER-trajectories:
