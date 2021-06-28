@@ -51,10 +51,8 @@ galaxyintro:
         - type: Tutorial
           link: topics/introduction/tutorials/galaxy-intro-101-everyone/tutorial.html
       support_channel: "#galaxy_intro_101-for-everyone"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C023KFGASK0"
+      support_link: "https://galaxyadmintraining.slack.com/archives/00-galaxy-intro"
       faq: "https://docs.google.com/document/d/e/2PACX-1vToYVCisDQ8qDSKKmDvdlZ3e87HzfnO6KQkOReDd0LtHTNKDUDj2vpqWj73bj_2UelNStLZpoSpNlGj/pub"
-
-
 
 
 day1:
