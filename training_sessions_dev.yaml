@@ -135,6 +135,8 @@ tooldev:
     - name: "Galaxy Tools: From Conda Through Deployment"
       description: |
           Here you will creating Galaxy tools from scratch using Conda for requirements, Planemo for testing, and Git for deployment.
+
+          You can find the tutorial for these videos [here on the GTN](https://training.galaxyproject.org/training-material/topics/dev/tutorials/tool-from-scratch/tutorial.html)
       speaker: astrovsky01
       instructors: [davebx, bernt-matthias, astrovsky01]
       videos:
