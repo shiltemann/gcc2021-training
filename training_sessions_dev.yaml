@@ -303,7 +303,7 @@ coredev:
         - link: FlFF3TPEfC8
           length: 11M
           speaker: [assuntad23, ic4f]
-          captions: [assuntad23, ic4f, tnabtaf, beatrizserrano] # Unknown but present
+          captions: [tnabtaf] # Unknown but present
           title: Intro
           description: |
             This is the first video in the Debugging Galaxy series.
@@ -311,7 +311,7 @@ coredev:
         - link: BiANBC78EXM # 2
           length: 14M
           speaker: [assuntad23, ic4f]
-          captions: # Missing
+          captions: [ic4f]
           title: Fix a failing unit test
           description: |
             What to do when a unit test fails.
@@ -319,7 +319,7 @@ coredev:
         - link: vYFiFcEuLI0 # 3
           length: 23M
           speaker: [assuntad23, ic4f]
-          captions: # Missing
+          captions: [ic4f]
           title: API Test Failure
           description: |
             What to do when an API test fails.
@@ -351,7 +351,7 @@ coredev:
         - link: _sH1uTKf4ec
           length: 3M
           speaker: [assuntad23, ic4f]
-          captions: [assuntad23, ic4f, tnabtaf, beatrizserrano] # Unknown but present
+          captions: [tnabtaf]
           title: Conclusion
           description: |
               A summary of wisdom to debug Galaxy with.
