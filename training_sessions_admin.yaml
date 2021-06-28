@@ -127,10 +127,10 @@ day1:
         link: JN-C5UbHthY
         speaker: hexylena
         title: Week Overview
-      - captions: [shiltemann, hexylena]
-        length: 111M
-        link: il83uApg7Hc
-        speaker: hexylena
+      - captions: [natefoo, hexylena]
+        length: 2H47M
+        link: zT70luZqPOU
+        speaker: natefoo
         title: Tutorial
 
 day2:
@@ -346,6 +346,19 @@ day4:
       - captions: galaxycommunity
         length: 2M
         link: 41_3WHXZA-o
+
+  - material:
+    - link: topics/admin/tutorials/upgrading/slides.html
+      type: tutorial
+    name: Upgrading Galaxy
+    speaker: slugger70
+    support_channel: '#11-cyoa'
+    support_link: "https://galaxyadmintraining.slack.com/archives/11-cyoa"
+    type: Tutorial
+    videos:
+      - captions: [slugger70, hexylena]
+        length: 36M
+        link: OnL47MvXjoo
 
 day5:
   title: Day 5 - Choose Your OWN Adventure
