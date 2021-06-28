@@ -10,7 +10,7 @@ toc: true
 
 For this training week there is **no fixed schedule**, instead we provide a set of modules for you to choose from.
 - This week **YOU make the schedule**, YOU decide which tutorials to follow, and when to start, stop, and take breaks.
-- **You do NOT have to complete everything!** In fact, this would be impossible! There are 4 full days of video on this page. You can do as many or as few sessions as you want, and focus on the topics most interesting to you! Everything will stay online forever if you want to continue after GCC!
+- **You do NOT have to complete everything!** In fact, this would be impossible! (there are 4 full days of video on this page). You can do as many or as few sessions as you want, and focus on the topics most interesting to you! Everything will stay online forever, so you can always come back after GCC and continue learning!
 - **New to Galaxy?** We suggest you start with the *"Introduction to Galaxy"* module, followed by the *"Introduction to NGS Analysis"* module.
 - **Unsure which tutorial to follow?** Feel free to ask us for recommendations in Slack!
 
