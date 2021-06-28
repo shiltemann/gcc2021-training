@@ -37,6 +37,7 @@
     <strong>Subtitles By:</strong> {% for name in video.captions %}{% unless forloop.first %}, {% endunless %} {{ site.data.instructors[name].name}}{% endfor %}
 {% if captions == 0 %} We apologize for lack of captions on this video. If you are reliant on captions, please check back here soon.{% endif %}<br/>
     <strong>Description:</strong> {% if video.description %}{{video.description | markdownify| remove: '<p>' | remove: '</p>' | strip}}{% else %}{{include.session.description| markdownify| remove: '<p>' | remove: '</p>' | strip}}{% endif %}<br/>
+     <strong>Training Material:</strong> {% for m in session.material %}<a href="{%unless m.external%}{{site.gtn_url}}{%endunless%}{{m.link}}">{{m.type}}</a>{%unless forloop.last %}, {%endunless%}{% endfor %}
       </div>
  </div>
 
