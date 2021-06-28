@@ -137,7 +137,6 @@ tooldev:
           Here you will creating Galaxy tools from scratch using Conda for requirements, Planemo for testing, and Git for deployment.
 
           This tutorial has a series of videos, you will find these embedded in the tutorial linked below.
-      speaker: astrovsky01
       instructors: [davebx, bernt-matthias, astrovsky01]
       material:
           - type: Tutorial
