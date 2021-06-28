@@ -525,7 +525,7 @@ day5:
     name: Storage management
     speaker: gmauro
     support_channel: '#09-storage'
-    support_link: "https://galaxyadmintraining.slack.com/archives/11-cyoa"
+    support_link: "https://galaxyadmintraining.slack.com/archives/09-storage"
     type: Tutorial
     videos:
       - captions: cat-bro
