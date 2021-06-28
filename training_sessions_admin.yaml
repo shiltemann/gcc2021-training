@@ -53,8 +53,8 @@ galaxyintro:
           link: videos/watch.html?v=introduction/tutorials/galaxy-intro-short/slides
           title: A Slightly Longer Introduction to Galaxy
           utm: false
-      support_channel: "#galaxy_introduction"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01ES914GCU"
+      support_channel: "#00-galaxy-intro"
+      support_link: "https://galaxyadmintraining.slack.com/archives/00-galaxy-intro"
       faq: "https://docs.google.com/document/d/e/2PACX-1vQ1SZCsxEcRXp39J2BcFAjXyC3B20sWzI7IVgBgwe2pcC9b0cza417jzBPYJVqCRNbU0dD4rv_y6u6P/pub"
 
     - name: "Galaxy Intro for Everyone (non-genomics)"
@@ -68,7 +68,7 @@ galaxyintro:
       material:
         - type: Tutorial
           link: topics/introduction/tutorials/galaxy-intro-101-everyone/tutorial.html
-      support_channel: "#galaxy_intro_101-for-everyone"
+      support_channel: "#00-galaxy-intro"
       support_link: "https://galaxyadmintraining.slack.com/archives/00-galaxy-intro"
       faq: "https://docs.google.com/document/d/e/2PACX-1vToYVCisDQ8qDSKKmDvdlZ3e87HzfnO6KQkOReDd0LtHTNKDUDj2vpqWj73bj_2UelNStLZpoSpNlGj/pub"
 
