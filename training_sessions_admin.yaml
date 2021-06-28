@@ -39,158 +39,6 @@ galaxyintro:
   description: "Start here if you are new to Galaxy. These videos will introduce you to the Galaxy platform, and walk you through your first analyses"
   sessions:
 
-    - name: "Meet & Join the Galaxy Community!"
-      description: "This short video gives an overview of the worldwide Galaxy community, and different ways you can get involved! <strong>Video created by Beatriz Serrano-Solano</strong>."
-      speaker: galaxycommunity
-      videos:
-        - link: -1MPdxmRs8U
-          length: 5M
-          captions: [shiltemann]
-      material: &communitymaterial
-        - type: GalaxyProject Home
-          external: true
-          title: galaxyproject.org
-          link: "https://galaxyproject.org"
-        - type: Galaxy servers
-          external: true
-          title: Find a Galaxy server near you!
-          link: "https://galaxyproject.org/use/"
-        - type: Galaxy Training Network
-          external: true
-          title: Start learning Galaxy
-          link: "https://training.galaxyproject.org"
-        - type: Support
-          external: true
-          link: "https://help.galaxyproject.org/"
-          title: Galaxy Help Forum
-        - type: Galaxy Publications
-          external: true
-          title: Zotero
-          link: "https://www.zotero.org/groups/1732893/galaxy"
-        - type: Galaxy Communities
-          external: true
-          title: Find and Join a community
-          link: "https://galaxyproject.org/community/"
-        - type: Events
-          external: true
-          link: "https://galaxyproject.org/events/"
-          title: Galaxy Event Horizon
-        - type: Mailing Lists
-          external: true
-          title: Stay informed of Galaxy activity!
-          link: "https://galaxyproject.org/mailing-lists/"
-        - type: Galaxy Working Groups
-          external: true
-          link: "https://galaxyproject.org/community/wg/"
-          title: Find and join a WG
-        - type: GitHub
-          external: true
-          link: "https://github.com/galaxyproject"
-          title: galaxyproject
-        - type: Gitter Chat
-          external: true
-          link: "https://gitter.im/galaxyproject/Lobby"
-          title: Start talking with the Galaxy Community!
-        - type: GTN Gitter
-          external: true
-          title: Join the training discussion here!
-          link: "https://gitter.im/Galaxy-Training-Network/Lobby"
-        - type: PaperCuts
-          external: true
-          title: Monthly Collaboration Fest
-          link: "https://galaxyproject.org/events/2021-02-papercuts/"
-        - type: GTN CoFest
-          external: true
-          title: Everybody Welcome!
-          link: "https://github.com/galaxyproject/training-material/issues/1712"
-        - type: Twitter
-          external: true
-          title: follow @galaxyproject
-          link: "https://twitter.com/galaxyproject"
-        - type: Twitter
-          external: true
-          title: follow the GTN @gxytraining
-          link: "https://twitter.com/gxytraining"
-
-    - name: "A Very Short Introduction to Galaxy"
-      type: Lecture/Demo
-      description: |
-        This video will introduce the Galaxy data analysis platform, and give a short demo on how to use it.
-      speaker: nekrut
-      videos:
-        - link: VZoz3k5EehI
-          length: 10M
-          captions: [nekrut]
-      material:
-        - type: Slides
-          link: videos/watch.html?v=introduction/tutorials/galaxy-intro-short/slides
-          title: A Slightly Longer Introduction to Galaxy
-          utm: false
-      support_channel: "#galaxy_introduction"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01ES914GCU"
-      faq: "https://docs.google.com/document/d/e/2PACX-1vQ1SZCsxEcRXp39J2BcFAjXyC3B20sWzI7IVgBgwe2pcC9b0cza417jzBPYJVqCRNbU0dD4rv_y6u6P/pub"
-
-    - name: "Webinar Series: Galaxy Resources For.."
-      type: "Webinar Series: Galaxy Resources For.."
-      description: Each of the 4 webinars in this series that ran earlier this year highlights avaialble Galaxy resources for a different audience.
-        These videos are a nice way to get an overview of what Galaxy has to offer for different types of users.
-      videos:
-        - link: cFN_WPGz9qk
-          length: 1H10M
-          title: ..Researchers
-          description: Wondering how to get started, or how to do a particular type of analysis, or how to scale to thousands of datasets? This webinar will highlight how to find the resources and help you need for each of these questions and more.
-          speaker: [tnabtaf]
-
-        - link: AXynJtPXgRQ
-          length: 1H10M
-          title: ..Educators and Trainers
-          description: Galaxy is an exceptional resource for teaching bioinformatics and other data sciences. The Galaxy Platform itself makes sophisticated analysis tools and workflows accessible to learners without requiring them to become system administrators or learn command line interfaces. Galaxy is a graphical user interface that only requires a browser, and allows students and teachers to focus on concepts, rather than compute infrastructure.
-          speaker: [shiltemann, miaomiaozhou88, christinecucinotta, subinamehta, bebatut]
-          captions: shiltemann
-
-        - link: MdQyltMAocg
-          title: ..Tool Developers
-          description: Galaxy is an excellent platform for increasing the visibility and use of computational tools in any domain that Galaxy has been applied to. If you develop computational analysis or visualization tools then this webinar will demonstrate how porting your tools to Galaxy can significantly increase their visibility and adoption.
-          speaker: [blankenberg, abretaud, petrnovak]
-
-        - link: vx2icgaU_h0
-          title: ..Administrators & Infrastructure Providers
-          description: Galaxy can empower your community to create and run their own sophisticated and repeatable data analyses and visualizations, without requiring them to learn command line interfaces or Linux systems administration. If you are interested in helping your researchers help themselves with their data analyses, then this webinar is for you. We will cover resources available in the Galaxy ecosystem to help those who setup and maintain production Galaxy servers.
-          speaker: [gmauro, lldelisle]
-
-      material:
-        - type: Galaxy Webinar Page
-          title: View past & upcoming webinars
-          link: "https://galaxyproject.org/events/webinars/"
-          external: true
-
-      support_channel: "#event-gcc2021"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C0253H46ABV"
-
-    - name: "Your First Galaxy Analysis (genomics-based)"
-      type: Hands-on Tutorial
-      description: |
-        In this tutorial, we will walk you through your first (toy) analysis in Galaxy. This tutorial is aimed at familiarizing you with the Galaxy platform, and some basic NGS concepts.
-      speaker: tnabtaf
-      videos:
-        - link: 1UPCrQxGwcU
-          length: 1H30M
-          captions: [tnabtaf]
-      material:
-        - type: Slides
-          link: "https://docs.google.com/presentation/d/1rOGp4o_Dc-QIHS4YT4HizdfXTVhJB1HwPPZkSDuMhig/edit#slide=id.gbc9627d000_0_346"
-          external: true
-          title: Overview Presentation
-        - type: Tutorial
-          link: topics/introduction/tutorials/galaxy-intro-strands/tutorial.html
-          title: Introduction to Genomics and Galaxy
-        - type: Tutorial
-          link: topics/galaxy-interface/tutorials/history-to-workflow/tutorial.html
-          title: Extracting Workflows from Histories
-      support_channel: "#galaxy_introduction"
-      support_link: "https://gtnsmrgsbord.slack.com/archives/C01ES914GCU"
-      faq: "https://docs.google.com/document/u/2/d/1uFeeF2OwgzFFc8jbVF2elV5PQB5gbxMtE4pX2FOpXKM/pub"
-
     - name: "Galaxy Intro for Everyone (non-genomics)"
       type: Hands-on Tutorial
       description: This video tutorial will provide a non-genomics based first look at the Galaxy platform, how to use it, and discusses how you can get support for your data analysis.
@@ -493,6 +341,79 @@ day5:
         prompt: What has been you favourite part of this training week? And what are you looking forward to most during the rest of GCC (if you are attending)?
     slack_channel: "#general"
     slack_link: "https://galaxyadmintraining.slack.com/archives/C01EYFM13DX"
+
+    - name: "Meet & Join the Galaxy Community!"
+      description: "This short video gives an overview of the worldwide Galaxy community, and different ways you can get involved! <strong>Video created by Beatriz Serrano-Solano</strong>."
+      speaker: galaxycommunity
+      videos:
+        - link: -1MPdxmRs8U
+          length: 5M
+          captions: [shiltemann]
+      material: &communitymaterial
+        - type: GalaxyProject Home
+          external: true
+          title: galaxyproject.org
+          link: "https://galaxyproject.org"
+        - type: Galaxy servers
+          external: true
+          title: Find a Galaxy server near you!
+          link: "https://galaxyproject.org/use/"
+        - type: Galaxy Training Network
+          external: true
+          title: Start learning Galaxy
+          link: "https://training.galaxyproject.org"
+        - type: Support
+          external: true
+          link: "https://help.galaxyproject.org/"
+          title: Galaxy Help Forum
+        - type: Galaxy Publications
+          external: true
+          title: Zotero
+          link: "https://www.zotero.org/groups/1732893/galaxy"
+        - type: Galaxy Communities
+          external: true
+          title: Find and Join a community
+          link: "https://galaxyproject.org/community/"
+        - type: Events
+          external: true
+          link: "https://galaxyproject.org/events/"
+          title: Galaxy Event Horizon
+        - type: Mailing Lists
+          external: true
+          title: Stay informed of Galaxy activity!
+          link: "https://galaxyproject.org/mailing-lists/"
+        - type: Galaxy Working Groups
+          external: true
+          link: "https://galaxyproject.org/community/wg/"
+          title: Find and join a WG
+        - type: GitHub
+          external: true
+          link: "https://github.com/galaxyproject"
+          title: galaxyproject
+        - type: Gitter Chat
+          external: true
+          link: "https://gitter.im/galaxyproject/Lobby"
+          title: Start talking with the Galaxy Community!
+        - type: GTN Gitter
+          external: true
+          title: Join the training discussion here!
+          link: "https://gitter.im/Galaxy-Training-Network/Lobby"
+        - type: PaperCuts
+          external: true
+          title: Monthly Collaboration Fest
+          link: "https://galaxyproject.org/events/2021-02-papercuts/"
+        - type: GTN CoFest
+          external: true
+          title: Everybody Welcome!
+          link: "https://github.com/galaxyproject/training-material/issues/1712"
+        - type: Twitter
+          external: true
+          title: follow @galaxyproject
+          link: "https://twitter.com/galaxyproject"
+        - type: Twitter
+          external: true
+          title: follow the GTN @gxytraining
+          link: "https://twitter.com/gxytraining"
 
   - material:
     - link: topics/admin/tutorials/reports/tutorial.html
