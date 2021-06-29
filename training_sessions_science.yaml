@@ -134,7 +134,7 @@ galaxyintro:
           length: 10M
           captions: [nekrut]
       material:
-        - type: Slides
+        - type: Related Slides
           link: videos/watch.html?v=introduction/tutorials/galaxy-intro-short/slides
           title: A Slightly Longer Introduction to Galaxy
           utm: false
