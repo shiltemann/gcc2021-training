@@ -431,9 +431,9 @@ ngsadvanced:
           description: In this tutorial we will use Prokka to annotate a draft genome sequence. Prokka finds and annotates features (both protein coding regions and RNA genes, i.e. tRNA, rRNA) present on on a sequence. Prokka can be used to annotate bacterial, archaeal and viral genomes quickly, generating standard output files in GenBank, EMBL and gff formats."
       material:
         - type: Slides
-          link: topics/genome-annotation/videos/
-        - type: Tutorial
           link: topics/genome-annotation/tutorials/annotation-with-prokka/slides.html
+        - type: Tutorial
+          link: topics/genome-annotation/tutorials/annotation-with-prokka/tutorial.html
       support_channel: "#ngs_advanced_annotation-prokaryotic-genome"
       support_link: "https://gtnsmrgsbord.slack.com/archives/C01GTTD1BE0"
       faq: "https://docs.google.com/document/d/e/2PACX-1vSK-RjeRJC38_FSM9zC6SrfkvIz1W4uEMQkN95qk5OemvANuPF3aNEogVEvF6JEXeMomo-oMwi32Gv2/pub"
