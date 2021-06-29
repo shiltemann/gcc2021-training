@@ -98,12 +98,12 @@ day1:
         length: 61M
         link: 2KdT0sYKUeE
         speaker: martenson
-        title: Slides
+        title: Tutorial
       - captions: martenson
         length: 5M
         link: KFpbfmN0OTE
         speaker: ic4f
-        title: Tutorial
+        title: Slides
 
   - name: Installing Galaxy with Ansible
     speaker: hexylena
