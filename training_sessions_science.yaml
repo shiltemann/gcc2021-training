@@ -112,7 +112,10 @@ intro:
           - day: Wednesday
             prompt: What is your favorite dish (food or drink)? Bonus points for recipes!
           - day: Thursday
-            prompt: If you had a time machine, what is the first place & time you would visit? why?
+            prompt: |
+              1. If you had a time machine, what is the first place & time you would visit? why?<br>
+              OR<br>
+              2. What is your favourite book, tv show, movie or game that you would recomend to others?
           - day: Friday
             prompt: What has been you favourite part of this training week? And what are you looking forward to most during the rest of GCC (if you are attending)?
       slack_channel: "#social"

@@ -276,7 +276,10 @@ day4:
     includefile: icebreakers.html
     questions:
       - day: Thursday
-        prompt: If you had a time machine, what is the first place & time you would visit? why?
+        prompt: |
+          1. If you had a time machine, what is the first place & time you would visit? why?<br>
+          OR <br>
+          2. What is your favourite book, tv show, movie or game that you would recomend to others?
     slack_channel: "#general"
     slack_link: "https://galaxyadmintraining.slack.com/archives/C01EYFM13DX"
 
