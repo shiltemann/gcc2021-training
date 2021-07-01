@@ -32,7 +32,7 @@ for course in {gtn,gat}; do
 	for region in {Pacific/Auckland,Europe/Amsterdam,America/New_York}; do
 		sendafter=$(TZ=$region date -d "2021-07-01 10:00:00" --rfc-3339=seconds | sed 's/ /T/')
 		python3 extra/template.py $region extra/shift-change-${course}.json $course | \
-			sed 's|ICEBREAKER|If you had a time machine, what is the first place & time you would visit? why?|g' \
+			sed 's|ICEBREAKER|1. If you had a time machine, what is the first place and time you would visit? why?\nOR\n2. What is your favourite book, tv show, movie or game that you would recommend to others? |g' \
 			> "scheduled/${course}/${sendafter}-shift-change.json"
 	done
 done
