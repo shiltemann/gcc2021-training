@@ -351,7 +351,7 @@ day4:
         link: 41_3WHXZA-o
 
   - material:
-    - link: topics/admin/tutorials/upgrading/slides.html
+    - link: topics/admin/tutorials/upgrading/tutorial.html
       type: tutorial
     name: Upgrading Galaxy
     speaker: slugger70
