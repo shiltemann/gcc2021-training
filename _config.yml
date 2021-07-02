@@ -46,7 +46,7 @@ icebreaker_link:
 # feedback
 feedback_channel: "#feedback"
 feedback_link:
-feedback_survey_link:
+feedback_survey_link: "https://forms.gle/yG3t9c2Py99sVVfk6"
 
 #videos
 video_platform: YouTube
