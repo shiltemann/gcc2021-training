@@ -509,11 +509,13 @@ day5:
 
   - material:
     - link: https://docs.galaxyproject.org/en/master/admin/python.html
+      external: true
       type: Docs
     name: Python 2 to Python 3!
     support_channel: '#11-cyoa'
     support_link: "https://galaxyadmintraining.slack.com/archives/11-cyoa"
     type: Tutorial
+
   - material:
     - link: topics/dev/tutorials/tool-integration/slides.html
       type: Slides, Exercise
