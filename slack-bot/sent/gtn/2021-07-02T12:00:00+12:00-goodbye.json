@@ -57,7 +57,7 @@
 			"type": "section",
 			"text": {
 				"type": "mrkdwn",
-				"text": "*The Future*\nDid you not have time to do everything you wanted to? There's a rumour parts of this event might happen again during <https://www.vibconferences.be/events/gcc2021-virtual-edition| the Galaxy Community Conference during the summer>. :shushing_face:"
+				"text": "*The Future*\nDid you not have time to do everything you wanted to? Everything will remain online after this week, so you can keep learning at your own pace. We will also run another training event like this at the beginning of next year, so keep your ears open for another GTN Smörgåsbord in early 2022!"
 			}
 		},
 		{
@@ -89,4 +89,3 @@
 		}
 	]
 }
-
