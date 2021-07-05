@@ -1,0 +1,58 @@
+{
+	"blocks": [
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "It's over...",
+				"emoji": true
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "But not quite!"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Now*\nIf you want to keep the playbooks you've made, you should back them up. (rsync, scp, etc, ask us (soon!) if you need help.)"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Please fill out the survey!*\nWe need to know what went well or poorly, and <https://forms.gle/8D7VRsutySbu1Fp57|how we can improve this for next year>."
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*This Week*\nSay hi to us in Remo, we'll be around."
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Next Week*\n :put_litter_in_its_place: On friday, all of the VMs will be deleted."
+			}
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "plain_text",
+					"text": "Author: GCC Training Organisers",
+					"emoji": true
+				}
+			]
+		}
+	]
+}
+
