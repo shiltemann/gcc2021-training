@@ -25,6 +25,8 @@ process_folder(){
 						echo "$response"
 						exit 1
 					fi
+				else
+					echo mv "$fn" "sent/$1/"
 				fi
 			fi
 		done
