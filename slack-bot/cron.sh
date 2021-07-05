@@ -9,12 +9,12 @@ process_folder(){
 	slack_url="$2"
 
 	for fn in scheduled/$1/*.json; do
-		ds=$(echo "$fn" | cut -d/ -f3 | cut -c1-25)
+		ds=$(echo "$fn" | sed "s|scheduled/$folder/||g" | cut -c1-25)
 		ts=$(date -d "$ds" +%s)
 		if (( ts < NOW )); then
 			# Send the message
 			echo "$fn has not been sent"
-			response=$(curl --silent -X POST -H 'Content-type: application/json' --data "@$fn" "${slack_url}")
+			#response=$(curl --silent -X POST -H 'Content-type: application/json' --data "@$fn" "${slack_url}")
 
 			# If it was received OK
 			if [[ "$response" == "ok" ]]; then
