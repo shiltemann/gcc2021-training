@@ -1,0 +1,11 @@
+{
+  "blocks": [
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "Remo reset in 5 mins!\n:25 Reset main Room\n:27 Reset poster demo\n:29 Reset Cafe"
+      }
+    }
+  ]
+}

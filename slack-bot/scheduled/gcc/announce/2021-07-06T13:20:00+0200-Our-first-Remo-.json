@@ -1,0 +1,70 @@
+{
+  "blocks": [
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "Our first Remo Reset is happening in a few minutes. It will take a few minutes so when your Remo window freezes, take a break and refresh your browser after 2-3 minutes."
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Schedule :calendar:",
+            "emoji": true
+          },
+          "url": "https://gcc2021.sched.com/"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Code of Conduct",
+            "emoji": true
+          },
+          "url": "https://www.vibconferences.be/code-of-conduct"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Remo|Main",
+            "emoji": true
+          },
+          "url": "https://live.remo.co/e/galaxy-main-event"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Remo|Posters",
+            "emoji": true
+          },
+          "url": "https://live.remo.co/e/galaxy-poster-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Remo|Social",
+            "emoji": true
+          },
+          "url": "https://live.remo.co/e/galaxy-social-event"
+        }
+      ]
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "plain_text",
+          "text": "Author: GCC Organisers"
+        }
+      ]
+    }
+  ]
+}

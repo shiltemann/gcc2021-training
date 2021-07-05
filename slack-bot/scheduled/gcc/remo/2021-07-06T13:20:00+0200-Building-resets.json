@@ -1,0 +1,11 @@
+{
+  "blocks": [
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "Building resets starting in 5 minutes.\n13:25: Reset main room\n13:27: Reset poster demo\n13:29: Reset Cafe"
+      }
+    }
+  ]
+}

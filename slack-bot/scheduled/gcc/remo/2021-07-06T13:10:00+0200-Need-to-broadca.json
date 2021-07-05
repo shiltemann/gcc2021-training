@@ -1,0 +1,11 @@
+{
+  "blocks": [
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "Need to broadcast in all 3 buildings:\nCafe, PDSH, Main: \nOur first Remo Reset is coming soon! When this happens, your Remo window will freeze up for 2-3 minutes while we reset Remo. Once Remo is reset, refreshing your browser will bring you back, right where you were. To help you pass this time of uncertainty, here is a joke, in honor of our Australian participants: \"What do you call a boomerang that ...\""
+      }
+    }
+  ]
+}

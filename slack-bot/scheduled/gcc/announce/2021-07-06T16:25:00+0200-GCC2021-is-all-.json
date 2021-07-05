@@ -1,0 +1,70 @@
+{
+  "blocks": [
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "GCC2021 is all about community, and while we can't have our usual after hours gatherings, we can still meet new collaborators and spend time with old friends. Please join us for the <https://sched.co/ih0s|Opening Social> in the <https://live.remo.co/e/galaxy-social-event|Galactic Cafe>.  Starting in 5 minutes. Meet your Galaxy Community! "
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Schedule :calendar:",
+            "emoji": true
+          },
+          "url": "https://gcc2021.sched.com/"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Code of Conduct",
+            "emoji": true
+          },
+          "url": "https://www.vibconferences.be/code-of-conduct"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Remo|Main",
+            "emoji": true
+          },
+          "url": "https://live.remo.co/e/galaxy-main-event"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Remo|Posters",
+            "emoji": true
+          },
+          "url": "https://live.remo.co/e/galaxy-poster-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Remo|Social",
+            "emoji": true
+          },
+          "url": "https://live.remo.co/e/galaxy-social-event"
+        }
+      ]
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "plain_text",
+          "text": "Author: GCC Organisers"
+        }
+      ]
+    }
+  ]
+}
