@@ -12,6 +12,12 @@ Everything in the scheduled directory will be sent once, after the specific time
 5. Run without `--dry-run` to write the files `python extra/spreadsheet2slack.py ~/Downloads/Automated\ Slack\ Messages.xlsx`
 6. `git add scheduled; git commit -m "Add new messages"; git push`
 
+### Updating Excel Messages
+
+- Uncheck "processed"
+- Run the script
+- be careful? (they include a bit of the text so if you edit the start of the message it may generate a duplicate file, watch out.)
+
 ## Editing the template
 
 1. You can use [this page](https://app.slack.com/block-kit-builder/T01EGPWTHFF) to edit and create the custom templates you might want to send.
