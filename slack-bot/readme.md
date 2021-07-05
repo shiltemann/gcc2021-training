@@ -2,6 +2,16 @@
 
 Everything in the scheduled directory will be sent once, after the specific time. It's as easy as composing the json and dumping it in the folder.
 
+## Importing Messages from an Excel Sheet
+
+1. Clone this repository!
+2. `cd` into this directory
+3. Download the Automated Messages spreadsheet in **XLSX FORMAT**
+4. `pip install openpyxl`
+4. Run with `--dry-run` to preview the output `python extra/spreadsheet2slack.py ~/Downloads/Automated\ Slack\ Messages.xlsx --dry-run | less`
+5. Run without `--dry-run` to write the files `python extra/spreadsheet2slack.py ~/Downloads/Automated\ Slack\ Messages.xlsx`
+6. `git add scheduled; git commit -m "Add new messages"; git push`
+
 ## Editing the template
 
 1. You can use [this page](https://app.slack.com/block-kit-builder/T01EGPWTHFF) to edit and create the custom templates you might want to send.
