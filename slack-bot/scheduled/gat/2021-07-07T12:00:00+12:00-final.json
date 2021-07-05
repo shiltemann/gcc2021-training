@@ -26,7 +26,7 @@
 			"type": "section",
 			"text": {
 				"type": "mrkdwn",
-				"text": "*Please fill out the survey!*\nWe need to know what went well or poorly, and <https://forms.gle/8D7VRsutySbu1Fp57|how we can improve this for next year>."
+				"text": "*Please fill out the survey!*\nWe need to know what went well or poorly, and <https://forms.gle/8D7VRsutySbu1Fp57|how we can improve this for next year>.\n\n*Do you want a certificate*?\n<https://forms.gle/EuQwp8aH6MeGAZ7W9|You can request a certificate attendance for this training week.> You have until July 11 to submit this form, so you can keep working on the tutorials for a bit longer if you wish. For 'URLs to histories', just supply your VM hostname"
 			}
 		},
 		{
