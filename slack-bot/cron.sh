@@ -8,22 +8,27 @@ process_folder(){
 	folder="$1"
 	slack_url="$2"
 
-	for fn in scheduled/$1/*.json; do
-		ds=$(echo "$fn" | sed "s|scheduled/$folder/||g" | cut -c1-25)
-		ts=$(date -d "$ds" +%s)
-		if (( ts < NOW )); then
-			# Send the message
-			echo "$fn has not been sent"
-			#response=$(curl --silent -X POST -H 'Content-type: application/json' --data "@$fn" "${slack_url}")
-
-			# If it was received OK
-			if [[ "$response" == "ok" ]]; then
-				mv "$fn" "sent/$1/"
-			else
-				echo "$response"
+	count=$(find scheduled/$1 -type f -name '*.json' | wc -l)
+	if (( count > 0 )); then
+		for fn in scheduled/$1/*.json; do
+			ds=$(echo "$fn" | sed "s|scheduled/$folder/||g" | cut -c1-25)
+			ts=$(date -d "$ds" +%s)
+			if (( ts < NOW )); then
+				# Send the message
+				echo "$fn has not been sent"
+				if [[ "$slack_url" != "" ]]; then
+					response=$(curl --silent -X POST -H 'Content-type: application/json' --data "@$fn" "${slack_url}")
+					# If it was received OK
+					if [[ "$response" == "ok" ]]; then
+						mv "$fn" "sent/$1/"
+					else
+						echo "$response"
+						exit 1
+					fi
+				fi
 			fi
-		fi
-	done
+		done
+	fi
 }
 
 process_folder gat "$SLACK_API_GAT_GENERAL"
