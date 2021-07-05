@@ -20,6 +20,11 @@ jobs:
         env:
           SLACK_API_ANNOUNCEMENTS: ${{ secrets.SLACK_API_ANNOUNCEMENTS }}
           SLACK_API_GAT_GENERAL: ${{ secrets.SLACK_API_GAT_GENERAL }}
+          SLACK_API_GCC_ANNOUNCE: ${{ secrets.SLACK_API_GCC_ANNOUNCE }}
+          SLACK_API_GCC_REMO: ${{ secrets.SLACK_API_GCC_REMO }}
+          SLACK_API_GCC_BOFS: ${{ secrets.SLACK_API_GCC_BOFS }}
+          SLACK_API_GCC_COFEST: ${{ secrets.SLACK_API_GCC_COFEST }}
+          SLACK_API_GCC_SOCIAL: ${{ secrets.SLACK_API_GCC_SOCIAL }}
 
       - name: Commit changed files back
         run: |

@@ -28,3 +28,8 @@ process_folder(){
 
 process_folder gat "$SLACK_API_GAT_GENERAL"
 process_folder gtn "$SLACK_API_ANNOUNCEMENTS"
+process_folder gcc/announce "$SLACK_API_GCC_ANNOUNCE"
+process_folder gcc/remo "$SLACK_API_GCC_REMO"
+process_folder gcc/bofs "$SLACK_API_GCC_BOFS"
+process_folder gcc/cofest "$SLACK_API_GCC_COFEST"
+process_folder gcc/social "$SLACK_API_GCC_SOCIAL"
