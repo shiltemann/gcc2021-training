@@ -54,6 +54,7 @@ for row in range(2, 700):
     text = re.sub("<", "&lt;", message)
     text = re.sub(">", "&gt;", text)
     text = re.sub("&", "&amp;", text)
+    text = re.sub("(@U[0-9A-Z]*)", r"<\1>", text)
     text = re.sub("\[([^]]*)\]\(([^)]*)\)", r"<\2|\1>", text)
 
     slack_message = {
