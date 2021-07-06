@@ -4,7 +4,7 @@
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "<https://gcc2021.sched.com/event/ihps/americas-session-6|Session 6> starts in 5 mins with these fun talks:\n\n- Galaxy Community Update, Andrew Lonie, Bj\u00f6rn Gr\u00fcning, Anton Nekrutenko, Jeremy Goecks, Dan Blankenberg, Mike Schatz, Enis Afgan\n- Modernizing the Galaxy Backend - Data Model, Sergey Golitsynskiy\n- Modernizing the Galaxy Backend - Typing and the API, David L\u00f3pez\n- Modernizing the Galaxy Backend - Typing and Dependency Injection, John Chilton\n- Modernizing the Galaxy Backend - A Task Framework, Dannon Baker\n- Galaxy for Protected Datasets, Enis Afgan\n- Galaxy Language Server - Develop high-quality Galaxy tool wrappers at intergalactic speed, David L\u00f3pez\n- Galaxy CloudStor Integration - linking national resources for secure data transfer between services, Gareth Price\n\nCaptions for individual talks can be accessed with the [CC] icon on the video."
+        "text": "<https://gcc2021.sched.com/event/ihqe/birds-of-a-feather-bofs|The FINAL BoFs> Join now!"
       }
     },
     {

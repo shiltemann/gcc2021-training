@@ -1,0 +1,70 @@
+{
+  "blocks": [
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "Good night :earth_africa::earth_asia:! The EMEA-APAC region of Galaxy will be ending with a closing talk\nLive captioning for the closing can be found <https://recapd.com/w-fh9LF-|on this page>.\n\nIt's the end of the talks for GCC! We're sorry it's that time, but that doesn't mean we have to say goodbye\n\n1. The CoFest will be happening over in #cofest over the next few days\n2. There are SO many ways to keep in touch with the Galaxy Community.\n\n*Community Fora*\n1. GalaxyProject Home: https://galaxyproject.org\n2. Galaxy servers: <https://galaxyproject.org/use/?utm_source=gcc2021&amp;utm_medium=slack&amp;utm_campaign=gcc2021|Find a Galaxy server near you>!\n3. Galaxy Training Network: <https://training.galaxyproject.org/?utm_source=gcc2021&amp;utm_medium=slack&amp;utm_campaign=gcc2021|Start learning Galaxy>\n4. Support: <https://help.galaxyproject.org/?utm_source=gcc2021&amp;utm_medium=slack&amp;utm_campaign=gcc2021|Galaxy Help Forum>\n5. Galaxy Publications: <https://www.zotero.org/groups/1732893/galaxy?utm_source=gcc2021&amp;utm_medium=slack&amp;utm_campaign=gcc2021|Zotero>\n6. Galaxy Communities: <https://galaxyproject.org/community/?utm_source=gcc2021&amp;utm_medium=slack&amp;utm_campaign=gcc2021|Find and Join a community>\n7. Events: <https://galaxyproject.org/events/?utm_source=gcc2021&amp;utm_medium=slack&amp;utm_campaign=gcc2021|Galaxy Event Horizon>\n8. Galaxy Working Groups: <https://galaxyproject.org/community/wg/?utm_source=gcc2021&amp;utm_medium=slack&amp;utm_campaign=gcc2021|Find and join a WG>\n9. GitHub: <https://github.com/galaxyproject?utm_source=gcc2021&amp;utm_medium=slack&amp;utm_campaign=gcc2021|galaxyproject>"
+      }
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Schedule :calendar:",
+            "emoji": true
+          },
+          "url": "https://gcc2021.sched.com/"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Code of Conduct",
+            "emoji": true
+          },
+          "url": "https://www.vibconferences.be/code-of-conduct"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Remo|Main",
+            "emoji": true
+          },
+          "url": "https://live.remo.co/e/galaxy-main-event"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Remo|Posters",
+            "emoji": true
+          },
+          "url": "https://live.remo.co/e/galaxy-poster-session"
+        },
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Remo|Social",
+            "emoji": true
+          },
+          "url": "https://live.remo.co/e/galaxy-social-event"
+        }
+      ]
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "plain_text",
+          "text": "Author: GCC Organisers"
+        }
+      ]
+    }
+  ]
+}

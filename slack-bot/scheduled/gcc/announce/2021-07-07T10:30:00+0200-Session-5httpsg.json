@@ -4,7 +4,7 @@
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "<https://gcc2021.sched.com/event/ihox/emea-apac-session-5|Session 5> starts in 9 mins\n\nCaptions for individual talks can be accessed with the [CC] icon on the video."
+        "text": "<https://gcc2021.sched.com/event/ihox/emea-apac-session-5|Session 5> starts in 9 mins with the following super awesome talks:\n\n- Analysis of Microscopy Data in Galaxy, Beatriz Serrano-Solano\n- Bridging Natural Language Processing and Biomedical Data Analysis, Nancy Ide\n- French EBV operationalization pilot, where Galaxy can help Biodiversity, Coline Royaux\n- Updates from the Single-Cell Community, Wendi Bacon, Mehmet Tekman\n- NanoGalaxy: Nanopore long-read sequencing data analysis in Galaxy, Willem de Koning\n- Using custom Galaxy workflows to reproducibly search for bacteriophage spanin proteins reveals distinct population distributions, Jolene Ramsey\n\nCaptions for individual talks can be accessed with the [CC] icon on the video."
       }
     },
     {

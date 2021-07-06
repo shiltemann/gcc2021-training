@@ -4,7 +4,7 @@
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "<https://gcc2021.sched.com/event/ihrB/americas-session-9|Session 9> starts in 5 mins\n\nLive captioning for the closing can be found <https://recapd.com/w-kEexnp|on this page>.\nCaptions for individual talks can be accessed with the [CC] icon on the video."
+        "text": "<https://gcc2021.sched.com/event/ihrB/americas-session-9|Session 9> starts in 5 mins with these galactastic talks:\n\n- A single stack for dev, testing, and production: Galaxy Helm Chart v4, Nuwan Goonasekera\n- Browser Development Environment for Galaxy Powered by Kubernetes, Alexandru Mahmoud\n- Interactive Tools in Galaxy on Kubernetes, Alexandru Mahmoud\n- An automatic tool installer with integrated testing for a public Galaxy, Catherine Bromhead\n\nLive captioning for the closing can be found <https://recapd.com/w-kEexnp|on this page>.\nCaptions for individual talks can be accessed with the [CC] icon on the video."
       }
     },
     {

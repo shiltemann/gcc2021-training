@@ -4,7 +4,7 @@
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "5 mins to start <https://gcc2021.sched.com/event/ihqG/emea-apac-session-8|Session 8>\n\nCaptions for individual talks can be accessed with the [CC] icon on the video."
+        "text": "5 mins to start <https://gcc2021.sched.com/event/ihqG/emea-apac-session-8|Session 8> with these superb talks:\n\n- Quantitative Metaproteomics using Galaxy Platform: Measuring Functional Microbiome via Data-Dependent and Data-Independent Acquisition Mass Spec, Pratik Jagtap, Subina Mehta\n- A Galaxy-based evaluation of optimal peptide targets for MS-based detection of SARS-CoV-2 in clinical samples, Andrew T Rajcewski\n- MaxQuant and MSstats in Galaxy enable reproducible quantitative high-throughput proteomics for everyone, Melanie F\u00f6ll\n- Peptide mass spectrometry imaging of pancreatic cancers \u2013 A data analysis workflow in Galaxy, Maren Stillger\n- XIMG-CHESS: a Galaxy based Science Gateway for X-ray Diffraction Imaging and Microstructure Modeling, Jorge Vinals\n- Muon Galaxy \u2013 extending Galaxy for muon science, Eli Chadwick\n\nCaptions for individual talks can be accessed with the [CC] icon on the video."
       }
     },
     {

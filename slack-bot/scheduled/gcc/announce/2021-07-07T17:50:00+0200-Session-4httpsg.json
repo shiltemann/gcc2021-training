@@ -4,7 +4,7 @@
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "<https://gcc2021.sched.com/event/ihpR/americas-session-4|Session 4> starts in 10 mins\n\nCaptions for individual talks can be accessed with the [CC] icon on the video."
+        "text": "<https://gcc2021.sched.com/event/ihpR/americas-session-4|Session 4> starts in 10 mins with the following fantastic talks:\n\n- Designing a comprehensive workflow for detection and functional annotation of lncRNA, Bianca Pasat\n- Automated Deployment of Genome Databases for Marine Brown Algae Using Galaxy Genome Annotation (GGA), Loraine Gu\u00e9guen\n- Galaxy-ML: An Accessible, Reproducible, and Scalable Machine Learning Toolkit for Biomedicine, Kaivan Kamali\n- The immuneML Portal: a public Galaxy server for machine learning analysis of adaptive immune receptor repertoires, Lonneke Scheffer\n- The Galaxy Public Health Community, Peter van Heusden\n- A flexible Galaxy-based platform for the analysis of microbial WGS data in public health, Bert Bogaerts\n- The \u201cARIES Genomics\u201d Italian public health surveillance system, Arnold Knijn\n- Fostering Public Health Bioinformatics and Collaboration with GalaxyTrakr, Justin Payne\n\nCaptions for individual talks can be accessed with the [CC] icon on the video."
       }
     },
     {
