@@ -4,7 +4,7 @@
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "<https://gcc2021.sched.com/event/ihqV/emea-apac-session-9|Session 9> starts in 5 mins with these galactastic talks:\n\n- A single stack for dev, testing, and production: Galaxy Helm Chart v4, Nuwan Goonasekera\n- Browser Development Environment for Galaxy Powered by Kubernetes, Alexandru Mahmoud\n- Interactive Tools in Galaxy on Kubernetes, Alexandru Mahmoud\n- An automatic tool installer with integrated testing for a public Galaxy, Catherine Bromhead\n\nCaptions for individual talks can be accessed with the [CC] icon on the video."
+        "text": "<https://gcc2021.sched.com/event/ihqV/emea-apac-session-9|Session 9> starts in 5 mins with these galactastic talks:\n\n- A single stack for dev, testing, and production: Galaxy Helm Chart v4, Nuwan Goonasekera\n- Browser Development Environment for Galaxy Powered by Kubernetes, Alexandru Mahmoud\n- Interactive Tools in Galaxy on Kubernetes, Alexandru Mahmoud\n- An automatic tool installer with integrated testing for a public Galaxy, Catherine Bromhead\n\nCaptions for individual talks can be accessed with the [CC] icon on the video. Catherine's talk will be live captioned."
       }
     },
     {
