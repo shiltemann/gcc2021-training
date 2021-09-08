@@ -28,7 +28,7 @@ twitter_username: gxy-training
 github_username:  shiltemann
 
 # can update to use an archived versions after the course
-gtn_url: "https://training.galaxyproject.org/training-material/"
+gtn_url: "https://training.galaxyproject.org/archive/2021-08-01/"
 gtn_logo: "/assets/images/logos/00_GTNLogo300.png"
 analytics_suffix: "?utm_source=smorgasbord&utm_medium=website&utm_campaign=gcc2021"
 
